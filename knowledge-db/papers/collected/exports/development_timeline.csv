@@ -1,0 +1,60 @@
+id,phase_type,phase_identifier,description,timeline_reference,context,extraction_date
+1,Technology Readiness Level,3-4,,,"sk 1: Quantum modeling (DFT, CWF) – $100K Task 2: DOE optimization (AI/HPC/Quantum) – $110K Task 3: TRL 3-4 prototype systems engineering – $190K Task 4: TRL 5-6 Lab integration – $110K Task 5: TRL 7 demo/LR",2025-11-04T13:11:53.730675
+2,Technology Readiness Level,5-6,,,optimization (AI/HPC/Quantum) – $110K Task 3: TRL 3-4 prototype systems engineering – $190K Task 4: TRL 5-6 Lab integration – $110K Task 5: TRL 7 demo/LRIP manufacturing – $130K Task 6: TRL 8-9 validation an,2025-11-04T13:11:53.730675
+3,Technology Readiness Level,7,,,sk 3: TRL 3-4 prototype systems engineering – $190K Task 4: TRL 5-6 Lab integration – $110K Task 5: TRL 7 demo/LRIP manufacturing – $130K Task 6: TRL 8-9 validation and FFF packaging – $130K Business Model,2025-11-04T13:11:53.730675
+4,Technology Readiness Level,8-9,,,"$190K Task 4: TRL 5-6 Lab integration – $110K Task 5: TRL 7 demo/LRIP manufacturing – $130K Task 6: TRL 8-9 validation and FFF packaging – $130K Business Model & IP Strategy Licensing: Field-of-Use, Exclusiv",2025-11-04T13:11:53.730675
+5,Technology Readiness Level,9,,,"DHS-designated sectors. This directive outlines the path from advanced material development through TRL 9 product integration, with commercial, government, and defense market penetration strategies. 2. Mis",2025-11-04T13:11:53.730675
+6,Technology Readiness Level,6-9,,,"cate funding rounds aligned with NRE development phases. - Establish manufacturing partnerships for TRL 6-9 scaling. 4. Licensing & IP Commercialization Model Q-SMEC sensors are licensed per field of use, ge",2025-11-04T13:11:53.730675
+7,Technology Readiness Level,3-4,,,"is includes: 
+Task 1: Quantum Physics Modeling
+Task 2: AI-Optimized DOE (6,561 simulations)
+Task 3: TRL 3-4 Prototyping
+Task 4: Beta Manufacturing & Integration
+Task 5: Low-Rate Initial Production (MRL 7-8)",2025-11-04T13:11:53.730675
+8,Development Phase,3,,,hnology Licensing Pitch Deck by adding more technical depth from the CII NIKET Q-SMEC white paper • Phase 3 & 4: Execute Pitches and Broader Fundraising. GOAL: Secure the manufacturing partnership and begin,2025-11-04T13:11:53.730675
+9,Technology Readiness Level,4,,,"elerated). Customizable by sector/use case, with licensing model based on “Task 4+ instantiations” (TRL 4–9 readiness). Licensing structure allows exclusive/nonexclusive by sector, geography, or applicatio",2025-11-04T13:11:53.730675
+10,Technology Readiness Level,1,,,"hip available for co-investors in development tasks. Non-Recurring Engineering (NRE): staged tasks (TRL 1–9), ~54 weeks cycle, ~$770K per use case instantiation. 5. Scope Boundaries The Q-SMEC IP claims ar",2025-11-04T13:11:53.730675
+11,Technology Readiness Level,3-4,,,dar weeks/1000 Eng Hrs/ $100K Task 2: AI DOE: NTE 8 calendar weeks/1100 Eng Hrs/$110K Task 3: AI SE TRL 3-4 Prototypes: NTE 12 calendar week/1840 Eng Hrs/$190K to reach Design/Method Patentability Claims fin,2025-11-04T13:11:53.730675
+12,Technology Readiness Level,6,,,ooling/Facility/Critical Technology & Components identified/Processes and Procedures in Beta Test ; TRL 6 High Fidelity Lab integration of “x” Devices in Simulated Operational Environment Duration: 10 Cale,2025-11-04T13:11:53.730675
+13,Technology Readiness Level,7,,,s to UA MSE Labs Page 31 CII NIKET PROPRIETARY CII NIKET PROPRIETARY CII NIKET TASK 5: Description: TRL 7 detailed device design; MRL 7 manufacturing processes demonstrated in a production representative e,2025-11-04T13:11:53.730675
+14,Technology Readiness Level,7,,,esses demonstrated in a production representative environment with clear risk register established; TRL 7 demonstration of actual devices in operational environment; MRL 7-8 low rate initial production wit,2025-11-04T13:11:53.730675
+15,Technology Readiness Level,8,,,"tion:  8 calendar weeks Cost: Personnel: 1,300 Engineering Hrs/$130K CII NIKET TASK 6: Description: TRL 8 final device configuration design completed and qualified through test and demonstration in an oper",2025-11-04T13:11:53.730675
+16,Technology Readiness Level,8,,,"rational environment; MRL 9 systems engineering design and manufacturing processes are locked down; TRL 8/MRL 9 integration of device into a opertional FFF package, and verification/validation testing and",2025-11-04T13:11:53.730675
+17,Technology Readiness Level,1-9,,,"eeks Cost: Personnel:  1,300 Engineering Hrs/$130K TOTALS FOR EACH USE CASE DESIGN OPTIMIZATION NRE TRL 1-9 Schedule: Maximum 54 calendar weeks (can be accelerated per budget/staff/equipment availability) St",2025-11-04T13:11:53.730675
+18,Development Phase,I,,,"ons: Focus on ALD-proven materials; exclude speculative superconductors. 8) Collaboration framework Phase I – Requirements and baseline plan (4 wks)
+Phase II – Lab prototypes (8–12 wks)
+Phase III – Edge cont",2025-11-04T13:11:53.730675
+19,Development Phase,II,,,"lative superconductors. 8) Collaboration framework Phase I – Requirements and baseline plan (4 wks)
+Phase II – Lab prototypes (8–12 wks)
+Phase III – Edge control pilot (8 wks)
+Phase IV – Material pilot (12–16",2025-11-04T13:11:53.730675
+20,Development Phase,III,,,"ion framework Phase I – Requirements and baseline plan (4 wks)
+Phase II – Lab prototypes (8–12 wks)
+Phase III – Edge control pilot (8 wks)
+Phase IV – Material pilot (12–16 wks)
+Phase V – Integrated demo (12 wk",2025-11-04T13:11:53.730675
+21,Development Phase,I,,,"d baseline plan (4 wks)
+Phase II – Lab prototypes (8–12 wks)
+Phase III – Edge control pilot (8 wks)
+Phase IV – Material pilot (12–16 wks)
+Phase V – Integrated demo (12 wks)
+Deliverables: PUE deltas, energy r",2025-11-04T13:11:53.730675
+22,Technology Readiness Level,3-4,,,"$110K, 1100 hrs, 8 wks. 6,561 simulation runs, AI-optimized on HPC/Quantum computers. Task 3: AI SE TRL 3-4 Prototypes → $190K, 1900 hrs, 12 wks. 100 fabrication runs, 15 optimized prototypes. Task 4: Manufa",2025-11-04T13:11:53.730675
+23,Technology Readiness Level,6,,,"rs, 12 wks. 100 fabrication runs, 15 optimized prototypes. Task 4: Manufacturability Beta (MRL 4-5, TRL 6) → $110K, 1100 hrs, 10 wks. Integration into simulated environments. Task 5: Pre-production (TRL 7,",2025-11-04T13:11:53.730675
+24,Technology Readiness Level,7,,,"TRL 6) → $110K, 1100 hrs, 10 wks. Integration into simulated environments. Task 5: Pre-production (TRL 7, MRL 7-8) → $130K, 1300 hrs, 8 wks. Representative production, low-rate initial manufacturing. Task",2025-11-04T13:11:53.730675
+25,Technology Readiness Level,8-9,,,", 1300 hrs, 8 wks. Representative production, low-rate initial manufacturing. Task 6: Final Device (TRL 8-9) → $130K, 1300 hrs, 8 wks. Full system integration, test, verification, and lock-down. Totals: 54 w",2025-11-04T13:11:53.730675
+26,Technology Readiness Level,1-3,,,s Breadth > depth: Risk of dilution by claiming relevance across all 16 DHS sectors. Prototype gap: TRL 1-3 largely theoretical; few devices demonstrated. Funding requirement: Each instantiation requires ~$7,2025-11-04T13:11:53.730675
+27,Technology Readiness Level,4,,,MEC may appear more like a catalogue than a focussed business plan. Prototype gap: Tasks 1–3 (up to TRL 4) are mostly modelling and prototype fabrication; commercial systems only emerge after Task 6. Each,2025-11-04T13:11:53.730675
+28,Technology Readiness Level,3-4,,,"$110K, 1100 hrs, 8 wks. 6,561 simulation runs, AI-optimized on HPC/Quantum computers. Task 3: AI SE TRL 3-4 Prototypes → $190K, 1900 hrs, 12 wks. 100 fabrication runs, 15 optimized prototypes. Task 4: Manufa",2025-11-04T13:11:53.730675
+29,Technology Readiness Level,6,,,"rs, 12 wks. 100 fabrication runs, 15 optimized prototypes. Task 4: Manufacturability Beta (MRL 4-5, TRL 6) → $110K, 1100 hrs, 10 wks. Integration into simulated environments. Task 5: Pre-production (TRL 7,",2025-11-04T13:11:53.730675
+30,Technology Readiness Level,7,,,"TRL 6) → $110K, 1100 hrs, 10 wks. Integration into simulated environments. Task 5: Pre-production (TRL 7, MRL 7-8) → $130K, 1300 hrs, 8 wks. Representative production, low-rate initial manufacturing. Task",2025-11-04T13:11:53.730675
+31,Technology Readiness Level,8-9,,,", 1300 hrs, 8 wks. Representative production, low-rate initial manufacturing. Task 6: Final Device (TRL 8-9) → $130K, 1300 hrs, 8 wks. Full system integration, test, verification, and lock-down. Totals: 54 w",2025-11-04T13:11:53.730675
+32,Technology Readiness Level,1-3,,,s Breadth > depth: Risk of dilution by claiming relevance across all 16 DHS sectors. Prototype gap: TRL 1-3 largely theoretical; few devices demonstrated. Funding requirement: Each instantiation requires ~$7,2025-11-04T13:11:53.730675
+33,Technology Readiness Level,4,,,MEC may appear more like a catalogue than a focussed business plan. Prototype gap: Tasks 1–3 (up to TRL 4) are mostly modelling and prototype fabrication; commercial systems only emerge after Task 6. Each,2025-11-04T13:11:53.730675
+34,Technology Readiness Level,3-4,,,dar weeks/1000 Eng Hrs/ $100K Task 2: AI DOE: NTE 8 calendar weeks/1100 Eng Hrs/$110K Task 3: AI SE TRL 3-4 Prototypes: NTE 12 calendar week/1840 Eng Hrs/$190K to reach Design/Method Patentability Claims fin,2025-11-04T13:11:53.730675
+35,Technology Readiness Level,6,,,ooling/Facility/Critical Technology & Components identified/Processes and Procedures in Beta Test ; TRL 6 High Fidelity Lab integration of “x” Devices in Simulated Operational Environment Duration: 10 Cale,2025-11-04T13:11:53.730675
+36,Technology Readiness Level,7,,,"sonnel: 1,100 Engineering Hrs/$110K Equipment: Access to UA MSE Labs CII NIKET TASK 5: Description: TRL 7 detailed device design; MRL 7 manufacturing processes demonstrated in a production representative e",2025-11-04T13:11:53.730675
+37,Technology Readiness Level,7,,,esses demonstrated in a production representative environment with clear risk register established; TRL 7 demonstration of actual devices in operational environment; MRL 7-8 low rate initial production wit,2025-11-04T13:11:53.730675
+38,Technology Readiness Level,8,,,"tion:  8 calendar weeks Cost: Personnel: 1,300 Engineering Hrs/$130K CII NIKET TASK 6: Description: TRL 8 final device configuration design completed and qualified through test and demonstration in an oper",2025-11-04T13:11:53.730675
+39,Technology Readiness Level,8,,,"rational environment; MRL 9 systems engineering design and manufacturing processes are locked down; TRL 8/MRL 9 integration of device into a opertional FFF package, and verification/validation testing and",2025-11-04T13:11:53.730675
+40,Technology Readiness Level,1-9,,,"eeks Cost: Personnel:  1,300 Engineering Hrs/$130K TOTALS FOR EACH USE CASE DESIGN OPTIMIZATION NRE TRL 1-9 Schedule: Maximum 54 calendar weeks (can be accelerated per budget/staff/equipment availability) St",2025-11-04T13:11:53.730675

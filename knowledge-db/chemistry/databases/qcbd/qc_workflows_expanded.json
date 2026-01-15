@@ -1,0 +1,206 @@
+[
+  {
+    "id": "workflow_dft_geom_freq",
+    "name": "DFT Geometry Optimization + Frequency Analysis",
+    "goal": "Obtain optimized structure and verify it is a minimum.",
+    "long_explanation": "DFT Geometry Optimization + Frequency Analysis is a widely used computational quantum chemistry workflow. This expanded entry describes theoretical motivation, step-by-step breakdown, recommended parameters, pitfalls, convergence strategies, and validation methods.",
+    "steps": [
+      {
+        "step": 1,
+        "description": "Build molecule with ASE or editor."
+      },
+      {
+        "step": 2,
+        "description": "Run DFT optimization."
+      },
+      {
+        "step": 3,
+        "description": "Run harmonic frequency calculation."
+      }
+    ],
+    "common_pitfalls": [
+      "Wrong initial guess",
+      "Insufficient optimization criteria",
+      "Poor basis choice"
+    ],
+    "faq": [
+      {
+        "q": "When should I use DFT Geometry Optimization + Frequency Analysis?",
+        "a": "Whenever the stated goal matches your computational task."
+      },
+      {
+        "q": "How do I validate this workflow?",
+        "a": "Check convergence, frequencies, and compare to benchmarks."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "workflow",
+      "QC"
+    ]
+  },
+  {
+    "id": "workflow_ts_search",
+    "name": "Transition State Search Workflow",
+    "goal": "Locate a first-order saddle point for a reaction.",
+    "long_explanation": "Transition State Search Workflow is a widely used computational quantum chemistry workflow. This expanded entry describes theoretical motivation, step-by-step breakdown, recommended parameters, pitfalls, convergence strategies, and validation methods.",
+    "steps": [
+      {
+        "step": 1,
+        "description": "Generate initial guess from scans or chemical intuition."
+      },
+      {
+        "step": 2,
+        "description": "Run TS optimization using partitioned rational function optimization (PRFO)."
+      },
+      {
+        "step": 3,
+        "description": "Verify TS with 1 imaginary frequency."
+      },
+      {
+        "step": 4,
+        "description": "Perform IRC in both directions."
+      }
+    ],
+    "common_pitfalls": [
+      "Wrong initial guess",
+      "Insufficient optimization criteria",
+      "Poor basis choice"
+    ],
+    "faq": [
+      {
+        "q": "When should I use Transition State Search Workflow?",
+        "a": "Whenever the stated goal matches your computational task."
+      },
+      {
+        "q": "How do I validate this workflow?",
+        "a": "Check convergence, frequencies, and compare to benchmarks."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "workflow",
+      "QC"
+    ]
+  },
+  {
+    "id": "workflow_crestdft",
+    "name": "CREST \u2192 DFT Conformer Refinement",
+    "goal": "Find low-energy conformers and refine them with DFT.",
+    "long_explanation": "CREST \u2192 DFT Conformer Refinement is a widely used computational quantum chemistry workflow. This expanded entry describes theoretical motivation, step-by-step breakdown, recommended parameters, pitfalls, convergence strategies, and validation methods.",
+    "steps": [
+      {
+        "step": 1,
+        "description": "Run CREST to sample conformers."
+      },
+      {
+        "step": 2,
+        "description": "Cluster and filter conformers."
+      },
+      {
+        "step": 3,
+        "description": "Re-optimize with DFT."
+      }
+    ],
+    "common_pitfalls": [
+      "Wrong initial guess",
+      "Insufficient optimization criteria",
+      "Poor basis choice"
+    ],
+    "faq": [
+      {
+        "q": "When should I use CREST \u2192 DFT Conformer Refinement?",
+        "a": "Whenever the stated goal matches your computational task."
+      },
+      {
+        "q": "How do I validate this workflow?",
+        "a": "Check convergence, frequencies, and compare to benchmarks."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "workflow",
+      "QC"
+    ]
+  },
+  {
+    "id": "workflow_ccsd_t_benchmark",
+    "name": "CCSD(T) Benchmark Workflow",
+    "goal": "Obtain a high-accuracy reference energy.",
+    "long_explanation": "CCSD(T) Benchmark Workflow is a widely used computational quantum chemistry workflow. This expanded entry describes theoretical motivation, step-by-step breakdown, recommended parameters, pitfalls, convergence strategies, and validation methods.",
+    "steps": [
+      {
+        "step": 1,
+        "description": "Pre-optimize at DFT level."
+      },
+      {
+        "step": 2,
+        "description": "Compute CCSD(T)/cc-pVTZ energy."
+      },
+      {
+        "step": 3,
+        "description": "Extrapolate to CBS if needed."
+      }
+    ],
+    "common_pitfalls": [
+      "Wrong initial guess",
+      "Insufficient optimization criteria",
+      "Poor basis choice"
+    ],
+    "faq": [
+      {
+        "q": "When should I use CCSD(T) Benchmark Workflow?",
+        "a": "Whenever the stated goal matches your computational task."
+      },
+      {
+        "q": "How do I validate this workflow?",
+        "a": "Check convergence, frequencies, and compare to benchmarks."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "workflow",
+      "QC"
+    ]
+  },
+  {
+    "id": "workflow_cp2k_aimd",
+    "name": "CP2K AIMD Workflow",
+    "goal": "Run ab initio molecular dynamics in condensed phase.",
+    "long_explanation": "CP2K AIMD Workflow is a widely used computational quantum chemistry workflow. This expanded entry describes theoretical motivation, step-by-step breakdown, recommended parameters, pitfalls, convergence strategies, and validation methods.",
+    "steps": [
+      {
+        "step": 1,
+        "description": "Prepare periodic box."
+      },
+      {
+        "step": 2,
+        "description": "Run SCF with GPW method."
+      },
+      {
+        "step": 3,
+        "description": "Perform NVT or NPT AIMD run."
+      }
+    ],
+    "common_pitfalls": [
+      "Wrong initial guess",
+      "Insufficient optimization criteria",
+      "Poor basis choice"
+    ],
+    "faq": [
+      {
+        "q": "When should I use CP2K AIMD Workflow?",
+        "a": "Whenever the stated goal matches your computational task."
+      },
+      {
+        "q": "How do I validate this workflow?",
+        "a": "Check convergence, frequencies, and compare to benchmarks."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "workflow",
+      "QC"
+    ]
+  }
+]

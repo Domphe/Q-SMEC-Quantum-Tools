@@ -1,0 +1,151 @@
+{
+  "metadata_extension": {
+    "domain": ["quantum_chemistry", "quantum_physics", "thermochemistry", "excited_states"],
+    "version": "1.0.0",
+    "added_entity_types": ["ThermochemicalData", "ExcitedStateMethods"],
+    "last_updated": "2025-12-03"
+  },
+  "ThermochemicalData": [
+    {
+      "id": "thermochem.g4_97",
+      "name": "G4-97 Test Set",
+      "category": "thermochemical_benchmark",
+      "description": "Gaussian-4 theory test set with 97 systems including enthalpies of formation, ionization potentials, electron affinities, and proton affinities",
+      "num_systems": 97,
+      "properties": ["enthalpy_of_formation", "ionization_potential", "electron_affinity", "proton_affinity"],
+      "reference_accuracy": "chemical_accuracy",
+      "standard_refs": ["Curtiss et al. J. Chem. Phys. 126, 084108 (2007)"]
+    },
+    {
+      "id": "thermochem.atct",
+      "name": "Active Thermochemical Tables (ATcT)",
+      "category": "thermochemical_benchmark",
+      "description": "Comprehensive thermochemical network with 1500+ systems, self-consistent thermochemical values derived from thermochemical network optimization",
+      "num_systems": 1500,
+      "properties": ["enthalpy_of_formation", "heat_capacity", "entropy", "gibbs_free_energy"],
+      "reference_accuracy": "sub_chemical_accuracy",
+      "standard_refs": ["Ruscic et al. J. Phys. Chem. A 108, 9979 (2004)"]
+    },
+    {
+      "id": "thermochem.heat_capacity",
+      "name": "Heat Capacity Test Set",
+      "category": "thermochemical_benchmark",
+      "description": "Temperature-dependent heat capacity for 50 molecules across 200-1000 K range",
+      "num_systems": 50,
+      "properties": ["heat_capacity", "temperature_dependence"],
+      "reference_accuracy": "1_percent",
+      "standard_refs": ["NIST-JANAF Thermochemical Tables"]
+    },
+    {
+      "id": "thermochem.bde99",
+      "name": "BDE99 Bond Dissociation Energies",
+      "category": "thermochemical_benchmark",
+      "description": "99 bond dissociation energies covering C-C, C-H, C-O, C-N, O-H, N-H bonds",
+      "num_systems": 99,
+      "properties": ["bond_dissociation_energy"],
+      "reference_accuracy": "1_kcal_mol",
+      "standard_refs": ["Blanksby & Ellison, Acc. Chem. Res. 36, 255 (2003)"]
+    }
+  ],
+  "ExcitedStateMethods": [
+    {
+      "id": "method.qc.eom_ccsd",
+      "domain": "quantum_chemistry",
+      "name": "EOM-CCSD",
+      "full_name": "Equation-of-Motion Coupled-Cluster Singles and Doubles",
+      "category": "excited_state_method",
+      "brief": "Coupled-cluster excited state method for accurate vertical excitation energies",
+      "description": "EOM-CCSD treats ground and excited states on equal footing using similarity-transformed Hamiltonian. Provides accurate excitation energies with O(N^6) scaling. Excellent for valence excitations.",
+      "complexity": "O(N^6)",
+      "accuracy": "0.1-0.3 eV for valence states",
+      "strengths": ["size_extensive", "balanced_treatment", "reliable_oscillator_strengths"],
+      "limitations": ["expensive_scaling", "not_multi_reference", "poor_for_charge_transfer"],
+      "typical_systems": ["small_to_medium_molecules", "valence_excitations", "chromophores"],
+      "software_implementations": ["CFOUR", "Q-Chem", "ORCA", "PSI4"],
+      "standard_refs": ["Stanton & Bartlett, J. Chem. Phys. 98, 7029 (1993)"]
+    },
+    {
+      "id": "method.qc.caspt2",
+      "domain": "quantum_chemistry",
+      "name": "CASPT2",
+      "full_name": "Complete Active Space Second-Order Perturbation Theory",
+      "category": "excited_state_method",
+      "brief": "Multi-reference perturbation theory for excited states with near-degeneracies",
+      "description": "CASPT2 combines CASSCF reference with second-order perturbation correction. Handles multi-reference character and near-degeneracies. Essential for photochemistry and transition metal complexes.",
+      "complexity": "varies with active space",
+      "accuracy": "0.1-0.2 eV with proper active space",
+      "strengths": ["multi_reference", "near_degeneracies", "photochemistry", "transition_metals"],
+      "limitations": ["active_space_selection", "intruder_states", "expensive"],
+      "typical_systems": ["transition_metal_complexes", "photochemical_reactions", "conical_intersections"],
+      "software_implementations": ["MOLCAS", "OpenMolcas", "ORCA", "Molpro"],
+      "standard_refs": ["Andersson et al. J. Phys. Chem. 94, 5483 (1990)"]
+    },
+    {
+      "id": "method.qc.adc2",
+      "domain": "quantum_chemistry",
+      "name": "ADC(2)",
+      "full_name": "Algebraic Diagrammatic Construction to Second Order",
+      "category": "excited_state_method",
+      "brief": "Green's function based excited state method with O(N^5) scaling",
+      "description": "ADC(2) uses many-body Green's function approach through Hermitian eigenvalue problem. Provides excitation energies and spectroscopic properties with favorable scaling. Good balance of accuracy and cost.",
+      "complexity": "O(N^5)",
+      "accuracy": "0.2-0.4 eV for valence states",
+      "strengths": ["favorable_scaling", "hermitian_eigenvalue", "spectroscopic_properties"],
+      "limitations": ["less_accurate_than_eom_ccsd", "basis_set_dependence"],
+      "typical_systems": ["medium_molecules", "absorption_spectra", "photoelectron_spectra"],
+      "software_implementations": ["Turbomole", "Q-Chem", "ORCA", "ADC-connect"],
+      "standard_refs": ["Schirmer, Phys. Rev. A 26, 2395 (1982)"]
+    },
+    {
+      "id": "method.qc.sac_ci",
+      "domain": "quantum_chemistry",
+      "name": "SAC-CI",
+      "full_name": "Symmetry-Adapted Cluster Configuration Interaction",
+      "category": "excited_state_method",
+      "brief": "Size-extensive CI method combining coupled-cluster and CI advantages",
+      "description": "SAC-CI uses cluster expansion operators with CI-like eigenvalue problem. Size-extensive by design, handles multiple excited states simultaneously. Particularly strong for singlet and triplet excited states.",
+      "complexity": "O(N^5) to O(N^6)",
+      "accuracy": "0.2-0.3 eV typical",
+      "strengths": ["size_extensive", "multiple_states", "singlet_triplet_splitting"],
+      "limitations": ["expensive", "orbital_dependence"],
+      "typical_systems": ["singlet_triplet_gaps", "multiple_excited_states", "UV_vis_spectra"],
+      "software_implementations": ["Gaussian", "GAMESS"],
+      "standard_refs": ["Nakatsuji, Chem. Phys. Lett. 59, 362 (1978)"]
+    }
+  ],
+  "ExcitedStateBenchmarks": [
+    {
+      "id": "benchmark.excited.quest",
+      "name": "QUEST Database",
+      "category": "excited_state_benchmark",
+      "description": "Highly-accurate vertical excitation energies for 500+ excitations using theoretical best estimates",
+      "num_systems": 500,
+      "properties": ["vertical_excitation_energy", "oscillator_strength"],
+      "reference_method": "TBE (Theoretical Best Estimates)",
+      "accuracy": "0.03 eV typical uncertainty",
+      "standard_refs": ["Veril et al. WIREs Comput. Mol. Sci. 11, e1517 (2021)"]
+    },
+    {
+      "id": "benchmark.excited.thiel",
+      "name": "Thiel Test Set",
+      "category": "excited_state_benchmark",
+      "description": "28 small organic chromophores with valence and Rydberg excitations",
+      "num_systems": 28,
+      "properties": ["vertical_excitation_energy", "state_character"],
+      "reference_method": "high-level ab initio (CC3, CASPT2)",
+      "accuracy": "0.1-0.2 eV",
+      "standard_refs": ["Schreiber et al. J. Chem. Phys. 128, 134110 (2008)"]
+    },
+    {
+      "id": "benchmark.excited.charge_transfer",
+      "name": "Charge-Transfer Excitation Benchmark",
+      "category": "excited_state_benchmark",
+      "description": "40 systems with challenging charge-transfer excited states",
+      "num_systems": 40,
+      "properties": ["ct_excitation_energy", "spatial_extent"],
+      "reference_method": "EOM-CCSD with large basis",
+      "accuracy": "0.2 eV",
+      "standard_refs": ["Loos et al. J. Chem. Theory Comput. 16, 1711 (2020)"]
+    }
+  ]
+}

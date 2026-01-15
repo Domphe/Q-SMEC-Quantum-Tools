@@ -1,0 +1,30 @@
+{"name": "Water", "smiles": "O"}
+{"name": "Ethanol", "smiles": "CCO"}
+{"name": "Methane", "smiles": "C"}
+{"name": "Ammonia", "smiles": "N"}
+{"name": "Carbon Dioxide", "smiles": "O=C=O"}
+{"name": "Acetylene", "smiles": "C#C"}
+{"name": "Benzene", "smiles": "c1ccccc1"}
+{"name": "Formaldehyde", "smiles": "C=O"}
+{"name": "Formic Acid", "smiles": "O=CO"}
+{"name": "Toluene", "smiles": "Cc1ccccc1"}
+{"name": "Chloroform", "smiles": "ClC(Cl)Cl"}
+{"name": "Pyridone", "smiles": "C1=CC(=O)NC=C1"}
+{"name": "Tetramethylammonium", "smiles": "C[N+](C)(C)C"}
+{"name": "Nitric Acid", "smiles": "O=N(=O)O"}
+{"name": "Boric Acid", "smiles": "B(O)(O)O"}
+{"name": "Phenol", "smiles": "c1ccc(cc1)O"}
+{"name": "Acetic Acid", "smiles": "CC(=O)O"}
+{"name": "Formate Ion", "smiles": "C(=O)[O-]"}
+{"name": "Amide Anion", "smiles": "[NH2-]"}
+{"name": "Hydroxyl Radical", "smiles": "[OH]"}
+{"name": "Chlorine Atom", "smiles": "[Cl]"}
+{"name": "Superoxide", "smiles": "[O-][O]"}
+{"name": "Lithium Ion", "smiles": "[Li+]"}
+{"name": "Sodium Ion", "smiles": "[Na+]"}
+{"name": "Ammonium Ion", "smiles": "[NH4+]"}
+{"name": "Carbocation", "smiles": "[CH3+]"}
+{"name": "Acetate", "smiles": "CC(=O)[O-]"}
+{"name": "Nitrite", "smiles": "[O-]N=O"}
+{"name": "Carbonate", "smiles": "C(=O)([O-])[O-]"}
+{"name": "Hydronium", "smiles": "[H3O+]"}

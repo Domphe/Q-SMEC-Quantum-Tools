@@ -1,0 +1,10 @@
+{
+  "VendorA": {
+    "latest_cost": 103000.0,
+    "last_updated": "2025-12-03 11:55:22.424346"
+  },
+  "VendorB": {
+    "latest_cost": 154500.0,
+    "last_updated": "2025-12-03 11:55:22.424346"
+  }
+}

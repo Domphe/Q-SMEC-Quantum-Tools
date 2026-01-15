@@ -1,0 +1,16 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Sector Playbook Schema",
+  "type":"object",
+  "required":["sector","problems","q_smec_fit","validation_evidence","licensing_path"],
+  "properties":{
+    "sector":{"type":"string"},
+    "problems":{"type":"array","items":{"type":"string"}},
+    "q_smec_fit":{"type":"array","items":{"type":"string"}},
+    "validation_evidence":{"type":"array","items":{"type":"string"}},
+    "metrics":{"type":"object"},
+    "regulatory":{"type":"array","items":{"type":"string"}},
+    "partners":{"type":"array","items":{"type":"string"}},
+    "licensing_path":{"type":"string"}
+  }
+}

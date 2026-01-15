@@ -1,0 +1,25 @@
+{
+  "source_id": "journal_jcp_coupled_cluster_review",
+  "title": "Coupled-Cluster Theory Overview",
+  "category": "journals",
+  "fetched_at": "2025-12-03T11:37:21.374950",
+  "hash": "27c8d897194a85fc566cd87ee7a79770b25ea144a71012394bd9a06447c51085",
+  "facts": [],
+  "equations": [],
+  "citations": [
+    {
+      "source_id": "journal_jcp_coupled_cluster_review",
+      "key": "27c8d89719",
+      "title": "Coupled-Cluster Theory Overview",
+      "year": 2025
+    }
+  ],
+  "quality": {
+    "confidence_score": 30,
+    "category": "journals",
+    "fact_count": 0
+  },
+  "warnings": [
+    "FETCH_ERROR:HTTPSConnectionPool(host='example.org', port=443): Read timed out. (read timeout=10)"
+  ]
+}

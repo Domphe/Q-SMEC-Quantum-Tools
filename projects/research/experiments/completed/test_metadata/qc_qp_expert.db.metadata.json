@@ -1,0 +1,1255 @@
+{
+  "path": "QCBD\\db\\qc_qp_expert.db",
+  "tables": [
+    {
+      "name": "sources",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "abstract",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "doi",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "container_title",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "subject",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 5784,
+      "indexes": [
+        "idx_sources_container_title",
+        "idx_sources_doi",
+        "idx_sources_title",
+        "sqlite_autoindex_sources_1"
+      ]
+    },
+    {
+      "name": "concepts",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "domain",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 50,
+      "indexes": [
+        "idx_concepts_domain",
+        "sqlite_autoindex_concepts_1"
+      ]
+    },
+    {
+      "name": "methods",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "domain",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 49,
+      "indexes": [
+        "idx_methods_domain",
+        "sqlite_autoindex_methods_1"
+      ]
+    },
+    {
+      "name": "equations",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "domain",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 25,
+      "indexes": [
+        "idx_equations_domain",
+        "sqlite_autoindex_equations_1"
+      ]
+    },
+    {
+      "name": "workflows",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "domain",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 8,
+      "indexes": [
+        "idx_workflows_domain",
+        "sqlite_autoindex_workflows_1"
+      ]
+    },
+    {
+      "name": "software_tools",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "domain",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 18,
+      "indexes": [
+        "idx_software_tools_domain",
+        "sqlite_autoindex_software_tools_1"
+      ]
+    },
+    {
+      "name": "datasets",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "domain",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 353,
+      "indexes": [
+        "idx_datasets_domain",
+        "sqlite_autoindex_datasets_1"
+      ]
+    },
+    {
+      "name": "glossary",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "domain",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "term",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 46,
+      "indexes": [
+        "idx_glossary_term",
+        "sqlite_autoindex_glossary_1"
+      ]
+    },
+    {
+      "name": "benchmark_results",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "method_id",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "benchmark_id",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "computed_energy_kcal",
+          "type": "REAL",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "error_kcal",
+          "type": "REAL",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "timestamp",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "metadata",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 0,
+      "indexes": [
+        "idx_benchmark_results_timestamp",
+        "idx_benchmark_results_benchmark",
+        "idx_benchmark_results_method"
+      ]
+    },
+    {
+      "name": "use_cases",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "domain",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "sector",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 42,
+      "indexes": [
+        "idx_use_cases_name",
+        "idx_use_cases_sector",
+        "idx_use_cases_domain",
+        "sqlite_autoindex_use_cases_1"
+      ]
+    },
+    {
+      "name": "method_performance",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "method_id",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "benchmark_id",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "metric_type",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "metric_value",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "metric_unit",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "dataset_size",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "computational_time_s",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "memory_gb",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "num_processors",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "software_used",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "basis_set",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "functional",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "convergence_criteria",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "reference_source",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "validated_date",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "notes",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 764,
+      "indexes": [
+        "idx_method_perf_benchmark",
+        "idx_method_perf_method",
+        "sqlite_autoindex_method_performance_1"
+      ]
+    },
+    {
+      "name": "use_case_requirements",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "use_case_id",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "requirement_type",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "requirement_name",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "target_value",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "min_value",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "max_value",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "unit",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "priority",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "validation_method",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "current_status",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "trl_milestone",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "notes",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 496,
+      "indexes": [
+        "idx_use_case_req",
+        "sqlite_autoindex_use_case_requirements_1"
+      ]
+    },
+    {
+      "name": "material_properties",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "material_id",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "property_type",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "property_name",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "property_value",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "property_unit",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "temperature_k",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "pressure_gpa",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "measurement_method",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "computational_method",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "uncertainty",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "reference_source",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "validated_experimental",
+          "type": "BOOLEAN",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "quality_score",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 15,
+      "indexes": [
+        "idx_material_prop_type",
+        "sqlite_autoindex_material_properties_1"
+      ]
+    },
+    {
+      "name": "performance_metrics",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "metric_name",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "metric_value",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "metric_unit",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "timestamp",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "measurement_conditions",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "operator",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "instrument",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "calibration_date",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "environmental_conditions",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 0,
+      "indexes": [
+        "idx_perf_metrics_entity",
+        "sqlite_autoindex_performance_metrics_1"
+      ]
+    },
+    {
+      "name": "benchmark_metadata",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "benchmark_id",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "data_source",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "num_entries",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "property_range_min",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "property_range_max",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "chemical_space",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "system_size_range",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "accuracy_targets",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "reference_level",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "validation_protocol",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "last_updated",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "curator",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "doi",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "notes",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 0,
+      "indexes": [
+        "sqlite_autoindex_benchmark_metadata_1"
+      ]
+    },
+    {
+      "name": "method_applicability",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "method_id",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "problem_type",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "system_size_min",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "system_size_max",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "accuracy_expected",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "computational_scaling",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "memory_scaling",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "recommended",
+          "type": "BOOLEAN",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "limitations",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "best_practices",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 0,
+      "indexes": [
+        "sqlite_autoindex_method_applicability_1"
+      ]
+    },
+    {
+      "name": "cross_references",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "source_id",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "source_type",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "target_id",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "target_type",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "relationship_type",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "strength",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "bidirectional",
+          "type": "BOOLEAN",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "notes",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 0,
+      "indexes": [
+        "idx_cross_ref_target",
+        "idx_cross_ref_source",
+        "sqlite_autoindex_cross_references_1"
+      ]
+    },
+    {
+      "name": "validation_results",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "method_id",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "benchmark_id",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "validation_date",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "mae",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "rmse",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "max_error",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "r2_score",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "num_outliers",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "pass_rate",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "validator",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "validation_notes",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "json",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 27,
+      "indexes": [
+        "idx_validation_method",
+        "sqlite_autoindex_validation_results_1"
+      ]
+    }
+  ],
+  "generated_at": "2026-01-08T22:28:11.082815"
+}

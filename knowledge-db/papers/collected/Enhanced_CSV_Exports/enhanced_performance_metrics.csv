@@ -1,0 +1,13 @@
+id,metric_type,value,unit,context,benchmark_comparison,source_folder,validation_status
+10,frequencies,2000.0,Hz,Extracted from documents,,Multiple,documented
+5,db_values,132.0,dB,Extracted from documents,,Multiple,documented
+3,db_values,120.0,dB,Extracted from documents,,Multiple,documented
+6,frequencies,100.0,kHz,Extracted from documents,,Multiple,documented
+11,performance_multipliers,100.0,improvement,Extracted from documents,,Multiple,documented
+1,db_values,90.0,dB,Extracted from documents,,Multiple,documented
+4,db_values,35.0,dB,Extracted from documents,,Multiple,documented
+2,db_values,30.0,dB,Extracted from documents,,Multiple,documented
+8,frequencies,10.0,THz,Extracted from documents,,Multiple,documented
+7,frequencies,9.6,GHz,Extracted from documents,,Multiple,documented
+9,frequencies,1.0,Hz,Extracted from documents,,Multiple,documented
+12,performance_multipliers,0.0,x,Extracted from documents,,Multiple,documented

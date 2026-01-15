@@ -1,0 +1,372 @@
+[
+  {
+    "id": "method_hf",
+    "name": "Hartree\u2013Fock",
+    "short_definition": "Mean-field approximation using a single Slater determinant.",
+    "long_explanation": "Hartree\u2013Fock is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+    "mathematical_details": {
+      "equations": [],
+      "notes": "Further derivations can be added in future expansions."
+    },
+    "strengths": [
+      "Widely used",
+      "Solid theoretical foundation"
+    ],
+    "weaknesses": [
+      "Limitations depend on approximations"
+    ],
+    "common_pitfalls": [
+      "Basis set dependence",
+      "Convergence issues"
+    ],
+    "faq": [
+      {
+        "q": "What is Hartree\u2013Fock?",
+        "a": "Mean-field approximation using a single Slater determinant."
+      },
+      {
+        "q": "When should I use Hartree\u2013Fock?",
+        "a": "It depends on accuracy and computational cost."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "method",
+      "electronic structure"
+    ]
+  },
+  {
+    "id": "method_mp2",
+    "name": "MP2",
+    "short_definition": "Second-order M\u00f8ller\u2013Plesset perturbation theory for electron correlation.",
+    "long_explanation": "MP2 is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+    "mathematical_details": {
+      "equations": [],
+      "notes": "Further derivations can be added in future expansions."
+    },
+    "strengths": [
+      "Widely used",
+      "Solid theoretical foundation"
+    ],
+    "weaknesses": [
+      "Limitations depend on approximations"
+    ],
+    "common_pitfalls": [
+      "Basis set dependence",
+      "Convergence issues"
+    ],
+    "faq": [
+      {
+        "q": "What is MP2?",
+        "a": "Second-order M\u00f8ller\u2013Plesset perturbation theory for electron correlation."
+      },
+      {
+        "q": "When should I use MP2?",
+        "a": "It depends on accuracy and computational cost."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "method",
+      "electronic structure"
+    ]
+  },
+  {
+    "id": "method_ccsd",
+    "name": "CCSD",
+    "short_definition": "Coupled-cluster with single and double excitations.",
+    "long_explanation": "CCSD is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+    "mathematical_details": {
+      "equations": [],
+      "notes": "Further derivations can be added in future expansions."
+    },
+    "strengths": [
+      "Widely used",
+      "Solid theoretical foundation"
+    ],
+    "weaknesses": [
+      "Limitations depend on approximations"
+    ],
+    "common_pitfalls": [
+      "Basis set dependence",
+      "Convergence issues"
+    ],
+    "faq": [
+      {
+        "q": "What is CCSD?",
+        "a": "Coupled-cluster with single and double excitations."
+      },
+      {
+        "q": "When should I use CCSD?",
+        "a": "It depends on accuracy and computational cost."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "method",
+      "electronic structure"
+    ]
+  },
+  {
+    "id": "method_ccsd_t",
+    "name": "CCSD(T)",
+    "short_definition": "Perturbative triples correction on CCSD \u2014 the gold standard.",
+    "long_explanation": "CCSD(T) is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+    "mathematical_details": {
+      "equations": [],
+      "notes": "Further derivations can be added in future expansions."
+    },
+    "strengths": [
+      "Widely used",
+      "Solid theoretical foundation"
+    ],
+    "weaknesses": [
+      "Limitations depend on approximations"
+    ],
+    "common_pitfalls": [
+      "Basis set dependence",
+      "Convergence issues"
+    ],
+    "faq": [
+      {
+        "q": "What is CCSD(T)?",
+        "a": "Perturbative triples correction on CCSD \u2014 the gold standard."
+      },
+      {
+        "q": "When should I use CCSD(T)?",
+        "a": "It depends on accuracy and computational cost."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "method",
+      "electronic structure"
+    ]
+  },
+  {
+    "id": "method_casscf",
+    "name": "CASSCF",
+    "short_definition": "Multireference variational method with an active space.",
+    "long_explanation": "CASSCF is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+    "mathematical_details": {
+      "equations": [],
+      "notes": "Further derivations can be added in future expansions."
+    },
+    "strengths": [
+      "Widely used",
+      "Solid theoretical foundation"
+    ],
+    "weaknesses": [
+      "Limitations depend on approximations"
+    ],
+    "common_pitfalls": [
+      "Basis set dependence",
+      "Convergence issues"
+    ],
+    "faq": [
+      {
+        "q": "What is CASSCF?",
+        "a": "Multireference variational method with an active space."
+      },
+      {
+        "q": "When should I use CASSCF?",
+        "a": "It depends on accuracy and computational cost."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "method",
+      "electronic structure"
+    ]
+  },
+  {
+    "id": "method_lda",
+    "name": "LDA",
+    "short_definition": "Local density approximation for exchange\u2013correlation.",
+    "long_explanation": "LDA is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+    "mathematical_details": {
+      "equations": [],
+      "notes": "Further derivations can be added in future expansions."
+    },
+    "strengths": [
+      "Widely used",
+      "Solid theoretical foundation"
+    ],
+    "weaknesses": [
+      "Limitations depend on approximations"
+    ],
+    "common_pitfalls": [
+      "Basis set dependence",
+      "Convergence issues"
+    ],
+    "faq": [
+      {
+        "q": "What is LDA?",
+        "a": "Local density approximation for exchange\u2013correlation."
+      },
+      {
+        "q": "When should I use LDA?",
+        "a": "It depends on accuracy and computational cost."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "method",
+      "electronic structure"
+    ]
+  },
+  {
+    "id": "method_pbe",
+    "name": "PBE",
+    "short_definition": "Generalized-gradient approximation functional.",
+    "long_explanation": "PBE is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+    "mathematical_details": {
+      "equations": [],
+      "notes": "Further derivations can be added in future expansions."
+    },
+    "strengths": [
+      "Widely used",
+      "Solid theoretical foundation"
+    ],
+    "weaknesses": [
+      "Limitations depend on approximations"
+    ],
+    "common_pitfalls": [
+      "Basis set dependence",
+      "Convergence issues"
+    ],
+    "faq": [
+      {
+        "q": "What is PBE?",
+        "a": "Generalized-gradient approximation functional."
+      },
+      {
+        "q": "When should I use PBE?",
+        "a": "It depends on accuracy and computational cost."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "method",
+      "electronic structure"
+    ]
+  },
+  {
+    "id": "method_b3lyp",
+    "name": "B3LYP",
+    "short_definition": "Hybrid functional mixing HF exchange with GGA components.",
+    "long_explanation": "B3LYP is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+    "mathematical_details": {
+      "equations": [],
+      "notes": "Further derivations can be added in future expansions."
+    },
+    "strengths": [
+      "Widely used",
+      "Solid theoretical foundation"
+    ],
+    "weaknesses": [
+      "Limitations depend on approximations"
+    ],
+    "common_pitfalls": [
+      "Basis set dependence",
+      "Convergence issues"
+    ],
+    "faq": [
+      {
+        "q": "What is B3LYP?",
+        "a": "Hybrid functional mixing HF exchange with GGA components."
+      },
+      {
+        "q": "When should I use B3LYP?",
+        "a": "It depends on accuracy and computational cost."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "method",
+      "electronic structure"
+    ]
+  },
+  {
+    "id": "method_tddft",
+    "name": "TD-DFT",
+    "short_definition": "Time-dependent DFT method for excited states.",
+    "long_explanation": "TD-DFT is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+    "mathematical_details": {
+      "equations": [],
+      "notes": "Further derivations can be added in future expansions."
+    },
+    "strengths": [
+      "Widely used",
+      "Solid theoretical foundation"
+    ],
+    "weaknesses": [
+      "Limitations depend on approximations"
+    ],
+    "common_pitfalls": [
+      "Basis set dependence",
+      "Convergence issues"
+    ],
+    "faq": [
+      {
+        "q": "What is TD-DFT?",
+        "a": "Time-dependent DFT method for excited states."
+      },
+      {
+        "q": "When should I use TD-DFT?",
+        "a": "It depends on accuracy and computational cost."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "method",
+      "electronic structure"
+    ]
+  },
+  {
+    "id": "method_gfn2xtb",
+    "name": "GFN2-xTB",
+    "short_definition": "Semiempirical tight-binding method with broad applicability.",
+    "long_explanation": "GFN2-xTB is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+    "mathematical_details": {
+      "equations": [],
+      "notes": "Further derivations can be added in future expansions."
+    },
+    "strengths": [
+      "Widely used",
+      "Solid theoretical foundation"
+    ],
+    "weaknesses": [
+      "Limitations depend on approximations"
+    ],
+    "common_pitfalls": [
+      "Basis set dependence",
+      "Convergence issues"
+    ],
+    "faq": [
+      {
+        "q": "What is GFN2-xTB?",
+        "a": "Semiempirical tight-binding method with broad applicability."
+      },
+      {
+        "q": "When should I use GFN2-xTB?",
+        "a": "It depends on accuracy and computational cost."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "method",
+      "electronic structure"
+    ]
+  }
+]

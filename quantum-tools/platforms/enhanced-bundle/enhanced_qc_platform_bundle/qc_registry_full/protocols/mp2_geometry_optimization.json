@@ -1,0 +1,24 @@
+{
+  "id": "protocol.qc.optimize_mp2",
+  "name": "MP2 Geometry Optimization",
+  "domain": "quantum_chemistry",
+  "description": "Optimize molecular geometry using MP2/def2-TZVP.",
+  "steps": [
+    "Start with molecular geometry in XYZ format.",
+    "Choose basis set: def2-TZVP.",
+    "Run Hartree-Fock SCF as reference.",
+    "Compute MP2 energy gradients.",
+    "Use optimizer (e.g. BFGS) until convergence."
+  ],
+  "software": [
+    "tool.psi4",
+    "tool.pyscf"
+  ],
+  "linked_methods": [
+    "method.qc.mp2"
+  ],
+  "linked_workflows": [
+    "workflow.qc.benchmark_dft"
+  ],
+  "last_updated": "2025-12-03"
+}

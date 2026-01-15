@@ -1,0 +1,10 @@
+# Consolidated canonical requirements for PubChem benchmark pipeline
+# Sources merged on 2025-12-15
+# Workspace linkage: clients (as needed), research (data experiments)
+# - qc_benchmark_full_system
+# - full_scientific_linking_graph_pipeline
+
+pydantic>=2.6
+pubchempy
+requests>=2.31
+pip-tools>=7.0

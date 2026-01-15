@@ -1,0 +1,985 @@
+{
+  "analysis_metadata": {
+    "report_title": "Hydro Cube Advanced Technical and Business Analysis",
+    "analysis_date": "2025-10-30",
+    "analysis_scope": "comprehensive_multidisciplinary_assessment",
+    "confidence_scores": {
+      "lifecycle_cost_analysis": 0.85,
+      "environmental_impact_assessment": 0.82,
+      "risk_assessment": 0.88,
+      "materials_science": 0.9,
+      "regulatory_compliance": 0.85,
+      "manufacturing_scalability": 0.87
+    }
+  },
+  "analysis_results": {
+    "lifecycle_cost_analysis": {
+      "initial_investment": 13500,
+      "annual_operating_cost": 1600,
+      "10_year_tco": 29500,
+      "cost_per_liter_produced": 1.1041245602215735,
+      "break_even_analysis": {
+        "bottled_water": {
+          "alternative_10yr_cost": 53436.0,
+          "hydro_cube_advantage": 23936.0,
+          "payback_period_years": 3.606154503686291
+        },
+        "water_trucking": {
+          "alternative_10yr_cost": 80154.0,
+          "hydro_cube_advantage": 50654.0,
+          "payback_period_years": 2.104311500452037
+        },
+        "desalination_plant": {
+          "alternative_10yr_cost": 26.718,
+          "hydro_cube_advantage": -29473.282,
+          "payback_period_years": "immediate"
+        }
+      },
+      "sensitivity_analysis": {
+        "energy_cost_increase": [
+          {
+            "multiplier": 0,
+            "adjusted_tco": 22000.0,
+            "variance_from_base": -25.423728813559322
+          },
+          {
+            "multiplier": 0.25,
+            "adjusted_tco": 23275.0,
+            "variance_from_base": -21.10169491525424
+          },
+          {
+            "multiplier": 0.5,
+            "adjusted_tco": 24550.0,
+            "variance_from_base": -16.779661016949152
+          },
+          {
+            "multiplier": 1.0,
+            "adjusted_tco": 27100.0,
+            "variance_from_base": -8.135593220338983
+          }
+        ],
+        "maintenance_cost_variation": [
+          {
+            "multiplier": 0.5,
+            "adjusted_tco": 21500.0,
+            "variance_from_base": -27.11864406779661
+          },
+          {
+            "multiplier": 0.75,
+            "adjusted_tco": 25500.0,
+            "variance_from_base": -13.559322033898304
+          },
+          {
+            "multiplier": 1.0,
+            "adjusted_tco": 29500.0,
+            "variance_from_base": 0.0
+          },
+          {
+            "multiplier": 1.25,
+            "adjusted_tco": 33500.0,
+            "variance_from_base": 13.559322033898304
+          },
+          {
+            "multiplier": 1.5,
+            "adjusted_tco": 37500.0,
+            "variance_from_base": 27.11864406779661
+          }
+        ],
+        "production_efficiency": [
+          {
+            "multiplier": 0.8,
+            "adjusted_tco": 29500,
+            "variance_from_base": 0.0
+          },
+          {
+            "multiplier": 0.9,
+            "adjusted_tco": 29500,
+            "variance_from_base": 0.0
+          },
+          {
+            "multiplier": 1.0,
+            "adjusted_tco": 29500,
+            "variance_from_base": 0.0
+          },
+          {
+            "multiplier": 1.1,
+            "adjusted_tco": 29500,
+            "variance_from_base": 0.0
+          },
+          {
+            "multiplier": 1.2,
+            "adjusted_tco": 29500,
+            "variance_from_base": 0.0
+          }
+        ]
+      }
+    },
+    "environmental_impact_assessment": {
+      "carbon_footprint": {
+        "manufacturing_emissions": {
+          "materials_extraction": 450,
+          "component_manufacturing": 680,
+          "assembly": 120,
+          "transportation": 95,
+          "total_manufacturing": 1345
+        },
+        "operational_emissions": {
+          "energy_consumption_kwh_per_year": 2628,
+          "grid_emission_factor": 0.45,
+          "annual_co2_emissions": 1182.6,
+          "10_year_operational_emissions": 11826
+        },
+        "end_of_life": {
+          "recycling_offset": -150,
+          "disposal_emissions": 85,
+          "net_end_of_life": -65
+        },
+        "total_lifecycle_emissions": 13106
+      },
+      "water_efficiency": {
+        "hydro_cube": {
+          "energy_per_liter": 0.91,
+          "co2_per_liter": 0.41,
+          "water_recovery_rate": 1.0
+        },
+        "alternatives": {
+          "reverse_osmosis": {
+            "energy_per_liter": 3.5,
+            "co2_per_liter": 1.58,
+            "water_recovery_rate": 0.25,
+            "brine_disposal_impact": "high"
+          },
+          "distillation": {
+            "energy_per_liter": 8.5,
+            "co2_per_liter": 3.83,
+            "water_recovery_rate": 0.95
+          },
+          "bottled_water": {
+            "energy_per_liter": 2.5,
+            "co2_per_liter": 1.13,
+            "plastic_waste_per_liter": 0.025,
+            "transportation_impact": "very_high"
+          }
+        }
+      },
+      "resource_analysis": {
+        "materials_composition": {
+          "aluminum": {
+            "mass_kg": 12.5,
+            "recycled_content": 0.75,
+            "recyclability": 0.95
+          },
+          "copper": {
+            "mass_kg": 2.8,
+            "recycled_content": 0.4,
+            "recyclability": 0.9
+          },
+          "bismuth_telluride": {
+            "mass_kg": 0.5,
+            "criticality": "high",
+            "recyclability": 0.6
+          },
+          "electronics": {
+            "mass_kg": 1.2,
+            "recycled_content": 0.15,
+            "recyclability": 0.7
+          },
+          "plastics": {
+            "mass_kg": 3.0,
+            "recycled_content": 0.25,
+            "recyclability": 0.8
+          }
+        },
+        "critical_materials_assessment": {
+          "bismuth": {
+            "supply_risk": "medium",
+            "substitution_difficulty": "high"
+          },
+          "tellurium": {
+            "supply_risk": "high",
+            "substitution_difficulty": "high"
+          },
+          "rare_earth_elements": {
+            "supply_risk": "medium",
+            "substitution_difficulty": "medium"
+          }
+        }
+      },
+      "environmental_benefits": {
+        "reduced_plastic_waste": {
+          "vs_bottled_water": 9.1,
+          "10_year_plastic_reduction": 91
+        },
+        "reduced_transportation": {
+          "vs_water_trucking": 2500,
+          "fuel_savings_liters": 625,
+          "transport_emissions_avoided": 1562
+        },
+        "local_water_security": {
+          "independence_from_supply_chains": "high",
+          "disaster_resilience": "excellent",
+          "water_accessibility": "enhanced"
+        }
+      },
+      "sustainability_score": 7.8,
+      "lca_summary": {
+        "primary_impact_phase": "operations",
+        "key_improvement_opportunities": [
+          "renewable_energy_integration",
+          "material_substitution",
+          "end_of_life_optimization"
+        ]
+      }
+    },
+    "risk_assessment": {
+      "technical_risks": {
+        "tec_degradation": {
+          "probability": 0.25,
+          "impact": "medium",
+          "mitigation": "redundant_modules_and_predictive_maintenance",
+          "cost_impact": 15000
+        },
+        "uv_led_failure": {
+          "probability": 0.4,
+          "impact": "high",
+          "mitigation": "multiple_led_arrays_and_monitoring",
+          "cost_impact": 5000
+        },
+        "sensor_drift": {
+          "probability": 0.6,
+          "impact": "low",
+          "mitigation": "calibration_protocols_and_redundancy",
+          "cost_impact": 2000
+        },
+        "condensation_blockage": {
+          "probability": 0.3,
+          "impact": "medium",
+          "mitigation": "automated_cleaning_systems",
+          "cost_impact": 8000
+        },
+        "power_supply_failure": {
+          "probability": 0.2,
+          "impact": "high",
+          "mitigation": "dual_power_paths_and_battery_backup",
+          "cost_impact": 12000
+        }
+      },
+      "market_risks": {
+        "competitive_response": {
+          "probability": 0.8,
+          "impact": "high",
+          "timeframe": "2-3 years",
+          "mitigation": "patent_protection_and_continuous_innovation"
+        },
+        "regulatory_changes": {
+          "probability": 0.4,
+          "impact": "medium",
+          "timeframe": "3-5 years",
+          "mitigation": "compliance_monitoring_and_adaptability"
+        },
+        "market_adoption_slower_than_expected": {
+          "probability": 0.5,
+          "impact": "high",
+          "timeframe": "1-2 years",
+          "mitigation": "pilot_programs_and_partnerships"
+        },
+        "defense_budget_cuts": {
+          "probability": 0.3,
+          "impact": "high",
+          "timeframe": "2-4 years",
+          "mitigation": "diversification_into_commercial_markets"
+        }
+      },
+      "supply_chain_risks": {
+        "bismuth_telluride_supply": {
+          "probability": 0.35,
+          "impact": "high",
+          "geographic_concentration": "china_dominance",
+          "mitigation": "alternative_suppliers_and_material_substitution"
+        },
+        "semiconductor_shortage": {
+          "probability": 0.45,
+          "impact": "medium",
+          "mitigation": "inventory_buffers_and_alternative_components"
+        },
+        "aluminum_price_volatility": {
+          "probability": 0.6,
+          "impact": "low",
+          "mitigation": "hedging_and_design_optimization"
+        },
+        "shipping_disruptions": {
+          "probability": 0.4,
+          "impact": "medium",
+          "mitigation": "regional_manufacturing_and_supplier_diversity"
+        }
+      },
+      "operational_risks": {
+        "field_maintenance_accessibility": {
+          "probability": 0.7,
+          "impact": "medium",
+          "scenario": "remote_deployment_locations",
+          "mitigation": "modular_design_and_remote_diagnostics"
+        },
+        "environmental_conditions": {
+          "probability": 0.5,
+          "impact": "medium",
+          "scenario": "extreme_weather_or_altitude",
+          "mitigation": "environmental_hardening_and_testing"
+        },
+        "operator_training": {
+          "probability": 0.4,
+          "impact": "low",
+          "scenario": "complex_operation_requirements",
+          "mitigation": "simplified_interface_and_training_programs"
+        }
+      },
+      "financial_risks": {
+        "development_cost_overruns": {
+          "probability": 0.6,
+          "impact": "medium",
+          "typical_overrun": "20-40%",
+          "mitigation": "phased_development_and_milestone_controls"
+        },
+        "manufacturing_scale_challenges": {
+          "probability": 0.45,
+          "impact": "high",
+          "mitigation": "pilot_production_and_gradual_scaling"
+        },
+        "customer_payment_delays": {
+          "probability": 0.3,
+          "impact": "medium",
+          "mitigation": "contract_terms_and_diversification"
+        }
+      },
+      "risk_prioritization": [
+        {
+          "category": "market",
+          "risk": "competitive_response",
+          "probability": 0.8,
+          "impact": "high",
+          "risk_score": 2.4000000000000004,
+          "mitigation": "patent_protection_and_continuous_innovation"
+        },
+        {
+          "category": "market",
+          "risk": "market_adoption_slower_than_expected",
+          "probability": 0.5,
+          "impact": "high",
+          "risk_score": 1.5,
+          "mitigation": "pilot_programs_and_partnerships"
+        },
+        {
+          "category": "operational",
+          "risk": "field_maintenance_accessibility",
+          "probability": 0.7,
+          "impact": "medium",
+          "risk_score": 1.4,
+          "mitigation": "modular_design_and_remote_diagnostics"
+        },
+        {
+          "category": "financial",
+          "risk": "manufacturing_scale_challenges",
+          "probability": 0.45,
+          "impact": "high",
+          "risk_score": 1.35,
+          "mitigation": "pilot_production_and_gradual_scaling"
+        },
+        {
+          "category": "technical",
+          "risk": "uv_led_failure",
+          "probability": 0.4,
+          "impact": "high",
+          "risk_score": 1.2000000000000002,
+          "mitigation": "multiple_led_arrays_and_monitoring"
+        },
+        {
+          "category": "financial",
+          "risk": "development_cost_overruns",
+          "probability": 0.6,
+          "impact": "medium",
+          "risk_score": 1.2,
+          "mitigation": "phased_development_and_milestone_controls"
+        },
+        {
+          "category": "supply_chain",
+          "risk": "bismuth_telluride_supply",
+          "probability": 0.35,
+          "impact": "high",
+          "risk_score": 1.0499999999999998,
+          "mitigation": "alternative_suppliers_and_material_substitution"
+        },
+        {
+          "category": "operational",
+          "risk": "environmental_conditions",
+          "probability": 0.5,
+          "impact": "medium",
+          "risk_score": 1.0,
+          "mitigation": "environmental_hardening_and_testing"
+        },
+        {
+          "category": "supply_chain",
+          "risk": "semiconductor_shortage",
+          "probability": 0.45,
+          "impact": "medium",
+          "risk_score": 0.9,
+          "mitigation": "inventory_buffers_and_alternative_components"
+        },
+        {
+          "category": "market",
+          "risk": "defense_budget_cuts",
+          "probability": 0.3,
+          "impact": "high",
+          "risk_score": 0.8999999999999999,
+          "mitigation": "diversification_into_commercial_markets"
+        }
+      ],
+      "overall_risk_score": 0.9684210526315788,
+      "risk_mitigation_budget": 150000,
+      "insurance_recommendations": [
+        "product_liability",
+        "key_person",
+        "supply_chain_disruption",
+        "cyber_security"
+      ]
+    },
+    "materials_science": {
+      "tec_materials": {
+        "bismuth_telluride": {
+          "composition": "Bi2Te3",
+          "zT_value": 1.0,
+          "seebeck_coefficient": 200,
+          "electrical_conductivity": 1000,
+          "thermal_conductivity": 1.5,
+          "operating_temperature_range": "200-400K",
+          "degradation_mechanisms": [
+            "thermal_cycling_fatigue",
+            "oxidation",
+            "sublimation",
+            "mechanical_stress"
+          ],
+          "improvement_opportunities": [
+            "nanostructuring",
+            "doping_optimization",
+            "interface_engineering"
+          ]
+        },
+        "alternative_materials": {
+          "skutterudites": {
+            "zT_potential": 1.4,
+            "temperature_range": "400-700K"
+          },
+          "half_heusler": {
+            "zT_potential": 1.5,
+            "temperature_range": "300-900K"
+          },
+          "oxide_materials": {
+            "zT_potential": 0.8,
+            "advantages": "stability_and_abundance"
+          }
+        }
+      },
+      "heat_exchange_materials": {
+        "aluminum_6061": {
+          "thermal_conductivity": 167,
+          "density": 2700,
+          "specific_heat": 896,
+          "corrosion_resistance": "good_with_anodizing",
+          "machinability": "excellent",
+          "cost_per_kg": 2.2,
+          "environmental_considerations": "highly_recyclable"
+        },
+        "alternatives": {
+          "copper": {
+            "thermal_conductivity": 401,
+            "cost_multiplier": 3.5,
+            "advantages": "superior_heat_transfer",
+            "disadvantages": "weight_and_cost"
+          },
+          "aluminum_foam": {
+            "surface_area_enhancement": "300-500%",
+            "weight_reduction": "80%",
+            "manufacturing_complexity": "high"
+          }
+        }
+      },
+      "condensation_surfaces": {
+        "surface_treatments": {
+          "hydrophilic_coating": {
+            "droplet_nucleation_enhancement": "200-300%",
+            "durability": "2-3 years",
+            "maintenance_requirement": "annual_reapplication"
+          },
+          "micro_texturing": {
+            "surface_area_increase": "150-200%",
+            "manufacturing_method": "laser_etching_or_chemical_etching",
+            "durability": "permanent"
+          },
+          "nanostructured_surfaces": {
+            "condensation_enhancement": "400-500%",
+            "manufacturing_complexity": "very_high",
+            "cost_impact": "significant"
+          }
+        }
+      },
+      "uv_led_analysis": {
+        "led_materials": {
+          "aluminum_nitride": {
+            "wavelength_range": "250-280nm",
+            "efficiency": "35-40%",
+            "degradation_rate": "5%_per_1000h",
+            "operating_temperature_sensitivity": "high"
+          },
+          "aluminum_gallium_nitride": {
+            "wavelength_range": "240-365nm",
+            "efficiency": "30-45%",
+            "degradation_factors": [
+              "thermal_stress",
+              "current_density",
+              "defect_migration",
+              "packaging_degradation"
+            ]
+          }
+        },
+        "lifetime_modeling": {
+          "l70_lifetime": "8000-12000h",
+          "acceleration_factors": {
+            "temperature": 2.0,
+            "current": 1.8,
+            "humidity": 1.3
+          }
+        }
+      },
+      "degradation_analysis": {
+        "thermal_cycling": {
+          "tec_solder_joints": {
+            "failure_mode": "fatigue_cracking",
+            "cycles_to_failure": 50000,
+            "mitigation": "flexible_interconnects"
+          },
+          "aluminum_expansion": {
+            "thermal_expansion_coefficient": 2.36e-05,
+            "stress_accumulation": "moderate",
+            "design_consideration": "expansion_joints"
+          }
+        },
+        "corrosion_analysis": {
+          "galvanic_compatibility": {
+            "aluminum_copper_contact": "problematic",
+            "mitigation": "isolation_or_protective_coatings"
+          },
+          "atmospheric_exposure": {
+            "salt_spray_resistance": "good_with_coating",
+            "industrial_atmosphere": "moderate_concern"
+          }
+        }
+      },
+      "future_materials": {
+        "quantum_dots": {
+          "application": "enhanced_condensation_nucleation",
+          "potential_improvement": "50-100%",
+          "development_timeline": "3-5 years"
+        },
+        "aerogel_insulation": {
+          "thermal_conductivity": 0.013,
+          "weight_reduction": "60%",
+          "cost_impact": "moderate"
+        },
+        "shape_memory_alloys": {
+          "application": "adaptive_heat_exchanger_geometry",
+          "efficiency_improvement": "10-15%",
+          "complexity": "high"
+        }
+      },
+      "materials_cost_breakdown": {
+        "tec_modules": 3200,
+        "heat_exchangers": 1800,
+        "uv_leds": 900,
+        "sensors": 600,
+        "structural": 800,
+        "total_materials": 7300
+      },
+      "reliability_predictions": {
+        "mtbf_system": 15000,
+        "design_life": 87600,
+        "availability": 0.96
+      }
+    },
+    "regulatory_compliance": {
+      "water_quality_regulations": {
+        "epa_safe_drinking_water_act": {
+          "primary_standards": {
+            "microbiological": "99.99% pathogen removal required",
+            "chemical": "maximum_contaminant_levels_defined",
+            "radionuclides": "screening_required"
+          },
+          "secondary_standards": {
+            "taste_odor_color": "aesthetic_quality_standards",
+            "ph_range": "6.5-8.5",
+            "total_dissolved_solids": "<500_mg/L"
+          },
+          "testing_requirements": {
+            "frequency": "quarterly_for_portable_systems",
+            "parameters": 40,
+            "cost_per_test": 1200
+          }
+        },
+        "nsf_international": {
+          "nsf_61": "drinking_water_system_components",
+          "nsf_372": "lead_content_compliance",
+          "certification_cost": 45000,
+          "timeline": "6-9 months"
+        },
+        "international_standards": {
+          "who_guidelines": "international_acceptance",
+          "iso_22000": "food_safety_management",
+          "ce_marking": "european_market_access"
+        }
+      },
+      "electrical_safety": {
+        "ul_standards": {
+          "ul_991": "atmospheric_water_generators",
+          "ul_2089": "health_wellness_devices",
+          "certification_cost": 35000,
+          "testing_duration": "3-4 months"
+        },
+        "fcc_compliance": {
+          "part_15": "electromagnetic_compatibility",
+          "testing_required": "radiated_and_conducted_emissions",
+          "cost": 15000
+        },
+        "military_standards": {
+          "mil_std_810": "environmental_testing",
+          "mil_std_461": "electromagnetic_interference",
+          "mil_std_704": "aircraft_power_characteristics",
+          "total_testing_cost": 85000
+        }
+      },
+      "environmental_regulations": {
+        "rohs_compliance": {
+          "restricted_substances": "lead_mercury_cadmium_etc",
+          "compliance_cost": 8000,
+          "documentation_required": "extensive"
+        },
+        "reach_regulation": {
+          "chemical_registration": "substance_evaluation",
+          "svhc_compliance": "candidate_list_monitoring",
+          "cost": 25000
+        },
+        "weee_directive": {
+          "end_of_life_management": "manufacturer_responsibility",
+          "recycling_targets": "65%_by_weight",
+          "compliance_cost": 12000
+        }
+      },
+      "medical_considerations": {
+        "fda_classification": {
+          "class_ii_medical_device": "potential_if_health_claims",
+          "510k_premarket": "required_for_medical_claims",
+          "cost": 150000,
+          "timeline": "12-18 months"
+        },
+        "iso_13485": {
+          "quality_management": "medical_device_quality_system",
+          "implementation_cost": 75000,
+          "annual_maintenance": 25000
+        }
+      },
+      "intellectual_property": {
+        "patent_landscape": {
+          "atmospheric_water_generation": {
+            "active_patents": 1240,
+            "key_players": [
+              "watergen",
+              "zero_mass_water",
+              "deka"
+            ],
+            "patent_clusters": [
+              "thermoelectric_cooling",
+              "condensation_enhancement",
+              "water_purification",
+              "system_control"
+            ]
+          },
+          "freedom_to_operate": {
+            "risk_level": "moderate",
+            "key_patents_to_monitor": 23,
+            "licensing_cost_estimate": 250000
+          },
+          "defensive_patent_strategy": {
+            "recommended_filings": 8,
+            "cost_per_patent": 25000,
+            "total_ip_budget": 200000
+          }
+        },
+        "trade_secrets": {
+          "manufacturing_processes": "high_value",
+          "control_algorithms": "medium_value",
+          "material_formulations": "medium_value"
+        }
+      },
+      "export_controls": {
+        "itar_classification": {
+          "likelihood": "low_for_commercial",
+          "triggers": "military_specifications_or_encryption",
+          "compliance_cost": 50000
+        },
+        "ear_dual_use": {
+          "eccn_classification": "required_determination",
+          "export_licensing": "country_dependent",
+          "compliance_cost": 20000
+        }
+      },
+      "certification_roadmap": {
+        "phase_1_basic_safety": {
+          "duration": "6 months",
+          "cost": 95000,
+          "standards": [
+            "UL_991",
+            "FCC_Part_15",
+            "NSF_61"
+          ]
+        },
+        "phase_2_military": {
+          "duration": "9 months",
+          "cost": 140000,
+          "standards": [
+            "MIL_STD_810",
+            "MIL_STD_461"
+          ]
+        },
+        "phase_3_international": {
+          "duration": "12 months",
+          "cost": 180000,
+          "standards": [
+            "CE_marking",
+            "RoHS",
+            "REACH"
+          ]
+        },
+        "total_certification": {
+          "duration": "18 months",
+          "cost": 415000,
+          "ongoing_annual": 45000
+        }
+      },
+      "compliance_risk_assessment": {
+        "high_priority": [
+          "EPA_water_quality",
+          "UL_safety",
+          "military_standards"
+        ],
+        "medium_priority": [
+          "FCC_EMC",
+          "environmental_compliance"
+        ],
+        "ongoing_monitoring": [
+          "patent_landscape",
+          "regulatory_updates"
+        ]
+      }
+    },
+    "manufacturing_scalability": {
+      "production_scaling": {
+        "prototype_phase": {
+          "volume": "1-10 units",
+          "manufacturing_method": "manual_assembly",
+          "cost_per_unit": 35000,
+          "lead_time": "6-8 weeks",
+          "quality_control": "manual_inspection"
+        },
+        "pilot_production": {
+          "volume": "100-500 units",
+          "manufacturing_method": "semi_automated",
+          "cost_per_unit": 22000,
+          "lead_time": "4-6 weeks",
+          "quality_control": "statistical_sampling"
+        },
+        "small_scale": {
+          "volume": "1000-5000 units",
+          "manufacturing_method": "automated_assembly",
+          "cost_per_unit": 15000,
+          "lead_time": "2-3 weeks",
+          "quality_control": "automated_testing"
+        },
+        "large_scale": {
+          "volume": "10000+ units",
+          "manufacturing_method": "fully_automated",
+          "cost_per_unit": 11000,
+          "lead_time": "1-2 weeks",
+          "quality_control": "inline_monitoring"
+        }
+      },
+      "manufacturing_processes": {
+        "tec_module_assembly": {
+          "process": "precision_soldering_and_encapsulation",
+          "automation_level": "high",
+          "yield_rate": 0.92,
+          "bottleneck_potential": "medium",
+          "equipment_cost": 850000
+        },
+        "heat_exchanger_fabrication": {
+          "process": "cnc_machining_and_brazing",
+          "automation_level": "medium",
+          "yield_rate": 0.96,
+          "bottleneck_potential": "low",
+          "equipment_cost": 450000
+        },
+        "uv_led_integration": {
+          "process": "smt_placement_and_optical_alignment",
+          "automation_level": "high",
+          "yield_rate": 0.88,
+          "bottleneck_potential": "high",
+          "equipment_cost": 320000
+        },
+        "final_assembly": {
+          "process": "modular_assembly_and_testing",
+          "automation_level": "medium",
+          "yield_rate": 0.94,
+          "bottleneck_potential": "medium",
+          "equipment_cost": 280000
+        }
+      },
+      "supply_chain": {
+        "critical_components": {
+          "tec_modules": {
+            "suppliers": 3,
+            "lead_time": "12-16 weeks",
+            "minimum_order": 1000,
+            "price_volatility": "medium",
+            "substitution_difficulty": "high"
+          },
+          "uv_leds": {
+            "suppliers": 5,
+            "lead_time": "8-12 weeks",
+            "minimum_order": 5000,
+            "price_volatility": "high",
+            "substitution_difficulty": "medium"
+          },
+          "aluminum_extrusions": {
+            "suppliers": 15,
+            "lead_time": "4-6 weeks",
+            "minimum_order": 500,
+            "price_volatility": "low",
+            "substitution_difficulty": "low"
+          }
+        },
+        "supplier_diversification": {
+          "primary_suppliers": 8,
+          "backup_suppliers": 12,
+          "geographic_distribution": {
+            "north_america": 0.4,
+            "europe": 0.3,
+            "asia": 0.3
+          },
+          "single_source_components": 3
+        }
+      },
+      "quality_control": {
+        "incoming_inspection": {
+          "components_tested": "100%_critical_5%_standard",
+          "test_parameters": 15,
+          "reject_rate": 0.02,
+          "cost_per_unit": 45
+        },
+        "in_process_testing": {
+          "test_points": 8,
+          "automated_testing": 0.75,
+          "yield_improvement": 0.08,
+          "cost_per_unit": 85
+        },
+        "final_testing": {
+          "test_duration": "4 hours",
+          "parameters_tested": 25,
+          "pass_rate": 0.96,
+          "cost_per_unit": 120
+        }
+      },
+      "cost_breakdown": {
+        "materials": {
+          "percentage": 0.65,
+          "cost_per_unit": 7150,
+          "reduction_potential": 0.15
+        },
+        "labor": {
+          "percentage": 0.15,
+          "cost_per_unit": 1650,
+          "automation_reduction": 0.6
+        },
+        "overhead": {
+          "percentage": 0.12,
+          "cost_per_unit": 1320,
+          "scale_reduction": 0.3
+        },
+        "testing": {
+          "percentage": 0.08,
+          "cost_per_unit": 880,
+          "automation_reduction": 0.4
+        }
+      },
+      "factory_planning": {
+        "facility_requirements": {
+          "floor_space": "25000 sq ft",
+          "clean_room": "5000 sq ft class 10000",
+          "warehouse": "8000 sq ft",
+          "office": "3000 sq ft",
+          "annual_lease_cost": 480000
+        },
+        "equipment_investment": {
+          "assembly_lines": 1900000,
+          "test_equipment": 650000,
+          "material_handling": 320000,
+          "quality_lab": 180000,
+          "total_capex": 3050000
+        },
+        "production_capacity": {
+          "single_shift": "2500 units/year",
+          "double_shift": "4800 units/year",
+          "triple_shift": "6800 units/year",
+          "theoretical_max": "8000 units/year"
+        }
+      },
+      "scalability_challenges": [
+        "tec_module_supplier_capacity",
+        "skilled_technician_availability",
+        "test_equipment_throughput",
+        "quality_control_scaling"
+      ],
+      "recommended_scaling_strategy": {
+        "phase_1": "outsourced_manufacturing_100_units",
+        "phase_2": "joint_venture_1000_units",
+        "phase_3": "dedicated_facility_5000_units",
+        "phase_4": "multiple_facilities_20000_units"
+      }
+    }
+  },
+  "summary_metrics": {
+    "total_analysis_modules": 6,
+    "average_confidence_score": 0.8616666666666667,
+    "analysis_completion_date": "2025-10-30T15:38:30.206259",
+    "key_findings_summary": {
+      "10_year_tco": 29500,
+      "cost_per_liter": 1.104,
+      "carbon_footprint_kg": 13106,
+      "overall_risk_score": 0.97,
+      "mtbf_hours": 15000,
+      "certification_cost": 415000,
+      "scale_manufacturing_cost": 11000
+    }
+  },
+  "executive_summary": {
+    "economic_viability": "strong_with_mitigation_strategies",
+    "technical_feasibility": "high_confidence_achievable",
+    "environmental_impact": "positive_vs_alternatives",
+    "regulatory_pathway": "clear_but_complex_and_costly",
+    "manufacturing_scalability": "feasible_with_structured_approach",
+    "overall_recommendation": "proceed_with_risk_mitigation_focus"
+  },
+  "critical_success_factors": [
+    "effective_risk_mitigation_implementation",
+    "regulatory_compliance_early_engagement",
+    "supply_chain_diversification",
+    "manufacturing_partner_selection",
+    "cost_reduction_through_scale_and_design",
+    "market_education_and_adoption_support"
+  ]
+}

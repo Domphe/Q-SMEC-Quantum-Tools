@@ -1,0 +1,62 @@
+QUANTUM OPEN SOURCE TOOLS - INSTALLATION GAP ANALYSIS
+================================================================================
+Generated: January 15, 2026
+Total Tools: 51 | Installed: 0 | Missing: 1
+
+MISSING TOOLS (can be pip installed):
+--------------------------------------------------------------------------------
+Psi4                                     | pip: psi4
+MOPAC                                    | pip: mopac
+scikit-learn                             | pip: scikit-learn
+TensorFlow                               | pip: tensorflow
+PyTorch                                  | pip: torch
+Optuna                                   | pip: optuna
+IBM Qiskit                               | pip: qiskit
+Qiskit Nature                            | pip: qiskit-nature
+Google Cirq                              | pip: cirq
+Amazon Braket                            | pip: amazon-braket-sdk
+DeePMD-kit                               | pip: deepmd-kit
+Gmsh                                     | pip: gmsh
+LAMMPS                                   | pip: lammps
+InfluxDB                                 | pip: influxdb-client
+PennyLane                                | pip: pennylane
+PennyLane-Qiskit                         | pip: pennylane-qiskit
+PyQuil                                   | pip: pyquil
+ProjectQ                                 | pip: projectq
+Qiskit Aer                               | pip: qiskit-aer
+Qiskit IBMQ                              | pip: qiskit-ibmq-provider
+ASE                                      | pip: ase
+pymatgen                                 | pip: pymatgen
+NumPy                                    | pip: numpy
+SciPy                                    | pip: scipy
+Pandas                                   | pip: pandas
+Matplotlib                               | pip: matplotlib
+Jupyter                                  | pip: jupyter
+
+
+SYSTEM PACKAGES TO INSTALL:
+--------------------------------------------------------------------------------
+Quantum ESPRESSO                         | DFT
+ORCA                                     | QC/DFT
+CP2K                                     | DFT/MD
+ABINIT                                   | DFT
+SIESTA                                   | DFT
+NWChem                                   | QC/DFT
+JDFTx                                    | DFT
+BigDFT                                   | DFT
+OpenFOAM                                 | CFD
+Elmer FEM                                | Multiphysics
+FreeFEM                                  | PDE
+SALOME                                   | Structural
+Code_Aster                               | Structural
+GROMACS                                  | MD
+NAMD                                     | MD
+VMD                                      | MD visualization
+OpenModelica                             | Control
+Ignition Gazebo                          | Robotics
+Node-RED                                 | Orchestration
+ROS2                                     | Robotics
+Prometheus                               | Monitoring
+Grafana                                  | Visualization
+TensorFlow Serving                       | Inference
+cuQuantum                                | GPU quantum

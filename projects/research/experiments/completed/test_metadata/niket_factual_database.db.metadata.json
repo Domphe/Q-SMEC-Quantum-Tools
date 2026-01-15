@@ -1,0 +1,365 @@
+{
+  "path": "niket_factual_database.db",
+  "tables": [
+    {
+      "name": "technical_specs",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "spec_type",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "value",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "unit",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "context",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "source_document",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "extraction_date",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "confidence_level",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": "'medium'",
+          "primary_key": false
+        }
+      ],
+      "row_count": 722,
+      "indexes": []
+    },
+    {
+      "name": "market_data",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "market_segment",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "market_size_value",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "market_size_unit",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "cagr_percentage",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "context",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "source_document",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "year_reference",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "extraction_date",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 0,
+      "indexes": []
+    },
+    {
+      "name": "technical_terms",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "term",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "category",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "frequency",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "context",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "definition",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "extraction_date",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 31,
+      "indexes": []
+    },
+    {
+      "name": "competitive_advantages",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "claim",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "advantage_type",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "confidence_level",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "supporting_data",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "source_document",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "extraction_date",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 20,
+      "indexes": []
+    },
+    {
+      "name": "development_timeline",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "phase_type",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "phase_identifier",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "description",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "timeline_reference",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "context",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "extraction_date",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 40,
+      "indexes": []
+    },
+    {
+      "name": "source_documents",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "filename",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "file_size",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "word_count",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "modified_date",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "extraction_date",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "document_type",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 12,
+      "indexes": [
+        "sqlite_autoindex_source_documents_1"
+      ]
+    }
+  ],
+  "generated_at": "2026-01-08T22:28:10.067719"
+}

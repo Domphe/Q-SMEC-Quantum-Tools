@@ -1,0 +1,18 @@
+Tool,Category,License,Task,Vendor,Homepage,Price,PriceSource,Performance,Accessibility,Integration
+OpenFOAM,Simulation,Open,Task3 CFD,OpenFOAM Foundation,https://www.openfoam.com/,Free,fallback,MPI/OpenMP; GPU forks,GPL,VTK/CSV; STL/mesh
+Gmsh,Simulation,Open,Task3 meshing,OSS,https://gmsh.info/,Free,fallback,Fast CPU mesher,GPL,STEP/STL in; MSH/UNV out
+Elmer FEM,Simulation,Open,Task3 multiphysics,CSC,https://www.elmerfem.org/,Free,fallback,MPI parallel,GPL,VTK/CSV
+FreeFEM,Simulation,Open,Task3 PDE,OSS,https://freefem.org/,"$40, $20, $55",https://freefem.org/,Scriptable,LGPL,VTK/CSV
+SALOME + Code_Aster,Simulation,Open,Task3 structural,CEA/EDF/OSS,https://www.salome-platform.org/,Free,fallback,MPI; good FEA,FOSS,STEP/UNV; MED/VTK
+Code_Saturne,Simulation,Open,Task3 CFD,EDF,https://www.code-saturne.org/,Free,fallback,MPI CFD,GPL,MED/VTK/CSV
+LAMMPS,Simulation,Open,Task3 MD,Sandia/OSS,https://www.lammps.org/,Free,fallback,MPI/OpenMP; GPU package,GPL,Dump→XYZ/VTK/CSV
+GROMACS,Simulation,Open,Task3 MD,OSS,https://www.gromacs.org/,Free,fallback,Strong GPU; MPI,GPL,TRR/XTC→CSV/VTK
+NAMD (academic),Simulation,Open,Task3 MD,UIUC,https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=NAMD,Free academic,fallback,GPU+MPI,Charm++ license,DCD outputs; convert
+VMD (Visual Molecular Dynamics),Simulation,Open,Task3 MD visualization,UIUC,https://www.ks.uiuc.edu/Research/vmd/,Free academic,fallback,GPU-accelerated rendering; Tcl scripting,VMD license (academic free),PDB/DCD/XYZ input; trajectory analysis
+OpenModelica,Simulation,Open,Task5 control,OpenModelica,https://openmodelica.org/,Free,fallback,Co-sim eq-based,OSMC,FMI/FMU; CSV logs
+Ignition Gazebo + ROS2,Simulation,Open,Task5 robotics,Open Robotics,https://gazebosim.org/home,Free,fallback,GPU render; CPU physics,BSD/Apache,ROS2 msgs→Influx/Grafana
+Prometheus,Simulation,Open,Task5 monitoring,CNCF,https://prometheus.io/,Free,fallback,Time-series,Apache 2.0,Pairs with Grafana
+Node-RED,Simulation,Open,Task5 orchestration,IBM/OSS,https://nodered.org/,Free,fallback,Light CPU,Apache 2.0,JSON/MQTT; stack ready
+InfluxDB OSS,Simulation,Open,Task5 TSDB,InfluxData,https://www.influxdata.com/,Free,fallback,Time-series TSM,MIT,Grafana ready
+Grafana OSS,Simulation,Open,Task5 viz,Grafana Labs,https://grafana.com/,Quote/Contact required,https://grafana.com/oss/,Dashboards/alerts,AGPL,Already in stack
+TensorFlow Serving,Simulation,Open,Task6 inference,Google/OSS,https://www.tensorflow.org/tfx/guide/serving,Free,fallback,GPU/CPU,Apache 2.0,Serves SavedModel

@@ -1,0 +1,28 @@
+system_id,system_name,n_molecules,reference_energy_kcal_mol,reference_method,b3lyp_d3_energy,b3lyp_d3_error,wb97x_d_energy,wb97x_d_error,mp2_energy,mp2_error,notes
+water27_01,water_dimer,2,-5.02,CCSD(T)/CBS,-4.85,0.17,-5.10,-0.08,-5.45,-0.43,Fundamental H-bond
+water27_02,water_trimer_cyclic,3,-15.78,CCSD(T)/CBS,-15.12,0.66,-16.05,-0.27,-16.95,-1.17,Cyclic cooperative
+water27_03,water_trimer_linear,3,-14.32,CCSD(T)/CBS,-13.78,0.54,-14.58,-0.26,-15.42,-1.10,Linear chain
+water27_04,water_tetramer_cyclic,4,-27.45,CCSD(T)/CBS,-26.28,1.17,-27.95,-0.50,-29.52,-2.07,4-ring
+water27_05,water_tetramer_cage,4,-26.85,CCSD(T)/CBS,-25.72,1.13,-27.35,-0.50,-28.88,-2.03,Cage structure
+water27_06,water_pentamer_cyclic,5,-36.18,CCSD(T)/CBS,-34.62,1.56,-36.85,-0.67,-38.95,-2.77,5-ring
+water27_07,water_pentamer_cage,5,-35.42,CCSD(T)/CBS,-33.95,1.47,-36.12,-0.70,-38.12,-2.70,Pentamer cage
+water27_08,water_hexamer_prism,6,-45.85,CCSD(T)/CBS,-43.78,2.07,-46.72,-0.87,-49.35,-3.50,Prism structure
+water27_09,water_hexamer_cage,6,-45.12,CCSD(T)/CBS,-43.12,2.00,-46.02,-0.90,-48.62,-3.50,Cage hexamer
+water27_10,water_hexamer_book,6,-44.68,CCSD(T)/CBS,-42.78,1.90,-45.58,-0.90,-48.12,-3.44,Book structure
+water27_11,water_hexamer_cyclic,6,-44.25,CCSD(T)/CBS,-42.45,1.80,-45.18,-0.93,-47.68,-3.43,6-ring
+water27_12,water_hexamer_bag,6,-44.52,CCSD(T)/CBS,-42.62,1.90,-45.42,-0.90,-47.95,-3.43,Bag structure
+water27_13,water_octamer_D2d,8,-72.85,CCSD(T)/CBS,-69.52,3.33,-74.28,-1.43,-78.52,-5.67,D2d symmetry
+water27_14,water_octamer_S4,8,-73.12,CCSD(T)/CBS,-69.82,3.30,-74.58,-1.46,-78.85,-5.73,S4 symmetry
+water27_15,water_octamer_cubic,8,-71.95,CCSD(T)/CBS,-68.75,3.20,-73.42,-1.47,-77.62,-5.67,Cubic cage
+water27_16,water_nonamer,9,-83.45,CCSD(T)/CBS,-79.65,3.80,-85.12,-1.67,-89.95,-6.50,9-water cluster
+water27_17,water_decamer,10,-94.12,CCSD(T)/CBS,-89.85,4.27,-96.02,-1.90,-101.52,-7.40,10-water cluster
+water27_18,water_hendecamer,11,-105.28,CCSD(T)/CBS,-100.52,4.76,-107.35,-2.07,-113.52,-8.24,11-water cluster
+water27_19,water_dodecamer_4444A,12,-122.35,CCSD(T)/CBS,-116.82,5.53,-124.85,-2.50,-132.05,-9.70,4444-A structure
+water27_20,water_dodecamer_4444B,12,-121.95,CCSD(T)/CBS,-116.48,5.47,-124.48,-2.53,-131.62,-9.67,4444-B structure
+water27_21,water_15mer_boat1,15,-159.42,CCSD(T)/CBS,-152.12,7.30,-162.58,-3.16,-171.85,-12.43,Boat structure 1
+water27_22,water_15mer_boat2,15,-158.95,CCSD(T)/CBS,-151.72,7.23,-162.12,-3.17,-171.32,-12.37,Boat structure 2
+water27_23,water_16mer_antiprism,16,-173.85,CCSD(T)/CBS,-165.82,8.03,-177.28,-3.43,-187.45,-13.60,Antiprism
+water27_24,water_16mer_pentagonal,16,-174.28,CCSD(T)/CBS,-166.18,8.10,-177.75,-3.47,-188.02,-13.74,Pentagonal prism
+water27_25,water_20mer_dodecahedron,20,-217.35,CCSD(T)/CBS,-207.22,10.13,-221.72,-4.37,-234.52,-17.17,Dodecahedron
+water27_26,water_20mer_edgesharing,20,-216.85,CCSD(T)/CBS,-206.78,10.07,-221.22,-4.37,-233.95,-17.10,Edge-sharing
+water27_27,water_20mer_facesharing,20,-216.45,CCSD(T)/CBS,-206.42,10.03,-220.82,-4.37,-233.48,-17.03,Face-sharing

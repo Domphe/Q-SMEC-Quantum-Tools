@@ -1,0 +1,21 @@
+Tool,Category,License,Task,Vendor,Homepage,Price,PriceSource,Performance,Accessibility,Integration
+VASP (academic) ,Model,Open,Task1 DFT,VASPKIT/VASP Team,https://www.vasp.at/,Academic license fee (not OSS),fallback,MPI; no official GPU,Academic source-available,POSCAR/OUTCAR native
+Quantum ESPRESSO,Model,Open,Task1 DFT,QE Team,https://www.quantum-espresso.org/,Free,fallback,MPI+OpenMP; some GPU,GPLv2,CIF/POSCAR via pw tools; pymatgen
+ORCA,Model,Open,Task1 QC/DFT,ORCA Team,https://orcaforum.kofo.mpg.de/,Free academic,fallback,Good CPU parallel,Free for academics,molden→ASE
+Psi4,Model,Open,Task1 QC/DFT,Psi4 Team,https://psicode.org/,Free,fallback,CPU parallel,Apache 2.0,QCSchema/ASE
+CP2K,Model,Open,Task1 DFT/MD,CP2K Team,https://www.cp2k.org/,Free,fallback,Excellent mixed GPW; GPU,GPL,ASE-native
+ABINIT,Model,Open,Task1 DFT,ABINIT Team,https://www.abinit.org/,Free,fallback,MPI/OpenMP; some GPU,GPL,NetCDF→pymatgen
+SIESTA,Model,Open,Task1 DFT,SIESTA Team,https://siesta-project.org/,Free,fallback,Localized basis; low cost,LGPL,XSF/STRUCT; ASE
+NWChem,Model,Open,Task1 QC/DFT,NWChem Team,https://nwchemgit.github.io/,Free,fallback,MPI/OpenMP,ECL 2.0,Various text I/O; ASE
+JDFTx,Model,Open,Task1 DFT,JDFTx Team,https://jdftx.org/,Free,fallback,CPU+GPU (OpenCL/CUDA),GPL-like,cube outputs; pymatgen
+BigDFT,Model,Open,Task1 DFT,BigDFT Team,https://bigdft.org/,Free,fallback,Wavelets; GPU builds,WTFPL/GPL,XSF/cube; ASE
+CP2K + DeePMD-kit,Model,Open,Task1/2 ML potentials,CP2K/DeePMD,https://www.cp2k.org/,Quote/Contact required,https://github.com/deepmodeling/deepmd-kit,GPU acceleration; fast inference,LGPL/BSD,LAMMPS/CP2K integration
+Qiskit Nature,Model,Open,Task1 exploratory QC,IBM/OSS,https://qiskit.org/ecosystem/nature/,Free,fallback,QC simulators; small systems,Apache 2.0,Python JSON results
+scikit-learn,Model,Open,Task2 ML,OSS,https://scikit-learn.org/,Quote/Contact required,https://scikit-learn.org/stable/,CPU/GPU via add-ons,BSD,Pickle/ONNX; TF via skl2onnx
+TensorFlow,Model,Open,Task2 ML,Google/OSS,https://www.tensorflow.org/,Free,fallback,GPU/TPU,Apache 2.0,SavedModel; TF Serving
+PyTorch,Model,Open,Task2 ML,Meta/OSS,https://pytorch.org/,Free,fallback,GPU/CPU,BSD,ONNX; TF via ONNX→TF
+Optuna,Model,Open,Task2 BO,OSS,https://optuna.org/,Free,fallback,Light CPU,MIT,JSON/CSV studies
+IBM Qiskit,Model,Open,Task1 Quantum circuits,IBM/OSS,https://qiskit.org/,Free SDK,fallback,QC simulator; cloud access variable,Apache 2.0,Python API; QASM format
+Google Cirq,Model,Open,Task1 Quantum circuits,Google/OSS,https://quantumai.google/cirq,Free SDK,fallback,TensorFlow native; NISQ-optimized,Apache 2.0,Python API; JSON serialization
+Amazon Braket,Model,Open,Task1 Quantum hybrid,Amazon,https://aws.amazon.com/braket/,Free SDK + $4.50/hr hardware,fallback,Multi-vendor access; cloud-native,Proprietary SDK; free tier,Python SDK; OpenQASM
+MOPAC (Free Core),Model,Open,Task1 Semi-empirical QC,MOPAC Team,http://openmopac.net/,Free core,fallback,Ultra-fast (seconds/molecules),Artistic License 2.0,MOP/MOL format

@@ -1,0 +1,364 @@
+{
+  "version": "2025.10",
+  "sectors": [
+    {
+      "name": "Chemical",
+      "sources": [
+        {
+          "id": "EPA_TRI",
+          "url": "https://enviro.epa.gov/enviro/efservice/tri_facility/rows/0:99/JSON",
+          "auth": null,
+          "notes": "TRI facility sample; filter by state, chemical as needed",
+          "schema": [
+            "TRIFID",
+            "FACILITY_NAME",
+            "CITY",
+            "STATE",
+            "LATITUDE",
+            "LONGITUDE"
+          ]
+        },
+        {
+          "id": "EPA_ECHO",
+          "url": "https://echo.epa.gov/tools/web-services/facility-search",
+          "auth": null,
+          "notes": "ECHO search API; requires query params",
+          "schema": []
+        },
+        {
+          "id": "OSHA_Establishment",
+          "url": "https://data.dol.gov/get/inspection",
+          "auth": null,
+          "notes": "OSHA inspections; use filters for chemical programs",
+          "schema": []
+        }
+      ]
+    },
+    {
+      "name": "Commercial Facilities",
+      "sources": [
+        {
+          "id": "Census_CBP",
+          "url": "https://api.census.gov/data/timeseries/cbp?get=geo_id,naics2017,emp&time=2021&key=${CENSUS_KEY}",
+          "auth": "CENSUS_KEY",
+          "notes": "County Business Patterns",
+          "schema": [
+            "geo_id",
+            "naics2017",
+            "emp",
+            "time"
+          ]
+        },
+        {
+          "id": "HIFLD_Facilities",
+          "url": "https://hifld-geoplatform.opendata.arcgis.com/",
+          "auth": null,
+          "notes": "Portal with multiple feature services",
+          "schema": []
+        }
+      ]
+    },
+    {
+      "name": "Communications",
+      "sources": [
+        {
+          "id": "FCC_Broadband",
+          "url": "https://opendata.fcc.gov/resource/ykms-bh5e.json?$limit=100",
+          "auth": "FCC_APP_TOKEN(optional)",
+          "notes": "Fixed broadband deployment",
+          "schema": []
+        },
+        {
+          "id": "NTIA_Broadband",
+          "url": "https://api.geoplatform.gov/",
+          "auth": null,
+          "notes": "National Telecommunications datasets are published via GeoPlatform",
+          "schema": []
+        }
+      ]
+    },
+    {
+      "name": "Critical Manufacturing",
+      "sources": [
+        {
+          "id": "BEA_IndustryGDP",
+          "url": "https://apps.bea.gov/api/data/industry/IoGDPbyInd?UserID=${BEA_KEY}&Year=2023&tableID=5&frequency=A&resultFormat=JSON",
+          "auth": "BEA_KEY",
+          "notes": "GDP by industry",
+          "schema": []
+        },
+        {
+          "id": "BLS_Employment",
+          "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CEU3000000001",
+          "auth": "BLS_KEY(optional)",
+          "notes": "Manufacturing employment series",
+          "schema": []
+        }
+      ]
+    },
+    {
+      "name": "Dams",
+      "sources": [
+        {
+          "id": "USGS_WaterServices",
+          "url": "https://waterservices.usgs.gov/nwis/site/?format=json&stateCd=az&hasDataTypeCd=iv&siteType=LK,RES",
+          "auth": null,
+          "notes": "Sites for lakes/reservoirs",
+          "schema": [
+            "sourceInfo",
+            "timeSeries"
+          ]
+        },
+        {
+          "id": "FEMA_NFHL",
+          "url": "https://hazards.fema.gov/nfhl/rest/services/public/NFHL/MapServer",
+          "auth": null,
+          "notes": "MapServer with dam-related layers",
+          "schema": []
+        }
+      ]
+    },
+    {
+      "name": "Defense Industrial Base",
+      "sources": [
+        {
+          "id": "USAspending_Contracts",
+          "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+          "auth": null,
+          "notes": "POST endpoint; use filters for DoD",
+          "schema": []
+        },
+        {
+          "id": "SAM_Entities",
+          "url": "https://api.sam.gov/entity-information/v3/entities?api_key=${SAM_API_KEY}",
+          "auth": "SAM_API_KEY",
+          "notes": "Entity registry",
+          "schema": []
+        }
+      ]
+    },
+    {
+      "name": "Emergency Services",
+      "sources": [
+        {
+          "id": "FEMA_DisasterDecl",
+          "url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$top=100",
+          "auth": null,
+          "notes": "OpenFEMA v2 JSON API",
+          "schema": [
+            "disasterNumber",
+            "state",
+            "declarationDate",
+            "incidentType"
+          ]
+        },
+        {
+          "id": "HIFLD_FireStations",
+          "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Fire_Stations/FeatureServer/0/query?where=1%3D1&outFields=*&f=json&resultRecordCount=100",
+          "auth": null,
+          "notes": "Sample fire stations layer",
+          "schema": [
+            "features"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Energy",
+      "sources": [
+        {
+          "id": "EIA_Electricity",
+          "url": "https://api.eia.gov/series/?api_key=${EIA_API_KEY}&series_id=ELEC.GEN.ALL-AZ-99.A",
+          "auth": "EIA_API_KEY",
+          "notes": "AZ electricity generation series",
+          "schema": [
+            "series"
+          ]
+        },
+        {
+          "id": "NREL_AltFuels",
+          "url": "https://developer.nrel.gov/api/alt-fuel-stations/v1.json?api_key=${NREL_API_KEY}&fuel_type=ELEC&state=AZ&limit=50",
+          "auth": "NREL_API_KEY",
+          "notes": "Alt fuel stations",
+          "schema": [
+            "fuel_stations"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Financial Services",
+      "sources": [
+        {
+          "id": "FDIC_Banks",
+          "url": "https://banks.data.fdic.gov/api/institutions?format=json&limit=100",
+          "auth": null,
+          "notes": "FDIC institutions",
+          "schema": [
+            "data"
+          ]
+        },
+        {
+          "id": "FRED_Series",
+          "url": "https://api.stlouisfed.org/fred/series/observations?series_id=TOTLL&api_key=${FRED_KEY}&file_type=json",
+          "auth": "FRED_KEY",
+          "notes": "Aggregate series example",
+          "schema": [
+            "observations"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Food and Agriculture",
+      "sources": [
+        {
+          "id": "USDA_NASS",
+          "url": "https://quickstats.nass.usda.gov/api/api_GET/?key=${USDA_NASS_KEY}&commodity_desc=CORN&year__GE=2022&format=json",
+          "auth": "USDA_NASS_KEY",
+          "notes": "QuickStats",
+          "schema": [
+            "data"
+          ]
+        },
+        {
+          "id": "USDA_FoodSecurity",
+          "url": "https://api.ers.usda.gov/data/arms/foodsecurity?api_key=${USDA_NASS_KEY}",
+          "auth": "USDA_NASS_KEY",
+          "notes": "ERS API sample",
+          "schema": []
+        }
+      ]
+    },
+    {
+      "name": "Government Facilities",
+      "sources": [
+        {
+          "id": "GSA_RealProperty",
+          "url": "https://services.realpropertyprofile.gov/api/public/1.0/properties?size=100",
+          "auth": null,
+          "notes": "GSA RPP public API",
+          "schema": [
+            "properties"
+          ]
+        },
+        {
+          "id": "HIFLD_GovFacilities",
+          "url": "https://hifld-geoplatform.opendata.arcgis.com/",
+          "auth": null,
+          "notes": "Portal index",
+          "schema": []
+        }
+      ]
+    },
+    {
+      "name": "Healthcare and Public Health",
+      "sources": [
+        {
+          "id": "HHS_Protect_Hospitals",
+          "url": "https://protect-public.hhs.gov/api/v1/hospital/summary?limit=100",
+          "auth": null,
+          "notes": "Hospital capacity summary",
+          "schema": [
+            "results"
+          ]
+        },
+        {
+          "id": "OpenFDA_AdverseEvents",
+          "url": "https://api.fda.gov/drug/event.json?search=receivedate:[20200101+TO+20251231]&limit=100",
+          "auth": null,
+          "notes": "Drug adverse events",
+          "schema": [
+            "results"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Information Technology",
+      "sources": [
+        {
+          "id": "NIST_NVD",
+          "url": "https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=100",
+          "auth": null,
+          "notes": "CVE feed",
+          "schema": [
+            "vulnerabilities"
+          ]
+        },
+        {
+          "id": "CISA_KEV",
+          "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+          "auth": null,
+          "notes": "Known exploited vulns",
+          "schema": [
+            "vulnerabilities"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nuclear Reactors, Materials, and Waste",
+      "sources": [
+        {
+          "id": "NRC_ReactorStatus",
+          "url": "https://www.nrc.gov/reading-rm/doc-collections/event-status/reactor-status.json",
+          "auth": null,
+          "notes": "Reactor status JSON",
+          "schema": [
+            "plants"
+          ]
+        },
+        {
+          "id": "DOE_Waste",
+          "url": "https://www.energy.gov/open-data",
+          "auth": null,
+          "notes": "Catalog portal; scrape dataset APIs as needed",
+          "schema": []
+        }
+      ]
+    },
+    {
+      "name": "Transportation Systems",
+      "sources": [
+        {
+          "id": "DOT_BTS",
+          "url": "https://data.transportation.gov/resource/ak8m-7f8u.json?$limit=100",
+          "auth": null,
+          "notes": "BTS example dataset",
+          "schema": []
+        },
+        {
+          "id": "FAA_Airports",
+          "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Airport_Runways/FeatureServer/0/query?where=1%3D1&outFields=*&f=json&resultRecordCount=100",
+          "auth": null,
+          "notes": "ArcGIS feature service",
+          "schema": [
+            "features"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Water and Wastewater Systems",
+      "sources": [
+        {
+          "id": "EPA_SDWIS",
+          "url": "https://data.epa.gov/efservice/SDWIS/ROWS/0:99/JSON",
+          "auth": null,
+          "notes": "Drinking water compliance",
+          "schema": []
+        },
+        {
+          "id": "USGS_WaterQuality",
+          "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=09492400",
+          "auth": null,
+          "notes": "Instantaneous values example",
+          "schema": [
+            "value"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+harvesters:
+  publishers:
+    - id: mcquarrie_statistical_mechanics
+      title: "Statistical Mechanics"
+      author: "McQuarrie"
+      url: null
+      allowed_content: metadata_only
+      trust_tier: A
+      
+    - id: levine_quantum_chemistry
+      title: "Quantum Chemistry"
+      author: "Levine"
+      url: null
+      allowed_content: metadata_only
+      trust_tier: A
+      
+    - id: szabo_ostlund
+      title: "Modern Quantum Chemistry"
+      author: "Szabo & Ostlund"
+      url: null
+      allowed_content: metadata_only
+      trust_tier: A
+      
+    - id: helgaker_molecular_electronic_structure
+      title: "Molecular Electronic-Structure Theory"
+      author: "Helgaker, Jørgensen, Olsen"
+      url: null
+      allowed_content: metadata_only
+      trust_tier: A
+      
+  gov_databases:
+    - id: nist_cccbdb
+      title: "NIST Computational Chemistry Comparison and Benchmark Database"
+      url: "https://cccbdb.nist.gov/"
+      allowed_content: full_open_content
+      trust_tier: A
+      
+    - id: nist_asd
+      title: "NIST Atomic Spectra Database"
+      url: "https://physics.nist.gov/PhysRefData/ASD/index.html"
+      allowed_content: full_open_content
+      trust_tier: A
+      
+    - id: nist_constants
+      title: "NIST Fundamental Physical Constants"
+      url: "https://physics.nist.gov/cuu/Constants/"
+      allowed_content: full_open_content
+      trust_tier: A
+      
+  journals:
+    - id: jcp
+      title: "Journal of Chemical Physics"
+      api: crossref
+      allowed_content: metadata_and_abstracts
+      trust_tier: A
+      filters:
+        domain: quantum_chemistry
+        max_year: 2025
+        trusted_publishers:
+          - American Institute of Physics
+      
+    - id: jctc
+      title: "Journal of Chemical Theory and Computation"
+      api: crossref
+      allowed_content: metadata_and_abstracts
+      trust_tier: A
+      filters:
+        domain: quantum_chemistry
+        max_year: 2025
+        trusted_publishers:
+          - American Chemical Society
+      
+  open_source_docs:
+    - id: psi4
+      title: "Psi4 Documentation"
+      url: "https://psicode.org/psi4manual/master/"
+      allowed_content: full_open_content
+      trust_tier: B
+      
+    - id: cp2k
+      title: "CP2K Documentation"
+      url: "https://www.cp2k.org/"
+      allowed_content: full_open_content
+      trust_tier: B
+      
+    - id: quantum_espresso
+      title: "Quantum ESPRESSO Documentation"
+      url: "https://www.quantum-espresso.org/"
+      allowed_content: full_open_content
+      trust_tier: B
+      
+    - id: pyscf
+      title: "PySCF Documentation"
+      url: "https://pyscf.org/"
+      allowed_content: full_open_content
+      trust_tier: B
+      
+    - id: nwchem
+      title: "NWChem Documentation"
+      url: "https://nwchemgit.github.io/"
+      allowed_content: full_open_content
+      trust_tier: B
+      
+  quantum_computing:
+    # Kept for QP tooling but constrained to documentation only; still within QC/QP scope
+    - id: qiskit
+      title: "Qiskit Documentation"
+      url: "https://qiskit.org/documentation/"
+      allowed_content: full_open_content
+      trust_tier: B
+    - id: cirq
+      title: "Cirq Documentation"
+      url: "https://quantumai.google/cirq"
+      allowed_content: full_open_content
+      trust_tier: B
+    - id: pennylane
+      title: "PennyLane Documentation"
+      url: "https://pennylane.ai/"
+      allowed_content: full_open_content
+      trust_tier: B
+      
+  courses:
+    - id: mit_ocw_8_04
+      title: "MIT OCW 8.04 Quantum Physics I"
+      url: "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016/"
+      allowed_content: full_open_content
+      trust_tier: B
+      
+  local_databases:
+    base_path: "G:/My Drive/Databases"
+    subfolders:
+      - "Scientific"
+      - "Quantum AI DB _ Tools"
+    allowed_content: full_open_content
+    trust_tier: C
+    filters:
+      domains:
+        - quantum_chemistry
+        - quantum_physics
+      exclude_patterns:
+        - "DHS*"
+        - "*Market Segmentation*"
+        - "*AI Tools*"

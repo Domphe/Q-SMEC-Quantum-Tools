@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "run_id": "hydrocube_20251029",
+    "date": "2025-10-29",
+    "license": "Apache-2.0 for these JSON specs; external sources retain their own licenses",
+    "provenance": {
+      "primary_input_pdf": "Hydro Concept Final .pdf",
+      "citations": [
+        "fileciteturn9file8L1-L20"
+      ]
+    },
+    "constraints": [
+      "No assumptions. No sample numbers. Use only verified, dated, citable sources and official APIs.",
+      "If data is not publicly verifiable, mark as UNKNOWN and stop that branch.",
+      "Prefer primary sources and official APIs over secondary summaries.",
+      "Every output must include source_url, publisher, doc_date, accessed_date, and checksum_sha256 for any downloaded artifact."
+    ],
+    "orchestration": {
+      "spawn_mode": "concurrent_predeclared",
+      "max_agents": 64,
+      "token_budget_policy": "controller_enforces_streaming_chunking",
+      "retry_policy": {
+        "max_retries": 2,
+        "backoff": "exponential"
+      }
+    }
+  },
+  "schemas": {
+    "evidence_register": {
+      "fields": [
+        "claim_id",
+        "topic",
+        "verbatim_quote",
+        "normalized_fact",
+        "unit",
+        "value",
+        "method",
+        "source_url",
+        "source_title",
+        "publisher",
+        "source_type",
+        "doc_date",
+        "accessed_date",
+        "api_endpoint",
+        "api_params",
+        "checksum_sha256",
+        "notes"
+      ],
+      "rules": [
+        "no empty source_url",
+        "if value present then unit required",
+        "verbatim_quote required unless purely computational derivation with cited equation"
+      ]
+    },
+    "source_manifest": {
+      "fields": [
+        "source_url",
+        "publisher",
+        "doc_date",
+        "accessed_date",
+        "bytes",
+        "checksum_sha256",
+        "mime_type",
+        "status_code"
+      ]
+    }
+  },
+  "policies": {
+    "block_uncited": true,
+    "require_checksums": true,
+    "conflict_policy": "present_both_with_dates"
+  },
+  "processors": [
+    {
+      "name": "SchemaCheck",
+      "on": "all_tables"
+    },
+    {
+      "name": "ChecksumVerify",
+      "on": "downloads"
+    },
+    {
+      "name": "CitationEnforcer",
+      "on": "facts"
+    },
+    {
+      "name": "UnitNormalization",
+      "on": "metrics"
+    }
+  ]
+}

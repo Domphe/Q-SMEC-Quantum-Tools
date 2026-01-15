@@ -1,0 +1,20 @@
+
+version: '3.9'
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+
+  dashboard:
+    image: python:3.10
+    working_dir: /app
+    command: streamlit run dashboard/run_dashboard.py
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    depends_on:
+      - api

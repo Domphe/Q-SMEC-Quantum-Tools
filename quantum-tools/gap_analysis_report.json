@@ -1,0 +1,36 @@
+{
+  "installed_count": 15,
+  "missing_pip_count": 12,
+  "missing_system_count": 22,
+  "installed_packages": [
+    "qiskit",
+    "qiskit-nature",
+    "qiskit-aer",
+    "cirq",
+    "pennylane",
+    "pennylane-qiskit",
+    "tensorflow",
+    "torch",
+    "scikit-learn",
+    "keras",
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "sympy"
+  ],
+  "missing_pip_packages": [
+    "qiskit-ibmq-provider",
+    "pyquil",
+    "projectq",
+    "amazon-braket-sdk",
+    "optuna",
+    "psi4",
+    "ase",
+    "pymatgen",
+    "deepmd-kit",
+    "gmsh",
+    "lammps",
+    "influxdb-client"
+  ]
+}

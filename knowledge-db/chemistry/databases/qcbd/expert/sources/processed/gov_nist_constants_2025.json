@@ -1,0 +1,29 @@
+{
+  "source_id": "gov_nist_constants_2025",
+  "title": "NIST Fundamental Physical Constants",
+  "category": "government",
+  "fetched_at": "2025-12-03T11:36:42.533591",
+  "hash": "f56918ad6cd6e95e27c93258380bd06f04056d1413d2124e6a075c0a5b64bf2b",
+  "facts": [
+    {
+      "type": "keyword_presence",
+      "keyword": "correlation",
+      "context_excerpt": "..."
+    }
+  ],
+  "equations": [],
+  "citations": [
+    {
+      "source_id": "gov_nist_constants_2025",
+      "key": "5f68a48f26",
+      "title": "NIST Fundamental Physical Constants",
+      "year": 2025
+    }
+  ],
+  "quality": {
+    "confidence_score": 42,
+    "category": "government",
+    "fact_count": 1
+  },
+  "warnings": []
+}

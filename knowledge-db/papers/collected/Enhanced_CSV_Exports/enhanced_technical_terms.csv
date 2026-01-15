@@ -1,0 +1,31 @@
+id,term,category,frequency,source_folders,definition,related_terms,importance_score
+1,quantum,quantum_terms,1616,"[""Multiple""]",,,1.0
+2,quantum sensors,quantum_terms,1616,"[""Multiple""]",,,1.0
+3,quantum computing,quantum_terms,1616,"[""Multiple""]",,,1.0
+4,quantum field,quantum_terms,1616,"[""Multiple""]",,,1.0
+5,qubits,quantum_terms,1616,"[""Multiple""]",,,1.0
+6,sensor,sensor_terms,1721,"[""Multiple""]",,,1.0
+7,detector,sensor_terms,1721,"[""Multiple""]",,,1.0
+8,mems,sensor_terms,1721,"[""Multiple""]",,,1.0
+9,pressure sensor,sensor_terms,1721,"[""Multiple""]",,,1.0
+10,gyroscope,sensor_terms,1721,"[""Multiple""]",,,1.0
+11,filtering,signal_processing,310,"[""Multiple""]",,,1.0
+12,snr,signal_processing,310,"[""Multiple""]",,,1.0
+13,signal-to-noise,signal_processing,310,"[""Multiple""]",,,1.0
+14,bandwidth,signal_processing,310,"[""Multiple""]",,,1.0
+15,signal processing,signal_processing,310,"[""Multiple""]",,,1.0
+16,prussian blue,materials,157,"[""Multiple""]",,,1.0
+17,metamaterials,materials,157,"[""Multiple""]",,,1.0
+18,graphene,materials,157,"[""Multiple""]",,,1.0
+19,semiconductors,materials,157,"[""Multiple""]",,,1.0
+20,superconductors,materials,157,"[""Multiple""]",,,1.0
+21,defense,applications,1238,"[""Multiple""]",,,1.0
+22,radar,applications,1238,"[""Multiple""]",,,1.0
+23,industrial,applications,1238,"[""Multiple""]",,,1.0
+24,automotive,applications,1238,"[""Multiple""]",,,1.0
+25,lidar,applications,1238,"[""Multiple""]",,,1.0
+26,energy,infrastructure_sectors,2324,"[""Multiple""]",,,1.0
+27,chemical,infrastructure_sectors,2324,"[""Multiple""]",,,1.0
+28,water,infrastructure_sectors,2324,"[""Multiple""]",,,1.0
+29,communications,infrastructure_sectors,2324,"[""Multiple""]",,,1.0
+30,transportation,infrastructure_sectors,2324,"[""Multiple""]",,,1.0

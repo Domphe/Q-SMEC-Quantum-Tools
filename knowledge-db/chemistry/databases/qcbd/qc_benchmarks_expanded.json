@@ -1,0 +1,294 @@
+[
+  {
+    "id": "benchmark_s22",
+    "name": "S22 Set",
+    "description": "Noncovalent interaction benchmark.",
+    "systems": [
+      "hydrogen bonds",
+      "dispersion complexes"
+    ],
+    "long_explanation": "S22 Set is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+    "gold_standard_method": "CCSD(T)/CBS",
+    "recommended_testing_methods": [
+      "DFT",
+      "MP2",
+      "CCSD variants",
+      "semiempirical tests"
+    ],
+    "common_pitfalls": [
+      "Basis set inconsistency",
+      "Missing dispersion",
+      "Incorrect geometry reference"
+    ],
+    "faq": [
+      {
+        "q": "What is the purpose of this benchmark?",
+        "a": "It tests theoretical method reliability."
+      },
+      {
+        "q": "How is performance evaluated?",
+        "a": "Using statistical metrics against reference energies."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "benchmark",
+      "QC"
+    ]
+  },
+  {
+    "id": "benchmark_s66",
+    "name": "S66 Set",
+    "description": "Expanded noncovalent interaction database.",
+    "systems": [
+      "\u03c0-stacking",
+      "H-bonding"
+    ],
+    "long_explanation": "S66 Set is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+    "gold_standard_method": "CCSD(T)/CBS",
+    "recommended_testing_methods": [
+      "DFT",
+      "MP2",
+      "CCSD variants",
+      "semiempirical tests"
+    ],
+    "common_pitfalls": [
+      "Basis set inconsistency",
+      "Missing dispersion",
+      "Incorrect geometry reference"
+    ],
+    "faq": [
+      {
+        "q": "What is the purpose of this benchmark?",
+        "a": "It tests theoretical method reliability."
+      },
+      {
+        "q": "How is performance evaluated?",
+        "a": "Using statistical metrics against reference energies."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "benchmark",
+      "QC"
+    ]
+  },
+  {
+    "id": "benchmark_water27",
+    "name": "WATER27",
+    "description": "Water cluster interaction energies.",
+    "systems": [
+      "water dimers",
+      "hexamers"
+    ],
+    "long_explanation": "WATER27 is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+    "gold_standard_method": "CCSD(T)/CBS",
+    "recommended_testing_methods": [
+      "DFT",
+      "MP2",
+      "CCSD variants",
+      "semiempirical tests"
+    ],
+    "common_pitfalls": [
+      "Basis set inconsistency",
+      "Missing dispersion",
+      "Incorrect geometry reference"
+    ],
+    "faq": [
+      {
+        "q": "What is the purpose of this benchmark?",
+        "a": "It tests theoretical method reliability."
+      },
+      {
+        "q": "How is performance evaluated?",
+        "a": "Using statistical metrics against reference energies."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "benchmark",
+      "QC"
+    ]
+  },
+  {
+    "id": "benchmark_x40x10",
+    "name": "X40x10",
+    "description": "Noncovalent interactions of halogenated molecules.",
+    "systems": [
+      "halogen bonds"
+    ],
+    "long_explanation": "X40x10 is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+    "gold_standard_method": "CCSD(T)/CBS",
+    "recommended_testing_methods": [
+      "DFT",
+      "MP2",
+      "CCSD variants",
+      "semiempirical tests"
+    ],
+    "common_pitfalls": [
+      "Basis set inconsistency",
+      "Missing dispersion",
+      "Incorrect geometry reference"
+    ],
+    "faq": [
+      {
+        "q": "What is the purpose of this benchmark?",
+        "a": "It tests theoretical method reliability."
+      },
+      {
+        "q": "How is performance evaluated?",
+        "a": "Using statistical metrics against reference energies."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "benchmark",
+      "QC"
+    ]
+  },
+  {
+    "id": "benchmark_bh76",
+    "name": "BH76 Set",
+    "description": "Reaction barrier heights benchmark.",
+    "systems": [
+      "pericyclic reactions",
+      "radical reactions"
+    ],
+    "long_explanation": "BH76 Set is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+    "gold_standard_method": "CCSD(T)/CBS",
+    "recommended_testing_methods": [
+      "DFT",
+      "MP2",
+      "CCSD variants",
+      "semiempirical tests"
+    ],
+    "common_pitfalls": [
+      "Basis set inconsistency",
+      "Missing dispersion",
+      "Incorrect geometry reference"
+    ],
+    "faq": [
+      {
+        "q": "What is the purpose of this benchmark?",
+        "a": "It tests theoretical method reliability."
+      },
+      {
+        "q": "How is performance evaluated?",
+        "a": "Using statistical metrics against reference energies."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "benchmark",
+      "QC"
+    ]
+  },
+  {
+    "id": "benchmark_mobh35",
+    "name": "MOBH35",
+    "description": "Transition metal reaction barrier dataset.",
+    "systems": [
+      "organometallic TS"
+    ],
+    "long_explanation": "MOBH35 is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+    "gold_standard_method": "CCSD(T)/CBS",
+    "recommended_testing_methods": [
+      "DFT",
+      "MP2",
+      "CCSD variants",
+      "semiempirical tests"
+    ],
+    "common_pitfalls": [
+      "Basis set inconsistency",
+      "Missing dispersion",
+      "Incorrect geometry reference"
+    ],
+    "faq": [
+      {
+        "q": "What is the purpose of this benchmark?",
+        "a": "It tests theoretical method reliability."
+      },
+      {
+        "q": "How is performance evaluated?",
+        "a": "Using statistical metrics against reference energies."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "benchmark",
+      "QC"
+    ]
+  },
+  {
+    "id": "benchmark_w411",
+    "name": "W4-11",
+    "description": "High-accuracy thermochemistry set.",
+    "systems": [
+      "small molecules"
+    ],
+    "long_explanation": "W4-11 is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+    "gold_standard_method": "CCSD(T)/CBS",
+    "recommended_testing_methods": [
+      "DFT",
+      "MP2",
+      "CCSD variants",
+      "semiempirical tests"
+    ],
+    "common_pitfalls": [
+      "Basis set inconsistency",
+      "Missing dispersion",
+      "Incorrect geometry reference"
+    ],
+    "faq": [
+      {
+        "q": "What is the purpose of this benchmark?",
+        "a": "It tests theoretical method reliability."
+      },
+      {
+        "q": "How is performance evaluated?",
+        "a": "Using statistical metrics against reference energies."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "benchmark",
+      "QC"
+    ]
+  },
+  {
+    "id": "benchmark_gmtkn55",
+    "name": "GMTKN55",
+    "description": "Large-scale benchmark for kinetics & thermochemistry.",
+    "systems": [
+      "55 subsets"
+    ],
+    "long_explanation": "GMTKN55 is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+    "gold_standard_method": "CCSD(T)/CBS",
+    "recommended_testing_methods": [
+      "DFT",
+      "MP2",
+      "CCSD variants",
+      "semiempirical tests"
+    ],
+    "common_pitfalls": [
+      "Basis set inconsistency",
+      "Missing dispersion",
+      "Incorrect geometry reference"
+    ],
+    "faq": [
+      {
+        "q": "What is the purpose of this benchmark?",
+        "a": "It tests theoretical method reliability."
+      },
+      {
+        "q": "How is performance evaluated?",
+        "a": "Using statistical metrics against reference energies."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "benchmark",
+      "QC"
+    ]
+  }
+]

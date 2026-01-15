@@ -1,0 +1,116 @@
+{
+  "path": "QCBD\\expert\\embeddings.db",
+  "tables": [
+    {
+      "name": "embeddings",
+      "columns": [
+        {
+          "name": "entity_id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "searchable_text",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "vector",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "data",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 526,
+      "indexes": [
+        "idx_entity_type",
+        "sqlite_autoindex_embeddings_1"
+      ]
+    },
+    {
+      "name": "documents",
+      "columns": [
+        {
+          "name": "id",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "doc_type",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "title",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "content",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "metadata",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "embedding",
+          "type": "BLOB",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "updated_at",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 42,
+      "indexes": [
+        "sqlite_autoindex_documents_1"
+      ]
+    }
+  ],
+  "generated_at": "2026-01-08T22:28:10.689657"
+}

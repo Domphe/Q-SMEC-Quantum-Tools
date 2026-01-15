@@ -1,0 +1,148 @@
+{
+  "started": "2025-12-03T11:54:52.639351",
+  "steps": [
+    {
+      "script": "materials_register.py",
+      "returncode": 2,
+      "stdout": "",
+      "stderr": "C:\\Users\\domph\\AppData\\Local\\Programs\\Python\\Python312\\python.exe: can't open file 'G:\\\\My Drive\\\\Databases\\\\QCBD\\\\materials_register.py': [Errno 2] No such file or directory\n"
+    },
+    {
+      "script": "deep_research_quantum_fabrication.py",
+      "returncode": 2,
+      "stdout": "",
+      "stderr": "C:\\Users\\domph\\AppData\\Local\\Programs\\Python\\Python312\\python.exe: can't open file 'G:\\\\My Drive\\\\Databases\\\\QCBD\\\\deep_research_quantum_fabrication.py': [Errno 2] No such file or directory\n"
+    },
+    {
+      "script": "company_intelligence_and_manufacturing.py",
+      "returncode": 2,
+      "stdout": "",
+      "stderr": "C:\\Users\\domph\\AppData\\Local\\Programs\\Python\\Python312\\python.exe: can't open file 'G:\\\\My Drive\\\\Databases\\\\QCBD\\\\company_intelligence_and_manufacturing.py': [Errno 2] No such file or directory\n"
+    },
+    {
+      "script": "vendor_research.py",
+      "returncode": 2,
+      "stdout": "",
+      "stderr": "C:\\Users\\domph\\AppData\\Local\\Programs\\Python\\Python312\\python.exe: can't open file 'G:\\\\My Drive\\\\Databases\\\\QCBD\\\\vendor_research.py': [Errno 2] No such file or directory\n"
+    },
+    {
+      "script": "arxiv_alert_system.py",
+      "returncode": 2,
+      "stdout": "",
+      "stderr": "C:\\Users\\domph\\AppData\\Local\\Programs\\Python\\Python312\\python.exe: can't open file 'G:\\\\My Drive\\\\Databases\\\\QCBD\\\\arxiv_alert_system.py': [Errno 2] No such file or directory\n"
+    },
+    {
+      "script": "generate_report_visuals.py",
+      "returncode": 2,
+      "stdout": "",
+      "stderr": "C:\\Users\\domph\\AppData\\Local\\Programs\\Python\\Python312\\python.exe: can't open file 'G:\\\\My Drive\\\\Databases\\\\QCBD\\\\generate_report_visuals.py': [Errno 2] No such file or directory\n"
+    },
+    {
+      "script": "generate_comprehensive_enrichment_report.py",
+      "returncode": 2,
+      "stdout": "",
+      "stderr": "C:\\Users\\domph\\AppData\\Local\\Programs\\Python\\Python312\\python.exe: can't open file 'G:\\\\My Drive\\\\Databases\\\\QCBD\\\\generate_comprehensive_enrichment_report.py': [Errno 2] No such file or directory\n"
+    }
+  ],
+  "versions": [
+    {
+      "tag": "materials_register",
+      "timestamp": "20251203_115453",
+      "copied": [
+        "materials_index.json",
+        "benchmark_log.json",
+        "quantum_sensing_companies_2025.json",
+        "manufacturing_configs_2025.json",
+        "vendor_cost_database.json",
+        "arxiv_digest.json",
+        "report_visuals.html",
+        "report_summary.md"
+      ]
+    },
+    {
+      "tag": "deep_research_quantum_fabrication",
+      "timestamp": "20251203_115454",
+      "copied": [
+        "materials_index.json",
+        "benchmark_log.json",
+        "quantum_sensing_companies_2025.json",
+        "manufacturing_configs_2025.json",
+        "vendor_cost_database.json",
+        "arxiv_digest.json",
+        "report_visuals.html",
+        "report_summary.md"
+      ]
+    },
+    {
+      "tag": "company_intelligence_and_manufacturing",
+      "timestamp": "20251203_115455",
+      "copied": [
+        "materials_index.json",
+        "benchmark_log.json",
+        "quantum_sensing_companies_2025.json",
+        "manufacturing_configs_2025.json",
+        "vendor_cost_database.json",
+        "arxiv_digest.json",
+        "report_visuals.html",
+        "report_summary.md"
+      ]
+    },
+    {
+      "tag": "vendor_research",
+      "timestamp": "20251203_115456",
+      "copied": [
+        "materials_index.json",
+        "benchmark_log.json",
+        "quantum_sensing_companies_2025.json",
+        "manufacturing_configs_2025.json",
+        "vendor_cost_database.json",
+        "arxiv_digest.json",
+        "report_visuals.html",
+        "report_summary.md"
+      ]
+    },
+    {
+      "tag": "arxiv_alert_system",
+      "timestamp": "20251203_115457",
+      "copied": [
+        "materials_index.json",
+        "benchmark_log.json",
+        "quantum_sensing_companies_2025.json",
+        "manufacturing_configs_2025.json",
+        "vendor_cost_database.json",
+        "arxiv_digest.json",
+        "report_visuals.html",
+        "report_summary.md"
+      ]
+    },
+    {
+      "tag": "generate_report_visuals",
+      "timestamp": "20251203_115457",
+      "copied": [
+        "materials_index.json",
+        "benchmark_log.json",
+        "quantum_sensing_companies_2025.json",
+        "manufacturing_configs_2025.json",
+        "vendor_cost_database.json",
+        "arxiv_digest.json",
+        "report_visuals.html",
+        "report_summary.md"
+      ]
+    },
+    {
+      "tag": "generate_comprehensive_enrichment_report",
+      "timestamp": "20251203_115458",
+      "copied": [
+        "materials_index.json",
+        "benchmark_log.json",
+        "quantum_sensing_companies_2025.json",
+        "manufacturing_configs_2025.json",
+        "vendor_cost_database.json",
+        "arxiv_digest.json",
+        "report_visuals.html",
+        "report_summary.md"
+      ]
+    }
+  ],
+  "finished": "2025-12-03T11:54:58.182162"
+}

@@ -1,0 +1,2 @@
+id,run_timestamp,source_catalog_path,total_directories,total_files,total_size_mb
+1,2025-11-17T10:01:20.099174,Databases/data_catalog.yaml,11,9661,260.15999999999997

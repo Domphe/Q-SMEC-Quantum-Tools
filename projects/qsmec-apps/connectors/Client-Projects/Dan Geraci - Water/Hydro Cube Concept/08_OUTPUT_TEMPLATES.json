@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "run_id": "hydrocube_20251029",
+    "date": "2025-10-29",
+    "license": "Apache-2.0 for these JSON specs; external sources retain their own licenses",
+    "provenance": {
+      "primary_input_pdf": "Hydro Concept Final .pdf",
+      "citations": [
+        "fileciteturn9file8L1-L20"
+      ]
+    },
+    "constraints": [
+      "No assumptions. No sample numbers. Use only verified, dated, citable sources and official APIs.",
+      "If data is not publicly verifiable, mark as UNKNOWN and stop that branch.",
+      "Prefer primary sources and official APIs over secondary summaries.",
+      "Every output must include source_url, publisher, doc_date, accessed_date, and checksum_sha256 for any downloaded artifact."
+    ],
+    "orchestration": {
+      "spawn_mode": "concurrent_predeclared",
+      "max_agents": 64,
+      "token_budget_policy": "controller_enforces_streaming_chunking",
+      "retry_policy": {
+        "max_retries": 2,
+        "backoff": "exponential"
+      }
+    }
+  },
+  "docx_templates": {
+    "tech_science_dossier": {
+      "sections": [
+        "Introduction",
+        "Methods",
+        "Results",
+        "Discussion",
+        "Limitations",
+        "Citations"
+      ],
+      "footnote_policy": "every figure has citation URL and accessed_date"
+    },
+    "impl_test_protocol": {
+      "sections": [
+        "Test Environments",
+        "Instrumentation",
+        "Procedures",
+        "Acceptance Criteria",
+        "Risk Register",
+        "Citations"
+      ]
+    },
+    "ip_landscape": {
+      "sections": [
+        "Scope",
+        "Method",
+        "Patent Families",
+        "Claims Themes",
+        "Legal Status",
+        "Citations"
+      ]
+    },
+    "qsmec_integration": {
+      "sections": [
+        "Context",
+        "Placement",
+        "Telemetry Schema",
+        "Data Governance",
+        "Citations"
+      ]
+    }
+  },
+  "xlsx_templates": {
+    "dod_systems_map": {
+      "tabs": [
+        "USMC",
+        "Army_Navy",
+        "SBIR_BAA"
+      ],
+      "validation": {
+        "require_source_url": true,
+        "date_format": "YYYY-MM-DD"
+      }
+    },
+    "market_competitive": {
+      "tabs": [
+        "Vendors",
+        "Competitors",
+        "Segments"
+      ],
+      "validation": {
+        "capacity_L_day_must_be_numeric_if_present": true
+      }
+    }
+  },
+  "csv_templates": {
+    "master_evidence": {
+      "headers": [
+        "claim_id",
+        "topic",
+        "verbatim_quote",
+        "normalized_fact",
+        "unit",
+        "value",
+        "method",
+        "source_url",
+        "publisher",
+        "doc_date",
+        "accessed_date",
+        "checksum_sha256",
+        "notes"
+      ]
+    },
+    "source_manifest": {
+      "headers": [
+        "source_url",
+        "publisher",
+        "doc_date",
+        "accessed_date",
+        "bytes",
+        "checksum_sha256",
+        "mime_type",
+        "status_code"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Q-SMEC Dataset Schema",
+  "type": "object",
+  "required": ["sector","source","retrieved_at","records"],
+  "properties": {
+    "sector": {"type":"string"},
+    "source": {"type":"string"},
+    "retrieved_at": {"type":"string","format":"date-time"},
+    "license": {"type":"string"},
+    "records": {
+      "type":"array",
+      "items": {
+        "type":"object",
+        "required": ["variable","value","unit","geo","timespan"],
+        "properties": {
+          "variable": {"type":"string"},
+          "value": {"type":["number","string","null"]},
+          "unit": {"type":["string","null"]},
+          "geo": {"type":"string"},
+          "timespan": {"type":"string"},
+          "notes": {"type":["string","null"]},
+          "source_url": {"type":["string","null"],"format":"uri"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+
+trusted_domains:
+  government:
+    - "*.gov"
+    - "*.mil"
+    - "*.eu"
+    - "*.europa.eu"
+    - "*.nato.int"
+    - "nso.nato.int"
+    - "bis.doc.gov"
+    - "state.gov"
+    - "nist.gov"
+    - "faa.gov"
+  official:
+    - "iso.org"
+    - "iec.ch"
+    - "sae.org"
+    - "esa.int"
+  open_source:
+    - "arxiv.org"
+    - "spiedigitallibrary.org"
+    - "osapublishing.org"
+    - "nature.com"
+    - "ieee.org"
+    - "springer.com"
+freshness_policy:
+  min_recency_days: 730

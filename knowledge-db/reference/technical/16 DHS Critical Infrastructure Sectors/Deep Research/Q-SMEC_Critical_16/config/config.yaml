@@ -1,0 +1,204 @@
+run_id: "qsmec_critical16_2025_01"
+timezone: "America/Phoenix"
+
+paths:
+  raw: "data/raw"
+  interim: "data/interim"
+  curated: "data/curated"
+  exports: "exports"
+
+sectors_16:
+  - Chemical
+  - Commercial Facilities
+  - Communications
+  - Critical Manufacturing
+  - Dams
+  - Defense Industrial Base
+  - Emergency Services
+  - Energy
+  - Financial Services
+  - Food and Agriculture
+  - Government Facilities
+  - Healthcare and Public Health
+  - Information Technology
+  - Nuclear Reactors, Materials, and Waste
+  - Transportation Systems
+  - Water and Wastewater Systems
+
+validation:
+  min_row_count: 5
+  required_columns:
+    - sector
+    - source
+    - retrieved_at
+    - variable
+    - value
+    - unit
+    - geo
+    - timespan
+    - license
+  enhanced_columns:
+    - time_series         # Array of historical values for longitudinal analysis
+    - geo_level           # 'national', 'state', 'county', 'facility' for geographic granularity
+    - unit_standard       # Standardized SI or common units for cross-sector comparison
+    - schema_version      # Versioning for schema evolution (e.g., "1.1.0")
+    - validation_status   # 'validated', 'pending', 'flagged' for data quality control
+    - retrieved_at_utc    # ISO 8601 timestamp with UTC timezone
+    - cross_ref           # Object linking to related sectors/metrics for macro analysis
+
+# ══════════════════════════════════════════════════════════════════════════════
+# SECTOR-TO-SOURCE MAPPINGS
+# Real, authoritative 2025-current data sources for each DHS sector
+# ══════════════════════════════════════════════════════════════════════════════
+
+sector_sources:
+  Chemical:
+    EPA_Toxics_Release_Inventory:
+      url: "https://data.epa.gov/efservice/TRI_RELEASE_QTY/state_code/equals/CA/rows/0:100/json"
+      variables: ["total_releases", "air_emissions", "water_discharges"]
+      unit: "pounds"
+      notes: "Fixed endpoint with state filter - CA as example"
+    OSHA_Chemical_Exposure:
+      url: "https://data.osha.gov/resource/inspection_current.json?$limit=100"
+      variables: ["inspection_count", "violation_count"]
+      unit: "count"
+  
+  Commercial Facilities:
+    Census_County_Business_Patterns:
+      url: "https://api.census.gov/data/2021/cbp?get=NAME,NAICS2017_LABEL,EMP,ESTAB&for=us:*"
+      variables: ["establishments", "employment"]
+      unit: "count"
+      requires_key: "CENSUS_API_KEY"
+  
+  Communications:
+    FCC_Broadband_Deployment:
+      url: "https://opendata.fcc.gov/resource/hicn-aujz.json?$limit=100"
+      variables: ["broadband_availability", "max_down_speed", "max_up_speed"]
+      unit: "mbps"
+    FCC_Infrastructure_Stats:
+      url: "https://opendata.fcc.gov/resource/j9m6-v8kv.json?$limit=100"
+      variables: ["tower_count", "antenna_count"]
+      unit: "count"
+  
+  Critical Manufacturing:
+    BEA_GDP_by_Industry:
+      url: "https://apps.bea.gov/api/data/?UserID=${BEA_API_KEY}&method=GetData&datasetname=GDPbyIndustry&Year=2023&Industry=31-33&TableID=1&Frequency=A&ResultFormat=JSON"
+      variables: ["gdp_manufacturing", "value_added"]
+      unit: "billions_usd"
+      requires_key: "BEA_API_KEY"
+      notes: "Fixed API key parameter name (UserID)"
+  
+  Dams:
+    USGS_Water_Services:
+      url: "https://waterservices.usgs.gov/nwis/stat/?format=json&statReportType=daily&statType=all&missingData=on&sites=01646500"
+      variables: ["mean_discharge", "peak_discharge", "min_discharge"]
+      unit: "cubic_feet_per_second"
+  
+  Defense Industrial Base:
+    USASpending_Defense_Contracts:
+      url: "https://api.usaspending.gov/api/v2/search/spending_by_award/?filters=%7B%22award_type_codes%22%3A%5B%22A%22%2C%22B%22%2C%22C%22%2C%22D%22%5D%2C%22agencies%22%3A%5B%7B%22type%22%3A%22awarding%22%2C%22tier%22%3A%22toptier%22%2C%22name%22%3A%22Department%20of%20Defense%22%7D%5D%7D&limit=100"
+      variables: ["total_award_amount", "contract_count"]
+      unit: "usd"
+  
+  Emergency Services:
+    FEMA_Disaster_Declarations:
+      url: "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$top=100"
+      variables: ["disaster_count", "incident_type_distribution"]
+      unit: "count"
+      notes: "Updated to v2 API endpoint"
+  
+  Energy:
+    EIA_Electricity_Generation:
+      url: "https://api.eia.gov/v2/electricity/electric-power-operational-data/data/?api_key=${EIA_API_KEY}&frequency=annual&data[0]=generation&facets[sectorid][]=99&start=2023&end=2023&sort[0][column]=period&sort[0][direction]=desc&length=100"
+      variables: ["total_generation", "renewable_generation", "fossil_generation"]
+      unit: "thousand_megawatthours"
+      requires_key: "EIA_API_KEY"
+      notes: "Fixed API key injection in URL"
+    EIA_Energy_Consumption:
+      url: "https://api.eia.gov/v2/total-energy/data/?api_key=${EIA_API_KEY}&frequency=annual&data[0]=value&facets[sectorid][]=CC&start=2023&length=100"
+      variables: ["total_consumption", "sector_breakdown"]
+      unit: "quadrillion_btu"
+      requires_key: "EIA_API_KEY"
+      notes: "Fixed API key injection in URL"
+  
+  Financial Services:
+    FDIC_Bank_Data:
+      url: "https://banks.data.fdic.gov/api/institutions?limit=100&offset=0&sort_by=OFFICES&sort_order=DESC&filters=ACTIVE%3A1"
+      variables: ["total_assets", "total_deposits", "bank_count"]
+      unit: "thousands_usd"
+    Federal_Reserve_Statistics:
+      url: "https://www.federalreserve.gov/datadownload/Output.aspx?rel=H8&filetype=json"
+      variables: ["commercial_bank_assets", "loan_volume"]
+      unit: "billions_usd"
+  
+  Food and Agriculture:
+    USDA_NASS_Quick_Stats:
+      url: "https://quickstats.nass.usda.gov/api/api_GET/?key=${USDA_KEY}&commodity_desc=CORN&year=2023&agg_level_desc=NATIONAL"
+      variables: ["crop_production", "acres_planted", "yield_per_acre"]
+      unit: "bushels"
+      requires_key: "USDA_NASS_KEY"
+    USDA_Food_Security:
+      url: "https://data.nal.usda.gov/api/3/action/datastore_search?resource_id=food-security"
+      variables: ["food_insecurity_rate", "household_count"]
+      unit: "percent"
+  
+  Government Facilities:
+    GSA_Real_Property:
+      url: "https://data.gsa.gov/resource/7gbv-q74b.json?$limit=100"
+      variables: ["building_count", "total_square_footage", "utilization_rate"]
+      unit: "square_feet"
+  
+  Healthcare and Public Health:
+    HHS_Hospital_Capacity:
+      url: "https://healthdata.gov/resource/g62h-syeh.json?$limit=100"
+      variables: ["total_beds", "icu_beds_occupied", "inpatient_bed_utilization"]
+      unit: "count_or_percent"
+    CDC_WONDER_Mortality:
+      url: "https://wonder.cdc.gov/controller/datarequest/D76"
+      variables: ["death_rate", "leading_causes"]
+      unit: "per_100k"
+    OpenFDA_Adverse_Events:
+      url: "https://api.fda.gov/drug/event.json?search=receivedate:[20230101+TO+20231231]&limit=100"
+      variables: ["adverse_event_count", "serious_event_count"]
+      unit: "count"
+      requires_key: "OPENFDA_API_KEY"
+  
+  Information Technology:
+    NIST_NVD_Vulnerabilities:
+      url: "https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=100"
+      variables: ["cve_count", "critical_severity_count", "high_severity_count"]
+      unit: "count"
+    CISA_Known_Exploited_Vulns:
+      url: "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+      variables: ["exploited_vuln_count", "vendor_distribution"]
+      unit: "count"
+  
+  Nuclear Reactors, Materials, and Waste:
+    NRC_Power_Reactor_Status:
+      url: "https://www.nrc.gov/reading-rm/doc-collections/event-status/reactor-status/powerreactorstatusforlast365days.txt"
+      variables: ["operating_reactors", "capacity_factor", "power_output"]
+      unit: "megawatts"
+    DOE_Radioactive_Waste:
+      url: "https://energy.gov/em/office-environmental-management"
+      variables: ["waste_volume", "disposal_sites"]
+      unit: "cubic_meters"
+  
+  Transportation Systems:
+    DOT_BTS_Freight:
+      url: "https://data.bts.gov/resource/ga3i-gdzy.json?$limit=100"
+      variables: ["freight_tonnage", "ton_miles"]
+      unit: "tons"
+    FAA_Airport_Operations:
+      url: "https://aspm.faa.gov/apmdata/api/rawcount/?$limit=100"
+      variables: ["total_operations", "commercial_operations", "delay_minutes"]
+      unit: "count"
+  
+  Water and Wastewater Systems:
+    EPA_SDWIS_Violations:
+      url: "https://data.epa.gov/efservice/VIOLATION/VIOLATION_CODE/TCR/rows/0:100/JSON"
+      variables: ["violation_count", "public_water_systems_count", "population_served"]
+      unit: "count"
+    EPA_Water_Quality:
+      url: "https://www.waterqualitydata.us/data/Station/search?mimeType=json&zip=no"
+      variables: ["monitoring_locations", "sample_count"]
+      unit: "count"

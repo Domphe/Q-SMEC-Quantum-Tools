@@ -1,0 +1,386 @@
+[
+  {
+    "source_file":"Scope of the Q-SMEC Patent_White Paper.docx",
+    "extracted_use_case":"Q-SMEC technology focuses on quantum superconducting sensor materials engineered for high sensitivity, advanced energy storage, and integration into critical infrastructure. AI-assisted design uses elements like Ge, Ga, Nb, Ti, Al, and nitrides to create structures optimized for detection, energy density, and manufacturability. These materials are compatible with modern fabrication methods, minimize SWaP-C, and incorporate security features to meet ITAR, CMMC, and FedRAMP standards. The patent covers material composition, manufacturing processes, device designs, and integration into various applications. 2. Target Applications Across Critical Infrastructure The Q-SMEC technology is directly applicable to all 16 DHS Critical Infrastructure Sectors, enabling transformative advancements in multiple domains:"
+  },
+  {
+    "source_file":"Scope of the Q-SMEC Patent_White Paper.docx",
+    "extracted_use_case":"2. Target Applications Across Critical Infrastructure The Q-SMEC technology is directly applicable to all 16 DHS Critical Infrastructure Sectors, enabling transformative advancements in multiple domains: Defense & Intelligence: Applications include intelligence, surveillance, reconnaissance (ISR), electronic warfare (EW), missile seekers, guidance and navigation systems, hypersonic technologies, directed energy weapons, and space situational awareness. This sector represents a market exceeding $60 billion with a high compound annual growth rate (CAGR) between 6% and 15%."
+  },
+  {
+    "source_file":"Scope of the Q-SMEC Patent_White Paper.docx",
+    "extracted_use_case":"Defense & Intelligence: Applications include intelligence, surveillance, reconnaissance (ISR), electronic warfare (EW), missile seekers, guidance and navigation systems, hypersonic technologies, directed energy weapons, and space situational awareness. This sector represents a market exceeding $60 billion with a high compound annual growth rate (CAGR) between 6% and 15%. Telecom & IT: Integration with 5G\/6G base stations, predictive maintenance for data centers, and security for IoT sensors. Transportation\/Automotive: Advanced driver-assistance systems (ADAS) and autonomous vehicles (AV) leveraging Lidar, radar, optical, infrared, and CO\u2082 sensors, as well as rail and maritime sensor applications. The annual market exceeds $30 billion, with Lidar technologies experiencing a 42% CAGR."
+  },
+  {
+    "source_file":"Scope of the Q-SMEC Patent_White Paper.docx",
+    "extracted_use_case":"Transportation\/Automotive: Advanced driver-assistance systems (ADAS) and autonomous vehicles (AV) leveraging Lidar, radar, optical, infrared, and CO\u2082 sensors, as well as rail and maritime sensor applications. The annual market exceeds $30 billion, with Lidar technologies experiencing a 42% CAGR. Energy & Utilities: Solutions for smart grids, microgrids, fault detection, solar optimization, nuclear monitoring, and battery storage with energy densities between 350 and 450 Wh\/L. The market spans over $100 billion. Manufacturing & Mining: Advanced electromagnetic hybrid sensors for mineral exploration, SCADA systems, automation, and quality control."
+  },
+  {
+    "source_file":"Scope of the Q-SMEC Patent_White Paper.docx",
+    "extracted_use_case":"Q-SMEC sensors deliver significantly better sensitivity, energy density, and SNR than older sensor technologies. Their materials are optimized using AI-driven DOE and advanced computing for extensive simulations. Customization is offered for different sectors and use cases, with a licensing model based on \"Task 4+ instantiations\" and TRL 4\u20139. Exclusive or nonexclusive rights can be defined by sector, geography, or application. 4. Commercialization and Intellectual Property Strategy The commercialization model uses licensing with upfront fees and ongoing royalties, based on sector-specific rights and NPV values from $100 million to $54 billion. Co-investors can join as co-owners during development. NRE is divided into tasks by technology readiness level (TRL 1\u20139), with each use case taking about 54 weeks and costing roughly $770,000."
+  },
+  {
+    "source_file":"Scope of the Q-SMEC Patent_White Paper.docx",
+    "extracted_use_case":"Q-SMEC sensors deliver significantly better sensitivity, energy density, and SNR than older sensor technologies. Their materials are optimized using AI-driven DOE and advanced computing for extensive simulations. Customization is offered for different sectors and use cases, with a licensing model based on \"Task 4+ instantiations\" and TRL 4\u20139. Exclusive or nonexclusive rights can be defined by sector, geography, or application. 4. Commercialization and Intellectual Property Strategy The commercialization model uses licensing with upfront fees and ongoing royalties, based on sector-specific rights and NPV values from $100 million to $54 billion. Co-investors can join as co-owners during development. NRE is divided into tasks by technology readiness level (TRL 1\u20139), with each use case taking about 54 weeks and costing roughly $770,000."
+  },
+  {
+    "source_file":"Scope of the Q-SMEC Patent_White Paper.docx",
+    "extracted_use_case":"The commercialization model uses licensing with upfront fees and ongoing royalties, based on sector-specific rights and NPV values from $100 million to $54 billion. Co-investors can join as co-owners during development. NRE is divided into tasks by technology readiness level (TRL 1\u20139), with each use case taking about 54 weeks and costing roughly $770,000. 5. Scope Boundaries The intellectual property claims for Q-SMEC are broad and encompass several key areas:"
+  },
+  {
+    "source_file":"Scope of the Q-SMEC Patent_White Paper.docx",
+    "extracted_use_case":"System integration into targeted use cases, such as ISR, electric vehicle batteries, smart grids, and desalination. AI-driven design processes utilizing design-of-experiments and quantum computing optimization. A sector-based licensing framework addressing defense, telecom, energy, healthcare, and other critical domains."
+  },
+  {
+    "source_file":"Deep Think Analysis of Q-SMEC White Paper.docx",
+    "extracted_use_case":"4. Sectoral Use Case Layer Defense \/ Intel ISR ($7.3B TAM, 15% CAGR)."
+  },
+  {
+    "source_file":"Deep Think Analysis of Q-SMEC White Paper.docx",
+    "extracted_use_case":"Breadth allows portfolio-level applications. 5. Economic & Market Layer Quantitative Anchors"
+  },
+  {
+    "source_file":"Deep Think Analysis of Q-SMEC White Paper.docx",
+    "extracted_use_case":"Licensing NPV valuations for each use case provided ($100M\u2013$54B). Strategic Emphasis Largest near-term \u201ckiller apps\u201d:"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+    "extracted_use_case":"Priority Customer Use Cases and IP Valuation Defense Industrial Base\/DoD\/Intel                                 Page CISA Information Technology &"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+    "extracted_use_case":"National Security-critical Sensor and Energy Management Applications throughout the 16 DHS Critical Infrastructure Sectors require the following properties: Lowest Swap-C (Size\/Weight\/Power\/Cost) Readily manufacturable using currently available 3D-Printing (Micro-Nano Multi-Material) and complementary thin film\/atomic layer\/vapor deposition processes and equipment, in both small batch\/large volume optimized design configurations."
+  },
+  {
+    "source_file":"NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+    "extracted_use_case":"Section D contains an initial list of Use Cases throughout the 16 DHS Critical Infrastructure Sectors, with strong initial emphasis on Department of Defense\/Defense Industrial Base urgent needs. As section E SMEC Statement of Work Non-Recurring Engineering Tasks 1-6 indicates, each Sensor\/Thermal Instantiation requires a unique implementation of: Task 1: Quantum Model: NTE 8 calendar weeks\/1000 Eng Hrs.\/ $100K"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+    "extracted_use_case":"Exclusive\/Nonexclusive License per Field(s) of Use Case(s), Geographic Territory, Critical Infrastructure Sector Upfront License Fee and Small Recurring Quarterly Royalty (including"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+    "extracted_use_case":"D.   PRIORITY CUSTOMER USE CASES AND IP VALUATION DEFENSE INDUSYTRIAL BASE\/US DEPT OF DEFENSE AND INTEL COMMUNITY BY END-USE APPLICATION"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+    "extracted_use_case":"BY END-USE APPLICATION Intelligence, Surveillance, and Reconnaissance (ISR) Aerial Reconnaissance (Manned Aircraft, UAVs)"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+    "extracted_use_case":"SMEC Use Cases in Missile Defense Agency Golden Dome SHIELD IDIQ Tech Sectors Advanced Sensors\/Radars (including but not limited to: Analysis, ID, Tracking, Mode Determination, & AOA of Mainbeam Emissions; Rapid Response Time; Monopulse High-Quality DF; RF Self-Protection and Countermeasures; Photonically Scanned Array Radars (PhSAR); Photonic Analog and Digital Data Links; Ultra Low Noise Clock generation and distribution; Inertial Sensor; Acquisition and Tracking of Mainbeam & Sidelobe emissions; Precision Emitter Geolocation & Range; Emitter Identification & Precise Signal Measurement Parameters, etc."
+  },
+  {
+    "source_file":"NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+    "extracted_use_case":"High-Density SMEC Optimized Grid (HD-SOG) Battery Storage System \u2014 designed for utility, industrial, and commercial applications. The battery cell array geometry integrates SMEC molecular matrices, with or without additional rare-earth trace mineral matrix optimization, applied via thin-film vapor deposition to the surfaces of the positive and negative electrode materials, respectively. The system targets an energy storage density improvement of 21\u201337% and an energy retrieval time improvement of up to 46%. It is anticipated that the SMEC design will operate within a volumetric energy density range of 350\u2013450 Wh\/L and a specific energy density range of 180\u2013225 Wh\/kg, positioning it within a high-performance energy density ellipsoid envelope. SMEC Addressable Market: $25B\/Year, CAGR: 9%"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+    "extracted_use_case":"Description: Quantum\/Condensed Matter Physics\/Quantum Orbital Chemistry\/Electrodynamics Model of application specific Superconducting Magnetic Energy Containment (SMEC) material configuration Duration: 8 Calendar Weeks Cost: Personnel: 1000 Engineering Hrs.\/$100K"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+    "extracted_use_case":"Applications Page 12 CII NIKET TASK 3:"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+    "extracted_use_case":"Applications and Varied Trade Secrets CII NIKET TASK 4: Description: MRL 4-5 Manufacturability\/Tooling\/Facility\/Critical"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+    "extracted_use_case":"TOTALS FOR EACH USE CASE DESIGN OPTIMIZATION NRE TRL 1-9 Schedule: Maximum 54 calendar weeks (can be accelerated per budget\/staff\/equipment availability)"
+  },
+  {
+    "source_file":"Q-SMEC Technical White Paper NDA Safe.docx",
+    "extracted_use_case":"5) Data-center use case (AWS-relevant) Baseline metrics: Power Usage Effectiveness (PUE) and equipment-level energy distribution. Evaluation proposal:"
+  },
+  {
+    "source_file":"Q-SMEC_Commercialization_Directive_Updated.docx",
+    "extracted_use_case":"Based solely on the CII NIKET proprietary Q-SMEC technology and use cases 1. Executive Summary The Q-SMEC Sensor Platform, developed by CII NIKET, represents a transformational leap in sensor technology for critical infrastructure. Built on quantum superconducting magnetic energy containment (Q-SMEC) materials, the platform delivers unparalleled SWaP-C performance, cybersecurity compliance, and compatibility with AI-SCADA systems across 16 DHS-designated sectors. This directive outlines the path from advanced material development through TRL 9 product integration, with commercial, government, and defense market penetration strategies."
+  },
+  {
+    "source_file":"Q-SMEC_Commercialization_Directive_Updated.docx",
+    "extracted_use_case":"5. Market Segmentation & Use Cases The Q-SMEC platform supports high-value use cases across Defense, Energy, Healthcare, Telecommunications, Transportation, and Industrial sectors. Each sector is matched with sensor types, platform environments, and licensing valuations. Notable applications include ISR, IMU navigation, chemical\/biological detection, and predictive maintenance sensors. 6. Engineering Development & NRE Strategy"
+  },
+  {
+    "source_file":"Q-SMEC_Commercialization_Directive_Updated.docx",
+    "extracted_use_case":"The Q-SMEC platform supports high-value use cases across Defense, Energy, Healthcare, Telecommunications, Transportation, and Industrial sectors. Each sector is matched with sensor types, platform environments, and licensing valuations. Notable applications include ISR, IMU navigation, chemical\/biological detection, and predictive maintenance sensors. 6. Engineering Development & NRE Strategy Development of each Q-SMEC instantiation follows a structured six-task NRE plan. This includes:"
+  },
+  {
+    "source_file":"Q-SMEC_Commercialization_Directive_Updated.docx",
+    "extracted_use_case":"The Q-SMEC platform supports high-value use cases across Defense, Energy, Healthcare, Telecommunications, Transportation, and Industrial sectors. Each sector is matched with sensor types, platform environments, and licensing valuations. Notable applications include ISR, IMU navigation, chemical\/biological detection, and predictive maintenance sensors. 6. Engineering Development & NRE Strategy Development of each Q-SMEC instantiation follows a structured six-task NRE plan. This includes:"
+  },
+  {
+    "source_file":"Q-SMEC_Commercialization_Directive_Updated.docx",
+    "extracted_use_case":"Total NRE Cost per use case instantiation: $770K (7,700 engineering hours). Capital will be syndicated via co-investment licensing pools and grant-supported tech development. Use of funds will map directly to NRE tasks and patent finalization timelines. 8. Investor Relations & Pitch Strategy Three pitch tracks will be maintained:"
+  },
+  {
+    "source_file":"Q-SMEC_Commercialization_Directive_Updated.docx",
+    "extracted_use_case":"- Develop geographic, component-specific, and application-specific licensing models. - Target sectors: Emergency Response, Aerospace, Defense, Medical Devices, Advanced Infrastructure 4. MARKET SEGMENTATION & PRODUCT DEFINITION"
+  },
+  {
+    "source_file":"Q-SMEC_Commercialization_Directive_Updated.docx",
+    "extracted_use_case":"- Product Overview Slide: Combine problem + solution + use case + diagram - Include DOD-exclusive use cases, advanced functions 5. RESEARCH AGENDA (CORE FOCUS AREAS)"
+  },
+  {
+    "source_file":"Q-SMEC_Commercialization_Directive_Updated.docx",
+    "extracted_use_case":"- Include DOD-exclusive use cases, advanced functions 5. RESEARCH AGENDA (CORE FOCUS AREAS) 1. Use Case Mapping:"
+  },
+  {
+    "source_file":"Q-SMEC_Commercialization_Directive_Updated.docx",
+    "extracted_use_case":"1. Use Case Mapping:     - SMEC     - DOD, Civilian, and Emergency functionalities"
+  },
+  {
+    "source_file":"Q-SMEC_Commercialization_Directive_Updated.docx",
+    "extracted_use_case":"Slide 2: Problem + Quantified Data + Use Case Slide 3: Solution (with diagram) + Modular Functionality Slide 4: Product Overview + Capabilities (15+)"
+  },
+  {
+    "source_file":"Q-SMEC_Commercialization_Directive_Updated.docx",
+    "extracted_use_case":"Slide 4: Product Overview + Capabilities (15+) Slide 5: Emergency Responder Focus Slide 6: Competitive Analysis"
+  },
+  {
+    "source_file":"Q-SMEC_Commercialization_Directive_Updated.docx",
+    "extracted_use_case":"Slide 7: DOD-Only Capabilities Slide Slide 8: Future Capability Page Slide 9: Use of Proceeds + Fundraising Ask"
+  },
+  {
+    "source_file":"Q-SMEC_Commercialization_Directive_Updated.docx",
+    "extracted_use_case":"Slide 8: Future Capability Page Slide 9: Use of Proceeds + Fundraising Ask Slide 10: Licensing Opportunity Overview"
+  },
+  {
+    "source_file":"Read-Ahead Summary for Q-SMEC Technology & Use Cases.docx",
+    "extracted_use_case":"Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases Q-SMEC Technology Overview Q-SMEC (Quantum Superconducting Magnetic Energy Containment) is a patented platform of sensor\/storage material architectures leveraging quantum physics, AI-enhanced DOE modeling, and thin-film\/3D-printed fabrication. Each instantiation is a unique multi-layer configuration of up to 22 quantum-optimized materials (10 disclosed; 12 confidential), enabling: Ultra-high bondon density (quantum bond network)"
+  },
+  {
+    "source_file":"Read-Ahead Summary for Q-SMEC Technology & Use Cases.docx",
+    "extracted_use_case":"Three Primary Use Cases in This Briefing Prussian Blue\/White Alternative Energy Storage Targeting improvements in diffusion channels, conductivity, redox voltage, and strain minimization"
+  },
+  {
+    "source_file":"Read-Ahead Summary for Q-SMEC Technology & Use Cases.docx",
+    "extracted_use_case":"Global NPV + License value analysis already completed for 200+ use cases Staffing & Capacity Plan Chief Scientist + Proprietary IT + PM = 120 hrs.\/week availability"
+  },
+  {
+    "source_file":"Read-Ahead Summary for Q-SMEC Technology & Use Cases.docx",
+    "extracted_use_case":"Cross-Sector Flexibility: Applications span 16 DHS sectors; not just defense\/aerospace but also energy, healthcare, telecom, water, etc. IP Defense Strategy: Trade secret + modular patent layers + field-of-use licensing give both commercial flexibility and investor defensibility. Opportunities:"
+  },
+  {
+    "source_file":"Read-Ahead Summary for Q-SMEC Technology & Use Cases.docx",
+    "extracted_use_case":"Early Wins in Defense ISR and RCS: The THz and Stealth use cases align with pressing national security imperatives and near-term DoD\/DARPA\/MDA initiatives. Strategic Partnering with Tier 1s: Lockheed, Raytheon, Northrop, Honeywell could become Joint IP or LRIP partners. Licensing Leverage via Vertical-Specific Prototypes: Demonstrating fully integrated devices in 1-2 verticals would trigger licensing in others."
+  },
+  {
+    "source_file":"Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"Priority Customer Use Cases and IP Valuation Defense Industrial Base\/DoD\/Intel                                 p 4-9 CISA Information Technology &"
+  },
+  {
+    "source_file":"Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"In the 2017-2020 he was part of a Raytheon informal team that led to Co-Inventor status on a series of US Patents for  \u201cRotationally Anisotropic Materials with Tunable Dielectric Response\u201d (RAMTDR) under US Patents 10,421,701 B2, Sept 24, 2019 and 10,703,692 B2, Jul 7, 2020 respectively (assigned to Raytheon Company) describing a family of tunable and reconfigurable materials. To the best of our knowledge, Raytheon Company has not reduced the intellectual  property to practice in the form of specific materials and applications, as the required physical chemistry manufacturing processes would be very complex. NOVEL QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT (Q-SMEC) MATERIALS TAXONOMY. National Security-critical Sensor and Energy Management Applications throughout the 16 DHS Critical Infrastructure Sectors require the following properties:"
+  },
+  {
+    "source_file":"Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"National Security-critical Sensor and Energy Management Applications throughout the 16 DHS Critical Infrastructure Sectors require the following properties: Lowest Swap-C (Size\/Weight\/Power\/Cost) Readily manufacturable using currently available 3D-Printing (Micro-Nano Multi-Material) and complementary thin film\/atomic layer\/vapor deposition"
+  },
+  {
+    "source_file":"Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"Section D contains an initial list of Use Cases throughout the 16 DHS Critical Infrastructure Sectors, with strong initial emphasis on Department of Defense\/Defense Industrial Base urgent needs. Page 3 CII NIKET PROPRIETARY"
+  },
+  {
+    "source_file":"Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"Exclusive\/Nonexclusive License per Field(s) of Use Case(s), Geographic Territory, Critical Infrastructure Sector Upfront License Fee and Small Recurring Quarterly Royalty (including"
+  },
+  {
+    "source_file":"Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"D.   PRIORITY CUSTOMER USE CASES  AND IP VALUATION DEFENSE INDUSTRIAL BASE\/US DEPT OF DEFENSE AND INTEL COMMUNITY BY END-USE APPLICATION"
+  },
+  {
+    "source_file":"Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"BY END-USE APPLICATION Intelligence, Surveillance, and Reconnaissance (ISR) Aerial Reconnaissance (Manned Aircraft, UAVs)"
+  },
+  {
+    "source_file":"Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"SMEC Use Cases in Missile Defense Agency Golden Dome SHIELD IDIQ Tech Sectors Advanced Sensors\/Radars (including but not limited to: Analysis, ID, Tracking, Mode Determination, & AOA of Mainbeam Emissions; Rapid Response Time; Monopulse High Quality DF; RF Self Protection and Countermeasures; Page 8"
+  },
+  {
+    "source_file":"Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"High Density SMEC Optimized Grid (HD-SOG) Battery Storage System for utility, industrial and commercial applications. The Battery cell array geometry will incorporate SMEC molecular matrices with\/without additional select rare earth trace mineral matrix optimization, applied through thin film vapor deposition to the surfaces of the positive and negative electrodede materials respectively, with target energy storage density improvement between 21% and 37% and energy retrieval time improvement of up to 46%. It is anticipated that the SMEC design will operate in the 350-450 Wh\/L Volumetric Energy Density, 180-225 Wh\/kg Specific Energy Density Ellipsoid SMEC Addressable Market: $25B\/Year, CAGR: 9% NPV 1 MP License Value: $5.6B"
+  },
+  {
+    "source_file":"Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"Description: Quantum\/Condensed Matter Physics\/Quantum Orbital Chemistry\/Electrodynamics Model of application specific Superconducting Magnetic Energy Containment (SMEC) material configuration Page 29 CII NIKET PROPRIETARY"
+  },
+  {
+    "source_file":"Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"Finalization for Method\/Design Patent Applications Page 30 CII NIKET PROPRIETARY"
+  },
+  {
+    "source_file":"Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"Applications and Varied Trade Secrets CII NIKET TASK 4: Description: MRL 4-5 Manufacturability\/Tooling\/Facility\/Critical"
+  },
+  {
+    "source_file":"Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"TOTALS FOR EACH USE CASE DESIGN OPTIMIZATION NRE TRL 1-9 Schedule: Maximum 54 calendar weeks (can be accelerated per budget\/staff\/equipment availability)"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+    "extracted_use_case":"Q-SMEC Use Case Non-Recurring Engineering Project Plan and Technology and Manufacturing Readiness Level (TRL\/MRL) Path Each Use Case Instantiation adheres to a six-task Project Plan: Q-SMEC Intellectual Property (IP) and Licensing Architecture"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+    "extracted_use_case":"Each Use Case Instantiation adheres to a six-task Project Plan: Q-SMEC Intellectual Property (IP) and Licensing Architecture Model: Exclusive and non-exclusive licenses are offered, differentiated by field-of-use and geography."
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+    "extracted_use_case":"Major Use Cases: National Security and Commercial High Speed Wireless Communications Health Care Imaging"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+    "extracted_use_case":"Major Use Cases: National Security Directed Energy Weapons, ISR\/Electronic Attack Precision Manufacturing"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+    "extracted_use_case":"Major Use Cases: Commercial Mining (Cu\/Ag\/Mo, Strategic Minerals) and Oil\/Gas Exploration National Security Covert Naval Submarine Communications"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+    "extracted_use_case":"Major Use Cases: IT\/Servers CPU\/GPU and RAM Power Reduction: 40-50% HVAC\/Chillers\/Fans\/Pumps Power Reduction: 30%"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+    "extracted_use_case":"Major Use Cases: National Security Reduced Detection Range and Increased Countermeasures Effectiveness Commercial Airport Signal Interference Control"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+    "extracted_use_case":"Major Use Cases: National Security Long-Range, All-Weather Surveillance, Marine Navigation National Security and Commercial Space Satellite Communications"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+    "extracted_use_case":"ANNEX I Priority Use Case Market Segmentation 4.1 Defense and Intelligence 4.2 Energy and Utilities"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+    "extracted_use_case":"Typical Use Case NRE project cost is $770,000 over one year. Return on Investment (ROI) is contingent upon licensing velocity; three concurrent programs are projected to achieve break-even within one year with two Task 4 conversions. Risk Register"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+    "extracted_use_case":"Q-SMEC Use Case Non-Recurring Engineering Project Plan and Technology and Manufacturing Readiness Level (TRL\/MRL) Path Each iUse Case Instantiation adheres to a six-task Project Plan: Task 1: Optimized Sensor Physics Quantum Modeling (NTE 8 weeks, NTE $100K, TRL\/MRL 3)"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+    "extracted_use_case":"Major Use Cases: National Security and Commercial High Speed Wireless Communications Health Care Imaging"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+    "extracted_use_case":"Major Use Cases: National Security Directed Energy Weapons, ISR\/Electronic Attack Precision Manufacturing"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+    "extracted_use_case":"Major Use Cases: Commercial Mining (Cu\/Ag\/Mo, Strategic Minerals) and Oil\/Gas Exploration National Security Covert Naval Submarine Communications"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+    "extracted_use_case":"Major Use Cases: IT\/Servers CPU\/GPU and RAM Power Reduction: 40-50% HVAC\/Chillers\/Fans\/Pumps Power Reduction: 30%"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+    "extracted_use_case":"Major Use Cases: National Security Reduced Detection Range and Increased Countermeasures Effectiveness Commercial Airport Signal Interfrenece Control"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+    "extracted_use_case":"Major Use Cases: National Security Long Range, All Weather Surveillance, Marine Navigation National Security and Commercial Space Satellite Communications"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+    "extracted_use_case":"ANNEX I  Priority Use Case Market Segmentation 4.1 Defense and Intelligence Intelligence, Surveillance, and Reconnaissance (ISR): Annual market of $7.3 billion, with a 15% Compound Annual Growth Rate (CAGR), licensing Net Present Value (NPV) of $3.3 billion"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+    "extracted_use_case":"Typical Use Case NRE project cost is $770,000 over one year. Return on Investment (ROI) is contingent upon licensing velocity; three concurrent programs are projected to achieve break-even within one year with two Task 4 conversions. Risk Register"
+  },
+  {
+    "source_file":"POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"Priority Customer Use Cases and IP Valuation Defense Industrial Base\/DoD\/Intel                                 p 4-9 CISA Information Technology &"
+  },
+  {
+    "source_file":"POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"In the 2017-2020 he was part of a Raytheon informal team that led to Co-Inventor status on a series of US Patents for \u201cRotationally Anisotropic Materials with Tunable Dielectric Response\u201d (RAMTDR) under US Patents 10,421,701 B2, Sept 24, 2019 and 10,703,692 B2, Jul 7, 2020, respectively (assigned to Raytheon Company) describing a family of tunable and reconfigurable materials. To the best of our knowledge, Raytheon Company has not reduced the intellectual property to practice in the form of specific materials and applications, as the required physical chemistry manufacturing processes would be very complex. NOVEL QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT (Q-SMEC) MATERIALS TAXONOMY. National Security-critical Sensor and Energy Management Applications throughout the 16 DHS Critical Infrastructure Sectors require the following properties:"
+  },
+  {
+    "source_file":"POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"National Security-critical Sensor and Energy Management Applications throughout the 16 DHS Critical Infrastructure Sectors require the following properties: Lowest Swap-C (Size\/Weight\/Power\/Cost) Readily manufacturable using currently available 3D-Printing (Micro-Nano Multi-Material) and complementary thin film\/atomic layer\/vapor deposition"
+  },
+  {
+    "source_file":"POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"Section D contains an initial list of Use Cases throughout the 16 DHS Critical Infrastructure Sectors, with strong initial emphasis on Department of Defense\/Defense Industrial Base urgent needs. As Section E Q-SMEC Statement of Work Non-Recurring Engineering Tasks 1-6 indicates, each Sensor\/Thermal Instantiation requires a unique implementation of: Task 1: Quantum Model: NTE 8 calendar weeks\/1000 Eng Hrs.\/ $100K"
+  },
+  {
+    "source_file":"POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"Exclusive\/Nonexclusive License per Field(s) of Use Case(s), Geographic Territory, Critical Infrastructure Sector Upfront License Fee and Small Recurring Quarterly Royalty (including"
+  },
+  {
+    "source_file":"POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"D.   PRIORITY CUSTOMER USE CASES AND IP VALUATION DEFENSE INDUSTRIAL BASE\/US DEPT OF DEFENSE AND INTEL COMMUNITY BY END-USE APPLICATION"
+  },
+  {
+    "source_file":"POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"BY END-USE APPLICATION Intelligence, Surveillance, and Reconnaissance (ISR) Aerial Reconnaissance (Manned Aircraft, UAVs)"
+  },
+  {
+    "source_file":"POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"SMEC Use Cases in Missile Defense Agency Golden Dome SHIELD IDIQ Tech Sectors Advanced Sensors\/Radars (including but not limited to: Analysis, ID, Tracking, Mode Determination, & AOA of Mainbeam Emissions; Rapid Response Time; Monopulse High Quality DF; RF Self Protection and Countermeasures; Photonically Scanned Array Radars (PhSAR); Photonic Analog and Digital Data Links; Ultra Low Noise Clock generation and distribution; Inertial Sensor; Acquisition and Tracking of Mainbeam & Sidelobe emissions; Precision Emitter Geolocation & Range; Emitter Identification & Precise Signal Measurement Parameters, etc"
+  },
+  {
+    "source_file":"POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"High Density SMEC Optimized Grid (HD-SOG) Battery Storage System for utility, industrial and commercial applications. The Battery cell array geometry will incorporate SMEC molecular matrices with\/without additional select rare earth trace mineral matrix optimization, applied through thin film vapor deposition to the surfaces of the positive and negative electrode materials respectively, with target energy storage density improvement between 21% and 37% and energy retrieval time improvement of up to 46%. It is anticipated that the SMEC design will operate in the 350-450 Wh\/L Volumetric Energy Density, 180-225 Wh\/kg Specific Energy Density Ellipsoid SMEC Addressable Market: $25B\/Year, CAGR: 9% NPV 1 MP License Value: $5.6B"
+  },
+  {
+    "source_file":"POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"Description: Quantum\/Condensed Matter Physics\/Quantum Orbital Chemistry\/Electrodynamics Model of application specific Superconducting Magnetic Energy Containment (SMEC) material configuration Q-SMEC Proprietary Models use DFT (Density Function Theory), CWF (Correlation Wafe Functions), and other methodologies to optimize aggregate sensor behavior\/performance. Tools used may include one\/some\/all of the following: Gaussian, Q-Chem, ORCA, Psi4, ESPRESSO, Cp2K, ESML Arrows, MOLCAS, PySCF."
+  },
+  {
+    "source_file":"POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"Finalization for Method\/Design Patent Applications CII NIKET TASK 3: Description: TRL Levels 3-4 AI-Driven Systems Engineering Design\/Atomistic Behavior Models\/Prototype Manufacture 100 Runs\/Test of Optimized 15 Runs (SWaP-C\/MRL)"
+  },
+  {
+    "source_file":"POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"Applications and Varied Trade Secrets CII NIKET TASK 4: Description: MRL 4-5 Manufacturability\/Tooling\/Facility\/Critical"
+  },
+  {
+    "source_file":"POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+    "extracted_use_case":"TOTALS FOR EACH USE CASE DESIGN OPTIMIZATION NRE TRL 1-9 Schedule: Maximum 54 calendar weeks (can be accelerated per budget\/staff\/equipment availability)"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+    "extracted_use_case":"Q-SMEC Use Case Non-Recurring Engineering Project Plan and Technology and Manufacturing Readiness Level (TRL\/MRL) Path Each iUse Case Instantiation adheres to a six-task Project Plan: Task 1: Optimized Sensor Physics Quantum Modeling (NTE 8 weeks, NTE $100K, TRL\/MRL 3)"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+    "extracted_use_case":"Major Use Cases: National Security and Commercial High Speed Wireless Communications Health Care Imaging"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+    "extracted_use_case":"Major Use Cases: National Security Directed Energy Weapons, ISR\/Electronic Attack Precision Manufacturing"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+    "extracted_use_case":"Major Use Cases: Commercial Mining (Cu\/Ag\/Mo, Strategic Minerals) and Oil\/Gas Exploration National Security Covert Naval Submarine Communications"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+    "extracted_use_case":"Major Use Cases: IT\/Servers CPU\/GPU and RAM Power Reduction: 40-50% HVAC\/Chillers\/Fans\/Pumps Power Reduction: 30%"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+    "extracted_use_case":"Major Use Cases: National Security Reduced Detection Range and Increased Countermeasures Effectiveness Commercial Airport Signal Interference Control"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+    "extracted_use_case":"Major Use Cases: National Security Long Range, All Weather Surveillance, Marine Navigation National Security and Commercial Space Satellite Communications"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+    "extracted_use_case":"ANNEX I  Priority Use Case Market Segmentation 4.1 Defense and Intelligence Intelligence, Surveillance, and Reconnaissance (ISR): Annual market of $7.3 billion, with a 15% Compound Annual Growth Rate (CAGR), licensing Net Present Value (NPV) of $3.3 billion"
+  },
+  {
+    "source_file":"NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+    "extracted_use_case":"Typical Use Case NRE project cost is $770,000 over one year. Return on Investment (ROI) is contingent upon licensing velocity; three concurrent programs are projected to achieve break-even within one year with two Task 4 conversions. Risk Register"
+  }
+]

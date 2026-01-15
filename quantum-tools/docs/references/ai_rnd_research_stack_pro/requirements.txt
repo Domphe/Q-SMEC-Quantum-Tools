@@ -1,0 +1,10 @@
+requests
+httpx
+beautifulsoup4
+lxml
+readability-lxml
+pdfminer.six
+pandas
+python-dateutil
+tldextract
+PyYAML

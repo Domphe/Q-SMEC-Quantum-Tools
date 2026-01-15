@@ -1,0 +1,178 @@
+[
+  {
+    "id": "method_hf",
+    "name": "Hartree–Fock",
+    "method_type": "ab_initio",
+    "accuracy_level": "medium",
+    "computational_cost": "medium",
+    "scaling": "O(N^4)",
+    "description": "Mean-field approximation using a single Slater determinant.",
+    "implemented_in": [
+      "tool_gaussian",
+      "tool_orca",
+      "tool_psi4",
+      "tool_pyscf"
+    ],
+    "theoretical_basis": [],
+    "validated_on_benchmarks": [],
+    "recommended_basis_sets": []
+  },
+  {
+    "id": "method_mp2",
+    "name": "MP2",
+    "method_type": "ab_initio",
+    "accuracy_level": "medium",
+    "computational_cost": "medium",
+    "scaling": "O(N^4)",
+    "description": "Second-order Møller–Plesset perturbation theory for electron correlation.",
+    "implemented_in": [
+      "tool_gaussian",
+      "tool_orca",
+      "tool_psi4",
+      "tool_qchem"
+    ],
+    "theoretical_basis": [],
+    "validated_on_benchmarks": [],
+    "recommended_basis_sets": []
+  },
+  {
+    "id": "method_ccsd",
+    "name": "CCSD",
+    "method_type": "ab_initio",
+    "accuracy_level": "medium",
+    "computational_cost": "medium",
+    "scaling": "O(N^4)",
+    "description": "Coupled-cluster with single and double excitations.",
+    "implemented_in": [
+      "tool_gaussian",
+      "tool_orca",
+      "tool_molpro",
+      "tool_cfour"
+    ],
+    "theoretical_basis": [],
+    "validated_on_benchmarks": [],
+    "recommended_basis_sets": []
+  },
+  {
+    "id": "method_ccsd_t",
+    "name": "CCSD(T)",
+    "method_type": "ab_initio",
+    "accuracy_level": "medium",
+    "computational_cost": "medium",
+    "scaling": "O(N^4)",
+    "description": "Perturbative triples correction on CCSD — the gold standard.",
+    "implemented_in": [
+      "tool_gaussian",
+      "tool_orca",
+      "tool_molpro",
+      "tool_cfour"
+    ],
+    "theoretical_basis": [],
+    "validated_on_benchmarks": [],
+    "recommended_basis_sets": []
+  },
+  {
+    "id": "method_casscf",
+    "name": "CASSCF",
+    "method_type": "ab_initio",
+    "accuracy_level": "medium",
+    "computational_cost": "medium",
+    "scaling": "O(N^4)",
+    "description": "Multireference variational method with an active space.",
+    "implemented_in": [
+      "tool_gaussian",
+      "tool_orca",
+      "tool_molpro"
+    ],
+    "theoretical_basis": [],
+    "validated_on_benchmarks": [],
+    "recommended_basis_sets": []
+  },
+  {
+    "id": "method_lda",
+    "name": "LDA",
+    "method_type": "ab_initio",
+    "accuracy_level": "medium",
+    "computational_cost": "medium",
+    "scaling": "O(N^4)",
+    "description": "Local density approximation for exchange–correlation.",
+    "implemented_in": [
+      "tool_gaussian",
+      "tool_orca",
+      "tool_psi4",
+      "tool_qchem"
+    ],
+    "theoretical_basis": [],
+    "validated_on_benchmarks": [],
+    "recommended_basis_sets": []
+  },
+  {
+    "id": "method_pbe",
+    "name": "PBE",
+    "method_type": "ab_initio",
+    "accuracy_level": "medium",
+    "computational_cost": "medium",
+    "scaling": "O(N^4)",
+    "description": "Generalized-gradient approximation functional.",
+    "implemented_in": [
+      "tool_gaussian",
+      "tool_orca",
+      "tool_vasp",
+      "tool_qchem"
+    ],
+    "theoretical_basis": [],
+    "validated_on_benchmarks": [],
+    "recommended_basis_sets": []
+  },
+  {
+    "id": "method_b3lyp",
+    "name": "B3LYP",
+    "method_type": "ab_initio",
+    "accuracy_level": "medium",
+    "computational_cost": "medium",
+    "scaling": "O(N^4)",
+    "description": "Hybrid functional mixing HF exchange with GGA components.",
+    "implemented_in": [
+      "tool_gaussian",
+      "tool_orca",
+      "tool_psi4",
+      "tool_qchem"
+    ],
+    "theoretical_basis": [],
+    "validated_on_benchmarks": [],
+    "recommended_basis_sets": []
+  },
+  {
+    "id": "method_tddft",
+    "name": "TD-DFT",
+    "method_type": "ab_initio",
+    "accuracy_level": "medium",
+    "computational_cost": "medium",
+    "scaling": "O(N^4)",
+    "description": "Time-dependent DFT method for excited states.",
+    "implemented_in": [
+      "tool_gaussian",
+      "tool_orca",
+      "tool_psi4",
+      "tool_qchem"
+    ],
+    "theoretical_basis": [],
+    "validated_on_benchmarks": [],
+    "recommended_basis_sets": []
+  },
+  {
+    "id": "method_gfn2xtb",
+    "name": "GFN2-xTB",
+    "method_type": "ab_initio",
+    "accuracy_level": "medium",
+    "computational_cost": "medium",
+    "scaling": "O(N^4)",
+    "description": "Semiempirical tight-binding method with broad applicability.",
+    "implemented_in": [
+      "tool_xtb"
+    ],
+    "theoretical_basis": [],
+    "validated_on_benchmarks": [],
+    "recommended_basis_sets": []
+  }
+]

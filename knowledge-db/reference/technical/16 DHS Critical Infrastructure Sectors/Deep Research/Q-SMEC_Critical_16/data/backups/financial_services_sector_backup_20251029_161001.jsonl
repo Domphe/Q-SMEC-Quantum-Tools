@@ -1,0 +1,1026 @@
+{
+  "sector": "Financial Services",
+  "source": "FDIC_BankFind_Suite",
+  "url": "https://banks.data.fdic.gov/api/institutions",
+  "retrieved_at": "2025-10-29T22:23:50.342646+00:00",
+  "retrieved_at_utc": "2025-10-29T22:23:50.342646+00:00",
+  "schema_version": "1.1",
+  "validation_status": "validated",
+  "geo_level": "facility",
+  "unit": "USD_thousands",
+  "unit_standard": "dollars",
+  "variables": [
+    "bank_name",
+    "state",
+    "total_assets_thousands",
+    "total_deposits_thousands",
+    "offices"
+  ],
+  "payload": [
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    },
+    {
+      "bank_name": "",
+      "cert_number": "",
+      "city": "",
+      "state": "",
+      "total_assets_thousands": 0,
+      "total_deposits_thousands": 0,
+      "offices": 0,
+      "date_updated": ""
+    }
+  ],
+  "record_count": 100,
+  "api_stability": "stable",
+  "response_time_ms": 24110,
+  "notes": "FDIC BankFind Suite - Insured bank institutions data",
+  "data_quality": "authoritative_government_source"
+}

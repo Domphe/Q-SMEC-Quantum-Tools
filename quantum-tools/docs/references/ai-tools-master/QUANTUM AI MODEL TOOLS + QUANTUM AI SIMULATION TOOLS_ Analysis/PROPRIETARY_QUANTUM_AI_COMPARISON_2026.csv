@@ -1,0 +1,17 @@
+Tool Name,Vendor,License Type,Annual Cost Range,GPU Support,HPC Ready,Cloud Native,Q-SMEC Priority,Setup Time,ROI Timeline,Best Use Case,Integration,Support Level
+Gaussian,Gaussian Inc.,Commercial Per-Seat,$3k-$8k,No,Yes (CPU),No,⭐⭐⭐⭐,3-4 weeks,24 months,Industry-standard QC,pymatgen/POSCAR,Professional
+Schrödinger Jaguar/QSite,Schrödinger,Commercial Per-Seat,Quote,$15k+/yr,Yes (GPU-native),Yes,Cloud Option,⭐⭐⭐⭐⭐,3 weeks,18 months,Fast GPU QC,Maestro I/O,Enterprise SLA
+Q-Chem,Q-Chem Inc.,Commercial Per-Site,$5k-$15k,No,Yes (CPU),No,⭐⭐⭐⭐,2 weeks,18 months,Cost-effective QC,molden/FChk/ASE,Professional
+TeraChem,PetaChem,Commercial Per-Site,$10k-$30k+,Yes (GPU-native),Yes,No,⭐⭐⭐⭐,3 weeks,18 months,Ultra-fast QC,XYZ/PDB/ASE,Professional
+CASTEP (via Materials Studio),BIOVIA Dassault Systèmes,Commercial Module,$5k-$25k,Limited,Yes (MPI),No,⭐⭐⭐⭐,2-3 weeks,18 months,Plane-wave DFT,CASTEP/POSCAR,Enterprise
+FHI-aims Commercial,FHI-aims Team,Commercial License,$5k-$20k+,Moderate,Yes (OpenMP/MPI),No,⭐⭐⭐⭐,2-3 weeks,20 months,All-electron DFT,ASE/cube format,Professional
+QuantumATK,Synopsys,Commercial Per-Site,Quote,$10k+/yr,Moderate,Yes,No,⭐⭐⭐⭐,3-4 weeks,24 months,Device simulation + DFT,CIF/XSF/Python API,Professional
+Materials Studio Suite,BIOVIA Dassault Systèmes,Commercial Suite,$20k-$60k+,Limited,Yes (MPI),No,⭐⭐⭐⭐⭐,4 weeks,24 months,Full workflow suite,CIF/PDB/POSCAR,Enterprise SLA
+Matlantis,Preferred Networks,Cloud Subscription,Quote,$10k+/yr,Cloud GPU,Yes (100% cloud),Cloud-native,⭐⭐⭐⭐⭐,1-2 weeks,12 months,AI surrogate screening,REST API/Python,Enterprise
+PennyLane Enterprise,Xanadu,Annual Subscription,$5k-$20k,Yes (via backends),Yes,Yes (hybrid),Cloud-hybrid,⭐⭐⭐⭐,2 weeks,12 months,Quantum ML pipelines,Python API/JAX/TF/PyTorch,Professional
+Amazon Braket,Amazon AWS,Cloud Pay-Per-Use,$0.30-$1.00/task,Yes (cloud),Yes,Cloud-native,⭐⭐⭐⭐,1-2 weeks,12 months,Multi-vendor quantum access,Python SDK/AWS,Enterprise SLA
+Spearmint Commercial Support,Community (support vendor),$5k-$20k/yr,No (CPU),No (optimizer only),No,No,⭐⭐⭐,1 week,12 months,Hyperparameter optimization,Python/JSON,Standard
+Aitomia,Aitomia,Enterprise License,Quote-Only (undisclosed),Unknown,Unknown,No,⭐⭐⭐,4-6 weeks,18-24 months,Premium black-box solution,Closed API,Enterprise PremiumVASP MEDEA,Materials Design Inc.,Commercial License,$5.5k (perpetual),No,Yes (MPI),No,⭐⭐⭐⭐,2-3 weeks,18 months,Materials properties & band structure,POSCAR/OUTCAR,Professional
+IBM Qiskit Supercomputer,IBM,Cloud Pay-Per-Use,$48-96/minute,Yes (cloud quantum),Yes (cloud),Cloud-native,⭐⭐⭐⭐,1 week,6-12 months,Real quantum hardware access,Python SDK/QASM,Enterprise SLA
+Google Quantum Runtime,Google,Cloud Pay-Per-Use,$5k-$15k/year variable,Yes (cloud quantum),Yes (cloud),Cloud-native,⭐⭐⭐⭐,1 week,6-12 months,Google quantum hardware access,Python SDK/QASM,Enterprise Support
+Amazon Braket Hardware,Amazon,Cloud Pay-Per-Use,$4.50/hr or per-task,Yes (cloud quantum),Yes (cloud),Cloud-native,⭐⭐⭐⭐,1 week,6-12 months,Multi-vendor quantum hardware,Python SDK/OpenQASM,Enterprise SLA

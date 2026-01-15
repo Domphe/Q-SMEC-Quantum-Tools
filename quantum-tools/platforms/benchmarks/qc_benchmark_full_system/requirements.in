@@ -1,0 +1,6 @@
+# Seed for pip-compile (do not lock yet)
+# Workspace linkage: clients, research
+pydantic
+pubchempy
+requests
+pip-tools

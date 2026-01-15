@@ -1,0 +1,42 @@
+{
+  "Single Material": {
+    "materials": [
+      "Graphene",
+      "Quantum Dot"
+    ],
+    "benchmark": 99.1,
+    "last_updated": "2025-12-03T11:48:01.476608"
+  },
+  "Multi-Material": {
+    "materials": [
+      "Graphene",
+      "Quantum Dot"
+    ],
+    "benchmark": 99.1,
+    "last_updated": "2025-12-03T11:48:01.476608"
+  },
+  "Layered Structure": {
+    "materials": [
+      "Graphene",
+      "Quantum Dot"
+    ],
+    "benchmark": 99.1,
+    "last_updated": "2025-12-03T11:48:01.476608"
+  },
+  "Quantum Dot Array": {
+    "materials": [
+      "Graphene",
+      "Quantum Dot"
+    ],
+    "benchmark": 99.1,
+    "last_updated": "2025-12-03T11:48:01.476608"
+  },
+  "Topological Qubit Array": {
+    "materials": [
+      "Graphene",
+      "Quantum Dot"
+    ],
+    "benchmark": 99.1,
+    "last_updated": "2025-12-03T11:48:01.476608"
+  }
+}

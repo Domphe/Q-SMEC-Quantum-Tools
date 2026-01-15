@@ -1,0 +1,23 @@
+{
+  "source_id": "std_iupac_atomic_weights_2025",
+  "title": "IUPAC Standard Atomic Weights (2025 revision)",
+  "category": "standards",
+  "fetched_at": "2025-12-03T11:36:57.029082",
+  "hash": "65d84c4e5eac0a76b584b3b0d57db25062ced731a158558ac3aebf2ac573aa51",
+  "facts": [],
+  "equations": [],
+  "citations": [
+    {
+      "source_id": "std_iupac_atomic_weights_2025",
+      "key": "312c39e7cf",
+      "title": "IUPAC Standard Atomic Weights (2025 revision)",
+      "year": 2025
+    }
+  ],
+  "quality": {
+    "confidence_score": 40,
+    "category": "standards",
+    "fact_count": 0
+  },
+  "warnings": []
+}

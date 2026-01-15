@@ -1,0 +1,328 @@
+[
+  {
+    "id": "example_water",
+    "title": "Water Geometry Optimization",
+    "system_description": "Isolated H2O molecule.",
+    "target_properties": [
+      "bond lengths",
+      "HOH angle",
+      "frequencies"
+    ],
+    "long_explanation": "Water Geometry Optimization is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+    "recommended_workflows": [],
+    "common_pitfalls": [
+      "Wrong charge/multiplicity",
+      "Inadequate basis set",
+      "Ignoring dispersion"
+    ],
+    "faq": [
+      {
+        "q": "How accurate should results be?",
+        "a": "Depends on method and basis \u2014 typical error ranges apply."
+      },
+      {
+        "q": "What methods work best?",
+        "a": "Use DFT for screening, CCSD(T) for benchmarking."
+      }
+    ],
+    "expected_results": {
+      "notes": "Approximate reference values; may vary by method."
+    },
+    "tags": [
+      "QC",
+      "example"
+    ]
+  },
+  {
+    "id": "example_benzene",
+    "title": "Benzene Geometry Optimization",
+    "system_description": "Aromatic C6H6 system.",
+    "target_properties": [
+      "planarity",
+      "C\u2013C bond length"
+    ],
+    "long_explanation": "Benzene Geometry Optimization is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+    "recommended_workflows": [],
+    "common_pitfalls": [
+      "Wrong charge/multiplicity",
+      "Inadequate basis set",
+      "Ignoring dispersion"
+    ],
+    "faq": [
+      {
+        "q": "How accurate should results be?",
+        "a": "Depends on method and basis \u2014 typical error ranges apply."
+      },
+      {
+        "q": "What methods work best?",
+        "a": "Use DFT for screening, CCSD(T) for benchmarking."
+      }
+    ],
+    "expected_results": {
+      "notes": "Approximate reference values; may vary by method."
+    },
+    "tags": [
+      "QC",
+      "example"
+    ]
+  },
+  {
+    "id": "example_caffeine",
+    "title": "Caffeine Conformer Search",
+    "system_description": "Flexible organic molecule.",
+    "target_properties": [
+      "relative energies",
+      "structures"
+    ],
+    "long_explanation": "Caffeine Conformer Search is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+    "recommended_workflows": [],
+    "common_pitfalls": [
+      "Wrong charge/multiplicity",
+      "Inadequate basis set",
+      "Ignoring dispersion"
+    ],
+    "faq": [
+      {
+        "q": "How accurate should results be?",
+        "a": "Depends on method and basis \u2014 typical error ranges apply."
+      },
+      {
+        "q": "What methods work best?",
+        "a": "Use DFT for screening, CCSD(T) for benchmarking."
+      }
+    ],
+    "expected_results": {
+      "notes": "Approximate reference values; may vary by method."
+    },
+    "tags": [
+      "QC",
+      "example"
+    ]
+  },
+  {
+    "id": "example_fecl3_spin",
+    "title": "FeCl3 Spin-State Test",
+    "system_description": "Transition metal complex.",
+    "target_properties": [
+      "spin-state energetics"
+    ],
+    "long_explanation": "FeCl3 Spin-State Test is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+    "recommended_workflows": [],
+    "common_pitfalls": [
+      "Wrong charge/multiplicity",
+      "Inadequate basis set",
+      "Ignoring dispersion"
+    ],
+    "faq": [
+      {
+        "q": "How accurate should results be?",
+        "a": "Depends on method and basis \u2014 typical error ranges apply."
+      },
+      {
+        "q": "What methods work best?",
+        "a": "Use DFT for screening, CCSD(T) for benchmarking."
+      }
+    ],
+    "expected_results": {
+      "notes": "Approximate reference values; may vary by method."
+    },
+    "tags": [
+      "QC",
+      "example"
+    ]
+  },
+  {
+    "id": "example_no2_r",
+    "title": "NO2\u2022 Radical Optimization",
+    "system_description": "Open-shell inorganic radical.",
+    "target_properties": [
+      "geometry",
+      "spin density"
+    ],
+    "long_explanation": "NO2\u2022 Radical Optimization is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+    "recommended_workflows": [],
+    "common_pitfalls": [
+      "Wrong charge/multiplicity",
+      "Inadequate basis set",
+      "Ignoring dispersion"
+    ],
+    "faq": [
+      {
+        "q": "How accurate should results be?",
+        "a": "Depends on method and basis \u2014 typical error ranges apply."
+      },
+      {
+        "q": "What methods work best?",
+        "a": "Use DFT for screening, CCSD(T) for benchmarking."
+      }
+    ],
+    "expected_results": {
+      "notes": "Approximate reference values; may vary by method."
+    },
+    "tags": [
+      "QC",
+      "example"
+    ]
+  },
+  {
+    "id": "example_cuo_surface",
+    "title": "CuO Surface Slab DFT",
+    "system_description": "Periodic metal oxide surface.",
+    "target_properties": [
+      "adsorption energies"
+    ],
+    "long_explanation": "CuO Surface Slab DFT is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+    "recommended_workflows": [],
+    "common_pitfalls": [
+      "Wrong charge/multiplicity",
+      "Inadequate basis set",
+      "Ignoring dispersion"
+    ],
+    "faq": [
+      {
+        "q": "How accurate should results be?",
+        "a": "Depends on method and basis \u2014 typical error ranges apply."
+      },
+      {
+        "q": "What methods work best?",
+        "a": "Use DFT for screening, CCSD(T) for benchmarking."
+      }
+    ],
+    "expected_results": {
+      "notes": "Approximate reference values; may vary by method."
+    },
+    "tags": [
+      "QC",
+      "example"
+    ]
+  },
+  {
+    "id": "example_h2_ts",
+    "title": "H2 Bond Breaking TS",
+    "system_description": "Simple reaction coordinate.",
+    "target_properties": [
+      "TS energy",
+      "IRC path"
+    ],
+    "long_explanation": "H2 Bond Breaking TS is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+    "recommended_workflows": [],
+    "common_pitfalls": [
+      "Wrong charge/multiplicity",
+      "Inadequate basis set",
+      "Ignoring dispersion"
+    ],
+    "faq": [
+      {
+        "q": "How accurate should results be?",
+        "a": "Depends on method and basis \u2014 typical error ranges apply."
+      },
+      {
+        "q": "What methods work best?",
+        "a": "Use DFT for screening, CCSD(T) for benchmarking."
+      }
+    ],
+    "expected_results": {
+      "notes": "Approximate reference values; may vary by method."
+    },
+    "tags": [
+      "QC",
+      "example"
+    ]
+  },
+  {
+    "id": "example_formaldehyde_tddft",
+    "title": "Formaldehyde TD-DFT Excitations",
+    "system_description": "Small organic chromophore.",
+    "target_properties": [
+      "excited states"
+    ],
+    "long_explanation": "Formaldehyde TD-DFT Excitations is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+    "recommended_workflows": [],
+    "common_pitfalls": [
+      "Wrong charge/multiplicity",
+      "Inadequate basis set",
+      "Ignoring dispersion"
+    ],
+    "faq": [
+      {
+        "q": "How accurate should results be?",
+        "a": "Depends on method and basis \u2014 typical error ranges apply."
+      },
+      {
+        "q": "What methods work best?",
+        "a": "Use DFT for screening, CCSD(T) for benchmarking."
+      }
+    ],
+    "expected_results": {
+      "notes": "Approximate reference values; may vary by method."
+    },
+    "tags": [
+      "QC",
+      "example"
+    ]
+  },
+  {
+    "id": "example_graphene_band",
+    "title": "Graphene Band Structure",
+    "system_description": "Periodic 2D carbon sheet.",
+    "target_properties": [
+      "band dispersion"
+    ],
+    "long_explanation": "Graphene Band Structure is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+    "recommended_workflows": [],
+    "common_pitfalls": [
+      "Wrong charge/multiplicity",
+      "Inadequate basis set",
+      "Ignoring dispersion"
+    ],
+    "faq": [
+      {
+        "q": "How accurate should results be?",
+        "a": "Depends on method and basis \u2014 typical error ranges apply."
+      },
+      {
+        "q": "What methods work best?",
+        "a": "Use DFT for screening, CCSD(T) for benchmarking."
+      }
+    ],
+    "expected_results": {
+      "notes": "Approximate reference values; may vary by method."
+    },
+    "tags": [
+      "QC",
+      "example"
+    ]
+  },
+  {
+    "id": "example_water_27",
+    "title": "WATER27 Benchmark Set Example",
+    "system_description": "Hydrogen-bonded water clusters.",
+    "target_properties": [
+      "interaction energies"
+    ],
+    "long_explanation": "WATER27 Benchmark Set Example is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+    "recommended_workflows": [],
+    "common_pitfalls": [
+      "Wrong charge/multiplicity",
+      "Inadequate basis set",
+      "Ignoring dispersion"
+    ],
+    "faq": [
+      {
+        "q": "How accurate should results be?",
+        "a": "Depends on method and basis \u2014 typical error ranges apply."
+      },
+      {
+        "q": "What methods work best?",
+        "a": "Use DFT for screening, CCSD(T) for benchmarking."
+      }
+    ],
+    "expected_results": {
+      "notes": "Approximate reference values; may vary by method."
+    },
+    "tags": [
+      "QC",
+      "example"
+    ]
+  }
+]

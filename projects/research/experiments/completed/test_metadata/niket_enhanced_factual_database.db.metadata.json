@@ -1,0 +1,331 @@
+{
+  "path": "niket_enhanced_factual_database.db",
+  "tables": [
+    {
+      "name": "enhanced_technical_specs",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "spec_type",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "value",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "unit",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "context",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "source_folder",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "confidence_level",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": "'documented'",
+          "primary_key": false
+        },
+        {
+          "name": "extraction_timestamp",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 51,
+      "indexes": [
+        "sqlite_autoindex_enhanced_technical_specs_1"
+      ]
+    },
+    {
+      "name": "market_analysis",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "market_segment",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "value",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "value_type",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "currency",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": "'USD'",
+          "primary_key": false
+        },
+        {
+          "name": "timeframe",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "source_folder",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "extraction_timestamp",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 5,
+      "indexes": [
+        "sqlite_autoindex_market_analysis_1"
+      ]
+    },
+    {
+      "name": "enhanced_technical_terms",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "term",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "category",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "frequency",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": "1",
+          "primary_key": false
+        },
+        {
+          "name": "source_folders",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "definition",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "related_terms",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "importance_score",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 30,
+      "indexes": [
+        "sqlite_autoindex_enhanced_technical_terms_1"
+      ]
+    },
+    {
+      "name": "performance_metrics",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "metric_type",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "value",
+          "type": "REAL",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "unit",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "context",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "benchmark_comparison",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "source_folder",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "validation_status",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": "'documented'",
+          "primary_key": false
+        }
+      ],
+      "row_count": 12,
+      "indexes": [
+        "sqlite_autoindex_performance_metrics_1"
+      ]
+    },
+    {
+      "name": "application_domains",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "domain_name",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "sector",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "use_cases",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "trl_level",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "market_potential",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "technical_requirements",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "competitive_landscape",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 10,
+      "indexes": [
+        "sqlite_autoindex_application_domains_1"
+      ]
+    }
+  ],
+  "generated_at": "2026-01-08T22:28:10.151338"
+}

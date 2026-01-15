@@ -1,0 +1,112 @@
+{
+  "IBM Quantum": {
+    "focus_materials": [
+      "Graphene",
+      "Superconductor"
+    ],
+    "latest_patents": [
+      "US1234567A",
+      "EP2345678B1"
+    ],
+    "last_updated": "2025-12-03T11:48:01.300979"
+  },
+  "Google Quantum AI": {
+    "focus_materials": [
+      "Graphene",
+      "Superconductor"
+    ],
+    "latest_patents": [
+      "US1234567A",
+      "EP2345678B1"
+    ],
+    "last_updated": "2025-12-03T11:48:01.300979"
+  },
+  "Rigetti Computing": {
+    "focus_materials": [
+      "Graphene",
+      "Superconductor"
+    ],
+    "latest_patents": [
+      "US1234567A",
+      "EP2345678B1"
+    ],
+    "last_updated": "2025-12-03T11:48:01.300979"
+  },
+  "IonQ": {
+    "focus_materials": [
+      "Graphene",
+      "Superconductor"
+    ],
+    "latest_patents": [
+      "US1234567A",
+      "EP2345678B1"
+    ],
+    "last_updated": "2025-12-03T11:48:01.300979"
+  },
+  "D-Wave Systems": {
+    "focus_materials": [
+      "Graphene",
+      "Superconductor"
+    ],
+    "latest_patents": [
+      "US1234567A",
+      "EP2345678B1"
+    ],
+    "last_updated": "2025-12-03T11:48:01.300979"
+  },
+  "Honeywell Quantum": {
+    "focus_materials": [
+      "Graphene",
+      "Superconductor"
+    ],
+    "latest_patents": [
+      "US1234567A",
+      "EP2345678B1"
+    ],
+    "last_updated": "2025-12-03T11:48:01.300979"
+  },
+  "PsiQuantum": {
+    "focus_materials": [
+      "Graphene",
+      "Superconductor"
+    ],
+    "latest_patents": [
+      "US1234567A",
+      "EP2345678B1"
+    ],
+    "last_updated": "2025-12-03T11:48:01.300979"
+  },
+  "Alibaba Quantum": {
+    "focus_materials": [
+      "Graphene",
+      "Superconductor"
+    ],
+    "latest_patents": [
+      "US1234567A",
+      "EP2345678B1"
+    ],
+    "last_updated": "2025-12-03T11:48:01.300979"
+  },
+  "Intel Quantum": {
+    "focus_materials": [
+      "Graphene",
+      "Superconductor"
+    ],
+    "latest_patents": [
+      "US1234567A",
+      "EP2345678B1"
+    ],
+    "last_updated": "2025-12-03T11:48:01.300979"
+  },
+  "Microsoft Quantum": {
+    "focus_materials": [
+      "Graphene",
+      "Superconductor"
+    ],
+    "latest_patents": [
+      "US1234567A",
+      "EP2345678B1"
+    ],
+    "last_updated": "2025-12-03T11:48:01.300979"
+  }
+}

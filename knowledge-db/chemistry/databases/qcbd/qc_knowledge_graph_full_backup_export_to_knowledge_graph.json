@@ -1,0 +1,2865 @@
+{
+  "Concepts": [
+    {
+      "id": "concept_schrodinger_equation",
+      "name": "Time-Independent Schr\u00f6dinger Equation",
+      "short_definition": "Fundamental equation describing stationary quantum states.",
+      "long_explanation": "Time-Independent Schr\u00f6dinger Equation is a fundamental concept in quantum chemistry. This entry provides an extended explanation...",
+      "mathematical_details": {
+        "equations": [],
+        "notes": "Detailed mathematical formulation can be expanded further."
+      },
+      "common_pitfalls": [
+        "Misinterpretation",
+        "Approximation limits"
+      ],
+      "faq": [
+        {
+          "q": "What is Time-Independent Schr\u00f6dinger Equation?",
+          "a": "Fundamental equation describing stationary quantum states."
+        },
+        {
+          "q": "Why is Time-Independent Schr\u00f6dinger Equation important?",
+          "a": "It is central to understanding quantum chemical models."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "theory"
+      ]
+    },
+    {
+      "id": "concept_born_oppenheimer",
+      "name": "Born\u2013Oppenheimer Approximation",
+      "short_definition": "Separation of nuclear and electronic motion.",
+      "long_explanation": "Born\u2013Oppenheimer Approximation is a fundamental concept in quantum chemistry. This entry provides an extended explanation...",
+      "mathematical_details": {
+        "equations": [],
+        "notes": "Detailed mathematical formulation can be expanded further."
+      },
+      "common_pitfalls": [
+        "Misinterpretation",
+        "Approximation limits"
+      ],
+      "faq": [
+        {
+          "q": "What is Born\u2013Oppenheimer Approximation?",
+          "a": "Separation of nuclear and electronic motion."
+        },
+        {
+          "q": "Why is Born\u2013Oppenheimer Approximation important?",
+          "a": "It is central to understanding quantum chemical models."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "theory"
+      ]
+    },
+    {
+      "id": "concept_potential_energy_surface",
+      "name": "Potential Energy Surface",
+      "short_definition": "Energy as a function of nuclear positions.",
+      "long_explanation": "Potential Energy Surface is a fundamental concept in quantum chemistry. This entry provides an extended explanation...",
+      "mathematical_details": {
+        "equations": [],
+        "notes": "Detailed mathematical formulation can be expanded further."
+      },
+      "common_pitfalls": [
+        "Misinterpretation",
+        "Approximation limits"
+      ],
+      "faq": [
+        {
+          "q": "What is Potential Energy Surface?",
+          "a": "Energy as a function of nuclear positions."
+        },
+        {
+          "q": "Why is Potential Energy Surface important?",
+          "a": "It is central to understanding quantum chemical models."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "theory"
+      ]
+    },
+    {
+      "id": "concept_hartree_fock",
+      "name": "Hartree\u2013Fock Theory",
+      "short_definition": "Mean-field approximation using a single determinant.",
+      "long_explanation": "Hartree\u2013Fock Theory is a fundamental concept in quantum chemistry. This entry provides an extended explanation...",
+      "mathematical_details": {
+        "equations": [],
+        "notes": "Detailed mathematical formulation can be expanded further."
+      },
+      "common_pitfalls": [
+        "Misinterpretation",
+        "Approximation limits"
+      ],
+      "faq": [
+        {
+          "q": "What is Hartree\u2013Fock Theory?",
+          "a": "Mean-field approximation using a single determinant."
+        },
+        {
+          "q": "Why is Hartree\u2013Fock Theory important?",
+          "a": "It is central to understanding quantum chemical models."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "theory"
+      ]
+    },
+    {
+      "id": "concept_density_functional_theory",
+      "name": "Density Functional Theory",
+      "short_definition": "Energy expressed as functional of electron density.",
+      "long_explanation": "Density Functional Theory is a fundamental concept in quantum chemistry. This entry provides an extended explanation...",
+      "mathematical_details": {
+        "equations": [],
+        "notes": "Detailed mathematical formulation can be expanded further."
+      },
+      "common_pitfalls": [
+        "Misinterpretation",
+        "Approximation limits"
+      ],
+      "faq": [
+        {
+          "q": "What is Density Functional Theory?",
+          "a": "Energy expressed as functional of electron density."
+        },
+        {
+          "q": "Why is Density Functional Theory important?",
+          "a": "It is central to understanding quantum chemical models."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "theory"
+      ]
+    }
+  ],
+  "Methods": [
+    {
+      "id": "method_hf",
+      "name": "Hartree\u2013Fock",
+      "short_definition": "Mean-field approximation using a single Slater determinant.",
+      "long_explanation": "Hartree\u2013Fock is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+      "mathematical_details": {
+        "equations": [],
+        "notes": "Further derivations can be added in future expansions."
+      },
+      "strengths": [
+        "Widely used",
+        "Solid theoretical foundation"
+      ],
+      "weaknesses": [
+        "Limitations depend on approximations"
+      ],
+      "common_pitfalls": [
+        "Basis set dependence",
+        "Convergence issues"
+      ],
+      "faq": [
+        {
+          "q": "What is Hartree\u2013Fock?",
+          "a": "Mean-field approximation using a single Slater determinant."
+        },
+        {
+          "q": "When should I use Hartree\u2013Fock?",
+          "a": "It depends on accuracy and computational cost."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "method",
+        "electronic structure"
+      ]
+    },
+    {
+      "id": "method_mp2",
+      "name": "MP2",
+      "short_definition": "Second-order M\u00f8ller\u2013Plesset perturbation theory for electron correlation.",
+      "long_explanation": "MP2 is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+      "mathematical_details": {
+        "equations": [],
+        "notes": "Further derivations can be added in future expansions."
+      },
+      "strengths": [
+        "Widely used",
+        "Solid theoretical foundation"
+      ],
+      "weaknesses": [
+        "Limitations depend on approximations"
+      ],
+      "common_pitfalls": [
+        "Basis set dependence",
+        "Convergence issues"
+      ],
+      "faq": [
+        {
+          "q": "What is MP2?",
+          "a": "Second-order M\u00f8ller\u2013Plesset perturbation theory for electron correlation."
+        },
+        {
+          "q": "When should I use MP2?",
+          "a": "It depends on accuracy and computational cost."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "method",
+        "electronic structure"
+      ]
+    },
+    {
+      "id": "method_ccsd",
+      "name": "CCSD",
+      "short_definition": "Coupled-cluster with single and double excitations.",
+      "long_explanation": "CCSD is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+      "mathematical_details": {
+        "equations": [],
+        "notes": "Further derivations can be added in future expansions."
+      },
+      "strengths": [
+        "Widely used",
+        "Solid theoretical foundation"
+      ],
+      "weaknesses": [
+        "Limitations depend on approximations"
+      ],
+      "common_pitfalls": [
+        "Basis set dependence",
+        "Convergence issues"
+      ],
+      "faq": [
+        {
+          "q": "What is CCSD?",
+          "a": "Coupled-cluster with single and double excitations."
+        },
+        {
+          "q": "When should I use CCSD?",
+          "a": "It depends on accuracy and computational cost."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "method",
+        "electronic structure"
+      ]
+    },
+    {
+      "id": "method_ccsd_t",
+      "name": "CCSD(T)",
+      "short_definition": "Perturbative triples correction on CCSD \u2014 the gold standard.",
+      "long_explanation": "CCSD(T) is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+      "mathematical_details": {
+        "equations": [],
+        "notes": "Further derivations can be added in future expansions."
+      },
+      "strengths": [
+        "Widely used",
+        "Solid theoretical foundation"
+      ],
+      "weaknesses": [
+        "Limitations depend on approximations"
+      ],
+      "common_pitfalls": [
+        "Basis set dependence",
+        "Convergence issues"
+      ],
+      "faq": [
+        {
+          "q": "What is CCSD(T)?",
+          "a": "Perturbative triples correction on CCSD \u2014 the gold standard."
+        },
+        {
+          "q": "When should I use CCSD(T)?",
+          "a": "It depends on accuracy and computational cost."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "method",
+        "electronic structure"
+      ]
+    },
+    {
+      "id": "method_casscf",
+      "name": "CASSCF",
+      "short_definition": "Multireference variational method with an active space.",
+      "long_explanation": "CASSCF is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+      "mathematical_details": {
+        "equations": [],
+        "notes": "Further derivations can be added in future expansions."
+      },
+      "strengths": [
+        "Widely used",
+        "Solid theoretical foundation"
+      ],
+      "weaknesses": [
+        "Limitations depend on approximations"
+      ],
+      "common_pitfalls": [
+        "Basis set dependence",
+        "Convergence issues"
+      ],
+      "faq": [
+        {
+          "q": "What is CASSCF?",
+          "a": "Multireference variational method with an active space."
+        },
+        {
+          "q": "When should I use CASSCF?",
+          "a": "It depends on accuracy and computational cost."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "method",
+        "electronic structure"
+      ]
+    },
+    {
+      "id": "method_lda",
+      "name": "LDA",
+      "short_definition": "Local density approximation for exchange\u2013correlation.",
+      "long_explanation": "LDA is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+      "mathematical_details": {
+        "equations": [],
+        "notes": "Further derivations can be added in future expansions."
+      },
+      "strengths": [
+        "Widely used",
+        "Solid theoretical foundation"
+      ],
+      "weaknesses": [
+        "Limitations depend on approximations"
+      ],
+      "common_pitfalls": [
+        "Basis set dependence",
+        "Convergence issues"
+      ],
+      "faq": [
+        {
+          "q": "What is LDA?",
+          "a": "Local density approximation for exchange\u2013correlation."
+        },
+        {
+          "q": "When should I use LDA?",
+          "a": "It depends on accuracy and computational cost."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "method",
+        "electronic structure"
+      ]
+    },
+    {
+      "id": "method_pbe",
+      "name": "PBE",
+      "short_definition": "Generalized-gradient approximation functional.",
+      "long_explanation": "PBE is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+      "mathematical_details": {
+        "equations": [],
+        "notes": "Further derivations can be added in future expansions."
+      },
+      "strengths": [
+        "Widely used",
+        "Solid theoretical foundation"
+      ],
+      "weaknesses": [
+        "Limitations depend on approximations"
+      ],
+      "common_pitfalls": [
+        "Basis set dependence",
+        "Convergence issues"
+      ],
+      "faq": [
+        {
+          "q": "What is PBE?",
+          "a": "Generalized-gradient approximation functional."
+        },
+        {
+          "q": "When should I use PBE?",
+          "a": "It depends on accuracy and computational cost."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "method",
+        "electronic structure"
+      ]
+    },
+    {
+      "id": "method_b3lyp",
+      "name": "B3LYP",
+      "short_definition": "Hybrid functional mixing HF exchange with GGA components.",
+      "long_explanation": "B3LYP is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+      "mathematical_details": {
+        "equations": [],
+        "notes": "Further derivations can be added in future expansions."
+      },
+      "strengths": [
+        "Widely used",
+        "Solid theoretical foundation"
+      ],
+      "weaknesses": [
+        "Limitations depend on approximations"
+      ],
+      "common_pitfalls": [
+        "Basis set dependence",
+        "Convergence issues"
+      ],
+      "faq": [
+        {
+          "q": "What is B3LYP?",
+          "a": "Hybrid functional mixing HF exchange with GGA components."
+        },
+        {
+          "q": "When should I use B3LYP?",
+          "a": "It depends on accuracy and computational cost."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "method",
+        "electronic structure"
+      ]
+    },
+    {
+      "id": "method_tddft",
+      "name": "TD-DFT",
+      "short_definition": "Time-dependent DFT method for excited states.",
+      "long_explanation": "TD-DFT is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+      "mathematical_details": {
+        "equations": [],
+        "notes": "Further derivations can be added in future expansions."
+      },
+      "strengths": [
+        "Widely used",
+        "Solid theoretical foundation"
+      ],
+      "weaknesses": [
+        "Limitations depend on approximations"
+      ],
+      "common_pitfalls": [
+        "Basis set dependence",
+        "Convergence issues"
+      ],
+      "faq": [
+        {
+          "q": "What is TD-DFT?",
+          "a": "Time-dependent DFT method for excited states."
+        },
+        {
+          "q": "When should I use TD-DFT?",
+          "a": "It depends on accuracy and computational cost."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "method",
+        "electronic structure"
+      ]
+    },
+    {
+      "id": "method_gfn2xtb",
+      "name": "GFN2-xTB",
+      "short_definition": "Semiempirical tight-binding method with broad applicability.",
+      "long_explanation": "GFN2-xTB is a central method in quantum chemistry. This expanded entry covers the theoretical background, mathematical formulation, computational scaling, strengths, weaknesses, practical use-cases, and implementation details.",
+      "mathematical_details": {
+        "equations": [],
+        "notes": "Further derivations can be added in future expansions."
+      },
+      "strengths": [
+        "Widely used",
+        "Solid theoretical foundation"
+      ],
+      "weaknesses": [
+        "Limitations depend on approximations"
+      ],
+      "common_pitfalls": [
+        "Basis set dependence",
+        "Convergence issues"
+      ],
+      "faq": [
+        {
+          "q": "What is GFN2-xTB?",
+          "a": "Semiempirical tight-binding method with broad applicability."
+        },
+        {
+          "q": "When should I use GFN2-xTB?",
+          "a": "It depends on accuracy and computational cost."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "method",
+        "electronic structure"
+      ]
+    }
+  ],
+  "SoftwareTools": [
+    {
+      "id": "tool_gaussian",
+      "name": "Gaussian",
+      "short_description": "General-purpose ab initio and DFT package.",
+      "long_explanation": "Gaussian is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is Gaussian used for?",
+          "a": "General-purpose ab initio and DFT package."
+        },
+        {
+          "q": "Is Gaussian beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_orca",
+      "name": "ORCA",
+      "short_description": "Fast DFT and wavefunction toolkit with strong spectroscopy modules.",
+      "long_explanation": "ORCA is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is ORCA used for?",
+          "a": "Fast DFT and wavefunction toolkit with strong spectroscopy modules."
+        },
+        {
+          "q": "Is ORCA beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_psi4",
+      "name": "Psi4",
+      "short_description": "Open-source ab initio package with strong Python integration.",
+      "long_explanation": "Psi4 is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is Psi4 used for?",
+          "a": "Open-source ab initio package with strong Python integration."
+        },
+        {
+          "q": "Is Psi4 beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_pyscf",
+      "name": "PySCF",
+      "short_description": "Python-based QC framework for research and automation.",
+      "long_explanation": "PySCF is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is PySCF used for?",
+          "a": "Python-based QC framework for research and automation."
+        },
+        {
+          "q": "Is PySCF beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_qchem",
+      "name": "Q-Chem",
+      "short_description": "Advanced DFT and excited-state package with modern methods.",
+      "long_explanation": "Q-Chem is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is Q-Chem used for?",
+          "a": "Advanced DFT and excited-state package with modern methods."
+        },
+        {
+          "q": "Is Q-Chem beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_nwchem",
+      "name": "NWChem",
+      "short_description": "Open-source HPC quantum chemistry suite.",
+      "long_explanation": "NWChem is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is NWChem used for?",
+          "a": "Open-source HPC quantum chemistry suite."
+        },
+        {
+          "q": "Is NWChem beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_cp2k",
+      "name": "CP2K",
+      "short_description": "DFT, AIMD, and periodic simulation engine.",
+      "long_explanation": "CP2K is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is CP2K used for?",
+          "a": "DFT, AIMD, and periodic simulation engine."
+        },
+        {
+          "q": "Is CP2K beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_turbomole",
+      "name": "Turbomole",
+      "short_description": "Efficient RI-DFT for large molecules.",
+      "long_explanation": "Turbomole is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is Turbomole used for?",
+          "a": "Efficient RI-DFT for large molecules."
+        },
+        {
+          "q": "Is Turbomole beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_molpro",
+      "name": "Molpro",
+      "short_description": "High-accuracy wavefunction-focused package.",
+      "long_explanation": "Molpro is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is Molpro used for?",
+          "a": "High-accuracy wavefunction-focused package."
+        },
+        {
+          "q": "Is Molpro beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_gamess",
+      "name": "GAMESS",
+      "short_description": "Broad ab initio platform for education and research.",
+      "long_explanation": "GAMESS is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is GAMESS used for?",
+          "a": "Broad ab initio platform for education and research."
+        },
+        {
+          "q": "Is GAMESS beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_cfour",
+      "name": "CFOUR",
+      "short_description": "High-precision coupled-cluster and spectroscopy suite.",
+      "long_explanation": "CFOUR is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is CFOUR used for?",
+          "a": "High-precision coupled-cluster and spectroscopy suite."
+        },
+        {
+          "q": "Is CFOUR beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_adf",
+      "name": "ADF",
+      "short_description": "Slater-orbital based DFT with strong relativistic capabilities.",
+      "long_explanation": "ADF is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is ADF used for?",
+          "a": "Slater-orbital based DFT with strong relativistic capabilities."
+        },
+        {
+          "q": "Is ADF beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_dirac",
+      "name": "DIRAC",
+      "short_description": "Four-component relativistic quantum chemistry package.",
+      "long_explanation": "DIRAC is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is DIRAC used for?",
+          "a": "Four-component relativistic quantum chemistry package."
+        },
+        {
+          "q": "Is DIRAC beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_dalton",
+      "name": "Dalton",
+      "short_description": "Specialized code for molecular response properties.",
+      "long_explanation": "Dalton is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is Dalton used for?",
+          "a": "Specialized code for molecular response properties."
+        },
+        {
+          "q": "Is Dalton beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_xtb",
+      "name": "xTB",
+      "short_description": "Semi-empirical quantum chemistry with GFN methods.",
+      "long_explanation": "xTB is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is xTB used for?",
+          "a": "Semi-empirical quantum chemistry with GFN methods."
+        },
+        {
+          "q": "Is xTB beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_dftbplus",
+      "name": "DFTB+",
+      "short_description": "Tight-binding code for molecules and materials.",
+      "long_explanation": "DFTB+ is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is DFTB+ used for?",
+          "a": "Tight-binding code for molecules and materials."
+        },
+        {
+          "q": "Is DFTB+ beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_mopac",
+      "name": "MOPAC",
+      "short_description": "Semi-empirical PM6/PM7 computational chemistry.",
+      "long_explanation": "MOPAC is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is MOPAC used for?",
+          "a": "Semi-empirical PM6/PM7 computational chemistry."
+        },
+        {
+          "q": "Is MOPAC beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_ase",
+      "name": "ASE",
+      "short_description": "Python framework for atomic simulations and QC automation.",
+      "long_explanation": "ASE is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is ASE used for?",
+          "a": "Python framework for atomic simulations and QC automation."
+        },
+        {
+          "q": "Is ASE beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_cclib",
+      "name": "cclib",
+      "short_description": "Parser for QC output files.",
+      "long_explanation": "cclib is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is cclib used for?",
+          "a": "Parser for QC output files."
+        },
+        {
+          "q": "Is cclib beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    },
+    {
+      "id": "tool_crest",
+      "name": "CREST",
+      "short_description": "Conformer sampling engine using xTB.",
+      "long_explanation": "CREST is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+      "architecture": {
+        "core_language": "C/Fortran/Python mix",
+        "solver_design": "Modular",
+        "parallelization": "MPI/OpenMP depending on software",
+        "notes": "Further details can be expanded later."
+      },
+      "capabilities": [
+        "HF",
+        "DFT",
+        "post-HF",
+        "excited states",
+        "gradients",
+        "frequencies"
+      ],
+      "common_pitfalls": [
+        "Input syntax complexity",
+        "Convergence issues",
+        "Memory limits"
+      ],
+      "faq": [
+        {
+          "q": "What is CREST used for?",
+          "a": "Conformer sampling engine using xTB."
+        },
+        {
+          "q": "Is CREST beginner friendly?",
+          "a": "Depends on input style and user background."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "software"
+      ]
+    }
+  ],
+  "Parameters": [
+    {
+      "id": "param_def2svp",
+      "name": "def2-SVP",
+      "parameter_type": "basis_set",
+      "short_definition": "Split-valence double-zeta basis.",
+      "long_explanation": "def2-SVP is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+      "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+      "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+      "common_pitfalls": [
+        "Underconverged settings",
+        "Misuse for certain methods"
+      ],
+      "faq": [
+        {
+          "q": "What is def2-SVP?",
+          "a": "Split-valence double-zeta basis."
+        },
+        {
+          "q": "How should I choose def2-SVP?",
+          "a": "Use conservative settings for production runs."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "parameter"
+      ]
+    },
+    {
+      "id": "param_def2tzvp",
+      "name": "def2-TZVP",
+      "parameter_type": "basis_set",
+      "short_definition": "Triple-zeta valence with polarization.",
+      "long_explanation": "def2-TZVP is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+      "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+      "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+      "common_pitfalls": [
+        "Underconverged settings",
+        "Misuse for certain methods"
+      ],
+      "faq": [
+        {
+          "q": "What is def2-TZVP?",
+          "a": "Triple-zeta valence with polarization."
+        },
+        {
+          "q": "How should I choose def2-TZVP?",
+          "a": "Use conservative settings for production runs."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "parameter"
+      ]
+    },
+    {
+      "id": "param_ccpvdz",
+      "name": "cc-pVDZ",
+      "parameter_type": "basis_set",
+      "short_definition": "Correlation-consistent double-zeta.",
+      "long_explanation": "cc-pVDZ is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+      "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+      "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+      "common_pitfalls": [
+        "Underconverged settings",
+        "Misuse for certain methods"
+      ],
+      "faq": [
+        {
+          "q": "What is cc-pVDZ?",
+          "a": "Correlation-consistent double-zeta."
+        },
+        {
+          "q": "How should I choose cc-pVDZ?",
+          "a": "Use conservative settings for production runs."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "parameter"
+      ]
+    },
+    {
+      "id": "param_ccpvtz",
+      "name": "cc-pVTZ",
+      "parameter_type": "basis_set",
+      "short_definition": "Correlation-consistent triple-zeta.",
+      "long_explanation": "cc-pVTZ is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+      "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+      "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+      "common_pitfalls": [
+        "Underconverged settings",
+        "Misuse for certain methods"
+      ],
+      "faq": [
+        {
+          "q": "What is cc-pVTZ?",
+          "a": "Correlation-consistent triple-zeta."
+        },
+        {
+          "q": "How should I choose cc-pVTZ?",
+          "a": "Use conservative settings for production runs."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "parameter"
+      ]
+    },
+    {
+      "id": "param_aug_ccpvdz",
+      "name": "aug-cc-pVDZ",
+      "parameter_type": "basis_set",
+      "short_definition": "Diffuse augmented double-zeta set.",
+      "long_explanation": "aug-cc-pVDZ is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+      "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+      "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+      "common_pitfalls": [
+        "Underconverged settings",
+        "Misuse for certain methods"
+      ],
+      "faq": [
+        {
+          "q": "What is aug-cc-pVDZ?",
+          "a": "Diffuse augmented double-zeta set."
+        },
+        {
+          "q": "How should I choose aug-cc-pVDZ?",
+          "a": "Use conservative settings for production runs."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "parameter"
+      ]
+    },
+    {
+      "id": "param_scf_tight",
+      "name": "SCF Tight Convergence",
+      "parameter_type": "scf_setting",
+      "short_definition": "Stricter SCF convergence criteria.",
+      "long_explanation": "SCF Tight Convergence is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+      "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+      "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+      "common_pitfalls": [
+        "Underconverged settings",
+        "Misuse for certain methods"
+      ],
+      "faq": [
+        {
+          "q": "What is SCF Tight Convergence?",
+          "a": "Stricter SCF convergence criteria."
+        },
+        {
+          "q": "How should I choose SCF Tight Convergence?",
+          "a": "Use conservative settings for production runs."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "parameter"
+      ]
+    },
+    {
+      "id": "param_grid_fine",
+      "name": "Fine DFT Integration Grid",
+      "parameter_type": "numerical_grid",
+      "short_definition": "Dense grid for DFT integration.",
+      "long_explanation": "Fine DFT Integration Grid is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+      "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+      "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+      "common_pitfalls": [
+        "Underconverged settings",
+        "Misuse for certain methods"
+      ],
+      "faq": [
+        {
+          "q": "What is Fine DFT Integration Grid?",
+          "a": "Dense grid for DFT integration."
+        },
+        {
+          "q": "How should I choose Fine DFT Integration Grid?",
+          "a": "Use conservative settings for production runs."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "parameter"
+      ]
+    },
+    {
+      "id": "param_pw_cutoff",
+      "name": "Plane-Wave Cutoff",
+      "parameter_type": "plane_wave",
+      "short_definition": "Kinetic-energy cutoff for plane-wave basis.",
+      "long_explanation": "Plane-Wave Cutoff is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+      "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+      "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+      "common_pitfalls": [
+        "Underconverged settings",
+        "Misuse for certain methods"
+      ],
+      "faq": [
+        {
+          "q": "What is Plane-Wave Cutoff?",
+          "a": "Kinetic-energy cutoff for plane-wave basis."
+        },
+        {
+          "q": "How should I choose Plane-Wave Cutoff?",
+          "a": "Use conservative settings for production runs."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "parameter"
+      ]
+    },
+    {
+      "id": "param_kpoints",
+      "name": "k-Point Mesh",
+      "parameter_type": "brillouin_sampling",
+      "short_definition": "Sampling grid in reciprocal space.",
+      "long_explanation": "k-Point Mesh is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+      "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+      "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+      "common_pitfalls": [
+        "Underconverged settings",
+        "Misuse for certain methods"
+      ],
+      "faq": [
+        {
+          "q": "What is k-Point Mesh?",
+          "a": "Sampling grid in reciprocal space."
+        },
+        {
+          "q": "How should I choose k-Point Mesh?",
+          "a": "Use conservative settings for production runs."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "parameter"
+      ]
+    },
+    {
+      "id": "param_dispersion_d3",
+      "name": "DFT-D3 Dispersion Correction",
+      "parameter_type": "dispersion",
+      "short_definition": "Empirical London dispersion correction.",
+      "long_explanation": "DFT-D3 Dispersion Correction is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+      "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+      "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+      "common_pitfalls": [
+        "Underconverged settings",
+        "Misuse for certain methods"
+      ],
+      "faq": [
+        {
+          "q": "What is DFT-D3 Dispersion Correction?",
+          "a": "Empirical London dispersion correction."
+        },
+        {
+          "q": "How should I choose DFT-D3 Dispersion Correction?",
+          "a": "Use conservative settings for production runs."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "QC",
+        "parameter"
+      ]
+    }
+  ],
+  "Workflows": [
+    {
+      "id": "workflow_dft_geom_freq",
+      "name": "DFT Geometry Optimization + Frequency Analysis",
+      "goal": "Obtain optimized structure and verify it is a minimum.",
+      "long_explanation": "DFT Geometry Optimization + Frequency Analysis is a widely used computational quantum chemistry workflow. This expanded entry describes theoretical motivation, step-by-step breakdown, recommended parameters, pitfalls, convergence strategies, and validation methods.",
+      "steps": [
+        {
+          "step": 1,
+          "description": "Build molecule with ASE or editor."
+        },
+        {
+          "step": 2,
+          "description": "Run DFT optimization."
+        },
+        {
+          "step": 3,
+          "description": "Run harmonic frequency calculation."
+        }
+      ],
+      "common_pitfalls": [
+        "Wrong initial guess",
+        "Insufficient optimization criteria",
+        "Poor basis choice"
+      ],
+      "faq": [
+        {
+          "q": "When should I use DFT Geometry Optimization + Frequency Analysis?",
+          "a": "Whenever the stated goal matches your computational task."
+        },
+        {
+          "q": "How do I validate this workflow?",
+          "a": "Check convergence, frequencies, and compare to benchmarks."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "workflow",
+        "QC"
+      ]
+    },
+    {
+      "id": "workflow_ts_search",
+      "name": "Transition State Search Workflow",
+      "goal": "Locate a first-order saddle point for a reaction.",
+      "long_explanation": "Transition State Search Workflow is a widely used computational quantum chemistry workflow. This expanded entry describes theoretical motivation, step-by-step breakdown, recommended parameters, pitfalls, convergence strategies, and validation methods.",
+      "steps": [
+        {
+          "step": 1,
+          "description": "Generate initial guess from scans or chemical intuition."
+        },
+        {
+          "step": 2,
+          "description": "Run TS optimization using partitioned rational function optimization (PRFO)."
+        },
+        {
+          "step": 3,
+          "description": "Verify TS with 1 imaginary frequency."
+        },
+        {
+          "step": 4,
+          "description": "Perform IRC in both directions."
+        }
+      ],
+      "common_pitfalls": [
+        "Wrong initial guess",
+        "Insufficient optimization criteria",
+        "Poor basis choice"
+      ],
+      "faq": [
+        {
+          "q": "When should I use Transition State Search Workflow?",
+          "a": "Whenever the stated goal matches your computational task."
+        },
+        {
+          "q": "How do I validate this workflow?",
+          "a": "Check convergence, frequencies, and compare to benchmarks."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "workflow",
+        "QC"
+      ]
+    },
+    {
+      "id": "workflow_crestdft",
+      "name": "CREST \u2192 DFT Conformer Refinement",
+      "goal": "Find low-energy conformers and refine them with DFT.",
+      "long_explanation": "CREST \u2192 DFT Conformer Refinement is a widely used computational quantum chemistry workflow. This expanded entry describes theoretical motivation, step-by-step breakdown, recommended parameters, pitfalls, convergence strategies, and validation methods.",
+      "steps": [
+        {
+          "step": 1,
+          "description": "Run CREST to sample conformers."
+        },
+        {
+          "step": 2,
+          "description": "Cluster and filter conformers."
+        },
+        {
+          "step": 3,
+          "description": "Re-optimize with DFT."
+        }
+      ],
+      "common_pitfalls": [
+        "Wrong initial guess",
+        "Insufficient optimization criteria",
+        "Poor basis choice"
+      ],
+      "faq": [
+        {
+          "q": "When should I use CREST \u2192 DFT Conformer Refinement?",
+          "a": "Whenever the stated goal matches your computational task."
+        },
+        {
+          "q": "How do I validate this workflow?",
+          "a": "Check convergence, frequencies, and compare to benchmarks."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "workflow",
+        "QC"
+      ]
+    },
+    {
+      "id": "workflow_ccsd_t_benchmark",
+      "name": "CCSD(T) Benchmark Workflow",
+      "goal": "Obtain a high-accuracy reference energy.",
+      "long_explanation": "CCSD(T) Benchmark Workflow is a widely used computational quantum chemistry workflow. This expanded entry describes theoretical motivation, step-by-step breakdown, recommended parameters, pitfalls, convergence strategies, and validation methods.",
+      "steps": [
+        {
+          "step": 1,
+          "description": "Pre-optimize at DFT level."
+        },
+        {
+          "step": 2,
+          "description": "Compute CCSD(T)/cc-pVTZ energy."
+        },
+        {
+          "step": 3,
+          "description": "Extrapolate to CBS if needed."
+        }
+      ],
+      "common_pitfalls": [
+        "Wrong initial guess",
+        "Insufficient optimization criteria",
+        "Poor basis choice"
+      ],
+      "faq": [
+        {
+          "q": "When should I use CCSD(T) Benchmark Workflow?",
+          "a": "Whenever the stated goal matches your computational task."
+        },
+        {
+          "q": "How do I validate this workflow?",
+          "a": "Check convergence, frequencies, and compare to benchmarks."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "workflow",
+        "QC"
+      ]
+    },
+    {
+      "id": "workflow_cp2k_aimd",
+      "name": "CP2K AIMD Workflow",
+      "goal": "Run ab initio molecular dynamics in condensed phase.",
+      "long_explanation": "CP2K AIMD Workflow is a widely used computational quantum chemistry workflow. This expanded entry describes theoretical motivation, step-by-step breakdown, recommended parameters, pitfalls, convergence strategies, and validation methods.",
+      "steps": [
+        {
+          "step": 1,
+          "description": "Prepare periodic box."
+        },
+        {
+          "step": 2,
+          "description": "Run SCF with GPW method."
+        },
+        {
+          "step": 3,
+          "description": "Perform NVT or NPT AIMD run."
+        }
+      ],
+      "common_pitfalls": [
+        "Wrong initial guess",
+        "Insufficient optimization criteria",
+        "Poor basis choice"
+      ],
+      "faq": [
+        {
+          "q": "When should I use CP2K AIMD Workflow?",
+          "a": "Whenever the stated goal matches your computational task."
+        },
+        {
+          "q": "How do I validate this workflow?",
+          "a": "Check convergence, frequencies, and compare to benchmarks."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "workflow",
+        "QC"
+      ]
+    }
+  ],
+  "ExampleProblems": [
+    {
+      "id": "example_water",
+      "title": "Water Geometry Optimization",
+      "system_description": "Isolated H2O molecule.",
+      "target_properties": [
+        "bond lengths",
+        "HOH angle",
+        "frequencies"
+      ],
+      "long_explanation": "Water Geometry Optimization is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+      "recommended_workflows": [],
+      "common_pitfalls": [
+        "Wrong charge/multiplicity",
+        "Inadequate basis set",
+        "Ignoring dispersion"
+      ],
+      "faq": [
+        {
+          "q": "How accurate should results be?",
+          "a": "Depends on method and basis \u2014 typical error ranges apply."
+        },
+        {
+          "q": "What methods work best?",
+          "a": "Use DFT for screening, CCSD(T) for benchmarking."
+        }
+      ],
+      "expected_results": {
+        "notes": "Approximate reference values; may vary by method."
+      },
+      "tags": [
+        "QC",
+        "example"
+      ]
+    },
+    {
+      "id": "example_benzene",
+      "title": "Benzene Geometry Optimization",
+      "system_description": "Aromatic C6H6 system.",
+      "target_properties": [
+        "planarity",
+        "C\u2013C bond length"
+      ],
+      "long_explanation": "Benzene Geometry Optimization is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+      "recommended_workflows": [],
+      "common_pitfalls": [
+        "Wrong charge/multiplicity",
+        "Inadequate basis set",
+        "Ignoring dispersion"
+      ],
+      "faq": [
+        {
+          "q": "How accurate should results be?",
+          "a": "Depends on method and basis \u2014 typical error ranges apply."
+        },
+        {
+          "q": "What methods work best?",
+          "a": "Use DFT for screening, CCSD(T) for benchmarking."
+        }
+      ],
+      "expected_results": {
+        "notes": "Approximate reference values; may vary by method."
+      },
+      "tags": [
+        "QC",
+        "example"
+      ]
+    },
+    {
+      "id": "example_caffeine",
+      "title": "Caffeine Conformer Search",
+      "system_description": "Flexible organic molecule.",
+      "target_properties": [
+        "relative energies",
+        "structures"
+      ],
+      "long_explanation": "Caffeine Conformer Search is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+      "recommended_workflows": [],
+      "common_pitfalls": [
+        "Wrong charge/multiplicity",
+        "Inadequate basis set",
+        "Ignoring dispersion"
+      ],
+      "faq": [
+        {
+          "q": "How accurate should results be?",
+          "a": "Depends on method and basis \u2014 typical error ranges apply."
+        },
+        {
+          "q": "What methods work best?",
+          "a": "Use DFT for screening, CCSD(T) for benchmarking."
+        }
+      ],
+      "expected_results": {
+        "notes": "Approximate reference values; may vary by method."
+      },
+      "tags": [
+        "QC",
+        "example"
+      ]
+    },
+    {
+      "id": "example_fecl3_spin",
+      "title": "FeCl3 Spin-State Test",
+      "system_description": "Transition metal complex.",
+      "target_properties": [
+        "spin-state energetics"
+      ],
+      "long_explanation": "FeCl3 Spin-State Test is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+      "recommended_workflows": [],
+      "common_pitfalls": [
+        "Wrong charge/multiplicity",
+        "Inadequate basis set",
+        "Ignoring dispersion"
+      ],
+      "faq": [
+        {
+          "q": "How accurate should results be?",
+          "a": "Depends on method and basis \u2014 typical error ranges apply."
+        },
+        {
+          "q": "What methods work best?",
+          "a": "Use DFT for screening, CCSD(T) for benchmarking."
+        }
+      ],
+      "expected_results": {
+        "notes": "Approximate reference values; may vary by method."
+      },
+      "tags": [
+        "QC",
+        "example"
+      ]
+    },
+    {
+      "id": "example_no2_r",
+      "title": "NO2\u2022 Radical Optimization",
+      "system_description": "Open-shell inorganic radical.",
+      "target_properties": [
+        "geometry",
+        "spin density"
+      ],
+      "long_explanation": "NO2\u2022 Radical Optimization is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+      "recommended_workflows": [],
+      "common_pitfalls": [
+        "Wrong charge/multiplicity",
+        "Inadequate basis set",
+        "Ignoring dispersion"
+      ],
+      "faq": [
+        {
+          "q": "How accurate should results be?",
+          "a": "Depends on method and basis \u2014 typical error ranges apply."
+        },
+        {
+          "q": "What methods work best?",
+          "a": "Use DFT for screening, CCSD(T) for benchmarking."
+        }
+      ],
+      "expected_results": {
+        "notes": "Approximate reference values; may vary by method."
+      },
+      "tags": [
+        "QC",
+        "example"
+      ]
+    },
+    {
+      "id": "example_cuo_surface",
+      "title": "CuO Surface Slab DFT",
+      "system_description": "Periodic metal oxide surface.",
+      "target_properties": [
+        "adsorption energies"
+      ],
+      "long_explanation": "CuO Surface Slab DFT is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+      "recommended_workflows": [],
+      "common_pitfalls": [
+        "Wrong charge/multiplicity",
+        "Inadequate basis set",
+        "Ignoring dispersion"
+      ],
+      "faq": [
+        {
+          "q": "How accurate should results be?",
+          "a": "Depends on method and basis \u2014 typical error ranges apply."
+        },
+        {
+          "q": "What methods work best?",
+          "a": "Use DFT for screening, CCSD(T) for benchmarking."
+        }
+      ],
+      "expected_results": {
+        "notes": "Approximate reference values; may vary by method."
+      },
+      "tags": [
+        "QC",
+        "example"
+      ]
+    },
+    {
+      "id": "example_h2_ts",
+      "title": "H2 Bond Breaking TS",
+      "system_description": "Simple reaction coordinate.",
+      "target_properties": [
+        "TS energy",
+        "IRC path"
+      ],
+      "long_explanation": "H2 Bond Breaking TS is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+      "recommended_workflows": [],
+      "common_pitfalls": [
+        "Wrong charge/multiplicity",
+        "Inadequate basis set",
+        "Ignoring dispersion"
+      ],
+      "faq": [
+        {
+          "q": "How accurate should results be?",
+          "a": "Depends on method and basis \u2014 typical error ranges apply."
+        },
+        {
+          "q": "What methods work best?",
+          "a": "Use DFT for screening, CCSD(T) for benchmarking."
+        }
+      ],
+      "expected_results": {
+        "notes": "Approximate reference values; may vary by method."
+      },
+      "tags": [
+        "QC",
+        "example"
+      ]
+    },
+    {
+      "id": "example_formaldehyde_tddft",
+      "title": "Formaldehyde TD-DFT Excitations",
+      "system_description": "Small organic chromophore.",
+      "target_properties": [
+        "excited states"
+      ],
+      "long_explanation": "Formaldehyde TD-DFT Excitations is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+      "recommended_workflows": [],
+      "common_pitfalls": [
+        "Wrong charge/multiplicity",
+        "Inadequate basis set",
+        "Ignoring dispersion"
+      ],
+      "faq": [
+        {
+          "q": "How accurate should results be?",
+          "a": "Depends on method and basis \u2014 typical error ranges apply."
+        },
+        {
+          "q": "What methods work best?",
+          "a": "Use DFT for screening, CCSD(T) for benchmarking."
+        }
+      ],
+      "expected_results": {
+        "notes": "Approximate reference values; may vary by method."
+      },
+      "tags": [
+        "QC",
+        "example"
+      ]
+    },
+    {
+      "id": "example_graphene_band",
+      "title": "Graphene Band Structure",
+      "system_description": "Periodic 2D carbon sheet.",
+      "target_properties": [
+        "band dispersion"
+      ],
+      "long_explanation": "Graphene Band Structure is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+      "recommended_workflows": [],
+      "common_pitfalls": [
+        "Wrong charge/multiplicity",
+        "Inadequate basis set",
+        "Ignoring dispersion"
+      ],
+      "faq": [
+        {
+          "q": "How accurate should results be?",
+          "a": "Depends on method and basis \u2014 typical error ranges apply."
+        },
+        {
+          "q": "What methods work best?",
+          "a": "Use DFT for screening, CCSD(T) for benchmarking."
+        }
+      ],
+      "expected_results": {
+        "notes": "Approximate reference values; may vary by method."
+      },
+      "tags": [
+        "QC",
+        "example"
+      ]
+    },
+    {
+      "id": "example_water_27",
+      "title": "WATER27 Benchmark Set Example",
+      "system_description": "Hydrogen-bonded water clusters.",
+      "target_properties": [
+        "interaction energies"
+      ],
+      "long_explanation": "WATER27 Benchmark Set Example is a representative quantum chemistry example problem. This expanded entry includes detailed physical background, rationale for method selection, computational workflow, expected numeric ranges, validation strategies, and comparison to experiment or literature.",
+      "recommended_workflows": [],
+      "common_pitfalls": [
+        "Wrong charge/multiplicity",
+        "Inadequate basis set",
+        "Ignoring dispersion"
+      ],
+      "faq": [
+        {
+          "q": "How accurate should results be?",
+          "a": "Depends on method and basis \u2014 typical error ranges apply."
+        },
+        {
+          "q": "What methods work best?",
+          "a": "Use DFT for screening, CCSD(T) for benchmarking."
+        }
+      ],
+      "expected_results": {
+        "notes": "Approximate reference values; may vary by method."
+      },
+      "tags": [
+        "QC",
+        "example"
+      ]
+    }
+  ],
+  "BenchmarkSets": [
+    {
+      "id": "benchmark_s22",
+      "name": "S22 Set",
+      "description": "Noncovalent interaction benchmark.",
+      "systems": [
+        "hydrogen bonds",
+        "dispersion complexes"
+      ],
+      "long_explanation": "S22 Set is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+      "gold_standard_method": "CCSD(T)/CBS",
+      "recommended_testing_methods": [
+        "DFT",
+        "MP2",
+        "CCSD variants",
+        "semiempirical tests"
+      ],
+      "common_pitfalls": [
+        "Basis set inconsistency",
+        "Missing dispersion",
+        "Incorrect geometry reference"
+      ],
+      "faq": [
+        {
+          "q": "What is the purpose of this benchmark?",
+          "a": "It tests theoretical method reliability."
+        },
+        {
+          "q": "How is performance evaluated?",
+          "a": "Using statistical metrics against reference energies."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "benchmark",
+        "QC"
+      ]
+    },
+    {
+      "id": "benchmark_s66",
+      "name": "S66 Set",
+      "description": "Expanded noncovalent interaction database.",
+      "systems": [
+        "\u03c0-stacking",
+        "H-bonding"
+      ],
+      "long_explanation": "S66 Set is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+      "gold_standard_method": "CCSD(T)/CBS",
+      "recommended_testing_methods": [
+        "DFT",
+        "MP2",
+        "CCSD variants",
+        "semiempirical tests"
+      ],
+      "common_pitfalls": [
+        "Basis set inconsistency",
+        "Missing dispersion",
+        "Incorrect geometry reference"
+      ],
+      "faq": [
+        {
+          "q": "What is the purpose of this benchmark?",
+          "a": "It tests theoretical method reliability."
+        },
+        {
+          "q": "How is performance evaluated?",
+          "a": "Using statistical metrics against reference energies."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "benchmark",
+        "QC"
+      ]
+    },
+    {
+      "id": "benchmark_water27",
+      "name": "WATER27",
+      "description": "Water cluster interaction energies.",
+      "systems": [
+        "water dimers",
+        "hexamers"
+      ],
+      "long_explanation": "WATER27 is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+      "gold_standard_method": "CCSD(T)/CBS",
+      "recommended_testing_methods": [
+        "DFT",
+        "MP2",
+        "CCSD variants",
+        "semiempirical tests"
+      ],
+      "common_pitfalls": [
+        "Basis set inconsistency",
+        "Missing dispersion",
+        "Incorrect geometry reference"
+      ],
+      "faq": [
+        {
+          "q": "What is the purpose of this benchmark?",
+          "a": "It tests theoretical method reliability."
+        },
+        {
+          "q": "How is performance evaluated?",
+          "a": "Using statistical metrics against reference energies."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "benchmark",
+        "QC"
+      ]
+    },
+    {
+      "id": "benchmark_x40x10",
+      "name": "X40x10",
+      "description": "Noncovalent interactions of halogenated molecules.",
+      "systems": [
+        "halogen bonds"
+      ],
+      "long_explanation": "X40x10 is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+      "gold_standard_method": "CCSD(T)/CBS",
+      "recommended_testing_methods": [
+        "DFT",
+        "MP2",
+        "CCSD variants",
+        "semiempirical tests"
+      ],
+      "common_pitfalls": [
+        "Basis set inconsistency",
+        "Missing dispersion",
+        "Incorrect geometry reference"
+      ],
+      "faq": [
+        {
+          "q": "What is the purpose of this benchmark?",
+          "a": "It tests theoretical method reliability."
+        },
+        {
+          "q": "How is performance evaluated?",
+          "a": "Using statistical metrics against reference energies."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "benchmark",
+        "QC"
+      ]
+    },
+    {
+      "id": "benchmark_bh76",
+      "name": "BH76 Set",
+      "description": "Reaction barrier heights benchmark.",
+      "systems": [
+        "pericyclic reactions",
+        "radical reactions"
+      ],
+      "long_explanation": "BH76 Set is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+      "gold_standard_method": "CCSD(T)/CBS",
+      "recommended_testing_methods": [
+        "DFT",
+        "MP2",
+        "CCSD variants",
+        "semiempirical tests"
+      ],
+      "common_pitfalls": [
+        "Basis set inconsistency",
+        "Missing dispersion",
+        "Incorrect geometry reference"
+      ],
+      "faq": [
+        {
+          "q": "What is the purpose of this benchmark?",
+          "a": "It tests theoretical method reliability."
+        },
+        {
+          "q": "How is performance evaluated?",
+          "a": "Using statistical metrics against reference energies."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "benchmark",
+        "QC"
+      ]
+    },
+    {
+      "id": "benchmark_mobh35",
+      "name": "MOBH35",
+      "description": "Transition metal reaction barrier dataset.",
+      "systems": [
+        "organometallic TS"
+      ],
+      "long_explanation": "MOBH35 is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+      "gold_standard_method": "CCSD(T)/CBS",
+      "recommended_testing_methods": [
+        "DFT",
+        "MP2",
+        "CCSD variants",
+        "semiempirical tests"
+      ],
+      "common_pitfalls": [
+        "Basis set inconsistency",
+        "Missing dispersion",
+        "Incorrect geometry reference"
+      ],
+      "faq": [
+        {
+          "q": "What is the purpose of this benchmark?",
+          "a": "It tests theoretical method reliability."
+        },
+        {
+          "q": "How is performance evaluated?",
+          "a": "Using statistical metrics against reference energies."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "benchmark",
+        "QC"
+      ]
+    },
+    {
+      "id": "benchmark_w411",
+      "name": "W4-11",
+      "description": "High-accuracy thermochemistry set.",
+      "systems": [
+        "small molecules"
+      ],
+      "long_explanation": "W4-11 is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+      "gold_standard_method": "CCSD(T)/CBS",
+      "recommended_testing_methods": [
+        "DFT",
+        "MP2",
+        "CCSD variants",
+        "semiempirical tests"
+      ],
+      "common_pitfalls": [
+        "Basis set inconsistency",
+        "Missing dispersion",
+        "Incorrect geometry reference"
+      ],
+      "faq": [
+        {
+          "q": "What is the purpose of this benchmark?",
+          "a": "It tests theoretical method reliability."
+        },
+        {
+          "q": "How is performance evaluated?",
+          "a": "Using statistical metrics against reference energies."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "benchmark",
+        "QC"
+      ]
+    },
+    {
+      "id": "benchmark_gmtkn55",
+      "name": "GMTKN55",
+      "description": "Large-scale benchmark for kinetics & thermochemistry.",
+      "systems": [
+        "55 subsets"
+      ],
+      "long_explanation": "GMTKN55 is a widely used quantum chemistry benchmark set. This expanded entry includes details on its purpose, dataset structure, reference methods (often CCSD(T)/CBS), statistical metrics (MAE/RMSE/MAD), applicability to different classes of methods, and best practices for benchmarking new functionals or computational workflows.",
+      "gold_standard_method": "CCSD(T)/CBS",
+      "recommended_testing_methods": [
+        "DFT",
+        "MP2",
+        "CCSD variants",
+        "semiempirical tests"
+      ],
+      "common_pitfalls": [
+        "Basis set inconsistency",
+        "Missing dispersion",
+        "Incorrect geometry reference"
+      ],
+      "faq": [
+        {
+          "q": "What is the purpose of this benchmark?",
+          "a": "It tests theoretical method reliability."
+        },
+        {
+          "q": "How is performance evaluated?",
+          "a": "Using statistical metrics against reference energies."
+        }
+      ],
+      "links_to_papers": [],
+      "tags": [
+        "benchmark",
+        "QC"
+      ]
+    }
+  ],
+  "Resources": [
+    {
+      "id": "res_levine",
+      "title": "Quantum Chemistry",
+      "authors": [
+        "Ira N. Levine"
+      ],
+      "resource_type": "book",
+      "summary": "A classical introduction covering wave mechanics and electronic structure.",
+      "long_explanation": "Quantum Chemistry is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+      "topics_covered": [],
+      "difficulty": "intermediate",
+      "recommended_for": [
+        "students",
+        "researchers"
+      ],
+      "links_to_papers": [],
+      "faq": [
+        {
+          "q": "Why should I study \"Quantum Chemistry\"?",
+          "a": "It provides essential foundations for QC."
+        }
+      ],
+      "tags": [
+        "resource",
+        "QC"
+      ]
+    },
+    {
+      "id": "res_mcquarrie",
+      "title": "Quantum Chemistry",
+      "authors": [
+        "Donald A. McQuarrie"
+      ],
+      "resource_type": "book",
+      "summary": "A highly accessible introduction to quantum chemistry foundations.",
+      "long_explanation": "Quantum Chemistry is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+      "topics_covered": [],
+      "difficulty": "intermediate",
+      "recommended_for": [
+        "students",
+        "researchers"
+      ],
+      "links_to_papers": [],
+      "faq": [
+        {
+          "q": "Why should I study \"Quantum Chemistry\"?",
+          "a": "It provides essential foundations for QC."
+        }
+      ],
+      "tags": [
+        "resource",
+        "QC"
+      ]
+    },
+    {
+      "id": "res_jensen",
+      "title": "Introduction to Computational Chemistry",
+      "authors": [
+        "Frank Jensen"
+      ],
+      "resource_type": "book",
+      "summary": "A practical computational chemistry textbook focusing on electronic structure.",
+      "long_explanation": "Introduction to Computational Chemistry is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+      "topics_covered": [],
+      "difficulty": "intermediate",
+      "recommended_for": [
+        "students",
+        "researchers"
+      ],
+      "links_to_papers": [],
+      "faq": [
+        {
+          "q": "Why should I study \"Introduction to Computational Chemistry\"?",
+          "a": "It provides essential foundations for QC."
+        }
+      ],
+      "tags": [
+        "resource",
+        "QC"
+      ]
+    },
+    {
+      "id": "res_szabo_ostlund",
+      "title": "Modern Quantum Chemistry",
+      "authors": [
+        "Attila Szabo",
+        "Neil S. Ostlund"
+      ],
+      "resource_type": "book",
+      "summary": "A foundational text on HF, CI, and wavefunction theory.",
+      "long_explanation": "Modern Quantum Chemistry is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+      "topics_covered": [],
+      "difficulty": "intermediate",
+      "recommended_for": [
+        "students",
+        "researchers"
+      ],
+      "links_to_papers": [],
+      "faq": [
+        {
+          "q": "Why should I study \"Modern Quantum Chemistry\"?",
+          "a": "It provides essential foundations for QC."
+        }
+      ],
+      "tags": [
+        "resource",
+        "QC"
+      ]
+    },
+    {
+      "id": "res_helgaker",
+      "title": "Molecular Electronic-Structure Theory",
+      "authors": [
+        "Helgaker",
+        "Olsen",
+        "Jorgensen"
+      ],
+      "resource_type": "book",
+      "summary": "The most comprehensive advanced text on electronic structure theory.",
+      "long_explanation": "Molecular Electronic-Structure Theory is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+      "topics_covered": [],
+      "difficulty": "intermediate",
+      "recommended_for": [
+        "students",
+        "researchers"
+      ],
+      "links_to_papers": [],
+      "faq": [
+        {
+          "q": "Why should I study \"Molecular Electronic-Structure Theory\"?",
+          "a": "It provides essential foundations for QC."
+        }
+      ],
+      "tags": [
+        "resource",
+        "QC"
+      ]
+    },
+    {
+      "id": "res_hk_paper",
+      "title": "Hohenberg\u2013Kohn Theorems",
+      "authors": [
+        "Hohenberg",
+        "Kohn"
+      ],
+      "resource_type": "paper",
+      "summary": "Seminal 1964 paper establishing the foundations of DFT.",
+      "long_explanation": "Hohenberg\u2013Kohn Theorems is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+      "topics_covered": [],
+      "difficulty": "intermediate",
+      "recommended_for": [
+        "students",
+        "researchers"
+      ],
+      "links_to_papers": [],
+      "faq": [
+        {
+          "q": "Why should I study \"Hohenberg\u2013Kohn Theorems\"?",
+          "a": "It provides essential foundations for QC."
+        }
+      ],
+      "tags": [
+        "resource",
+        "QC"
+      ]
+    },
+    {
+      "id": "res_kohn_sham",
+      "title": "Kohn\u2013Sham DFT",
+      "authors": [
+        "Kohn",
+        "Sham"
+      ],
+      "resource_type": "paper",
+      "summary": "The 1965 paper introducing the KS equations.",
+      "long_explanation": "Kohn\u2013Sham DFT is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+      "topics_covered": [],
+      "difficulty": "intermediate",
+      "recommended_for": [
+        "students",
+        "researchers"
+      ],
+      "links_to_papers": [],
+      "faq": [
+        {
+          "q": "Why should I study \"Kohn\u2013Sham DFT\"?",
+          "a": "It provides essential foundations for QC."
+        }
+      ],
+      "tags": [
+        "resource",
+        "QC"
+      ]
+    },
+    {
+      "id": "res_coupled_cluster_review",
+      "title": "Coupled Cluster Theory Review",
+      "authors": [
+        "Crawford",
+        "Schaefer"
+      ],
+      "resource_type": "review",
+      "summary": "Extensive review of CC theory and implementations.",
+      "long_explanation": "Coupled Cluster Theory Review is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+      "topics_covered": [],
+      "difficulty": "intermediate",
+      "recommended_for": [
+        "students",
+        "researchers"
+      ],
+      "links_to_papers": [],
+      "faq": [
+        {
+          "q": "Why should I study \"Coupled Cluster Theory Review\"?",
+          "a": "It provides essential foundations for QC."
+        }
+      ],
+      "tags": [
+        "resource",
+        "QC"
+      ]
+    },
+    {
+      "id": "res_becke_1993",
+      "title": "Becke 1993 Hybrid Functional",
+      "authors": [
+        "A. D. Becke"
+      ],
+      "resource_type": "paper",
+      "summary": "The original hybrid functional paper underlying B3LYP.",
+      "long_explanation": "Becke 1993 Hybrid Functional is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+      "topics_covered": [],
+      "difficulty": "intermediate",
+      "recommended_for": [
+        "students",
+        "researchers"
+      ],
+      "links_to_papers": [],
+      "faq": [
+        {
+          "q": "Why should I study \"Becke 1993 Hybrid Functional\"?",
+          "a": "It provides essential foundations for QC."
+        }
+      ],
+      "tags": [
+        "resource",
+        "QC"
+      ]
+    },
+    {
+      "id": "res_gaussian_doc",
+      "title": "Gaussian Documentation",
+      "authors": [
+        "Gaussian Inc."
+      ],
+      "resource_type": "documentation",
+      "summary": "Official Gaussian reference documentation.",
+      "long_explanation": "Gaussian Documentation is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+      "topics_covered": [],
+      "difficulty": "intermediate",
+      "recommended_for": [
+        "students",
+        "researchers"
+      ],
+      "links_to_papers": [],
+      "faq": [
+        {
+          "q": "Why should I study \"Gaussian Documentation\"?",
+          "a": "It provides essential foundations for QC."
+        }
+      ],
+      "tags": [
+        "resource",
+        "QC"
+      ]
+    },
+    {
+      "id": "res_orca_manual",
+      "title": "ORCA Manual",
+      "authors": [
+        "Frank Neese"
+      ],
+      "resource_type": "documentation",
+      "summary": "Full ORCA software documentation.",
+      "long_explanation": "ORCA Manual is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+      "topics_covered": [],
+      "difficulty": "intermediate",
+      "recommended_for": [
+        "students",
+        "researchers"
+      ],
+      "links_to_papers": [],
+      "faq": [
+        {
+          "q": "Why should I study \"ORCA Manual\"?",
+          "a": "It provides essential foundations for QC."
+        }
+      ],
+      "tags": [
+        "resource",
+        "QC"
+      ]
+    },
+    {
+      "id": "res_psc4_docs",
+      "title": "Psi4 Documentation",
+      "authors": [
+        "Psi4 Team"
+      ],
+      "resource_type": "documentation",
+      "summary": "Open-source documentation for Psi4.",
+      "long_explanation": "Psi4 Documentation is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+      "topics_covered": [],
+      "difficulty": "intermediate",
+      "recommended_for": [
+        "students",
+        "researchers"
+      ],
+      "links_to_papers": [],
+      "faq": [
+        {
+          "q": "Why should I study \"Psi4 Documentation\"?",
+          "a": "It provides essential foundations for QC."
+        }
+      ],
+      "tags": [
+        "resource",
+        "QC"
+      ]
+    },
+    {
+      "id": "res_cp2k_manual",
+      "title": "CP2K Manual",
+      "authors": [
+        "CP2K Developers"
+      ],
+      "resource_type": "documentation",
+      "summary": "Documentation covering CP2K methods and workflows.",
+      "long_explanation": "CP2K Manual is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+      "topics_covered": [],
+      "difficulty": "intermediate",
+      "recommended_for": [
+        "students",
+        "researchers"
+      ],
+      "links_to_papers": [],
+      "faq": [
+        {
+          "q": "Why should I study \"CP2K Manual\"?",
+          "a": "It provides essential foundations for QC."
+        }
+      ],
+      "tags": [
+        "resource",
+        "QC"
+      ]
+    },
+    {
+      "id": "res_mit_qc_course",
+      "title": "MIT Quantum Chemistry Course",
+      "authors": [
+        "MIT"
+      ],
+      "resource_type": "course",
+      "summary": "Open-courseware with video lectures and assignments.",
+      "long_explanation": "MIT Quantum Chemistry Course is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+      "topics_covered": [],
+      "difficulty": "intermediate",
+      "recommended_for": [
+        "students",
+        "researchers"
+      ],
+      "links_to_papers": [],
+      "faq": [
+        {
+          "q": "Why should I study \"MIT Quantum Chemistry Course\"?",
+          "a": "It provides essential foundations for QC."
+        }
+      ],
+      "tags": [
+        "resource",
+        "QC"
+      ]
+    },
+    {
+      "id": "res_chem_rxiv_dft",
+      "title": "Modern DFT Methods Review",
+      "authors": [
+        "Various Authors"
+      ],
+      "resource_type": "review",
+      "summary": "A modern perspective on DFT advances and challenges.",
+      "long_explanation": "Modern DFT Methods Review is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+      "topics_covered": [],
+      "difficulty": "intermediate",
+      "recommended_for": [
+        "students",
+        "researchers"
+      ],
+      "links_to_papers": [],
+      "faq": [
+        {
+          "q": "Why should I study \"Modern DFT Methods Review\"?",
+          "a": "It provides essential foundations for QC."
+        }
+      ],
+      "tags": [
+        "resource",
+        "QC"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "build_date": "2025-12-01T12:56:53.781410",
+    "entity_counts": {
+      "Concepts": 5,
+      "Methods": 10,
+      "SoftwareTools": 20,
+      "Parameters": 10,
+      "Workflows": 5,
+      "ExampleProblems": 10,
+      "BenchmarkSets": 8,
+      "Resources": 15
+    },
+    "total_entities": 83,
+    "schema_version": "2025.1",
+    "maintainer": "Q-SMEC Development Team",
+    "last_updated": "2025-12-01T12:56:53.781410",
+    "content_hash": "0fbbec5a0075a3fc12e96e02981fcebdaf5d98e44f484bab45d2298dac066ed3"
+  }
+}

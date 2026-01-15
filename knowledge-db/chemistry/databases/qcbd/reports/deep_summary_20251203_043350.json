@@ -1,0 +1,2940 @@
+{
+  "generated": "20251203_043350",
+  "summaries": [
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 183,
+        "sample_head": [
+          "CII NIKET North America LLC PROPRIETARY",
+          "www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com",
+          "Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific  Foundations",
+          "Q-SMEC Quantum Physics Modeling and Materials:",
+          "Physics Based Quantum Neural Network (PBQNN) model of a parameterized Quantum Circuit with:",
+          "Minimum 10, optimal 100+ qubits",
+          "Brick layer ansatz circuit with 100+ entanglement layers",
+          "Single qubit rotation layer approach",
+          "Hybrid optimizer",
+          "Q-SMEC utilizes varying quantities of up to 22 constituent elements (including Germanium, Gallium, Antimony, Tellurium, Selenium, Aluminum, Niobium, Nitrogen, Tin, Titanium, and eleven undisclosed elements)",
+          "The PBQNN Circuit model uses additional physics engines to optimize localized quantum field containment in picostructure lattice geometry",
+          "Hilbert Space Density Matrix Functional Theory",
+          "Coupled Wave Function",
+          "Born-Infeld Electrodynamics Entropy Optimization",
+          "Dirac Plasmon Polariton Metamaterials with quantum bonds (\u201cbondons) optimizing plasmon quantum tunneling (equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Effective Hamiltonian H = H\\_band + H\\_defect + H\\_coupling + H\\_field.",
+          "Transport modeled via semiclassical Boltzmann or Kubo-Greenwood",
+          "Q-SMEC PBQNN is resident on secure vault server, with access to IBM Starling",
+          "CII NIKET North America LLC PROPRIETARY",
+          "Classical AI optimized Design of Experiments (DOE) systems are trained on material parameter\u2013performance datasets, to determine optimal segmented heterostructures (local Q-field intensity gradients) for frequency tuning.",
+          "Success Criteria:",
+          "Cyber/Physical Security-by-Design: Obfuscated layer ordering, sacrificial signature films, active tamper sense, PUF anchors tied to control firmware.",
+          "Aligned with results from US DOE National Labs (Brookhaven, Argonne, Oak Ridge, Berkeley, Fermi) and DARPA Programs (RQS PNT, ADAPT, IST etc)",
+          "Q-SMEC Sensor Manufacturing Modalities",
+          "Thin Film: Atomic Layer Deposition (ALD), Chemical Vapor Deposition (CVD), or sputtering techniques are employed"
+        ],
+        "keywords": [
+          "DOE",
+          "Ge",
+          "THz",
+          "Ti",
+          "battery",
+          "defect",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\document_analysis_results.json",
+      "ext": ".json",
+      "summary": {
+        "line_count": 8635,
+        "sample_head": [
+          "{",
+          "\"directory\": \"G:\\\\My Drive\\\\White Paper (Patent)\",",
+          "\"analysis_date\": \"2025-11-04T13:08:43.257766\",",
+          "\"files\": {",
+          "\"Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases.docx\": {",
+          "\"file_name\": \"Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases.docx\",",
+          "\"file_path\": \"G:\\\\My Drive\\\\White Paper (Patent)\\\\Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases.docx\",",
+          "\"file_size\": 10176,",
+          "\"modified_date\": \"2025-09-25T15:23:50\",",
+          "\"extension\": \".docx\",",
+          "\"analysis_date\": \"2025-11-04T13:08:43.267959\",",
+          "\"content\": {",
+          "\"paragraphs\": [",
+          "{",
+          "\"text\": \"Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases\",",
+          "\"style\": \"normal\"",
+          "},",
+          "{",
+          "\"text\": \"Q-SMEC Technology Overview Q-SMEC (Quantum Superconducting Magnetic Energy Containment) is a patented platform of sensor/storage material architectures leveraging quantum physics, AI-enhanced DOE modeling, and thin-film/3D-printed fabrication. Each instantiation is a unique multi-layer configuration of up to 22 quantum-optimized materials (10 disclosed; 12 confidential), enabling:\",",
+          "\"style\": \"normal\"",
+          "},",
+          "{",
+          "\"text\": \"Ultra-high bondon density (quantum bond network)\",",
+          "\"style\": \"normal\"",
+          "},"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "THz",
+          "Ti",
+          "battery",
+          "defect",
+          "graphene",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\niket_knowledge_base.json",
+      "ext": ".json",
+      "summary": {
+        "line_count": 6180,
+        "sample_head": [
+          "{",
+          "\"extraction_date\": \"2025-11-04T13:10:35.067106\",",
+          "\"source_documents\": [",
+          "{",
+          "\"filename\": \"Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases.docx\",",
+          "\"file_size\": 10176,",
+          "\"modified_date\": \"2025-09-25T15:23:50\",",
+          "\"word_count\": 516",
+          "},",
+          "{",
+          "\"filename\": \"Q-SMEC_Commercialization_Directive_Updated.docx\",",
+          "\"file_size\": 10841,",
+          "\"modified_date\": \"2025-09-25T15:23:50\",",
+          "\"word_count\": 974",
+          "},",
+          "{",
+          "\"filename\": \"Scope of the Q-SMEC Patent_White Paper.docx\",",
+          "\"file_size\": 782171,",
+          "\"modified_date\": \"2025-09-25T15:24:10\",",
+          "\"word_count\": 485",
+          "},",
+          "{",
+          "\"filename\": \"Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx\",",
+          "\"file_size\": 1389337,",
+          "\"modified_date\": \"2025-10-14T10:10:36\","
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "THz",
+          "Ti",
+          "battery",
+          "graphene",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\knowledge_summary_report.txt",
+      "ext": ".txt",
+      "summary": {
+        "line_count": 114,
+        "sample_head": [
+          "\ud83c\udfaf NIKET KNOWLEDGE BASE SUMMARY",
+          "============================================================",
+          "Generated: 2025-11-04T13:10:35.067106",
+          "Source Documents: 12",
+          "\ud83d\udd27 TECHNICAL SPECIFICATIONS",
+          "----------------------------------------",
+          "Year: 28 data points",
+          "\u2022 2026 None - instantiation project accepted every 2 months (H1 2026) Deep Analysis & Strategic Feedback Strengths...",
+          "\u2022 2025 None - r Materials Adely@CII-International.com September 2025 TABLE OF CONTENTS: Background",
+          "\u2022 2008 None - ectors through TTT Inc Holding Group between 1985-2008, US government contracting at the Raytheon Ad...",
+          "Trl Level: 35 data points",
+          "\u2022 3-4 None - DOE optimization (AI/HPC/Quantum) \u2013 $110K Task 3: TRL 3-4 prototype systems engineering \u2013 $190K Task...",
+          "\u2022 5-6 None - 3-4 prototype systems engineering \u2013 $190K Task 4: TRL 5-6 Lab integration \u2013 $110K Task 5: TRL 7 demo...",
+          "\u2022 7 None - K Task 4: TRL 5-6 Lab integration \u2013 $110K Task 5: TRL 7 demo/LRIP manufacturing \u2013 $130K Task 6: TRL ...",
+          "Signal Improvement: 5 data points",
+          "\u2022 120 dB - r/Emitter Parameters: NEP 0.01\u20131 pW/Hz^0.5, SNR > 120dB, FOM > 2500, Sub-150nm resolution Applicable...",
+          "\u2022 140 dB - /sqr Hz Highest Signal to  Noise Ratio (SNR): 100-140 dB Peak Q-Factor: Greater than 1000 Figure of ...",
+          "\u2022 110 dB - Range: 0.1 to 10 THz Dynamic Range : Higher than 110 dB Response Time: Less than 150 picoseconds Sub...",
+          "Time Period: 18 data points",
+          "\u2022 1 year - gineering process totaling $770K, 7,700 Hrs over ~1 year: Task 1: Quantum modeling (DFT, CWF) \u2013 $100...",
+          "\u2022 2 months - acity: 1 new instantiation project accepted every 2 months (H1 2026) Deep Analysis & Strategic Feedb...",
+          "\u2022 2 months - Team Bandwidth: Limiting new projects to 1 every 2 months caps revenue potential and may deter large...",
+          "Temperature: 160 data points",
+          "\u2022 12 c - to 22 quantum-optimized materials (10 disclosed; 12 confidential), enabling: Ultra-high bondon densi...",
+          "\u2022 770 K - Model 6-Task staged engineering process totaling $770K, 7,700 Hrs over ~1 year: Task 1: Quantum mode..."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "Ge",
+          "THz",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\QCBD_Benchmark_Data_Extraction.md",
+      "ext": ".md",
+      "summary": {
+        "line_count": 445,
+        "sample_head": [
+          "# QCBD Benchmark Dataset Extraction from White Paper Directory",
+          "## Quantum Chemistry & Materials Modeling Data Analysis",
+          "**Date**: December 1, 2025",
+          "**Source Directory**: G:\\My Drive\\White Paper (Patent)",
+          "**Purpose**: Extract data for QCBD quantum chemistry benchmark database",
+          "---",
+          "## EXECUTIVE SUMMARY",
+          "The White Paper directory contains extensive materials science and quantum physics documentation for Q-SMEC (Quantum Superconducting Magnetic Energy Containment) technology. While the documents focus on sensor applications and market analysis rather than pure computational chemistry benchmarks, several key areas of quantum materials data were identified that could contribute to QCBD benchmark datasets.",
+          "---",
+          "## 1. COMPUTATIONAL METHODS IDENTIFIED",
+          "### DFT (Density Functional Theory)",
+          "**Source**: Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx - NRE Task 1",
+          "- **Method**: DFT (Density Function Theory)",
+          "- **Purpose**: Quantum/Condensed Matter Physics/Quantum Orbital Chemistry/Electrodynamics Model",
+          "- **Application**: Superconducting Magnetic Energy Containment (SMEC) material configuration optimization",
+          "- **Duration**: 8 Calendar Weeks per use case",
+          "- **Cost**: 1000 Engineering Hours / $100K",
+          "### Correlation Wave Functions (CWF)",
+          "**Source**: Same as above",
+          "- **Method**: CWF (Correlation Wave Functions)",
+          "- **Purpose**: Optimize aggregate sensor behavior/performance",
+          "- **Combined with**: DFT in proprietary Q-SMEC models",
+          "### Computational Software Tools Mentioned",
+          "**Source**: NRE Task 1 description",
+          "Tools used for quantum modeling include:"
+        ],
+        "keywords": [
+          "AlN",
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "HSE06",
+          "Nb",
+          "THz",
+          "Ti",
+          "battery",
+          "defect",
+          "graphene",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 766,
+        "sample_head": [
+          "CII NIKET PROPRIETARY",
+          "CRITICAL INFRASTRUCTURE INVESTMENTS, INC",
+          "NIKET NORTH AMERICA LLC",
+          "QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT (Q-SMEC) SENSOR AND ENERGY MANAGEMENT MATERIALS OPTIMIZATION WHITE PAPER",
+          "Alex Dely, CII Investment Board Chair/Acting CTO",
+          "Principal Inventor SMEC Sensor Materials",
+          "Adely@CII-International.com",
+          "September 2025",
+          "TABLE OF CONTENTS:",
+          "Background                                                                               p 2",
+          "New Quantum Superconducting Magnetic Energy",
+          "Containment (Q-SMEC) Materials Taxonomy                     p 2-3",
+          "CII NIKET SMEC Licensing Program                                 p 3-4",
+          "Priority Customer Use Cases and IP Valuation",
+          "Defense Industrial Base/DoD/Intel                                 p 4-9",
+          "CISA Information Technology &",
+          "Telecommunications Sector                                            p 9-10",
+          "Department of Transportation/Automotive                 p 10-15",
+          "Department of Energy/Energy Utilities.                       P 15-17",
+          "CISA Critical Manufacturing/Mining &",
+          "Strategic Minerals                                                           p 17-18",
+          "CISA Water and Wastewater Utilities                          p 18-20",
+          "Department of Health and Human Services /",
+          "Health Care Facilities/Biosecurity                                 p 20-21",
+          "Department of Agriculture/Food Processing                p 21-23"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "battery",
+          "defect",
+          "graphene",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 184,
+        "sample_head": [
+          "CII NIKET North America LLC PROPRIETARY",
+          "www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com",
+          "Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific Foundations",
+          "Q-SMEC Quantum Physics Modeling and Materials:",
+          "Physics Based Quantum Neural Network (PBQNN) model of a parameterized Quantum Circuit with:",
+          "Minimum 10, optimal 100+ qubits",
+          "Brick layer ansatz circuit with 100+ entanglement layers",
+          "Single qubit rotation layer approach",
+          "Hybrid optimizer",
+          "Q-SMEC utilizes varying quantities of up to 22 constituent elements (including Germanium, Gallium, Antimony, Tellurium, Selenium, Aluminum, Niobium, Nitrogen, Tin, Titanium, and eleven undisclosed elements)",
+          "The PBQNN Circuit model uses additional physics engines to optimize localized quantum field containment in picostructure lattice geometry",
+          "Hilbert Space Density Matrix Functional Theory",
+          "Coupled Wave Function",
+          "Born-Infeld Electrodynamics Entropy Optimization",
+          "Dirac Plasmon Polariton Metamaterials with quantum bonds (\u201cbondons) optimizing plasmon quantum tunneling (equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Effective Hamiltonian H = H\\_band + H\\_defect + H\\_coupling + H\\_field.",
+          "Transport modeled via semiclassical Boltzmann or Kubo-Greenwood",
+          "Q-SMEC PBQNN is resident on secure vault server, with access to IBM Starling",
+          "CII NIKET North America LLC PROPRIETARY",
+          "Classical AI optimized Design of Experiments (DOE) system is trained on material parameter\u2013performance datasets, to determine optimal segmented heterostructures (local Q-field intensity gradients) for frequency tuning.",
+          "Success Criteria:",
+          "Demonstrable \u226510\u00d7 sensitivity and \u226510\u00d7\u2013100\u00d7 SNR improvement at lowest SWaP-C",
+          "Cyber/Physical Security-by-Design: Obfuscated layer ordering, sacrificial signature films, active tamper sense, PUF anchors tied to control firmware.",
+          "Aligned with results from US DOE National Labs (Brookhaven, Argonne, Oak Ridge, Berkeley, Fermi) and DARPA Programs (RQS PNT, ADAPT, IST etc)",
+          "Q-SMEC Sensor Manufacturing Modalities"
+        ],
+        "keywords": [
+          "DOE",
+          "Ge",
+          "THz",
+          "Ti",
+          "battery",
+          "defect",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 106,
+        "sample_head": [
+          "CII NIKET North America LLC PROPRIETARY",
+          "www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com",
+          "Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific Foundations",
+          "Q-SMEC Quantum Physics Modeling and Materials:",
+          "Physics Based Quantum Neural Network (PBQNN) model of a parameterized Quantum Circuit with:",
+          "Minimum 10, optimal 100+ qubits",
+          "Brick layer ansatz circuit with 100+ entanglement layers",
+          "Single qubit rotation layer approach",
+          "Hybrid optimizer",
+          "Q-SMEC utilizes varying quantities of up to 22 constituent elements (including Germanium, Gallium, Antimony, Tellurium, Selenium, Aluminum, Niobium, Nitrogen, Tin, Titanium, and eleven undisclosed elements)",
+          "The PBQNN Circuit model uses additional physics engines to optimize localized quantum field containment in picostructure lattice geometry",
+          "Hilbert Space Density Matrix Functional Theory",
+          "Coupled Wave Function",
+          "Born-Infeld Electrodynamics Entropy Optimization",
+          "Dirac Plasmon Polariton Metamaterials with quantum bonds (\u201cbondons) optimizing plasmon quantum tunneling (equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Effective Hamiltonian H = H\\_band + H\\_defect + H\\_coupling + H\\_field.",
+          "Transport modeled via semiclassical Boltzmann or Kubo-Greenwood",
+          "Q-SMEC PBQNN is resident on secure vault server, with access to IBM Starling",
+          "Classical AI optimized Design of Experiments (DOE) systems are trained on material parameter\u2013performance datasets, to determine optimal segmented heterostructures (local Q-field intensity gradients) for frequency tuning.",
+          "Success Criteria:",
+          "Cyber/Physical Security-by-Design: Obfuscated layer ordering, sacrificial signature films, active tamper sense, PUF anchors tied to control firmware.",
+          "Aligned with results from US DOE National Labs (Brookhaven, Argonne, Oak Ridge, Berkeley, Fermi) and DARPA Programs (RQS PNT, ADAPT, IST etc)",
+          "Q-SMEC Sensor Manufacturing Modalities",
+          "Thin Film: Atomic Layer Deposition (ALD), Chemical Vapor Deposition (CVD), or sputtering techniques are employed",
+          "Fabrication Process Windows (Initial)"
+        ],
+        "keywords": [
+          "DOE",
+          "Ge",
+          "Ti",
+          "defect",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 670,
+        "sample_head": [
+          "CRITICAL INFRASTRUCTURE INVESTMENTS, INC",
+          "NIKET NORTH AMERICA LLC",
+          "QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT (Q-SMEC) SENSOR AND ENERGY MANAGEMENT MATERIALS OPTIMIZATION WHITE PAPER",
+          "Alex Dely, CII Investment Board Chair/Acting CTO",
+          "Principal Inventor SMEC Sensor Materials",
+          "Adely@CII-International.com",
+          "September 2025",
+          "TABLE OF CONTENTS:",
+          "Background                                                                               p 2",
+          "New Quantum Superconducting Magnetic Energy",
+          "Containment (Q-SMEC) Materials Taxonomy                     p 2-3",
+          "CII NIKET SMEC Licensing Program                                 p 3-4",
+          "Priority Customer Use Cases and IP Valuation",
+          "Defense Industrial Base/DoD/Intel                                 p 4-9",
+          "CISA Information Technology &",
+          "Telecommunications Sector                                            p 9-10",
+          "Department of Transportation/Automotive                 p 10-15",
+          "Department of Energy/Energy Utilities.                       P 15-17",
+          "CISA Critical Manufacturing/Mining &",
+          "Strategic Minerals                                                           p 17-18",
+          "CISA Water and Wastewater Utilities                          p 18-20",
+          "Department of Health and Human Services /",
+          "Health Care Facilities/Biosecurity                                 p 20-21",
+          "Department of Agriculture/Food Processing                p 21-23",
+          "CISA Department of Energy Oil, Gas, Chemical"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "battery",
+          "defect",
+          "graphene",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Read-Ahead Summary for Q-SMEC Technology & Use Cases.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 49,
+        "sample_head": [
+          "Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases",
+          "Q-SMEC Technology Overview Q-SMEC (Quantum Superconducting Magnetic Energy Containment) is a patented platform of sensor/storage material architectures leveraging quantum physics, AI-enhanced DOE modeling, and thin-film/3D-printed fabrication. Each instantiation is a unique multi-layer configuration of up to 22 quantum-optimized materials (10 disclosed; 12 confidential), enabling:",
+          "Ultra-high bondon density (quantum bond network)",
+          "THz-scale photonic/electronic behavior",
+          "Order-of-magnitude improvements in signal-to-noise, sensitivity, energy storage",
+          "Post-quantum secure and anti-tamper intrinsic design",
+          "Core Target Properties:",
+          "Lowest SWaP-C (Size/Weight/Power/Cost)",
+          "Manufacturable on Stratasys-class additive systems",
+          "CMMC/FedRAMP cybersecurity alignment",
+          "ITAR compliant anti-tamper",
+          "AI/ML co-optimized for SCADA/ICS environments",
+          "Three Primary Use Cases in This Briefing",
+          "Prussian Blue/White Alternative Energy Storage",
+          "Targeting improvements in diffusion channels, conductivity, redox voltage, and strain minimization",
+          "Competes with PBAs in grid-scale and defense battery storage",
+          "THz Sensor/Emitter",
+          "Parameters: NEP 0.01\u20131 pW/Hz^0.5, SNR > 120dB, FOM > 2500, Sub-150nm resolution",
+          "Applicable to 6G, non-destructive inspection, ISR, counter-WMD, and photonic systems",
+          "RCS ELO Stealth Material",
+          "Multispectral stealth via complex permittivity/permeability tuning (imaginary index ~0.1)",
+          "Dielectric/magnetic loss across wideband, ultra-thin (50 micron) & ultra-light (0.01 g/cm^2)",
+          "NRE Technical Development Model 6-Task staged engineering process totaling $770K, 7,700 Hrs. over ~1 year:",
+          "Task 1: Quantum modeling (DFT, CWF) \u2013 $100K",
+          "Task 2: DOE optimization (AI/HPC/Quantum) \u2013 $110K"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "Ge",
+          "Nb",
+          "THz",
+          "Ti",
+          "battery",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Q-SMEC_Commercialization_Directive_Updated.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 103,
+        "sample_head": [
+          "Q-SMEC SENSOR PLATFORM: COMMERCIALIZATION & STRATEGIC EXECUTION DIRECTIVE",
+          "Based solely on the CII NIKET proprietary Q-SMEC technology and use cases",
+          "1. Executive Summary",
+          "The Q-SMEC Sensor Platform, developed by CII NIKET, represents a transformational leap in sensor technology for critical infrastructure. Built on quantum superconducting magnetic energy containment (Q-SMEC) materials, the platform delivers unparalleled SWaP-C performance, cybersecurity compliance, and compatibility with AI-SCADA systems across 16 DHS-designated sectors. This directive outlines the path from advanced material development through TRL 9 product integration, with commercial, government, and defense market penetration strategies.",
+          "2. Mission & Vision",
+          "Our mission is to commercialize Q-SMEC technology into sector-specific, license-ready sensor solutions that transform national security, industrial efficiency, and scientific instrumentation. The vision is to enable next-generation sensing systems that are modular, scalable, and integrated with future-ready AI control platforms.",
+          "3. Strategic Goals",
+          "- Commercialize Q-SMEC sensors across priority sectors with $100B+ addressable market.",
+          "- Deploy tiered IP licensing programs with sector/geography exclusivity.",
+          "- Build investor-ready collateral to syndicate funding rounds aligned with NRE development phases.",
+          "- Establish manufacturing partnerships for TRL 6-9 scaling.",
+          "4. Licensing & IP Commercialization Model",
+          "Q-SMEC sensors are licensed per field of use, geographic territory, and infrastructure sector. License packages include exclusive or non-exclusive rights, upfront licensing fees, and quarterly royalties, based on NPV modeling outlined in the Q-SMEC taxonomy document. Co-investors in specific instantiations may qualify for joint IP ownership.",
+          "5. Market Segmentation & Use Cases",
+          "The Q-SMEC platform supports high-value use cases across Defense, Energy, Healthcare, Telecommunications, Transportation, and Industrial sectors. Each sector is matched with sensor types, platform environments, and licensing valuations. Notable applications include ISR, IMU navigation, chemical/biological detection, and predictive maintenance sensors.",
+          "6. Engineering Development & NRE Strategy",
+          "Development of each Q-SMEC instantiation follows a structured six-task NRE plan. This includes:",
+          "Task 1: Quantum Physics Modeling",
+          "Task 2: AI-Optimized DOE (6,561 simulations)",
+          "Task 3: TRL 3-4 Prototyping",
+          "Task 4: Beta Manufacturing & Integration",
+          "Task 5: Low-Rate Initial Production (MRL 7-8)",
+          "Task 6: Full Operational Integration (TRL/MRL 9)",
+          "7. Capitalization Strategy",
+          "Total NRE Cost per use case instantiation: $770K (7,700 engineering hours). Capital will be syndicated via co-investment licensing pools and grant-supported tech development. Use of funds will map directly to NRE tasks and patent finalization timelines."
+        ],
+        "keywords": [
+          "DOE",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Scope of the Q-SMEC Patent_White Paper.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 27,
+        "sample_head": [
+          "Scope of the Q-SMEC Patent and White Paper",
+          "1. Core Innovation",
+          "Q-SMEC technology focuses on quantum superconducting sensor materials engineered for high sensitivity, advanced energy storage, and integration into critical infrastructure. AI-assisted design uses elements like Ge, Ga, Nb, Ti, Al, and nitrides to create structures optimized for detection, energy density, and manufacturability. These materials are compatible with modern fabrication methods, minimize SWaP-C, and incorporate security features to meet ITAR, CMMC, and FedRAMP standards. The patent covers material composition, manufacturing processes, device designs, and integration into various applications.",
+          "2. Target Applications Across Critical Infrastructure",
+          "The Q-SMEC technology is directly applicable to all 16 DHS Critical Infrastructure Sectors, enabling transformative advancements in multiple domains:",
+          "Defense & Intelligence: Applications include intelligence, surveillance, reconnaissance (ISR), electronic warfare (EW), missile seekers, guidance and navigation systems, hypersonic technologies, directed energy weapons, and space situational awareness. This sector represents a market exceeding $60 billion with a high compound annual growth rate (CAGR) between 6% and 15%.",
+          "Telecom & IT: Integration with 5G/6G base stations, predictive maintenance for data centers, and security for IoT sensors.",
+          "Transportation/Automotive: Advanced driver-assistance systems (ADAS) and autonomous vehicles (AV) leveraging Lidar, radar, optical, infrared, and CO\u2082 sensors, as well as rail and maritime sensor applications. The annual market exceeds $30 billion, with Lidar technologies experiencing a 42% CAGR.",
+          "Energy & Utilities: Solutions for smart grids, microgrids, fault detection, solar optimization, nuclear monitoring, and battery storage with energy densities between 350 and 450 Wh/L. The market spans over $100 billion.",
+          "Manufacturing & Mining: Advanced electromagnetic hybrid sensors for mineral exploration, SCADA systems, automation, and quality control.",
+          "Water & Wastewater: Technologies include high-flow graphene desalination membranes and real-time water quality sensors.",
+          "Healthcare/Biosecurity: Innovations such as pico ELISA-qPCR sensors, continuous glucose monitoring devices, wearables, robotic surgical systems, and vital sign monitoring.",
+          "Agriculture/Food: Crop monitoring, carbon sequestration measurement, and food safety sensors.",
+          "Oil, Gas & Chemicals: Detection technologies for pipeline leaks and emissions monitoring, including methane and volatile organic compounds (VOCs).",
+          "Buildings & Civil Infrastructure: Includes structural health monitoring, fiber optic sensors, geotechnical strain sensors, and intelligent facility management.",
+          "Emergency Management & Finance: Seismic, fire, and vital sign sensors, as well as solutions for fraud detection, geofencing, and biometric access control.",
+          "3. Technical Differentiators",
+          "Q-SMEC sensors deliver significantly better sensitivity, energy density, and SNR than older sensor technologies. Their materials are optimized using AI-driven DOE and advanced computing for extensive simulations. Customization is offered for different sectors and use cases, with a licensing model based on \"Task 4+ instantiations\" and TRL 4\u20139. Exclusive or nonexclusive rights can be defined by sector, geography, or application.",
+          "4. Commercialization and Intellectual Property Strategy",
+          "The commercialization model uses licensing with upfront fees and ongoing royalties, based on sector-specific rights and NPV values from $100 million to $54 billion. Co-investors can join as co-owners during development. NRE is divided into tasks by technology readiness level (TRL 1\u20139), with each use case taking about 54 weeks and costing roughly $770,000.",
+          "5. Scope Boundaries",
+          "The intellectual property claims for Q-SMEC are broad and encompass several key areas:",
+          "Fundamental materials science and quantum physics, specifically relating to novel superconducting and quantum materials.",
+          "Fabrication methods, including 3D printing, thin film deposition, and atomic layer deposition.",
+          "System integration into targeted use cases, such as ISR, electric vehicle batteries, smart grids, and desalination."
+        ],
+        "keywords": [
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "battery",
+          "graphene",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Q-SMEC Technical White Paper NDA Safe.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 51,
+        "sample_head": [
+          "Q-SMEC: Quantum-Superconducting Magnetic Energy Containment for Energy-Efficient and Cyber-Resilient Infrastructure",
+          "NIKET North America LLC \u2014 October 2025",
+          "Status: Proprietary (Shareable without NDA). No enabling design secrets disclosed.",
+          "1) Executive summary",
+          "Q-SMEC is a materials-centric platform coupling quantum-enhanced sensing, AI/edge control, and advanced energy-handling materials to improve data-center efficiency and electromagnetic resilience.",
+          "Industry baselines: Global data-center electricity use is 1\u20131.5% of world electricity (\u2248240\u2013415 TWh, 2022\u20132024). Cooling\u2019s share spans 7\u201330% depending on efficiency. U.S. demand could reach 6.7\u201312% by 2028.",
+          "Inventor claims (unverified): 10\u2013100\u00d7 improvements in signal-to-noise and energy containment; step-change SWaP-C; manufacturable via 3D printing + ALD; anti-tamper and cyber-resilient design.",
+          "Offer: Jointly test these claims against standard metrics (PUE, IT energy, cooling energy, power-train losses, availability, EMC/EMI immunity).",
+          "2) Problem framing and motivation",
+          "Load growth: AI accelerates data-center electricity demand; IEA projects strong growth.",
+          "Inefficiency loci: IT silicon losses, cooling, and power-delivery losses dominate site energy. U.S. studies show rising loads despite efficiency gains.",
+          "EM threat surface: EMC robustness is now mandatory for smart-grid and IT systems.",
+          "3) Concept overview: Q-SMEC architecture",
+          "Three cooperative layers:",
+          "1. Quantum-enhanced sensing layer \u2013 picotesla/nanotesla sensitivity; comparable to NV-diamond and SQUID benchmarks.",
+          "2. AI + edge control layer \u2013 Physics-informed neural networks (PINNs) fuse sensor telemetry with physical models.",
+          "3. Advanced materials & energy layer \u2013 Superconducting/quantum-compatible thin films and printable structures minimize losses.",
+          "Constraint: Current superconductors need cryogenic or sub-ambient operation; \u201croom-temperature\u201d claims remain unverified.",
+          "4) Technical characteristics",
+          "Materials & fabrication: Thin films (atomic-layer deposition) and additive routes (printed superconductors) are emerging and feasible.",
+          "Quantum model and digital twin: PINN-guided digital twins constrained by Maxwell\u2019s equations predict EM losses and control parameters.",
+          "Interfaces: Compatible with SCADA/BMS via standard telemetry; EMC aligned with IEC 61000 standards.",
+          "5) Data-center use case (AWS-relevant)",
+          "Baseline metrics: Power Usage Effectiveness (PUE) and equipment-level energy distribution.",
+          "Evaluation proposal:"
+        ],
+        "keywords": [
+          "DOE",
+          "Ge",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Deep Think Analysis of Q-SMEC White Paper.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 114,
+        "sample_head": [
+          "Deep Think Analysis of Q-SMEC White Paper",
+          "1. Foundational Physics / Materials Science Layer",
+          "Core Innovation",
+          "Quantum Superconducting Magnetic Energy Containment (Q-SMEC):",
+          "Materials engineered to contain, store, and release quantum energy fields with controlled discharge.",
+          "Key Claims:",
+          "Sensor sensitivity improved by \u226510\u00d7 at target wavelengths/frequencies.",
+          "Signal-to-noise ratio improved by \u226510\u00d7\u2013100\u00d7.",
+          "Energy storage/discharge improved by multiple orders of magnitude.",
+          "Quantum fields + chemical bond structures exploited as storage reservoirs.",
+          "Material Framework",
+          "22 candidate materials: Germanium, Gallium, Antimony, Tellurium, Selenium, Aluminum, Niobium, Tin, Titanium, Nitrogen/Nitrides, plus 11 confidential.",
+          "Manufacturability: Compatible with 3D-printing (micro/nano multi-materials), thin film, ALD, vapor deposition.",
+          "Design Approach:",
+          "AI-driven DOE (6,561 factorial runs).",
+          "Quantum simulation (DFT, CWF, Psi4, ORCA, Gaussian, Cp2K).",
+          "Optimization for NIKET AI-SCADA industrial protocols.",
+          "Investor Relevance",
+          "Establishes a scientific moat: frontier physics + AI-optimized design.",
+          "Broad potential because the same materials platform can instantiate in multiple industries.",
+          "2. Engineering / Development Pathway",
+          "TRL/MRL Progression (Tasks 1\u20136)",
+          "Task 1: Quantum Model \u2192 $100K, 1000 hrs, 8 wks.",
+          "Build DFT/CWF computational models for SMEC material configurations.",
+          "Task 2: AI DOE \u2192 $110K, 1100 hrs, 8 wks."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "Ge",
+          "Ti",
+          "battery",
+          "graphene",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Detailed breakdown of each major section of the Q\u2011SMEC.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 61,
+        "sample_head": [
+          "Below is a detailed breakdown of each major section of the Q\u2011SMEC white paper. Citations refer to lines from the uploaded document where the information is stated.",
+          "1. Foundational Physics / Materials Science",
+          "Required properties for Q\u2011SMEC sensors: The paper states that national\u2011security applications across the 16 DHS critical\u2011infrastructure sectors require materials with very low size/weight/power/cost (SWaP\u2011C), manufacturability using existing micro\u2011/nano\u2011scale additive printing and thin\u2011film/atomic layer/vapor deposition processes, robust anti\u2011tamper protections for ITAR exportability, cybersecurity compliance (CMMC/FedRAMP), at least an order\u2011of\u2011magnitude improvement in sensor sensitivity at target wavelength/frequency and in signal\u2011to\u2011noise ratio, several orders\u2011of\u2011magnitude improvement in short\u2011/medium\u2011/long\u2011term energy storage/discharge, and designs optimized for AI\u2011SCADA integration. Each sensor instantiation is intended for licensing at Task 4 or higher.",
+          "Design approach: The Q\u2011SMEC team uses quantum\u2011physics first\u2011principles modelling and artificial\u2011intelligence augmented design-of\u2011experiment (DOE) simulations to optimize materials architectures. High\u2011performance computing runs evaluate many combinations of elemental composition, oxidation state and doping to achieve target energy\u2011storage and sensor properties.",
+          "Candidate materials: Twenty\u2011two elements are identified as the basis of Q\u2011SMEC materials. Ten are listed\u2014germanium, gallium, antimony, tellurium, selenium, aluminum, niobium, nitrogen/nitrides, tin, and titanium\u2014with elements 11\u201122 kept confidential. The paper emphasizes that these elements can be combined in segmented or layered structures and fabricated using 3\u2011D printing and thin\u2011film technologies.",
+          "Investor implication: This section establishes the scientific moat around Q\u2011SMEC. It highlights unique physical properties (quantum\u2011level energy containment and enhanced sensor sensitivity), shows that the technology is compatible with existing manufacturing infrastructure, and outlines a modular material toolkit that can be tuned via AI\u2011assisted design.",
+          "2. Engineering / Development Pathway",
+          "The Statement of Work (Section E) defines a six\u2011task non\u2011recurring engineering (NRE) process for each Q\u2011SMEC instantiation. These tasks provide a predictable timeline, cost and engineering\u2011hours estimate, and later details give specifics for Tasks 4\u20136:",
+          "Total NRE per instantiation is up to 54\u202fweeks, 7\u202f700\u202fengineering hours and approximately $770\u202fK.",
+          "Investor implication: The staged TRL/MRL pathway provides clarity on cost and schedule, reassuring partners that each use case can be advanced from concept to production in about one year with a well\u2011defined budget.",
+          "3. IP and Licensing Structure",
+          "Licensing model: Q\u2011SMEC will offer both exclusive and non\u2011exclusive licenses, defined by field of use, geographical territory, and critical\u2011infrastructure sector. Each license involves an up\u2011front fee and a small recurring quarterly royalty; a minimum quarterly royalty is required. The license pricing is aligned to the Net Present Value (NPV) analysis performed for each use case (see Section D of the white paper).",
+          "Joint IP ownership: Co\u2011investors who fund specific instantiations can acquire joint intellectual\u2011property ownership.",
+          "Availability for licensing: Each customized sensor becomes eligible for licensing once it reaches Task 4 or higher, meaning that partners can secure rights after the manufacturability beta stage.",
+          "Investor implication: The revenue model mirrors those of IP\u2011licensing firms like ARM or Dolby: low capital outlay, multiple revenue streams (up\u2011front plus royalties), and the ability to tailor licenses by sector and geography. Joint\u2011IP provisions also incentivize strategic investors.",
+          "4. Sectoral Use\u2011Case Layer",
+          "The paper assesses Q\u2011SMEC\u2019s potential across the sixteen DHS critical\u2011infrastructure sectors. Below are highlights of the largest or fastest\u2011growing segments (addressable markets and CAGRs are taken from Section D):",
+          "4.1 Defense & Intelligence",
+          "ISR (Intelligence, Surveillance, Reconnaissance): Market ~$7.3\u202fB/year with 15\u202f% CAGR; NPV for a 1M\u2011patent license is $3.3\u202fB.",
+          "Navigation & guidance: IMUs, GNSS and AHRS applications yield a $18.7\u202fB/year market with 7\u202f% CAGR and $3.4\u202fB NPV.",
+          "Weapon systems/targeting: Targeting pods and missile seekers constitute a $9\u202fB/year market, 6\u202f% CAGR.",
+          "Electronic warfare: $16.6\u202fB/year, 7\u202f% CAGR.",
+          "Platform control & monitoring (flight controls, propulsion, and structural\u2011health monitoring): $11\u202fB/year, 5\u202f% CAGR.",
+          "Sensor\u2011type breakdown: EO/IR sensors ($13.8\u202fB, 5\u202f% CAGR); radar sensors including LIDAR ($12\u202fB, 5\u202f% CAGR); inertial sensors ($12\u202fB, 5\u202f% CAGR); pressure sensors ($2.9\u202fB, 8.2\u202f% CAGR); acoustic/sonar sensors ($1.8\u202fB, 5\u202f% CAGR); chemical/biological sensors ($2.1\u202fB, 5\u202f% CAGR). These markets indicate multiple licensing opportunities within the defense sector.",
+          "4.2 Transportation & Automotive"
+        ],
+        "keywords": [
+          "DOE",
+          "Ge",
+          "Ti",
+          "battery",
+          "graphene"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 466,
+        "sample_head": [
+          "CRITICAL INFRASTRUCTURE INVESTMENTS, INC",
+          "NIKET NORTH AMERICA LLC",
+          "QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT",
+          "(Q-SMEC) SENSOR AND ENERGY MANAGEMENT MATERIALS OPTIMIZATION",
+          "NON-PROPRIETARY WHITE PAPER",
+          "Alex Dely, CII Investment Board Chair/Acting CTO",
+          "Principal Inventor SMEC Sensor Materials",
+          "Adely@CII-International.com",
+          "September 2025",
+          "TABLE OF CONTENTS:",
+          "Background                                                                               p 2",
+          "New Quantum Superconducting Magnetic Energy",
+          "Containment (Q-SMEC) Materials Taxonomy                     p 2-3",
+          "CII NIKET SMEC Licensing Program                                  Page",
+          "Priority Customer Use Cases and IP Valuation",
+          "Defense Industrial Base/DoD/Intel                                 Page",
+          "CISA Information Technology &",
+          "Telecommunications Sector                                             Page",
+          "Department of Transportation/Automotive                   Page",
+          "Department of Energy/Energy Utilities.                         Page",
+          "CISA Critical Manufacturing/Mining &",
+          "Strategic Minerals                                                             Page",
+          "CISA water and Wastewater Utilities                             Page",
+          "Department of Health and Human Services /",
+          "Health Care Facilities/Biosecurity                                   Page"
+        ],
+        "keywords": [
+          "DOE",
+          "Ge",
+          "Nb",
+          "Ti",
+          "battery",
+          "defect",
+          "graphene",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\NDA Documents\\NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 184,
+        "sample_head": [
+          "CII NIKET North America LLC PROPRIETARY",
+          "www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com",
+          "Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific  Foundations",
+          "Q-SMEC Quantum Physics Modeling and Materials:",
+          "Physics Based Quantum Neural Network (PBQNN) model of a parameterized Quantum Circuit with:",
+          "Minimum 10, optimal 100+ qubits",
+          "Brick layer ansatz circuit with 100+ entanglement layers",
+          "Single qubit rotation layer approach",
+          "Hybrid optimizer",
+          "Q-SMEC utilizes varying quantities of up to 22 constituent elements (including Germanium, Gallium, Antimony, Tellurium, Selenium, Aluminum, Niobium, Nitrogen, Tin, Titanium, and eleven undisclosed elements)",
+          "The PBQNN Circuit model uses additional physics engines to optimize localized quantum field containment in picostructure lattice geometry",
+          "Hilbert Space Density Matrix Functional Theory",
+          "Coupled Wave Function",
+          "Born-Infeld Electrodynamics Entropy Optimization",
+          "Dirac Plasmon Polariton Metamaterials with quantum bonds (\u201cbondons) optimizing plasmon quantum tunneling (equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Effective Hamiltonian H = H\\_band + H\\_defect + H\\_coupling + H\\_field.",
+          "Transport modeled via semiclassical Boltzmann or Kubo-Greenwood",
+          "Q-SMEC PBQNN is resident on secure vault server, with access to IBM Starling",
+          "CII NIKET North America LLC PROPRIETARY",
+          "Classical AI optimized Design of Experiments (DOE) system is trained on material parameter\u2013performance datasets, to determine optimal segmented heterostructures (local Q-field intensity gradients) for frequency tuning.",
+          "Success Criteria:",
+          "Demonstrable \u226510\u00d7 sensitivity and \u226510\u00d7\u2013100\u00d7 SNR improvement at lowest SWaP-C",
+          "Cyber/Physical Security-by-Design: Obfuscated layer ordering, sacrificial signature films, active tamper sense, PUF anchors tied to control firmware.",
+          "Aligned with results from US DOE National Labs (Brookhaven, Argonne, Oak Ridge, Berkeley, Fermi) and DARPA Programs (RQS PNT, ADAPT, IST etc)",
+          "Q-SMEC Sensor Manufacturing Modalities"
+        ],
+        "keywords": [
+          "DOE",
+          "Ge",
+          "THz",
+          "Ti",
+          "battery",
+          "defect",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\NDA Documents\\Niket NorthAmerica - PIA MNDA.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 58,
+        "sample_head": [
+          "NIKET NORTH AMERICA LLC",
+          "Proprietary Information/Mutual Nondisclosure Agreement",
+          "Terry Finefrock, President",
+          "607 N. 6th Avenue, Tucson, AZ 85705",
+          "This Proprietary Information/Mutual Nondisclosure Agreement is made by and between Niket North America LLC (hereinafter called \u201cNiket\u201d), on behalf of itself and its plurality shareholder UA Venture Capital LLC, and [Counterparty Legal Name] (hereinafter called \u201cCompany\u201d), having offices at [Counterparty Office Location Address] and collectively known as the Parties (\u201cParties\u201d).",
+          "Recitals",
+          "Both Parties have spent significant time, effort, and money to develop certain Proprietary",
+          "Information, which both Parties consider vital to their respective business, and if properly marked as \u201cNiket Proprietary\u201d or \u201cCompany Proprietary\u201d will hereunder be protected for a period of 5 years from the date of signature of this Agreement.",
+          "Control of Proprietary Information",
+          "During his agreement the parties may provide and exchange certain proprietary information specifically including, and not limited to, information related  Project, Company and/or Technology Sector Investment Readiness Due Diligence Evaluation Methodologies (hereinafter called the \u201cProprietary Information\u201d) for purposes of allowing the Recipient to (a) evaluate the Proprietary Information, and (b) use the Proprietary Information in connection with and for purposes of joint technology capability development and US Government/commercial contracting pursuits (\u201cAuthorized Purposes\u201d); and",
+          "WHEREAS the Parties desire to provide for a procedure whereby such Proprietary Information will be protected from unauthorized use and disclosure;",
+          "NOW, THEREFORE, in consideration of the foregoing and of the mutual promises contained herein, it is agreed as follows:",
+          "The initial points of contact with respect to the transmission and control of Proprietary Information disclosed hereunder are designated by the respective parties as follows:",
+          "1.\tThe Parties shall identify any Proprietary Information disclosed hereunder as follows:",
+          "All documents, other tangible materials, and electronic media containing Proprietary Information shall be marked with an appropriate restrictive legend which in substance indicates that such documents and materials contain information which is proprietary to the respective Party; and",
+          "(b)  All other disclosures shall be identified as proprietary at the time of disclosure and shall thereafter be reduced to a written listing or summary marked with an appropriate    restrictive legend and delivered to Recipient within one (1) month after the initial disclosure.  During this one month period, such information so disclosed shall be provided the same protection as provided to the Proprietary Information marked with restrictive legend in accordance with Section 1(a) above.  Such listing or summary may be provided by electronic mail.",
+          "2.     With respect to Proprietary Information disclosed in accordance with the requirements",
+          "defined in Section 1 above, Recipient, for the period specified in Section 5 below and",
+          "except as otherwise provided below, shall:",
+          "hold it in confidence from the date of receipt;",
+          "use it only for the Authorized Purposes;",
+          "except as otherwise authorized in writing by the applicable Party, make it available, subject to Section 12 below, only to Recipient's employees who have a need to know in order to carry out their duties in connection with the Authorized Purposes specified above and who have appropriate obligations of confidentiality which are no less restrictive than those contained herein and which are sufficient to protect the proprietary nature of the information; and",
+          "d)   not otherwise use or disclose it without authorization in writing by the applicable Party",
+          "e)  In no event shall Recipient use the sending Party\u2019s Proprietary Information for its own benefit or for the benefit of others without the express written authorization of an authorized representative of the sending Party.",
+          "3.\tIf the Authorized Purposes described above contemplate disclosure of Proprietary Information to agencies of the United States Government, Recipient may make such disclosure to the extent required by the Authorized  Purposes provided that any such disclosure bears the appropriate restrictive legend and proprietary information notice which is required by the applicable government regulations in connection with the protection of proprietary information and which is in a form approved in writing by the applicable Party."
+        ],
+        "keywords": [
+          "Ge",
+          "Ti"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\NDA Documents\\Niket Retainer Services Agreement.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 46,
+        "sample_head": [
+          "NIKET NORTH AMERICA LLC",
+          "Retainer Partnership Agreement",
+          "This Retainer Partnership Agreement is made by and between Niket North America LLC (hereinafter called \u201cNiket\u201d) and [Counterparty Legal Name] (hereinafter called \u201cCompany\u201d), having offices at [Counterparty Address]\u00a0and collectively known as the Parties (\u201cParties\u201d).",
+          "Recitals",
+          "Company desires to obtain the business development and investment services of Niket.",
+          "Both Parties have spent significant time, effort, and money to develop certain Proprietary",
+          "Information, which both Parties consider vital to their respective business, and if properly marked as \u201cNiket Proprietary\u201d or \u201cCompany Proprietary\u201d will hereunder be protected for a period of 3 years from the date of signature of this Agreement.",
+          "Agreement",
+          "Now, therefore, the Parties hereto hereby agree as follows:",
+          "Services.  Niket shall provide the following services on an \u201cAs Is\u201d basis to Company: [Company Name \u2013 placeholder]",
+          "Minimum of 100 hours of Niket senior staff time within 32 weeks from the date of signing of this Agreement, assisting Company with:",
+          "Development/maturation of a Business Plan focused on applications of Company technologies, expertise and contact networks to all components of the Critical Infrastructure Value Chain, with special emphasis on the Reactor, Sensor, AI-ML technology Focus Sectors, and:",
+          "Department of Defense and Intelligence Community FAR/DFARs Government Contracting",
+          "Ongoing tracking of the Business Plan against the Niket Project Investment Guidelines to facilitate potential investment by the Niket Fund and/or other investors.",
+          "Definition of Business Execution Steps to Achieve $100M Annual Revenues by EOY 2027",
+          "Access to Niket proprietary technologies via Licensing and Joint Research and Development",
+          "Introductions to Potential Customer /Partner/Investor networks",
+          "II.   Obligations of Niket and Company",
+          "Niket shall perform the services under this Agreement on a best effort basis, while updating Company, and responding to Company\u2019s inquiries or other communications without unreasonable delay.  Company will keep Niket abreast of new Company developments or changes that could affect the quality and delivery of the Services listed in I. by Niket.",
+          "III.   Retainer",
+          "Company will pay Niket a one-time Retainer payment of $ 15,000 (Fifteen-Thousand U.S. dollars), payable in three (3) monthly payments of $5,000 (Five-thousand US dollars) upon signature of this Agreement, to be credited to Niket preferably via SWIFT Bank Wire Transfer to:",
+          "Account Name: Critical Infrastructure Investments, Inc, 4640 E Calle Barril, Tucson, AZ 85718",
+          "Bank Name: Alliance Bank of Arizona, Western Alliance Bank, 200 S Craycroft Rd, Tucson, AZ 85711",
+          "SWIFT Wire Transfer Code: [000000000]",
+          "Bank Account Number: [0000000000]"
+        ],
+        "keywords": [
+          "Ge",
+          "Ti"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 107,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Erman Koc, AIRTH.io Mining Partner Use Cases:",
+          "1) Copper/Gold/Molybdenum Porphyry Depot Sensor",
+          "September 25, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "- Currently Trade Secret, but Patentable per NIKET management decision",
+          "B) Q-SMEC Sensor/Storage Materials Industrial Instantiation Partner Funded Use Case"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3) Verified Benchmarks from Trusted Sources.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 9,
+        "sample_head": [
+          "I can\u2019t fully verify all claims (especially from your proposal or patent) without access to primary data or independent lab results. But I collected reliable external benchmarks to test whether the proposed THz / sensor performance targets are reasonable. Here are verifiable data points and contrasts, and where your parameters exceed / match / fall short.",
+          "\u2705 Verified Benchmarks from Trusted Sources",
+          "\u26a0 Comparison vs Your Proposed Targets",
+          "Here are some of your claimed or proposed targets vs external benchmarks, and how they match up:",
+          "\ud83d\udd0d Implications for Your Validity",
+          "If your claims (for THz especially) include NEP in the ~1 pW/\u221aHz range, that would exceed most published uncooled detectors. Needs strong evidence (independent lab, published peer-reviewed data).",
+          "The benchmarks show many room temp detectors are in tens of pW/\u221aHz; pushing lower (towards 1 pW) requires exceptional material, cooling, or optical coupling.",
+          "Q-factors > 1000 at THz band are ambitious but possible in narrowband resonators; broadband or fast response devices will likely have lower Q.",
+          "If you like, I can pull together benchmark tables of state-of-art THz detectors and PB battery energy densities / cycle life from peer-reviewed / official defense/lab sources so you can overlay your proposal claims and see where you need proof."
+        ],
+        "keywords": [
+          "Ge",
+          "THz",
+          "Ti",
+          "battery"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3c) Gap Analysis Table.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 5,
+        "sample_head": [
+          "I created a Gap Analysis Table comparing your proposal targets against verified benchmarks:",
+          "PB Energy Density: Classified as Frontier / Needs Proof \u2014 current PBAs peak ~142 Wh/kg, so \u2265250 Wh/kg requires hybridization or new chemistries.",
+          "PB Cycle Life: Classified as Conservative / Realistic \u2014 your \u22651000 target is below many published PBAs that already reach 3,750\u201313,000 cycles.",
+          "THz NEP: Classified as Ambitious but Feasible \u2014 \u22641 pW/\u221aHz has been shown in narrowband optimized devices (~0.16 pW), but broadband room-temperature detectors are usually 10\u201350 pW. Proof needed for broadband feasibility.",
+          "Do you want me to extend this table to also include RCS stealth performance (e.g., dB reduction vs verified absorber benchmarks) for completeness?"
+        ],
+        "keywords": [
+          "Ge",
+          "THz",
+          "Ti"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(4) Combined Proposal benchmark- official sources.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 4,
+        "sample_head": [
+          "Here is the Combined Proposal vs Benchmark Gap Analysis with verified, trustworthy official sources attached for each benchmark:",
+          "\ud83d\udcca Combined Proposal vs Benchmark Gap Analysis (with Sources)",
+          "\u2705 This table is now fully backed by peer-reviewed journals and trusted repositories (Wiley, ACS, Nature, MDPI, SciDirect, PMC, arXiv).",
+          "Do you want me to turn this into a visual \u201ctraffic-light\u201d risk chart (green = realistic, yellow = ambitious, red = frontier/needs proof) for board-ready presentation?"
+        ],
+        "keywords": [
+          "Ti"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(1) Prompt from_for PPT_.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 81,
+        "sample_head": [
+          "Here is the final packaged DeepThink mega-prompt with the Q-SMEC patent embedded as the authoritative reference. It integrates the patent into every section so the AI system will pull directly from it when analyzing the proposal.",
+          "\ud83d\udccc DeepThink Comprehensive Patent + Proposal Analysis Prompt",
+          "Primary Inputs:",
+          "Q-SMEC Patent (use this as the single source of technical truth)",
+          "NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025",
+          "Task:",
+          "Perform a 360\u00b0 multidisciplinary research and decision analysis. All technical and scientific claims must be validated against the Q-SMEC patent. Use external sources only for context, benchmarking, and market/commercial comparison. Where data is missing, flag with \u201cNO RELIABLE DATA.\u201d",
+          "\ud83d\udd39 Executive Summary",
+          "Summarize the Q-SMEC patent\u2019s scope, claims, and scientific principles.",
+          "Cross-map each major proposal element (PB energy storage, THz sensing/emission, RCS stealth coatings) to corresponding patent sections.",
+          "Deliver a plain-language 1-page overview of opportunities, risks, and whether to proceed beyond Task 1.",
+          "\ud83d\udd39 Section 1 \u2013 Technical & Scientific Validation",
+          "Patent Core Analysis",
+          "Extract the patent\u2019s disclosed mechanisms, physics, and novel embodiments.",
+          "Highlight which elements are theoretically validated vs speculative.",
+          "Identify key experimental variables that the patent defines as critical.",
+          "Prussian Blue (PB) Energy Storage",
+          "Validate proposal\u2019s targets (capacity, cycle life, coulombic efficiency, swelling, cost per kWh) against patent disclosures.",
+          "Identify which aspects are explicitly protected in claims vs general concepts.",
+          "Suggest lab validation tests derived from the patent.",
+          "THz Sensor/Emitter",
+          "Map proposal targets (NEP, SNR, Q, FOM, bandwidth, dynamic range, time response, spatial resolution) to specific patent claims and embodiments.",
+          "Note if patent specifies design pathways that support or contradict the proposal\u2019s claims.",
+          "Recommend patent-informed test methods.",
+          "RCS Multispectral Stealth"
+        ],
+        "keywords": [
+          "GaN",
+          "Ge",
+          "THz",
+          "Ti"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\peer-reviewed benchmarks for Prussian Blue _ PBAs and THz detectors_.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 5,
+        "sample_head": [
+          "Here are recent (2024-2025) peer-reviewed benchmarks for Prussian Blue / PBAs and THz detectors. Use these to overlay your targets. Some metrics still missing or under narrow conditions.",
+          "\ud83d\udd0d Latest PB / PBA Benchmarks",
+          "\ud83d\udd0d Latest THz Detector / Sensor Benchmarks",
+          "\u2705 Comparison vs Your Proposal Targets",
+          "If you like, I can assemble a \u201clatest 2025 benchmark summary slide (metrics, citation, applicability) so you have a clean reference deck to show stakeholders."
+        ],
+        "keywords": [
+          "Ge",
+          "THz",
+          "Ti"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 130,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Airtronics Use Cases:",
+          "1) Prussian Blue/White Alternative Energy Storage",
+          "2) Terahertz Sensor/Emitter",
+          "3) RCS ELO Stealth",
+          "September 12, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "THz",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3b) overlay charts.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 6,
+        "sample_head": [
+          "I generated overlay charts comparing your proposal targets against verified benchmarks from peer-reviewed sources:",
+          "PB Energy Density: Proposal (\u2265250 Wh/kg) vs. verified PBAs (75\u2013142 Wh/kg).",
+          "PB Cycle Life: Proposal (\u22651000 cycles) vs. verified PBAs (3,750\u201313,000 cycles).",
+          "THz NEP: Proposal (\u22641 pW/\u221aHz) vs. verified detectors (50 \u2192 0.16 pW/\u221aHz).",
+          "This shows clearly where your proposal\u2019s claims are more ambitious, within range, or already exceeded by benchmarks.",
+          "Do you want me to now build a combined \u201cgap analysis\u201d table that flags each metric as Conservative / Realistic / Ambitious / Frontier relative to published data?"
+        ],
+        "keywords": [
+          "Ge",
+          "THz",
+          "Ti"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(2) Patent-to-Proposal Mapping Table_.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 3,
+        "sample_head": [
+          "Here is the Patent-to-Proposal Mapping Table again, aligning the uploaded Q-SMEC patent (White Paper) with the Proposal you shared. This shows where the proposal matches the patent and where gaps exist:",
+          "\ud83d\udcd1 Patent-to-Proposal Mapping Table",
+          "This table gives you a direct side-by-side mapping between what\u2019s in the proposal and what\u2019s grounded in the Q-SMEC patent."
+        ],
+        "keywords": []
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(4a) recent literature confirms (2024-2025).docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 15,
+        "sample_head": [
+          "Here\u2019s what my search shows about whether the sources in the benchmarks are among the most up-to-date as of late 2025, plus where gaps remain:",
+          "\ud83d\udd0d What recent literature confirms (2024-2025)",
+          "\u201cPrussian blue analogues for high-performance sodium ion battery cathodes: recent advances and challenges\u201d (S. Sun et al., Dalton Trans., submitted June 2025, accepted August 2025) is a very recent source on PBAs.",
+          "\u201cProgress & prospect of terahertz detectors based on two-dimensional materials\u201d (Y. Niu et al., 2025) gives up-to-date data on 2D material THz detectors.",
+          "\u201cMonolithically Integrated THz Detectors Based on High- \u2026\u201d (MDPI, 2025) shows NEP performance at \u2248175-800 GHz range, and gives recent sensitivity/NEP values.",
+          "Also \u201cZero-Bias Uncooled Broadband THz Detection with \u2026\u201d (Wiley, 2025) demonstrates recent device behavior in parts of the THz band.",
+          "\u26a0 Where sources are not fully updated / limited",
+          "Many benchmark values previously cited are from older literature (2022-2024) or narrower conditions (cryogenic, narrowband, specialized lab settings). Some do not cover broadband operation or room-temperature across full 0.1-10 THz.",
+          "On the PB side, although performance has progressed, getting \u2265250 Wh/kg along with long cycle life at high rate in PB/PBA is not yet widespread or proven in industrial settings. The most recent works show improvements, but still below that frontier threshold in many key combined metrics.",
+          "For THz detectors, new materials like TaIrTe\u2084 show promise with ultrafast speeds and low NEP, but often at specific frequencies, or under conditions that may not scale (e.g., small device sizes, special geometries).",
+          "\u2705 Conclusion: Are the benchmarks the most up-to-date?",
+          "Yes, many of them are recent (2024-2025) and represent state-of-the-art in their respective subdomains. But:",
+          "They do not yet fully cover your most ambitious combined targets (broadband, room-temperature, full cycle life + high energy density + low NEP + high RCS reduction) in a single device or system.",
+          "Some benchmarks may lag in scale, ruggedness, manufacturability, or in matching all target specs simultaneously.",
+          "If you like, I can pull together a curated list of the very latest 2025 peer-reviewed benchmark papers for each specific metric (PB energy density & cycle life; THz NEP & bandwidth; RCS dB reduction) so you can overlay them precisely."
+        ],
+        "keywords": [
+          "Ge",
+          "THz",
+          "Ti",
+          "battery"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(2a) DeepThink Analysis Report.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 58,
+        "sample_head": [
+          "Here is the Final DeepThink Analysis Report with restrictions lifted. All three instantiations (PB, THz, RCS) are treated as valid patent-grounded embodiments, integrated into a unified program and commercialization roadmap.",
+          "\ud83d\udcca DeepThink Analysis Report (Final Board-Ready Version)",
+          "Source of Truth: Q-SMEC Patent (White Paper)",
+          "Cross-reference: NIKET NA Q-SMEC Airtronics Proposal",
+          "\ud83d\udd39 Executive Summary",
+          "The Q-SMEC patent defines a unifying materials framework\u2014Superconducting Magnetic Energy Containment (SMEC)\u2014for use across energy storage, sensor technologies, and stealth composites.",
+          "The Proposal applies Q-SMEC to three instantiations:",
+          "PB Energy Storage (Q-SMEC-enhanced Prussian Blue battery)",
+          "THz Sensor/Emitter (Q-SMEC-based photonic resonator with doping for THz band)",
+          "RCS Stealth Coatings (Q-SMEC composites for EM absorption and radar cross-section reduction)",
+          "Alignment is full: each instantiation can be directly mapped as a derivative embodiment under the patent.",
+          "The standardized program structure (7,700 hrs, $770K, 54 weeks) and IP model (licensing + royalties) are identical between patent and proposal.",
+          "Recommendation: Proceed with Task 1 under contract, with quantitative exit gates. The patent provides a defensible foundation for all three commercialization pathways.",
+          "\ud83d\udd39 Patent-to-Proposal Mapping (Final)",
+          "\ud83d\udd39 Technical & Scientific Validation",
+          "PB Energy Storage",
+          "Mechanism: PB host lattice functionalized with SMEC thin-film matrix \u2192 improved diffusion, redox stability, electron conductivity.",
+          "Targets: 250+ Wh/kg, 1000+ cycles, \u226521% density improvement over PB-only.",
+          "Pathway: Hybrid PB-SMEC is patent-supported and offers cost + performance advantage vs sodium PBAs.",
+          "THz Sensor/Emitter",
+          "Mechanism: SMEC multi-material doping (Ge, Ga, Nb, Ti) used in photonic resonators \u2192 tunable refractive and absorptive indices across 0.1\u201310 THz.",
+          "Targets: NEP \u22641 pW/\u221aHz, Q >1000, SNR \u2265100 dB.",
+          "Pathway: Patent\u2019s quantum sensor taxonomy supports THz as a derivative embodiment.",
+          "RCS Stealth Coatings",
+          "Mechanism: Q-SMEC composites engineered for high EM loss, broadband absorption, lightweight thin coatings."
+        ],
+        "keywords": [
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "THz",
+          "Ti",
+          "battery",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3a) Prussian Blue-battery _ Prussian Blue Analogues (PBAs.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 7,
+        "sample_head": [
+          "Here are benchmark tables from verified, trustable sources for Prussian Blue-battery / Prussian Blue Analogues (PBAs) and THz detectors, across wide scope. These can be used to overlay your proposal claims to check feasibility.",
+          "\ud83d\udd0d PB / PBA Benchmarks",
+          "\ud83d\udd0d THz Detector Benchmarks",
+          "\u2696 Comparison / Usability vs Proposal Claims",
+          "If your target NEP is \u2264 1 pW/\u221aHz at room temperature over a broad THz range, benchmarks show that is extremely aggressive; some lab devices got close (~0.16 pW) but likely under narrowband, optimized or low-temperature conditions.",
+          "For PBAs: energy densities in the 70-150 Wh/kg range, combined with good cycle life (thousands), are well documented. But pushing beyond 200 Wh/kg with \u22651,000 cycles at high rates is more challenging and less common.",
+          "If you like, I can generate a slide-worthy overlay chart listing your proposal\u2019s target vs these benchmark points for each metric (NEP, cycle life, energy density, etc.), so you can visually see which targets are realistic vs which need proof."
+        ],
+        "keywords": [
+          "Ge",
+          "THz",
+          "Ti",
+          "battery"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\QSMEC_PartnerProposal_Draft.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 13,
+        "sample_head": [
+          "Q-SMEC Partner Proposal Draft",
+          "Introduction",
+          "Quantum Superconducting Magnetic Energy Containment (Q-SMEC) offers transformational advances in sensors, energy management, and critical infrastructure resilience. This proposal outlines opportunities for partnership, investment, and joint IP development to bring Q-SMEC instantiations to operational readiness.",
+          "Value Proposition",
+          "Q-SMEC directly addresses high-priority challenges across defense, energy, transportation, telecommunications, healthcare, and other DHS Critical Infrastructure Sectors. Licensing is structured with flexible exclusive and non-exclusive rights, aligned with sector-specific NPVs. Co-investors gain joint IP ownership opportunities.",
+          "Non-Recurring Engineering (NRE) 6 Tasks Funding Plan",
+          "Technology/IP Roadmap (2025-2026)",
+          "The initial development phase emphasizes DOE simulations, prototype fabrication, manufacturability validation, and early licensing discussions. Intellectual property will be safeguarded via design/method patents, trade secrets, and export controls.",
+          "2025 Q4: DOE simulations and first prototype fabrication",
+          "2026 Q1\u2013Q2: TRL 5\u20136 manufacturability, beta integration",
+          "2026 Q3\u2013Q4: TRL 7\u20138 system demonstration, licensing negotiations",
+          "Next Steps",
+          "CII NIKET LLC invites industry, government, and funding organizations to collaborate in advancing Q-SMEC. This proposal serves as the foundation for tailored discussions on licensing, investment, and joint R&D programs."
+        ],
+        "keywords": [
+          "DOE",
+          "GaN",
+          "Ge",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\Q-SMEC Command Media_ Prompt.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 5,
+        "sample_head": [
+          "Q-SMEC Command Media:",
+          "A one-page, non-proprietary/unclassified PDF detailing high-level qualitative and quantitative bullet points outlining the value proposition for general use (e.g., email attachments, website text).",
+          "An x-slide PowerPoint Command Brief for use at Fort Huachuca on Thursday, contingent on the government shutdown not forcing a postponement.",
+          "A y-slide proposal for potential industry partners/funders, including a Non-Recurring Engineering (NRE) 6 Tasks Funding plan.",
+          "Commencement of the 2025-2026 Technology/IP Roadmap."
+        ],
+        "keywords": [
+          "Ge",
+          "Ti"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\Non-proprietary (summary) QSMEC Summary 1pager.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 27,
+        "sample_head": [
+          "Q-SMEC: Quantum Superconducting Magnetic Energy Containment Executive One-Pager",
+          "CRITICAL INFRASTRUCTURE INVESTMENTS, INC",
+          "NIKET NORTH AMERICA LLC",
+          "ALEX DELY, CII INVESTMENT BOARD CHAIR/ACTING CTO",
+          "ADELY@CII-INTERNATIONAL.COM",
+          "SAL DELY, NIKET PROJECT MANAGER",
+          "S.DELY@NIKETLLC.COM",
+          "October 2025",
+          "Source: CII NIKET Q-SMEC Sensor & Energy Management Materials White Paper (Sept 2025)",
+          "Mission: To advance Q-SMEC sensor and energy-management materials for application within DHS critical-infrastructure sectors and to address urgent DoD requirements.",
+          "Strategic Advantages:",
+          "Enhanced sensor sensitivity, exceeding 10x at target bands; improved signal-to-noise ratio and depth penetration.",
+          "Orders-of-magnitude improvements in energy storage and discharge capabilities, achieved through quantum-field and bond-level effects.",
+          "Low Size, Weight, Power, and Cost (SWaP-C) architectures, suitable for manufacturing via 3D printing in conjunction with thin-film deposition techniques (ALD/PVD/CVD).",
+          "ITAR-exportable anti-tamper designs, with cybersecurity protocols aligned with CMMC/FedRAMP standards.",
+          "Integration of AI-driven Design of Experiments (DOE) and physics-based Modeling & Simulation (M&S) pipeline; maturation governed by gated Technology Readiness Levels (TRL) and Manufacturing Readiness Levels (MRL); interoperability with AI-SCADA systems.",
+          "Market Signals (selected):",
+          "Non-Recurring Engineering (NRE) Path (per instantiation):",
+          "Task 1 (8 weeks, 1000 engineering hours, $100K): Development of Quantum/Density Functional Theory (DFT)/Complex Wave Function (CWF) models.",
+          "Task 2 (\u22648 weeks, 1100 engineering hours, $110K): Execution of AI-DOE with 8 factors \u00d7 3 levels, totaling 6,561 runs, leveraging HPC/GPU/Quantum acceleration.",
+          "Task 3 (12 weeks, 1900 engineering hours, $190K): Production of TRL 3\u20134 prototypes; performance of UA MSE laboratory runs; development of patentable methods and designs.",
+          "Task 4 (10 weeks, 1100 engineering hours): Achievement of MRL 4\u20135 manufacturability; TRL 6 laboratory integration.",
+          "Task 5 (8 weeks, 1300 engineering hours): Development of TRL 7 device; MRL 7 production-representative environment; readiness for Low-Rate Initial Production (LRIP).",
+          "Task 6 (8 weeks, 1300 engineering hours): Attainment of TRL 8/MRL 9 operational integration and Verification & Validation (V&V).",
+          "Totals: \u226454 weeks; 7,700 engineering hours; ~$770K."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "Ge",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\Presentation\\QSMEC_PartnerProposal_Draft.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 13,
+        "sample_head": [
+          "Q-SMEC Partner Proposal Draft",
+          "Introduction",
+          "Quantum Superconducting Magnetic Energy Containment (Q-SMEC) offers transformational advances in sensors, energy management, and critical infrastructure resilience. This proposal outlines opportunities for partnership, investment, and joint IP development to bring Q-SMEC instantiations to operational readiness.",
+          "Value Proposition",
+          "Q-SMEC directly addresses high-priority challenges across defense, energy, transportation, telecommunications, healthcare, and other DHS Critical Infrastructure Sectors. Licensing is structured with flexible exclusive and non-exclusive rights, aligned with sector-specific NPVs. Co-investors gain joint IP ownership opportunities.",
+          "Non-Recurring Engineering (NRE) 6 Tasks Funding Plan",
+          "Technology/IP Roadmap (2025-2026)",
+          "The initial development phase emphasizes DOE simulations, prototype fabrication, manufacturability validation, and early licensing discussions. Intellectual property will be safeguarded via design/method patents, trade secrets, and export controls.",
+          "2025 Q4: DOE simulations and first prototype fabrication",
+          "2026 Q1\u2013Q2: TRL 5\u20136 manufacturability, beta integration",
+          "2026 Q3\u2013Q4: TRL 7\u20138 system demonstration, licensing negotiations",
+          "Next Steps",
+          "CII NIKET LLC invites industry, government, and funding organizations to collaborate in advancing Q-SMEC. This proposal serves as the foundation for tailored discussions on licensing, investment, and joint R&D programs."
+        ],
+        "keywords": [
+          "DOE",
+          "GaN",
+          "Ge",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC Investor Pitch Deck (Physics, Eng, IP) (Skeleton, V1).pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 67,
+        "sample_head": [
+          "Vision: Quantum-Engineered Materials for the Post-Semiconductor Era",
+          "Q-SMEC merges frontier quantum physics with AI-optimized materials engineering to build the next generation of sensors, energy systems, and autonomous infrastructure.",
+          "Problem: Materials Have Hit Their Physical Limits",
+          "Energy inefficiency, thermal losses, and noise have plateaued across materials industries. A new class of quantum materials is required to sustain progress.",
+          "Solution: Quantum Superconducting Magnetic Energy Containment (Q-SMEC)",
+          "A new materials framework capable of storing and releasing quantum energy fields in a controlled manner with up to 100\u00d7 signal improvement.",
+          "Scientific Core: The Materials Platform",
+          "22 engineered materials optimized via AI and quantum simulation, manufacturable with advanced techniques like ALD and 3D microprinting.",
+          "Engineering Roadmap: 6-Stage Pathway to Commercialization",
+          "Predictable 54-week development cycle with $770K cost to reach licensing-ready prototype.",
+          "IP and Licensing Model",
+          "Licensing-first strategy: upfront fees and recurring royalties; asset-light, scalable IP business model.",
+          "Sector Use Cases: Multi-Industry Scalability",
+          "Applications across defense, energy, transport, healthcare, and water sectors with billion-dollar TAMs.",
+          "Market Economics: Billion-Dollar TAM Portfolio",
+          "TAMs from $500M to $95B, with early focus on defense, automotive, and energy applications.",
+          "Strategic Leverage Points",
+          "Hardware independence, AI-native R&D, regulatory readiness, and dual-use scalability.",
+          "Business Model: Capital-Light, High-Margin Platform",
+          "Licensing, royalties, and co-development revenues; scalable economics mirroring software.",
+          "Traction & Roadmap",
+          "12-month milestones: validation, prototype, and first licensing deals with secured IP filings.",
+          "Team: Quantum, AI, and Industry Convergence",
+          "Interdisciplinary team of physicists, AI engineers, and domain veterans with IP and commercialization expertise.",
+          "Funding Ask: $1.2M Seed Round"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "Ge",
+          "Nb",
+          "Ti",
+          "battery",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC Investor Pitch Deck (Skeleton) V1.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 28,
+        "sample_head": [
+          "Vision: Quantum-Engineered Materials for the Post-Semiconductor Era",
+          "Q-SMEC merges frontier quantum physics with AI-optimized materials engineering to build the next generation of sensors, energy systems, and autonomous infrastructure.",
+          "Problem: Materials Have Hit Their Physical Limits",
+          "Energy inefficiency, thermal losses, and noise have plateaued across materials industries. A new class of quantum materials is required to sustain progress.",
+          "Solution: Quantum Superconducting Magnetic Energy Containment (Q-SMEC)",
+          "A new materials framework capable of storing and releasing quantum energy fields in a controlled manner with up to 100\u00d7 signal improvement.",
+          "Scientific Core: The Materials Platform",
+          "22 engineered materials optimized via AI and quantum simulation, manufacturable with advanced techniques like ALD and 3D microprinting.",
+          "Engineering Roadmap: 6-Stage Pathway to Commercialization",
+          "Predictable 54-week development cycle with $770K cost to reach licensing-ready prototype.",
+          "IP and Licensing Model",
+          "Licensing-first strategy: upfront fees and recurring royalties; asset-light, scalable IP business model.",
+          "Sector Use Cases: Multi-Industry Scalability",
+          "Applications across defense, energy, transport, healthcare, and water sectors with billion-dollar TAMs.",
+          "Market Economics: Billion-Dollar TAM Portfolio",
+          "TAMs from $500M to $95B, with early focus on defense, automotive, and energy applications.",
+          "Strategic Leverage Points",
+          "Hardware independence, AI-native R&D, regulatory readiness, and dual-use scalability.",
+          "Business Model: Capital-Light, High-Margin Platform",
+          "Licensing, royalties, and co-development revenues; scalable economics mirroring software.",
+          "Traction & Roadmap",
+          "12-month milestones: validation, prototype, and first licensing deals with secured IP filings.",
+          "Team: Quantum, AI, and Industry Convergence",
+          "Interdisciplinary team of physicists, AI engineers, and domain veterans with IP and commercialization expertise.",
+          "Funding Ask: $1.2M Seed Round"
+        ],
+        "keywords": [
+          "Ge",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC Investor Pitch Deck  Slides V2.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 30,
+        "sample_head": [
+          "Vision: Quantum-Engineered Materials for the Post-Semiconductor Era",
+          "Vision: Quantum-Engineered Materials for the Post-Semiconductor Era",
+          "Q-SMEC merges frontier quantum physics with AI-optimized materials engineering to build the next generation of sensors, energy systems, and autonomous infrastructure.",
+          "Problem: Materials Have Hit Their Physical Limits",
+          "Problem: Materials Have Hit Their Physical Limits",
+          "Energy inefficiency, thermal losses, and noise have plateaued across materials industries. A new class of quantum materials is required to sustain progress.",
+          "Solution: Quantum Superconducting Magnetic Energy Containment (Q-SMEC)",
+          "Solution: Quantum Superconducting Magnetic Energy Containment (Q-SMEC)",
+          "A new materials framework capable of storing and releasing quantum energy fields in a controlled manner with up to 100\u00d7 signal improvement.",
+          "Scientific Core: The Materials Platform",
+          "Scientific Core: The Materials Platform",
+          "22 engineered materials optimized via AI and quantum simulation, manufacturable with advanced techniques like ALD and 3D microprinting.",
+          "Engineering Roadmap: 6-Stage Pathway to Commercialization",
+          "Engineering Roadmap: 6-Stage Pathway to Commercialization",
+          "Predictable 54-week development cycle with $770K cost to reach licensing-ready prototype.",
+          "IP and Licensing Model",
+          "IP and Licensing Model",
+          "Licensing-first strategy: upfront fees and recurring royalties; asset-light, scalable IP business model.",
+          "Sector Use Cases: Multi-Industry Scalability",
+          "Sector Use Cases: Multi-Industry Scalability",
+          "Applications across defense, energy, transport, healthcare, and water sectors with billion-dollar TAMs.",
+          "Market Economics: Billion-Dollar TAM Portfolio",
+          "Market Economics: Billion-Dollar TAM Portfolio",
+          "TAMs from $500M to $95B, with early focus on defense, automotive, and energy applications.",
+          "Funding Ask: $1.2M Seed Round"
+        ],
+        "keywords": [
+          "Ge",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC_Investor_Introduction_Deck.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 53,
+        "sample_head": [
+          "Vision: Unlocking the Quantum Frontier",
+          "Q-SMEC develops next-generation materials that enhance energy containment and sensor performance.",
+          "We merge quantum physics and AI-driven design to redefine energy, defense, and infrastructure technologies.",
+          "Investor focus: Early engagement opportunity in a scalable materials platform.",
+          "The Challenge: Materials Innovation Has Stalled",
+          "Conventional materials have reached physical and performance limits.",
+          "Energy, defense, and autonomy sectors require breakthroughs in efficiency, signal quality, and power density.",
+          "Investor focus: Trillion-dollar challenge with cross-sector implications.",
+          "The Q-SMEC Solution",
+          "Quantum Superconducting Magnetic Energy Containment enables 10\u00d7\u2013100\u00d7 gains in signal sensitivity and energy efficiency.",
+          "AI-optimized materials design unlocks both performance and manufacturability.",
+          "Investor focus: Proven science with defensible IP and commercialization pathways.",
+          "Core Science Advantage",
+          "22 engineered materials designed via AI-driven quantum modeling.",
+          "Manufacturable using existing 3D printing, thin-film, and ALD processes.",
+          "Investor focus: Feasible and scalable within current industrial infrastructure.",
+          "Development Roadmap",
+          "12-month R&D cycle from simulation to prototype.",
+          "Defined $770K per instantiation cost with milestone-based development.",
+          "Investor focus: Predictable and capital-efficient engineering plan.",
+          "Business & Licensing Model",
+          "IP-licensing platform with exclusive/non-exclusive options by sector and geography.",
+          "Revenue via upfront fees and recurring royalties.",
+          "Investor focus: High-margin scalability with low capital exposure.",
+          "Market Potential Snapshot"
+        ],
+        "keywords": [
+          "Ge",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Deck V2.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 143,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Airtronics Applications:",
+          "Prussian Blue/White Alternative Energy Storage",
+          "Terahertz Sensor/Emitter",
+          "Radar Cross-Section Extremely Low Observable Stealth",
+          "Alex Dely",
+          "CTO & Q-SMEC Lead Inventor",
+          "NIKET NA LLC | September 2025",
+          "The Urgent Problem",
+          "Mineral and material discovery is slow, expensive, and imprecise.",
+          "Critical mineral shortages threaten energy, defense, and technology sectors.",
+          "Current sensing fails in remote, high-interference, or subterranean settings.",
+          "Identifying high-value deposits is increasingly difficult with existing tools.",
+          "Growing demand for critical minerals contrasts with limited supply.",
+          "What is Q-SMEC?",
+          "Quantum Superconducting Magnetic Energy Containment (Q-SMEC) system",
+          "Employs Extremely Low Frequency (ELF) sensing and metamaterial signal control",
+          "Modular design for diverse applications",
+          "Achieves enhanced Signal-to-Noise Ratio (SNR), sensitivity, and noise suppression",
+          "Revolutionary ELF mineral sensor uses Q-SMEC to detect subterranean mineral quantum frequency signals",
+          "Nearly eliminates 1/f flicker noise (Noise Equivalent Power)",
+          "High SNR (25\u201335 dB) with a Q-Factor up to 15,000",
+          "Superior sensitivity: 0.01\u20130.05 pT/\u221aHz",
+          "Why Q-SMEC is Different",
+          "Quantum metamaterials detect imperceptible signals."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "THz",
+          "Ti",
+          "battery",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\QSMEC Deck v3.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 111,
+        "sample_head": [
+          "Q-SMEC Mining Sensor Licensing Opportunity",
+          "Confidential | NIKET NA LLC | September 2025",
+          "Airtronics Applications:",
+          "Prussian Blue/White Alternative Energy Storage",
+          "Terahertz Sensor/Emitter",
+          "Radar Cross-Section Extremely Low Observable Stealth",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Executive Summary",
+          "Problem: Mining safety and efficiency challenges.",
+          "Solution: Q-SMEC Terahertz Sensor for deep detection.",
+          "Opportunity: Multi-billion TAM, high ROI potential.",
+          "CII NIKET NA LLC PROPRIETARY",
+          "The Urgent Problem",
+          "Mineral and material discovery processes are characterized by their slow pace, high costs, and imprecision.",
+          "Critical mineral deficits pose a significant risk to the energy, defense, and technology industries.",
+          "Contemporary sensing technologies are inadequate in remote, high-interference, or subterranean environments.",
+          "The identification of high-value deposits is progressively more challenging with current instrumentation.",
+          "The escalating demand for critical minerals is in direct opposition to their constrained supply.",
+          "Market Urgency",
+          "\u2022 Mining sensor market TAM/SAM/SOM.",
+          "\u2022 Growth drivers: ESG, safety mandates, automation.",
+          "\u2022 Estimated NPV > $10B across related use cases.",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Competitive Landscape",
+          "Comparison of technologies:"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "THz",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Executive Licensing Read-Ahead.docx",
+      "ext": ".docx",
+      "summary": {
+        "line_count": 65,
+        "sample_head": [
+          "Q-SMEC Executive Licensing Read-Ahead",
+          "Confidential | NIKET NA LLC",
+          "1. Executive Summary",
+          "Q-SMEC represents a platform technology that leverages quantum-bonded multi-material architectures to achieve unparalleled performance across three primary applications: Energy Storage, Terahertz Sensors/Emitters, and RCS ELO Stealth. This technology addresses critical requirements within the defense, energy, and infrastructure sectors.",
+          "2. Market Urgency",
+          "The applications of Q-SMEC instantiations extend across all 16 DHS critical infrastructure sectors, with over 200 identified use cases. Global market analysis forecasts a Net Present Value (NPV) exceeding $10 billion. Demand is primarily driven by Department of Defense modernization initiatives, AI/SCADA integration, and the need for resilient stealth technology.",
+          "3. Technology Overview",
+          "The Q-SMEC platform is founded on a taxonomy of more than 22 meta-elements, which are engineered into quantum-bonded multi-material structures. Manufacturing is achievable through additive, vapor, and atomic-layer deposition processes, guided by AI-driven Design of Experiments (DOE) modeling employing Density Functional Theory (DFT) and Coupled-Wave Function (CWF) physics. This modular methodology facilitates customized instantiations across energy, sensing, and stealth applications.",
+          "4. Use Cases",
+          "Energy Storage",
+          "Q-SMEC-enabled electrodes demonstrate superior performance compared to Prussian Blue Analogs (PBAs) in terms of conductivity, redox stability, and strain handling. Optimization parameters include:",
+          "Matrix diffusion channel size",
+          "Interface coatings for enhanced stability",
+          "Minimization of strain during cycling",
+          "Redox voltage tuning via elemental doping",
+          "Applications encompass tactical grids, subsea platforms, and utility-scale storage, representing a projected market of $3.5 billion by 2030.",
+          "Terahertz Sensor/Emitter",
+          "Key performance metrics include:",
+          "Noise Equivalent Power (NEP): 0.01\u20131 pW/\u221aHz",
+          "Signal-to-Noise Ratio (SNR): 100\u2013140 dB",
+          "Q-Factor: >1000",
+          "Figure of Merit (FOM): >2500",
+          "Frequency Range: 0.1\u201310 THz",
+          "Response Time: <150 ps",
+          "Resolution: 150 nm"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "THz",
+          "Ti",
+          "battery"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 130,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Airtronics Use Cases:",
+          "1) Prussian Blue/White Alternative Energy Storage",
+          "2) Terahertz Sensor/Emitter",
+          "3) RCS ELO Stealth",
+          "September 12, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "THz",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Solid State Battery\\NIKET NA Q-SMEC Solid State Battery Use Case Dely 09132025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 96,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Electric Microgrid Use Case:",
+          "Advanced Solid State Sodium Battery Energy Storage",
+          "September 12, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "- Currently Trade Secret, but Patentable per NIKET management decision",
+          "B) Q-SMEC Sensor/Storage Materials Industrial Instantiation Partner Funded Use Case"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "Ge",
+          "Nb",
+          "Ti",
+          "battery",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Tiberius Quantum Motors\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 109,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Tiberius/Nobel Works/Quantum Motors Use Cases:",
+          "1) Solid State Rocket Fuel/Energetics",
+          "2) Motor Thermal Management",
+          "September 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "- Currently Trade Secret, but Patentable per NIKET management decision"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Free-Fall HES BRN Thz Cyber Resilient Comms\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 108,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "FreeFall/BRN-HES Use Cases",
+          "2) Cyber Resilient 6G Terahertz Sensor/Emitter",
+          "September 12, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "- Currently Trade Secret, but Patentable per NIKET management decision",
+          "B) Q-SMEC Sensor/Storage Materials Industrial Instantiation Partner Funded Use Case"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "THz",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Mining Sensor Use Case\\NIKET NA Q-SMEC Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 107,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Mining Partner Use Cases:",
+          "1) Mineral Sensor",
+          "September 12, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "- Currently Trade Secret, but Patentable per NIKET management decision",
+          "B) Q-SMEC Sensor/Storage Materials Industrial Instantiation Partner Funded Use Case"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\NIKET LLC Pitch Deck Nov Board Dely 10182025-2-2.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 168,
+        "sample_head": [
+          "Q-SMEC:",
+          "\u201cEngineering the Quantum Sensing and Communications Materials Revolution for Cyber Resilient Critical Infrastructure\u201d",
+          "NIKET NORTH AMERICA LLC",
+          "Tucson, USA",
+          "October 2025",
+          "Alex Dely, CTO and Lead Inventor",
+          "ALEX DELY",
+          "CTO",
+          "Quantum Physicist, Serial Entrepreneur, 17 years Fortune 50 Aerospace and Defense Prime management role, $30B of US Gov Advanced technology Proposals/Contracts. Adjunct SIE Faculty  at Univ of Arizona College of Engineering",
+          "SAL DELY",
+          "CIO/CISO",
+          "17 years SSgt US Marine Corps (Ret) with expertise in military equipment, mechanical systems and IT/Cybersecurity",
+          "BILL HAYES",
+          "COO",
+          ".",
+          "TERRY FINEFROCK",
+          "Acting President",
+          "NIKET TEAM",
+          "Advisory Board with expertise representing US Department of Energy National Laboratories (BNL, ANL, ORNL, LBL, FNL, LANL, LLNL, SNL), DARPA, UA Center for Quantum Networks, and CEO of quantum private firm",
+          "T",
+          "3 decades of execurive roles at General Electric, Honeywell and Texas Instruments units. Decade Arizona County Government Procurement experience.",
+          "CHALLENGE",
+          "Countering increasingly sophisticated mission/life critical national security threats from global adversaries in the 2025-2040 timeframe, requires revolutionary breakthroughs in  multi-domain sensing at the intersection of electronic warfare, cybersecurity, radar and C5ISR, which translates to tamper proof, cyber resilient sensor and communications systems performance requirements at least 2 orders of magnitude beyond the capabilities of current engineered materials, with urgent needs in:",
+          "- Department of War, with special focus on Golden Dome SHIELD",
+          "- Department of Energy National Electrical/Water Grid Physical/Cyber Resiliency"
+        ],
+        "keywords": [
+          "DOE",
+          "Ge",
+          "Ti",
+          "battery",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 107,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Erman Koc, AIRTH.io Mining Partner Use Cases:",
+          "1) Copper/Gold/Molybdenum Porphyry Depot Sensor",
+          "September 25, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "- Currently Trade Secret, but Patentable per NIKET management decision",
+          "B) Q-SMEC Sensor/Storage Materials Industrial Instantiation Partner Funded Use Case"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET LLC Q-SMEC PROPRIETARY -  20251021.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 170,
+        "sample_head": [
+          "Q-SMEC:",
+          "\u201cEngineering the Quantum Sensing and Communications Materials Revolution for Cyber Resilient Critical Infrastructure\u201d",
+          "NIKET NORTH AMERICA LLC",
+          "Tucson, USA",
+          "October 2025",
+          "Alex Dely, CTO and Lead Inventor",
+          "NIKET NA PROPRIETARY",
+          "Content",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "Challenge and Q-SMEC Solution",
+          "Customer Segmentation: Defense/Intel, Data Centers/IT, Automotive, Energy",
+          "Net Revenue Forecast 2026-2028",
+          "Core Partnerships and Partnership Agreement Structure",
+          "Cooperation Options",
+          "1",
+          "NIKET Team",
+          "NIKET NA PROPRIETARY",
+          "ALEX DELY",
+          "CTO",
+          "Quantum Physicist, Serial Entrepreneur, 17 years Fortune 50 Aerospace and Defense Prime management role, $30B of US Gov Advanced technology Proposals/Contracts. Adjunct SIE Faculty  at Univ of Arizona College of Engineering",
+          "BILL HAYES"
+        ],
+        "keywords": [
+          "DOE",
+          "Ge",
+          "Ti",
+          "battery",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY - 20251021.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 111,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Airtronics Use Cases:",
+          "1) Prussian Blue/White Alternative Energy Storage",
+          "2) Terahertz Sensor/Emitter",
+          "3) RCS ELO Stealth",
+          "September 12, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "Dirac Plasmon-Polariton Metamaterials",
+          "Maximized Quantum Bonds (\u201cBondons\u201d) optimizing plasmon quantum tunneling (electron density equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Optimized for 3D Printing / Thin-Film Vapor Deposition",
+          "Each Instantiation represents a unique, customized geometrical segmentation and layering of a permutation or combination of one or more of 22 meta-elements \u2014 10 disclosed (Mg, Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 confidential",
+          "NIKET Base Quantum Model contains the Hilbert-space density matrices (DFT) and correlated wave functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "Currently maintained as a trade secret, but patentable per NIKET management determination.",
+          "B) Q-SMEC Sensor / Storage Materials Industrial Instantiation Partner-Funded Use-Case Development",
+          "Instantiation design and associated manufacturing process are patentable at the completion of NRE Tasks 1\u20132, with joint IP designation and/or a field-of-use exclusive license between NIKET NA LLC and the Funder.",
+          "C) NIKET Portfolio and Licensing Strategy",
+          "NIKET has articulated several hundred sensor / storage material high-impact, state-of-the-art instantiation use cases across all 16 DHS Critical Infrastructure Sectors."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "THz",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 89,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "DeUVe Photonics/CM Laser /Sensor Cases:",
+          "1) Solid-State High-Energy Laser/Power  Storage",
+          "September 15, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "Dirac Plasmon-Polariton Metamaterials",
+          "Maximized Quantum Bonds (\u201cBondons\u201d) optimizing plasmon quantum tunneling (electron density equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Optimized for 3D Printing / Thin-Film Vapor Deposition",
+          "Each Instantiation represents a unique, customized geometrical segmentation and layering of a permutation or combination of one or more of 22 meta-elements \u2014 10 disclosed (Mg, Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 confidential",
+          "NIKET Base Quantum Model contains the Hilbert-space density matrices (DFT) and correlated wave functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "Currently maintained as a trade secret, but patentable under NIKET management decision.",
+          "B) Q-SMEC Sensor / Storage Materials \u2014 Industrial Instantiation Partner-Funded Use-Case Development",
+          "Instantiation design and associated manufacturing process are patentable upon completion of NRE Tasks 1\u20132, with joint IP designation and/or a field-of-use exclusive license between NIKET NA LLC and the funder.",
+          "C) NIKET Portfolio and Licensing Strategy",
+          "NIKET has identified several hundred sensor / storage material high-impact, state-of-the-art instantiation use cases spanning all 16 DHS Critical Infrastructure Sectors.",
+          "For each use case, U.S. and international market segmentation, NPV market valuation, and license-value due-diligence analysis have been completed.",
+          "NIKET NA will pursue a licensing and commercialization strategy with Fortune 5000 firms in fields of use where instantiation partners elect not to engage directly in commercialization."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 90,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Delta Thermal/Sensor Group  Use Cases:",
+          "1) Combination S/X band Sensor/Emitter",
+          "September 15, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "Dirac Plasmon-Polariton Metamaterials",
+          "Maximized Quantum Bonds (\u201cBondons\u201d) optimizing plasmon quantum tunneling (electron density equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Optimized for 3D Printing / Thin-Film Vapor Deposition",
+          "Each Instantiation represents a unique, customized geometrical segmentation and layering of a permutation or combination of one or more of 22 meta-elements \u2014 10 disclosed (Mg, Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 confidential",
+          "NIKET Base Quantum Model contains the Hilbert-space density matrices (DFT) and correlated wave functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "Currently maintained as a trade secret, but patentable under NIKET management decision.",
+          "B) Q-SMEC Sensor / Storage Materials \u2014 Industrial Instantiation Partner-Funded Use-Case Development",
+          "Instantiation design and associated manufacturing process are patentable upon completion of NRE Tasks 1\u20132, with joint IP designation and/or a field-of-use exclusive license between NIKET NA LLC and the funder.",
+          "C) NIKET Portfolio and Licensing Strategy",
+          "NIKET has identified several hundred sensor / storage material high-impact, state-of-the-art instantiation use cases spanning all 16 DHS Critical Infrastructure Sectors.",
+          "For each use case, U.S. and international market segmentation, NPV market valuation, and license-value due-diligence analysis have been completed.",
+          "NIKET NA will pursue a licensing and commercialization strategy with Fortune 5000 firms in fields of use where instantiation partners elect not to engage directly in commercialization."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 92,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "FreeFall/BRN-HES Use Cases",
+          "2) Cyber Resilient 6G Terahertz Sensor/Emitter",
+          "September 12, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "Dirac Plasmon-Polariton Metamaterials",
+          "Maximized Quantum Bonds (\u201cBondons\u201d) optimizing plasmon quantum tunneling (electron density equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Optimized for 3D Printing / Thin-Film Vapor Deposition",
+          "Each Instantiation represents a unique, customized geometrical segmentation and layering of a permutation or combination of one or more of 22 meta-elements \u2014 10 disclosed (Mg, Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 confidential",
+          "NIKET Base Quantum Model contains the Hilbert-space density matrices (DFT) and correlated wave functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "Currently maintained as a trade secret, but patentable under NIKET management decision.",
+          "B) Q-SMEC Sensor / Storage Materials \u2014 Industrial Instantiation Partner-Funded Use-Case Development",
+          "Instantiation design and associated manufacturing process are patentable upon completion of NRE Tasks 1\u20132, with joint IP designation and/or a field-of-use exclusive license between NIKET NA LLC and the funder.",
+          "C) NIKET Portfolio and Licensing Strategy",
+          "NIKET has identified several hundred sensor / storage material high-impact, state-of-the-art instantiation use cases spanning all 16 DHS Critical Infrastructure Sectors.",
+          "For each use case, U.S. and international market segmentation, NPV market valuation, and license-value due-diligence analysis have been completed.",
+          "NIKET NA will pursue a licensing and commercialization strategy with Fortune 5000 firms in fields of use where instantiation partners elect not to engage directly in commercialization."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "THz",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY - 20251021.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 89,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Tiberius/Nobel Works/Quantum Motors Use Cases:",
+          "1) Solid State Rocket Fuel/Energetics",
+          "2) Motor Thermal Management",
+          "September 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "Dirac Plasmon-Polariton Metamaterials",
+          "Maximized Quantum Bonds (\u201cBondons\u201d) optimizing plasmon quantum tunneling (electron density equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Optimized for 3D Printing / Thin-Film Vapor Deposition",
+          "Each Instantiation represents a unique, customized geometrical segmentation and layering of a permutation or combination of one or more of 22 meta-elements \u2014 10 disclosed (Mg, Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 confidential",
+          "NIKET Base Quantum Model contains the Hilbert-space density matrices (DFT) and correlated wave functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "Currently maintained as a trade secret, but patentable under NIKET management decision.",
+          "B) Q-SMEC Sensor / Storage Materials \u2014 Industrial Instantiation Partner-Funded Use-Case Development",
+          "Instantiation design and associated manufacturing process are patentable upon completion of NRE Tasks 1\u20132, with joint IP designation and/or a field-of-use exclusive license between NIKET NA LLC and the funder.",
+          "C) NIKET Portfolio and Licensing Strategy",
+          "NIKET has identified several hundred sensor / storage material high-impact, state-of-the-art instantiation use cases spanning all 16 DHS Critical Infrastructure Sectors.",
+          "For each use case, U.S. and international market segmentation, NPV market valuation, and license-value due-diligence analysis have been completed."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 89,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Erman Koc, AIRTH.io Mining Partner Use Cases:",
+          "1) Copper/Gold/Molybdenum Porphyry Depot Sensor",
+          "September 25, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "Dirac Plasmon-Polariton Metamaterials",
+          "Maximized Quantum Bonds (\u201cBondons\u201d) optimizing plasmon quantum tunneling (electron density equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Optimized for 3D Printing / Thin-Film Vapor Deposition",
+          "Each Instantiation represents a unique, customized geometrical segmentation and layering of a permutation or combination of one or more of 22 meta-elements \u2014 10 disclosed (Mg, Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 confidential",
+          "NIKET Base Quantum Model contains the Hilbert-space density matrices (DFT) and correlated wave functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "Currently maintained as a trade secret, but patentable under NIKET management decision.",
+          "B) Q-SMEC Sensor / Storage Materials \u2014 Industrial Instantiation Partner-Funded Use-Case Development",
+          "Instantiation design and associated manufacturing process are patentable upon completion of NRE Tasks 1\u20132, with joint IP designation and/or a field-of-use exclusive license between NIKET NA LLC and the funder.",
+          "C) NIKET Portfolio and Licensing Strategy",
+          "NIKET has identified several hundred sensor / storage material high-impact, state-of-the-art instantiation use cases spanning all 16 DHS Critical Infrastructure Sectors.",
+          "For each use case, U.S. and international market segmentation, NPV market valuation, and license-value due-diligence analysis have been completed.",
+          "NIKET NA will pursue a licensing and commercialization strategy with Fortune 5000 firms in fields of use where instantiation partners elect not to engage directly in commercialization."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 108,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "FreeFall/BRN-HES Use Cases",
+          "2) Cyber Resilient 6G Terahertz Sensor/Emitter",
+          "September 12, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "- Currently Trade Secret, but Patentable per NIKET management decision",
+          "B) Q-SMEC Sensor/Storage Materials Industrial Instantiation Partner Funded Use Case"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "THz",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 107,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "DeUVe Photonics/CM Laser /Sensor Cases:",
+          "1) Solid State High Energy Laser/Power  Storage",
+          "September 15, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "- Currently Trade Secret, but Patentable per NIKET management decision",
+          "B) Q-SMEC Sensor/Storage Materials Industrial Instantiation Partner Funded Use Case"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 108,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Delta Thermal/Sensor Group  Use Cases:",
+          "1) Combination S/X band Sensor/Emitter",
+          "September 15, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "- Currently Trade Secret, but Patentable per NIKET management decision",
+          "B) Q-SMEC Sensor/Storage Materials Industrial Instantiation Partner Funded Use Case"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 109,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Tiberius/Nobel Works/Quantum Motors Use Cases:",
+          "1) Solid State Rocket Fuel/Energetics",
+          "2) Motor Thermal Management",
+          "September 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "- Currently Trade Secret, but Patentable per NIKET management decision"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\NON-PROPRIETARY\\NIKET LLC Q-SMEC Pitch Deck - NON PROPRIETARY - (SKELETON LAYOUT).pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 178,
+        "sample_head": [
+          "Q-SMEC:",
+          "\u201cEngineering the Quantum Sensing and Communications Materials Revolution for Cyber Resilient Critical Infrastructure\u201d",
+          "NIKET NORTH AMERICA LLC",
+          "Tucson, USA",
+          "October 2025",
+          "Alex Dely, CTO and Lead Inventor",
+          "ALEX DELY",
+          "CTO",
+          "Quantum Physicist, Serial Entrepreneur, 17 years Fortune 50 Aerospace and Defense Prime management role, $30B of US Gov Advanced technology Proposals/Contracts. Adjunct SIE Faculty  at Univ of Arizona College of Engineering",
+          "BILL HAYES",
+          "Acting COO",
+          "US Navy;  Electronic Warfare",
+          "Technical Advisory to NATO Allies",
+          "Engineering Management  in both; Health IT Systems & Enterprise Cyber Security,",
+          "UofA SIE Department",
+          "TERRY FINEFROCK",
+          "Acting President",
+          "NIKET TEAM",
+          "Advisory Board with expertise representing US Department of Energy National Laboratories (BNL, ANL, ORNL, LBL, FNL, LANL, LLNL, SNL), DARPA, UA Center for Quantum Networks, and CEO of quantum private firm",
+          "3 decades of executive roles at General Electric, Honeywell and Texas Instruments units. Decade Arizona County Government Procurement experience.",
+          "SAL DELY",
+          "17 years SSgt US Marine Corps (Ret) with expertise in military equipment, mechanical systems and IT/Cybersecurity",
+          "CIO/CISO",
+          "Objective:",
+          "Revolutionary breakthroughs in multi-domain sensing to counter next-generation threats."
+        ],
+        "keywords": [
+          "DOE",
+          "Ge",
+          "Ti",
+          "battery",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\NON-PROPRIETARY\\NIKET LLC Q-SMEC Pitch Deck - NON PROPRIETARY - (SKELETON LAYOUT).pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 178,
+        "sample_head": [
+          "Q-SMEC:",
+          "\u201cEngineering the Quantum Sensing and Communications Materials Revolution for Cyber Resilient Critical Infrastructure\u201d",
+          "NIKET NORTH AMERICA LLC",
+          "Tucson, USA",
+          "October 2025",
+          "Alex Dely, CTO and Lead Inventor",
+          "ALEX DELY",
+          "CTO",
+          "Quantum Physicist, Serial Entrepreneur, 17 years Fortune 50 Aerospace and Defense Prime management role, $30B of US Gov Advanced technology Proposals/Contracts. Adjunct SIE Faculty  at Univ of Arizona College of Engineering",
+          "BILL HAYES",
+          "Acting COO",
+          "US Navy;  Electronic Warfare",
+          "Technical Advisory to NATO Allies",
+          "Engineering Management  in both; Health IT Systems & Enterprise Cyber Security,",
+          "UofA SIE Department",
+          "TERRY FINEFROCK",
+          "Acting President",
+          "NIKET TEAM",
+          "Advisory Board with expertise representing US Department of Energy National Laboratories (BNL, ANL, ORNL, LBL, FNL, LANL, LLNL, SNL), DARPA, UA Center for Quantum Networks, and CEO of quantum private firm",
+          "3 decades of executive roles at General Electric, Honeywell and Texas Instruments units. Decade Arizona County Government Procurement experience.",
+          "SAL DELY",
+          "17 years SSgt US Marine Corps (Ret) with expertise in military equipment, mechanical systems and IT/Cybersecurity",
+          "CIO/CISO",
+          "Objective:",
+          "Revolutionary breakthroughs in multi-domain sensing to counter next-generation threats."
+        ],
+        "keywords": [
+          "DOE",
+          "Ge",
+          "Ti",
+          "battery",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 107,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Erman Koc, AIRTH.io Mining Partner Use Cases:",
+          "1) Copper/Gold/Molybdenum Porphyry Depot Sensor",
+          "September 25, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "- Currently Trade Secret, but Patentable per NIKET management decision",
+          "B) Q-SMEC Sensor/Storage Materials Industrial Instantiation Partner Funded Use Case"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 107,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "DeUVe Photonics/CM Laser /Sensor Cases:",
+          "1) Solid State High Energy Laser/Power  Storage",
+          "September 15, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "- Currently Trade Secret, but Patentable per NIKET management decision",
+          "B) Q-SMEC Sensor/Storage Materials Industrial Instantiation Partner Funded Use Case"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 108,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Delta Thermal/Sensor Group  Use Cases:",
+          "1) Combination S/X band Sensor/Emitter",
+          "September 15, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "- Currently Trade Secret, but Patentable per NIKET management decision",
+          "B) Q-SMEC Sensor/Storage Materials Industrial Instantiation Partner Funded Use Case"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 109,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Tiberius/Nobel Works/Quantum Motors Use Cases:",
+          "1) Solid State Rocket Fuel/Energetics",
+          "2) Motor Thermal Management",
+          "September 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "- Currently Trade Secret, but Patentable per NIKET management decision"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 108,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "FreeFall/BRN-HES Use Cases",
+          "2) Cyber Resilient 6G Terahertz Sensor/Emitter",
+          "September 12, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "- Dirac Plasmon Polariton Metamaterials",
+          "- Maximized quantum bonds (\u201cbondons) optimizing plasmon quantum",
+          "tunneling (electron density equivalent to 100 trillion mechanical bonds per",
+          "square centmer)",
+          "- Optimized for 3D-Printing/Thin Film Vapor Deposition",
+          "- Each Instantiation is a unique/customized geometrical segmentation/layering of",
+          "a permutation/combination of one/more of 22 meta-elements, 10 disclosed (Mg,",
+          "Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 Confidential.",
+          "- NIKET Base Quantum model contains the Hilbert Space Density Matrices (DFT)",
+          "and Correlated Wave Functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "- Currently Trade Secret, but Patentable per NIKET management decision",
+          "B) Q-SMEC Sensor/Storage Materials Industrial Instantiation Partner Funded Use Case"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "THz",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET LLC Q-SMEC PROPRIETARY -  20251021.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 170,
+        "sample_head": [
+          "Q-SMEC:",
+          "\u201cEngineering the Quantum Sensing and Communications Materials Revolution for Cyber Resilient Critical Infrastructure\u201d",
+          "NIKET NORTH AMERICA LLC",
+          "Tucson, USA",
+          "October 2025",
+          "Alex Dely, CTO and Lead Inventor",
+          "NIKET NA PROPRIETARY",
+          "Content",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "Challenge and Q-SMEC Solution",
+          "Customer Segmentation: Defense/Intel, Data Centers/IT, Automotive, Energy",
+          "Net Revenue Forecast 2026-2028",
+          "Core Partnerships and Partnership Agreement Structure",
+          "Cooperation Options",
+          "1",
+          "NIKET Team",
+          "NIKET NA PROPRIETARY",
+          "ALEX DELY",
+          "CTO",
+          "Quantum Physicist, Serial Entrepreneur, 17 years Fortune 50 Aerospace and Defense Prime management role, $30B of US Gov Advanced technology Proposals/Contracts. Adjunct SIE Faculty  at Univ of Arizona College of Engineering",
+          "BILL HAYES"
+        ],
+        "keywords": [
+          "DOE",
+          "Ge",
+          "Ti",
+          "battery",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY - 20251021.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 111,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Airtronics Use Cases:",
+          "1) Prussian Blue/White Alternative Energy Storage",
+          "2) Terahertz Sensor/Emitter",
+          "3) RCS ELO Stealth",
+          "September 12, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "Dirac Plasmon-Polariton Metamaterials",
+          "Maximized Quantum Bonds (\u201cBondons\u201d) optimizing plasmon quantum tunneling (electron density equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Optimized for 3D Printing / Thin-Film Vapor Deposition",
+          "Each Instantiation represents a unique, customized geometrical segmentation and layering of a permutation or combination of one or more of 22 meta-elements \u2014 10 disclosed (Mg, Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 confidential",
+          "NIKET Base Quantum Model contains the Hilbert-space density matrices (DFT) and correlated wave functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "Currently maintained as a trade secret, but patentable per NIKET management determination.",
+          "B) Q-SMEC Sensor / Storage Materials Industrial Instantiation Partner-Funded Use-Case Development",
+          "Instantiation design and associated manufacturing process are patentable at the completion of NRE Tasks 1\u20132, with joint IP designation and/or a field-of-use exclusive license between NIKET NA LLC and the Funder.",
+          "C) NIKET Portfolio and Licensing Strategy",
+          "NIKET has articulated several hundred sensor / storage material high-impact, state-of-the-art instantiation use cases across all 16 DHS Critical Infrastructure Sectors."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "THz",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 89,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "DeUVe Photonics/CM Laser /Sensor Cases:",
+          "1) Solid-State High-Energy Laser/Power  Storage",
+          "September 15, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "Dirac Plasmon-Polariton Metamaterials",
+          "Maximized Quantum Bonds (\u201cBondons\u201d) optimizing plasmon quantum tunneling (electron density equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Optimized for 3D Printing / Thin-Film Vapor Deposition",
+          "Each Instantiation represents a unique, customized geometrical segmentation and layering of a permutation or combination of one or more of 22 meta-elements \u2014 10 disclosed (Mg, Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 confidential",
+          "NIKET Base Quantum Model contains the Hilbert-space density matrices (DFT) and correlated wave functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "Currently maintained as a trade secret, but patentable under NIKET management decision.",
+          "B) Q-SMEC Sensor / Storage Materials \u2014 Industrial Instantiation Partner-Funded Use-Case Development",
+          "Instantiation design and associated manufacturing process are patentable upon completion of NRE Tasks 1\u20132, with joint IP designation and/or a field-of-use exclusive license between NIKET NA LLC and the funder.",
+          "C) NIKET Portfolio and Licensing Strategy",
+          "NIKET has identified several hundred sensor / storage material high-impact, state-of-the-art instantiation use cases spanning all 16 DHS Critical Infrastructure Sectors.",
+          "For each use case, U.S. and international market segmentation, NPV market valuation, and license-value due-diligence analysis have been completed.",
+          "NIKET NA will pursue a licensing and commercialization strategy with Fortune 5000 firms in fields of use where instantiation partners elect not to engage directly in commercialization."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 90,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Delta Thermal/Sensor Group  Use Cases:",
+          "1) Combination S/X band Sensor/Emitter",
+          "September 15, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "Dirac Plasmon-Polariton Metamaterials",
+          "Maximized Quantum Bonds (\u201cBondons\u201d) optimizing plasmon quantum tunneling (electron density equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Optimized for 3D Printing / Thin-Film Vapor Deposition",
+          "Each Instantiation represents a unique, customized geometrical segmentation and layering of a permutation or combination of one or more of 22 meta-elements \u2014 10 disclosed (Mg, Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 confidential",
+          "NIKET Base Quantum Model contains the Hilbert-space density matrices (DFT) and correlated wave functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "Currently maintained as a trade secret, but patentable under NIKET management decision.",
+          "B) Q-SMEC Sensor / Storage Materials \u2014 Industrial Instantiation Partner-Funded Use-Case Development",
+          "Instantiation design and associated manufacturing process are patentable upon completion of NRE Tasks 1\u20132, with joint IP designation and/or a field-of-use exclusive license between NIKET NA LLC and the funder.",
+          "C) NIKET Portfolio and Licensing Strategy",
+          "NIKET has identified several hundred sensor / storage material high-impact, state-of-the-art instantiation use cases spanning all 16 DHS Critical Infrastructure Sectors.",
+          "For each use case, U.S. and international market segmentation, NPV market valuation, and license-value due-diligence analysis have been completed.",
+          "NIKET NA will pursue a licensing and commercialization strategy with Fortune 5000 firms in fields of use where instantiation partners elect not to engage directly in commercialization."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 92,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "FreeFall/BRN-HES Use Cases",
+          "2) Cyber Resilient 6G Terahertz Sensor/Emitter",
+          "September 12, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "Dirac Plasmon-Polariton Metamaterials",
+          "Maximized Quantum Bonds (\u201cBondons\u201d) optimizing plasmon quantum tunneling (electron density equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Optimized for 3D Printing / Thin-Film Vapor Deposition",
+          "Each Instantiation represents a unique, customized geometrical segmentation and layering of a permutation or combination of one or more of 22 meta-elements \u2014 10 disclosed (Mg, Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 confidential",
+          "NIKET Base Quantum Model contains the Hilbert-space density matrices (DFT) and correlated wave functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "Currently maintained as a trade secret, but patentable under NIKET management decision.",
+          "B) Q-SMEC Sensor / Storage Materials \u2014 Industrial Instantiation Partner-Funded Use-Case Development",
+          "Instantiation design and associated manufacturing process are patentable upon completion of NRE Tasks 1\u20132, with joint IP designation and/or a field-of-use exclusive license between NIKET NA LLC and the funder.",
+          "C) NIKET Portfolio and Licensing Strategy",
+          "NIKET has identified several hundred sensor / storage material high-impact, state-of-the-art instantiation use cases spanning all 16 DHS Critical Infrastructure Sectors.",
+          "For each use case, U.S. and international market segmentation, NPV market valuation, and license-value due-diligence analysis have been completed.",
+          "NIKET NA will pursue a licensing and commercialization strategy with Fortune 5000 firms in fields of use where instantiation partners elect not to engage directly in commercialization."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "THz",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY - 20251021.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 89,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Tiberius/Nobel Works/Quantum Motors Use Cases:",
+          "1) Solid State Rocket Fuel/Energetics",
+          "2) Motor Thermal Management",
+          "September 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "Dirac Plasmon-Polariton Metamaterials",
+          "Maximized Quantum Bonds (\u201cBondons\u201d) optimizing plasmon quantum tunneling (electron density equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Optimized for 3D Printing / Thin-Film Vapor Deposition",
+          "Each Instantiation represents a unique, customized geometrical segmentation and layering of a permutation or combination of one or more of 22 meta-elements \u2014 10 disclosed (Mg, Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 confidential",
+          "NIKET Base Quantum Model contains the Hilbert-space density matrices (DFT) and correlated wave functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "Currently maintained as a trade secret, but patentable under NIKET management decision.",
+          "B) Q-SMEC Sensor / Storage Materials \u2014 Industrial Instantiation Partner-Funded Use-Case Development",
+          "Instantiation design and associated manufacturing process are patentable upon completion of NRE Tasks 1\u20132, with joint IP designation and/or a field-of-use exclusive license between NIKET NA LLC and the funder.",
+          "C) NIKET Portfolio and Licensing Strategy",
+          "NIKET has identified several hundred sensor / storage material high-impact, state-of-the-art instantiation use cases spanning all 16 DHS Critical Infrastructure Sectors.",
+          "For each use case, U.S. and international market segmentation, NPV market valuation, and license-value due-diligence analysis have been completed."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+      "ext": ".pptx",
+      "summary": {
+        "line_count": 89,
+        "sample_head": [
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC (Quantum Superconducting Magnetic Energy Containment)",
+          "Erman Koc, AIRTH.io Mining Partner Use Cases:",
+          "1) Copper/Gold/Molybdenum Porphyry Depot Sensor",
+          "September 25, 2025",
+          "Alex Dely,",
+          "NIKET NA LLC CTO/Q-SMEC Lead Inventor",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Technology/Materials Taxonomy",
+          "NIKET Patentable Quantum Materials Technology Overview:",
+          "Dirac Plasmon-Polariton Metamaterials",
+          "Maximized Quantum Bonds (\u201cBondons\u201d) optimizing plasmon quantum tunneling (electron density equivalent to 100 trillion mechanical bonds per square centimeter)",
+          "Optimized for 3D Printing / Thin-Film Vapor Deposition",
+          "Each Instantiation represents a unique, customized geometrical segmentation and layering of a permutation or combination of one or more of 22 meta-elements \u2014 10 disclosed (Mg, Ga, Sb, Te, Se, Al, Nb, N, Ti) and 12 confidential",
+          "NIKET Base Quantum Model contains the Hilbert-space density matrices (DFT) and correlated wave functions (CWF) of the 22 materials",
+          "CII NIKET NA LLC PROPRIETARY",
+          "Q-SMEC Intellectual Property Strategy",
+          "A) Q-SMEC Taxonomy Modeling and Simulation Model",
+          "Currently maintained as a trade secret, but patentable under NIKET management decision.",
+          "B) Q-SMEC Sensor / Storage Materials \u2014 Industrial Instantiation Partner-Funded Use-Case Development",
+          "Instantiation design and associated manufacturing process are patentable upon completion of NRE Tasks 1\u20132, with joint IP designation and/or a field-of-use exclusive license between NIKET NA LLC and the funder.",
+          "C) NIKET Portfolio and Licensing Strategy",
+          "NIKET has identified several hundred sensor / storage material high-impact, state-of-the-art instantiation use cases spanning all 16 DHS Critical Infrastructure Sectors.",
+          "For each use case, U.S. and international market segmentation, NPV market valuation, and license-value due-diligence analysis have been completed.",
+          "NIKET NA will pursue a licensing and commercialization strategy with Fortune 5000 firms in fields of use where instantiation partners elect not to engage directly in commercialization."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    }
+  ]
+}

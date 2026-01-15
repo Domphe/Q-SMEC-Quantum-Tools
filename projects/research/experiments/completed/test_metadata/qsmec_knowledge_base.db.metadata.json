@@ -1,0 +1,254 @@
+{
+  "path": "qsmec_knowledge_base.db",
+  "tables": [
+    {
+      "name": "files",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "path",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "filename",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "extension",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "size_bytes",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "modified_timestamp",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "content_hash",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "qsmec_relevance_score",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": "0.0",
+          "primary_key": false
+        },
+        {
+          "name": "content_summary",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "scan_timestamp",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 0,
+      "indexes": [
+        "idx_files_ext",
+        "idx_files_relevance",
+        "sqlite_autoindex_files_1"
+      ]
+    },
+    {
+      "name": "entities",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "entity_text",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "entity_type",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "category",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "frequency",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": "1",
+          "primary_key": false
+        }
+      ],
+      "row_count": 0,
+      "indexes": [
+        "idx_entities_freq",
+        "sqlite_autoindex_entities_1"
+      ]
+    },
+    {
+      "name": "relationships",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "file_id",
+          "type": "INTEGER",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "entity_id",
+          "type": "INTEGER",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "context_snippet",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "relevance_score",
+          "type": "REAL",
+          "not_null": false,
+          "default_value": "0.0",
+          "primary_key": false
+        }
+      ],
+      "row_count": 0,
+      "indexes": [
+        "idx_rel_entity",
+        "idx_rel_file"
+      ]
+    },
+    {
+      "name": "file_references",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "source_file_id",
+          "type": "INTEGER",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "target_file_id",
+          "type": "INTEGER",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "reference_type",
+          "type": "TEXT",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 0,
+      "indexes": []
+    },
+    {
+      "name": "scan_log",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": true
+        },
+        {
+          "name": "scan_timestamp",
+          "type": "TEXT",
+          "not_null": true,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "files_scanned",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "qsmec_files_found",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        },
+        {
+          "name": "total_entities",
+          "type": "INTEGER",
+          "not_null": false,
+          "default_value": null,
+          "primary_key": false
+        }
+      ],
+      "row_count": 0,
+      "indexes": []
+    }
+  ],
+  "generated_at": "2026-01-08T22:28:10.238647"
+}

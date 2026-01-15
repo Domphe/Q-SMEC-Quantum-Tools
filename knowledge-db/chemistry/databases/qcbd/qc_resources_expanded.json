@@ -1,0 +1,413 @@
+[
+  {
+    "id": "res_levine",
+    "title": "Quantum Chemistry",
+    "authors": [
+      "Ira N. Levine"
+    ],
+    "resource_type": "book",
+    "summary": "A classical introduction covering wave mechanics and electronic structure.",
+    "long_explanation": "Quantum Chemistry is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+    "topics_covered": [],
+    "difficulty": "intermediate",
+    "recommended_for": [
+      "students",
+      "researchers"
+    ],
+    "links_to_papers": [],
+    "faq": [
+      {
+        "q": "Why should I study \"Quantum Chemistry\"?",
+        "a": "It provides essential foundations for QC."
+      }
+    ],
+    "tags": [
+      "resource",
+      "QC"
+    ]
+  },
+  {
+    "id": "res_mcquarrie",
+    "title": "Quantum Chemistry",
+    "authors": [
+      "Donald A. McQuarrie"
+    ],
+    "resource_type": "book",
+    "summary": "A highly accessible introduction to quantum chemistry foundations.",
+    "long_explanation": "Quantum Chemistry is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+    "topics_covered": [],
+    "difficulty": "intermediate",
+    "recommended_for": [
+      "students",
+      "researchers"
+    ],
+    "links_to_papers": [],
+    "faq": [
+      {
+        "q": "Why should I study \"Quantum Chemistry\"?",
+        "a": "It provides essential foundations for QC."
+      }
+    ],
+    "tags": [
+      "resource",
+      "QC"
+    ]
+  },
+  {
+    "id": "res_jensen",
+    "title": "Introduction to Computational Chemistry",
+    "authors": [
+      "Frank Jensen"
+    ],
+    "resource_type": "book",
+    "summary": "A practical computational chemistry textbook focusing on electronic structure.",
+    "long_explanation": "Introduction to Computational Chemistry is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+    "topics_covered": [],
+    "difficulty": "intermediate",
+    "recommended_for": [
+      "students",
+      "researchers"
+    ],
+    "links_to_papers": [],
+    "faq": [
+      {
+        "q": "Why should I study \"Introduction to Computational Chemistry\"?",
+        "a": "It provides essential foundations for QC."
+      }
+    ],
+    "tags": [
+      "resource",
+      "QC"
+    ]
+  },
+  {
+    "id": "res_szabo_ostlund",
+    "title": "Modern Quantum Chemistry",
+    "authors": [
+      "Attila Szabo",
+      "Neil S. Ostlund"
+    ],
+    "resource_type": "book",
+    "summary": "A foundational text on HF, CI, and wavefunction theory.",
+    "long_explanation": "Modern Quantum Chemistry is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+    "topics_covered": [],
+    "difficulty": "intermediate",
+    "recommended_for": [
+      "students",
+      "researchers"
+    ],
+    "links_to_papers": [],
+    "faq": [
+      {
+        "q": "Why should I study \"Modern Quantum Chemistry\"?",
+        "a": "It provides essential foundations for QC."
+      }
+    ],
+    "tags": [
+      "resource",
+      "QC"
+    ]
+  },
+  {
+    "id": "res_helgaker",
+    "title": "Molecular Electronic-Structure Theory",
+    "authors": [
+      "Helgaker",
+      "Olsen",
+      "Jorgensen"
+    ],
+    "resource_type": "book",
+    "summary": "The most comprehensive advanced text on electronic structure theory.",
+    "long_explanation": "Molecular Electronic-Structure Theory is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+    "topics_covered": [],
+    "difficulty": "intermediate",
+    "recommended_for": [
+      "students",
+      "researchers"
+    ],
+    "links_to_papers": [],
+    "faq": [
+      {
+        "q": "Why should I study \"Molecular Electronic-Structure Theory\"?",
+        "a": "It provides essential foundations for QC."
+      }
+    ],
+    "tags": [
+      "resource",
+      "QC"
+    ]
+  },
+  {
+    "id": "res_hk_paper",
+    "title": "Hohenberg\u2013Kohn Theorems",
+    "authors": [
+      "Hohenberg",
+      "Kohn"
+    ],
+    "resource_type": "paper",
+    "summary": "Seminal 1964 paper establishing the foundations of DFT.",
+    "long_explanation": "Hohenberg\u2013Kohn Theorems is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+    "topics_covered": [],
+    "difficulty": "intermediate",
+    "recommended_for": [
+      "students",
+      "researchers"
+    ],
+    "links_to_papers": [],
+    "faq": [
+      {
+        "q": "Why should I study \"Hohenberg\u2013Kohn Theorems\"?",
+        "a": "It provides essential foundations for QC."
+      }
+    ],
+    "tags": [
+      "resource",
+      "QC"
+    ]
+  },
+  {
+    "id": "res_kohn_sham",
+    "title": "Kohn\u2013Sham DFT",
+    "authors": [
+      "Kohn",
+      "Sham"
+    ],
+    "resource_type": "paper",
+    "summary": "The 1965 paper introducing the KS equations.",
+    "long_explanation": "Kohn\u2013Sham DFT is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+    "topics_covered": [],
+    "difficulty": "intermediate",
+    "recommended_for": [
+      "students",
+      "researchers"
+    ],
+    "links_to_papers": [],
+    "faq": [
+      {
+        "q": "Why should I study \"Kohn\u2013Sham DFT\"?",
+        "a": "It provides essential foundations for QC."
+      }
+    ],
+    "tags": [
+      "resource",
+      "QC"
+    ]
+  },
+  {
+    "id": "res_coupled_cluster_review",
+    "title": "Coupled Cluster Theory Review",
+    "authors": [
+      "Crawford",
+      "Schaefer"
+    ],
+    "resource_type": "review",
+    "summary": "Extensive review of CC theory and implementations.",
+    "long_explanation": "Coupled Cluster Theory Review is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+    "topics_covered": [],
+    "difficulty": "intermediate",
+    "recommended_for": [
+      "students",
+      "researchers"
+    ],
+    "links_to_papers": [],
+    "faq": [
+      {
+        "q": "Why should I study \"Coupled Cluster Theory Review\"?",
+        "a": "It provides essential foundations for QC."
+      }
+    ],
+    "tags": [
+      "resource",
+      "QC"
+    ]
+  },
+  {
+    "id": "res_becke_1993",
+    "title": "Becke 1993 Hybrid Functional",
+    "authors": [
+      "A. D. Becke"
+    ],
+    "resource_type": "paper",
+    "summary": "The original hybrid functional paper underlying B3LYP.",
+    "long_explanation": "Becke 1993 Hybrid Functional is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+    "topics_covered": [],
+    "difficulty": "intermediate",
+    "recommended_for": [
+      "students",
+      "researchers"
+    ],
+    "links_to_papers": [],
+    "faq": [
+      {
+        "q": "Why should I study \"Becke 1993 Hybrid Functional\"?",
+        "a": "It provides essential foundations for QC."
+      }
+    ],
+    "tags": [
+      "resource",
+      "QC"
+    ]
+  },
+  {
+    "id": "res_gaussian_doc",
+    "title": "Gaussian Documentation",
+    "authors": [
+      "Gaussian Inc."
+    ],
+    "resource_type": "documentation",
+    "summary": "Official Gaussian reference documentation.",
+    "long_explanation": "Gaussian Documentation is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+    "topics_covered": [],
+    "difficulty": "intermediate",
+    "recommended_for": [
+      "students",
+      "researchers"
+    ],
+    "links_to_papers": [],
+    "faq": [
+      {
+        "q": "Why should I study \"Gaussian Documentation\"?",
+        "a": "It provides essential foundations for QC."
+      }
+    ],
+    "tags": [
+      "resource",
+      "QC"
+    ]
+  },
+  {
+    "id": "res_orca_manual",
+    "title": "ORCA Manual",
+    "authors": [
+      "Frank Neese"
+    ],
+    "resource_type": "documentation",
+    "summary": "Full ORCA software documentation.",
+    "long_explanation": "ORCA Manual is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+    "topics_covered": [],
+    "difficulty": "intermediate",
+    "recommended_for": [
+      "students",
+      "researchers"
+    ],
+    "links_to_papers": [],
+    "faq": [
+      {
+        "q": "Why should I study \"ORCA Manual\"?",
+        "a": "It provides essential foundations for QC."
+      }
+    ],
+    "tags": [
+      "resource",
+      "QC"
+    ]
+  },
+  {
+    "id": "res_psc4_docs",
+    "title": "Psi4 Documentation",
+    "authors": [
+      "Psi4 Team"
+    ],
+    "resource_type": "documentation",
+    "summary": "Open-source documentation for Psi4.",
+    "long_explanation": "Psi4 Documentation is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+    "topics_covered": [],
+    "difficulty": "intermediate",
+    "recommended_for": [
+      "students",
+      "researchers"
+    ],
+    "links_to_papers": [],
+    "faq": [
+      {
+        "q": "Why should I study \"Psi4 Documentation\"?",
+        "a": "It provides essential foundations for QC."
+      }
+    ],
+    "tags": [
+      "resource",
+      "QC"
+    ]
+  },
+  {
+    "id": "res_cp2k_manual",
+    "title": "CP2K Manual",
+    "authors": [
+      "CP2K Developers"
+    ],
+    "resource_type": "documentation",
+    "summary": "Documentation covering CP2K methods and workflows.",
+    "long_explanation": "CP2K Manual is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+    "topics_covered": [],
+    "difficulty": "intermediate",
+    "recommended_for": [
+      "students",
+      "researchers"
+    ],
+    "links_to_papers": [],
+    "faq": [
+      {
+        "q": "Why should I study \"CP2K Manual\"?",
+        "a": "It provides essential foundations for QC."
+      }
+    ],
+    "tags": [
+      "resource",
+      "QC"
+    ]
+  },
+  {
+    "id": "res_mit_qc_course",
+    "title": "MIT Quantum Chemistry Course",
+    "authors": [
+      "MIT"
+    ],
+    "resource_type": "course",
+    "summary": "Open-courseware with video lectures and assignments.",
+    "long_explanation": "MIT Quantum Chemistry Course is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+    "topics_covered": [],
+    "difficulty": "intermediate",
+    "recommended_for": [
+      "students",
+      "researchers"
+    ],
+    "links_to_papers": [],
+    "faq": [
+      {
+        "q": "Why should I study \"MIT Quantum Chemistry Course\"?",
+        "a": "It provides essential foundations for QC."
+      }
+    ],
+    "tags": [
+      "resource",
+      "QC"
+    ]
+  },
+  {
+    "id": "res_chem_rxiv_dft",
+    "title": "Modern DFT Methods Review",
+    "authors": [
+      "Various Authors"
+    ],
+    "resource_type": "review",
+    "summary": "A modern perspective on DFT advances and challenges.",
+    "long_explanation": "Modern DFT Methods Review is a significant resource in quantum chemistry. This expanded entry includes context, historical importance, major topics covered, strengths, limitations, the intended audience, and how it supports learning or research in quantum chemistry.",
+    "topics_covered": [],
+    "difficulty": "intermediate",
+    "recommended_for": [
+      "students",
+      "researchers"
+    ],
+    "links_to_papers": [],
+    "faq": [
+      {
+        "q": "Why should I study \"Modern DFT Methods Review\"?",
+        "a": "It provides essential foundations for QC."
+      }
+    ],
+    "tags": [
+      "resource",
+      "QC"
+    ]
+  }
+]

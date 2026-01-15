@@ -1,0 +1,206 @@
+{
+  "sector": "Energy",
+  "source": "EIA_Electricity_Retail_Sales",
+  "url": "https://api.eia.gov/v2/electricity/retail-sales/data/",
+  "retrieved_at": "2025-10-29T22:23:26.200995+00:00",
+  "retrieved_at_utc": "2025-10-29T22:23:26.200995+00:00",
+  "schema_version": "1.1",
+  "validation_status": "validated",
+  "geo_level": "state",
+  "unit": "dollars_mwh_customers",
+  "unit_standard": "mixed",
+  "variables": [
+    "state",
+    "year",
+    "revenue_thousand_dollars",
+    "sales_thousand_mwh",
+    "customers"
+  ],
+  "payload": [
+    {
+      "state": "CA",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2023",
+      "revenue_thousand_dollars": "59555.42429",
+      "sales_thousand_mwh": "239480.45202",
+      "customers": "15978899"
+    },
+    {
+      "state": "FL",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2023",
+      "revenue_thousand_dollars": "33953.3699",
+      "sales_thousand_mwh": "250940.214",
+      "customers": "11541551"
+    },
+    {
+      "state": "NY",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2023",
+      "revenue_thousand_dollars": "25482.03481",
+      "sales_thousand_mwh": "139421.93598",
+      "customers": "8572471"
+    },
+    {
+      "state": "PA",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2023",
+      "revenue_thousand_dollars": "17435.87733",
+      "sales_thousand_mwh": "138710.99303",
+      "customers": "6266770"
+    },
+    {
+      "state": "TX",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2023",
+      "revenue_thousand_dollars": "49471.09981",
+      "sales_thousand_mwh": "492820.38499",
+      "customers": "14191104"
+    },
+    {
+      "state": "CA",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2022",
+      "revenue_thousand_dollars": "56243.928",
+      "sales_thousand_mwh": "251869.136",
+      "customers": "15857833"
+    },
+    {
+      "state": "FL",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2022",
+      "revenue_thousand_dollars": "31129.14852",
+      "sales_thousand_mwh": "248820.80301",
+      "customers": "11372598"
+    },
+    {
+      "state": "NY",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2022",
+      "revenue_thousand_dollars": "26245.82238",
+      "sales_thousand_mwh": "143210.51698",
+      "customers": "8520551"
+    },
+    {
+      "state": "PA",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2022",
+      "revenue_thousand_dollars": "17209.23379",
+      "sales_thousand_mwh": "145044.59215",
+      "customers": "6250115"
+    },
+    {
+      "state": "TX",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2022",
+      "revenue_thousand_dollars": "48285.04188",
+      "sales_thousand_mwh": "475401.19206",
+      "customers": "13960246"
+    },
+    {
+      "state": "CA",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2021",
+      "revenue_thousand_dollars": "48589.09906",
+      "sales_thousand_mwh": "247249.865",
+      "customers": "15784318"
+    },
+    {
+      "state": "FL",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2021",
+      "revenue_thousand_dollars": "25764.32633",
+      "sales_thousand_mwh": "241562.08201",
+      "customers": "11213090"
+    },
+    {
+      "state": "NY",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2021",
+      "revenue_thousand_dollars": "22782.82043",
+      "sales_thousand_mwh": "141423.77816",
+      "customers": "8425385"
+    },
+    {
+      "state": "PA",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2021",
+      "revenue_thousand_dollars": "14288.77276",
+      "sales_thousand_mwh": "143340.15399",
+      "customers": "6218103"
+    },
+    {
+      "state": "TX",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2021",
+      "revenue_thousand_dollars": "39797.33266",
+      "sales_thousand_mwh": "435627.87798",
+      "customers": "13660929"
+    },
+    {
+      "state": "CA",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2020",
+      "revenue_thousand_dollars": "45028.61209",
+      "sales_thousand_mwh": "250174.67203",
+      "customers": "15708395"
+    },
+    {
+      "state": "FL",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2020",
+      "revenue_thousand_dollars": "24394.219",
+      "sales_thousand_mwh": "242440.17099",
+      "customers": "11010395"
+    },
+    {
+      "state": "NY",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2020",
+      "revenue_thousand_dollars": "20872.14809",
+      "sales_thousand_mwh": "140406.63199",
+      "customers": "8390052"
+    },
+    {
+      "state": "PA",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2020",
+      "revenue_thousand_dollars": "13549.24072",
+      "sales_thousand_mwh": "139720.83699",
+      "customers": "6184495"
+    },
+    {
+      "state": "TX",
+      "state_name": "",
+      "sector": "ALL",
+      "year": "2020",
+      "revenue_thousand_dollars": "35705.75684",
+      "sales_thousand_mwh": "426863.26697",
+      "customers": "13319015"
+    }
+  ],
+  "record_count": 20,
+  "api_stability": "stable",
+  "response_time_ms": 11256,
+  "notes": "EIA Electricity Retail Sales - State-level energy distribution",
+  "data_quality": "authoritative_government_source"
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "param_def2svp",
+    "name": "def2-SVP",
+    "parameter_type": "basis_set",
+    "short_definition": "Split-valence double-zeta basis.",
+    "long_explanation": "def2-SVP is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+    "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+    "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+    "common_pitfalls": [
+      "Underconverged settings",
+      "Misuse for certain methods"
+    ],
+    "faq": [
+      {
+        "q": "What is def2-SVP?",
+        "a": "Split-valence double-zeta basis."
+      },
+      {
+        "q": "How should I choose def2-SVP?",
+        "a": "Use conservative settings for production runs."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "parameter"
+    ]
+  },
+  {
+    "id": "param_def2tzvp",
+    "name": "def2-TZVP",
+    "parameter_type": "basis_set",
+    "short_definition": "Triple-zeta valence with polarization.",
+    "long_explanation": "def2-TZVP is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+    "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+    "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+    "common_pitfalls": [
+      "Underconverged settings",
+      "Misuse for certain methods"
+    ],
+    "faq": [
+      {
+        "q": "What is def2-TZVP?",
+        "a": "Triple-zeta valence with polarization."
+      },
+      {
+        "q": "How should I choose def2-TZVP?",
+        "a": "Use conservative settings for production runs."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "parameter"
+    ]
+  },
+  {
+    "id": "param_ccpvdz",
+    "name": "cc-pVDZ",
+    "parameter_type": "basis_set",
+    "short_definition": "Correlation-consistent double-zeta.",
+    "long_explanation": "cc-pVDZ is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+    "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+    "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+    "common_pitfalls": [
+      "Underconverged settings",
+      "Misuse for certain methods"
+    ],
+    "faq": [
+      {
+        "q": "What is cc-pVDZ?",
+        "a": "Correlation-consistent double-zeta."
+      },
+      {
+        "q": "How should I choose cc-pVDZ?",
+        "a": "Use conservative settings for production runs."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "parameter"
+    ]
+  },
+  {
+    "id": "param_ccpvtz",
+    "name": "cc-pVTZ",
+    "parameter_type": "basis_set",
+    "short_definition": "Correlation-consistent triple-zeta.",
+    "long_explanation": "cc-pVTZ is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+    "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+    "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+    "common_pitfalls": [
+      "Underconverged settings",
+      "Misuse for certain methods"
+    ],
+    "faq": [
+      {
+        "q": "What is cc-pVTZ?",
+        "a": "Correlation-consistent triple-zeta."
+      },
+      {
+        "q": "How should I choose cc-pVTZ?",
+        "a": "Use conservative settings for production runs."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "parameter"
+    ]
+  },
+  {
+    "id": "param_aug_ccpvdz",
+    "name": "aug-cc-pVDZ",
+    "parameter_type": "basis_set",
+    "short_definition": "Diffuse augmented double-zeta set.",
+    "long_explanation": "aug-cc-pVDZ is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+    "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+    "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+    "common_pitfalls": [
+      "Underconverged settings",
+      "Misuse for certain methods"
+    ],
+    "faq": [
+      {
+        "q": "What is aug-cc-pVDZ?",
+        "a": "Diffuse augmented double-zeta set."
+      },
+      {
+        "q": "How should I choose aug-cc-pVDZ?",
+        "a": "Use conservative settings for production runs."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "parameter"
+    ]
+  },
+  {
+    "id": "param_scf_tight",
+    "name": "SCF Tight Convergence",
+    "parameter_type": "scf_setting",
+    "short_definition": "Stricter SCF convergence criteria.",
+    "long_explanation": "SCF Tight Convergence is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+    "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+    "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+    "common_pitfalls": [
+      "Underconverged settings",
+      "Misuse for certain methods"
+    ],
+    "faq": [
+      {
+        "q": "What is SCF Tight Convergence?",
+        "a": "Stricter SCF convergence criteria."
+      },
+      {
+        "q": "How should I choose SCF Tight Convergence?",
+        "a": "Use conservative settings for production runs."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "parameter"
+    ]
+  },
+  {
+    "id": "param_grid_fine",
+    "name": "Fine DFT Integration Grid",
+    "parameter_type": "numerical_grid",
+    "short_definition": "Dense grid for DFT integration.",
+    "long_explanation": "Fine DFT Integration Grid is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+    "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+    "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+    "common_pitfalls": [
+      "Underconverged settings",
+      "Misuse for certain methods"
+    ],
+    "faq": [
+      {
+        "q": "What is Fine DFT Integration Grid?",
+        "a": "Dense grid for DFT integration."
+      },
+      {
+        "q": "How should I choose Fine DFT Integration Grid?",
+        "a": "Use conservative settings for production runs."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "parameter"
+    ]
+  },
+  {
+    "id": "param_pw_cutoff",
+    "name": "Plane-Wave Cutoff",
+    "parameter_type": "plane_wave",
+    "short_definition": "Kinetic-energy cutoff for plane-wave basis.",
+    "long_explanation": "Plane-Wave Cutoff is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+    "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+    "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+    "common_pitfalls": [
+      "Underconverged settings",
+      "Misuse for certain methods"
+    ],
+    "faq": [
+      {
+        "q": "What is Plane-Wave Cutoff?",
+        "a": "Kinetic-energy cutoff for plane-wave basis."
+      },
+      {
+        "q": "How should I choose Plane-Wave Cutoff?",
+        "a": "Use conservative settings for production runs."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "parameter"
+    ]
+  },
+  {
+    "id": "param_kpoints",
+    "name": "k-Point Mesh",
+    "parameter_type": "brillouin_sampling",
+    "short_definition": "Sampling grid in reciprocal space.",
+    "long_explanation": "k-Point Mesh is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+    "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+    "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+    "common_pitfalls": [
+      "Underconverged settings",
+      "Misuse for certain methods"
+    ],
+    "faq": [
+      {
+        "q": "What is k-Point Mesh?",
+        "a": "Sampling grid in reciprocal space."
+      },
+      {
+        "q": "How should I choose k-Point Mesh?",
+        "a": "Use conservative settings for production runs."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "parameter"
+    ]
+  },
+  {
+    "id": "param_dispersion_d3",
+    "name": "DFT-D3 Dispersion Correction",
+    "parameter_type": "dispersion",
+    "short_definition": "Empirical London dispersion correction.",
+    "long_explanation": "DFT-D3 Dispersion Correction is a critical parameter in quantum chemistry computations. This expanded entry discusses its purpose, theoretical role, numerical impact, recommended best practices, and typical pitfalls encountered by practitioners.",
+    "effects_on_accuracy": "Depends on chosen level; typically higher settings increase reliability.",
+    "effects_on_cost": "Higher-quality settings usually increase computational cost.",
+    "common_pitfalls": [
+      "Underconverged settings",
+      "Misuse for certain methods"
+    ],
+    "faq": [
+      {
+        "q": "What is DFT-D3 Dispersion Correction?",
+        "a": "Empirical London dispersion correction."
+      },
+      {
+        "q": "How should I choose DFT-D3 Dispersion Correction?",
+        "a": "Use conservative settings for production runs."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "parameter"
+    ]
+  }
+]

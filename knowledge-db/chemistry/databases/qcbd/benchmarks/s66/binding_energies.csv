@@ -1,0 +1,67 @@
+system_id,system_name,category,reference_energy_kcal_mol,reference_method,b3lyp_d3_energy,b3lyp_d3_error,wb97x_d_energy,wb97x_d_error,mp2_energy,mp2_error,notes
+s66_01,water_methanol,hydrogen_bonding,-5.95,CCSD(T)/CBS,-5.72,0.23,-6.05,-0.10,-6.42,-0.47,OH-OH bond
+s66_02,water_methanol_2,hydrogen_bonding,-6.71,CCSD(T)/CBS,-6.48,0.23,-6.82,-0.11,-7.25,-0.54,OH-OH alternative
+s66_03,water_N_methylacetamide,hydrogen_bonding,-7.88,CCSD(T)/CBS,-7.52,0.36,-8.02,-0.14,-8.65,-0.77,Water-amide
+s66_04,methanol_methanol,hydrogen_bonding,-5.81,CCSD(T)/CBS,-5.58,0.23,-5.92,-0.11,-6.35,-0.54,Methanol dimer
+s66_05,methanol_N_methylacetamide,hydrogen_bonding,-8.26,CCSD(T)/CBS,-7.85,0.41,-8.42,-0.16,-9.12,-0.86,Methanol-amide
+s66_06,N_methylacetamide_N_methylacetamide,hydrogen_bonding,-17.15,CCSD(T)/CBS,-16.25,0.90,-17.52,-0.37,-18.95,-1.80,Amide dimer
+s66_07,uracil_uracil_bp,hydrogen_bonding,-17.85,CCSD(T)/CBS,-16.88,0.97,-18.25,-0.40,-19.85,-2.00,Base pair H-bond
+s66_08,water_pyridine,hydrogen_bonding,-7.18,CCSD(T)/CBS,-6.85,0.33,-7.32,-0.14,-7.92,-0.74,Water-pyridine
+s66_09,methanol_pyridine,hydrogen_bonding,-7.95,CCSD(T)/CBS,-7.58,0.37,-8.12,-0.17,-8.85,-0.90,Methanol-pyridine
+s66_10,acOH_pyridine,hydrogen_bonding,-10.12,CCSD(T)/CBS,-9.52,0.60,-10.35,-0.23,-11.28,-1.16,Acetic acid-pyridine
+s66_11,benzene_benzene_stack,dispersion,-2.73,CCSD(T)/CBS,-1.32,1.41,-3.05,-0.32,-3.88,-1.15,Parallel displaced
+s66_12,pyridine_pyridine_stack,dispersion,-4.15,CCSD(T)/CBS,-2.35,1.80,-4.52,-0.37,-5.72,-1.57,Pyridine stack
+s66_13,uracil_uracil_stack,dispersion,-11.35,CCSD(T)/CBS,-6.85,4.50,-12.25,-0.90,-15.12,-3.77,Uracil stacking
+s66_14,benzene_pyridine_stack,dispersion,-3.42,CCSD(T)/CBS,-1.85,1.57,-3.75,-0.33,-4.78,-1.36,Mixed aromatic
+s66_15,benzene_uracil_stack,dispersion,-6.05,CCSD(T)/CBS,-3.42,2.63,-6.58,-0.53,-8.35,-2.30,Benzene-uracil
+s66_16,pyridine_uracil_stack,dispersion,-7.25,CCSD(T)/CBS,-4.35,2.90,-7.92,-0.67,-9.95,-2.70,Pyridine-uracil
+s66_17,benzene_ethene,dispersion,-1.48,CCSD(T)/CBS,-0.72,0.76,-1.62,-0.14,-2.08,-0.60,Small π-π
+s66_18,uracil_ethene,dispersion,-2.95,CCSD(T)/CBS,-1.52,1.43,-3.25,-0.30,-4.12,-1.17,Uracil-ethene
+s66_19,uracil_ethine,dispersion,-3.25,CCSD(T)/CBS,-1.85,1.40,-3.58,-0.33,-4.52,-1.27,Uracil-ethyne
+s66_20,pyridine_ethene,dispersion,-1.92,CCSD(T)/CBS,-1.05,0.87,-2.12,-0.20,-2.75,-0.83,Pyridine-ethene
+s66_21,pentane_pentane,dispersion,-4.02,CCSD(T)/CBS,-1.85,2.17,-4.45,-0.43,-5.85,-1.83,Alkane-alkane
+s66_22,neopentane_neopentane,dispersion,-3.75,CCSD(T)/CBS,-1.68,2.07,-4.15,-0.40,-5.45,-1.70,Branched alkane
+s66_23,cyclopentane_neopentane,dispersion,-3.68,CCSD(T)/CBS,-1.72,1.96,-4.08,-0.40,-5.32,-1.64,Cyclic-branched
+s66_24,cyclopentane_cyclopentane,dispersion,-3.42,CCSD(T)/CBS,-1.58,1.84,-3.82,-0.40,-5.02,-1.60,Cyclic dimer
+s66_25,benzene_cyclopentane,dispersion,-4.62,CCSD(T)/CBS,-2.58,2.04,-5.08,-0.46,-6.52,-1.90,Aromatic-cyclic
+s66_26,benzene_neopentane,dispersion,-4.15,CCSD(T)/CBS,-2.28,1.87,-4.58,-0.43,-5.92,-1.77,Aromatic-branched
+s66_27,uracil_pentane,dispersion,-5.25,CCSD(T)/CBS,-2.85,2.40,-5.78,-0.53,-7.48,-2.23,Hetero-alkane
+s66_28,uracil_cyclopentane,dispersion,-5.08,CCSD(T)/CBS,-2.72,2.36,-5.62,-0.54,-7.25,-2.17,Hetero-cyclic
+s66_29,uracil_neopentane,dispersion,-4.85,CCSD(T)/CBS,-2.58,2.27,-5.35,-0.50,-6.95,-2.10,Hetero-branched
+s66_30,ethene_pentane,dispersion,-2.78,CCSD(T)/CBS,-1.35,1.43,-3.08,-0.30,-4.02,-1.24,π-alkane
+s66_31,ethine_pentane,dispersion,-2.42,CCSD(T)/CBS,-1.18,1.24,-2.68,-0.26,-3.52,-1.10,Triple bond-alkane
+s66_32,peptide_peptide,mixed,-8.65,CCSD(T)/CBS,-8.12,0.53,-8.85,-0.20,-9.72,-1.07,Backbone-backbone
+s66_33,benzene_benzene_TS,mixed,-2.74,CCSD(T)/CBS,-2.12,0.62,-2.95,-0.21,-3.52,-0.78,T-shaped
+s66_34,pyridine_pyridine_TS,mixed,-4.32,CCSD(T)/CBS,-3.25,1.07,-4.68,-0.36,-5.48,-1.16,Pyridine T-shape
+s66_35,benzene_pyridine_TS,mixed,-3.58,CCSD(T)/CBS,-2.72,0.86,-3.88,-0.30,-4.62,-1.04,Mixed T-shape
+s66_36,benzene_ethine,mixed,-2.85,CCSD(T)/CBS,-1.95,0.90,-3.12,-0.27,-3.88,-1.03,π-π mixed
+s66_37,ethine_ethine_TS,mixed,-1.52,CCSD(T)/CBS,-0.95,0.57,-1.68,-0.16,-2.15,-0.63,Triple bond T
+s66_38,benzene_acOH,mixed,-3.92,CCSD(T)/CBS,-3.28,0.64,-4.15,-0.23,-4.78,-0.86,Aromatic-acid
+s66_39,benzene_acNH2,mixed,-4.25,CCSD(T)/CBS,-3.55,0.70,-4.52,-0.27,-5.25,-1.00,Aromatic-amide
+s66_40,benzene_water,mixed,-3.28,CCSD(T)/CBS,-2.78,0.50,-3.45,-0.17,-3.95,-0.67,π-H2O
+s66_41,benzene_methanol,mixed,-3.72,CCSD(T)/CBS,-3.18,0.54,-3.92,-0.20,-4.55,-0.83,π-MeOH
+s66_42,benzene_ammonia,mixed,-2.35,CCSD(T)/CBS,-1.92,0.43,-2.52,-0.17,-3.05,-0.70,π-NH3
+s66_43,benzene_N_methylacetamide,mixed,-5.42,CCSD(T)/CBS,-4.58,0.84,-5.75,-0.33,-6.68,-1.26,π-amide
+s66_44,pyridine_pyridine,mixed,-4.42,CCSD(T)/CBS,-3.52,0.90,-4.78,-0.36,-5.58,-1.16,N-N interaction
+s66_45,ethine_water,mixed,-3.12,CCSD(T)/CBS,-2.75,0.37,-3.28,-0.16,-3.75,-0.63,Triple-H2O
+s66_46,ethine_acOH,mixed,-4.58,CCSD(T)/CBS,-3.95,0.63,-4.88,-0.30,-5.62,-1.04,Triple-acid
+s66_47,pentane_acOH,mixed,-4.25,CCSD(T)/CBS,-3.68,0.57,-4.52,-0.27,-5.28,-1.03,Alkane-acid
+s66_48,pentane_acNH2,mixed,-4.92,CCSD(T)/CBS,-4.18,0.74,-5.22,-0.30,-6.15,-1.23,Alkane-amide
+s66_49,benzene_benzene_PD34,dispersion,-2.66,CCSD(T)/CBS,-1.28,1.38,-2.98,-0.32,-3.78,-1.12,Parallel displaced 3.4Å
+s66_50,benzene_benzene_PD36,dispersion,-2.48,CCSD(T)/CBS,-1.18,1.30,-2.78,-0.30,-3.55,-1.07,Parallel displaced 3.6Å
+s66_51,pyridine_pyridine_PD34,dispersion,-3.95,CCSD(T)/CBS,-2.25,1.70,-4.32,-0.37,-5.45,-1.50,Pyridine PD 3.4Å
+s66_52,pyridine_pyridine_PD36,dispersion,-3.72,CCSD(T)/CBS,-2.08,1.64,-4.08,-0.36,-5.18,-1.46,Pyridine PD 3.6Å
+s66_53,benzene_water_OH_pi,mixed,-3.28,CCSD(T)/CBS,-2.78,0.50,-3.45,-0.17,-3.95,-0.67,OH-π
+s66_54,benzene_methanol_OH_pi,mixed,-3.72,CCSD(T)/CBS,-3.18,0.54,-3.92,-0.20,-4.55,-0.83,OH-π methanol
+s66_55,benzene_ammonia_NH_pi,mixed,-2.35,CCSD(T)/CBS,-1.92,0.43,-2.52,-0.17,-3.05,-0.70,NH-π
+s66_56,benzene_HCN,mixed,-4.46,CCSD(T)/CBS,-3.65,0.81,-4.75,-0.29,-5.52,-1.06,HCN-π
+s66_57,benzene_methane_1,dispersion,-1.50,CCSD(T)/CBS,-0.95,0.55,-1.62,-0.12,-2.12,-0.62,CH-π complex 1
+s66_58,benzene_methane_2,dispersion,-1.45,CCSD(T)/CBS,-0.92,0.53,-1.58,-0.13,-2.08,-0.63,CH-π complex 2
+s66_59,pyridine_methane,dispersion,-1.68,CCSD(T)/CBS,-1.08,0.60,-1.82,-0.14,-2.38,-0.70,CH-π pyridine
+s66_60,uracil_methane,dispersion,-2.28,CCSD(T)/CBS,-1.35,0.93,-2.52,-0.24,-3.25,-0.97,CH-π uracil
+s66_61,benzene_ethane,dispersion,-1.82,CCSD(T)/CBS,-1.15,0.67,-1.98,-0.16,-2.58,-0.76,Ethane-π
+s66_62,benzene_propane,dispersion,-2.52,CCSD(T)/CBS,-1.52,1.00,-2.78,-0.26,-3.62,-1.10,Propane-π
+s66_63,benzene_butane,dispersion,-3.18,CCSD(T)/CBS,-1.85,1.33,-3.52,-0.34,-4.58,-1.40,Butane-π
+s66_64,pyridine_ethane,dispersion,-2.05,CCSD(T)/CBS,-1.28,0.77,-2.25,-0.20,-2.92,-0.87,Ethane-N
+s66_65,uracil_ethane,dispersion,-3.52,CCSD(T)/CBS,-2.05,1.47,-3.88,-0.36,-5.02,-1.50,Ethane-uracil
+s66_66,indole_benzene,mixed,-5.22,CCSD(T)/CBS,-3.58,1.64,-5.68,-0.46,-7.12,-1.90,Indole-benzene

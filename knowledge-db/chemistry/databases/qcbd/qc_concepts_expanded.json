@@ -1,0 +1,147 @@
+[
+  {
+    "id": "concept_schrodinger_equation",
+    "name": "Time-Independent Schr\u00f6dinger Equation",
+    "short_definition": "Fundamental equation describing stationary quantum states.",
+    "long_explanation": "Time-Independent Schr\u00f6dinger Equation is a fundamental concept in quantum chemistry. This entry provides an extended explanation...",
+    "mathematical_details": {
+      "equations": [],
+      "notes": "Detailed mathematical formulation can be expanded further."
+    },
+    "common_pitfalls": [
+      "Misinterpretation",
+      "Approximation limits"
+    ],
+    "faq": [
+      {
+        "q": "What is Time-Independent Schr\u00f6dinger Equation?",
+        "a": "Fundamental equation describing stationary quantum states."
+      },
+      {
+        "q": "Why is Time-Independent Schr\u00f6dinger Equation important?",
+        "a": "It is central to understanding quantum chemical models."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "theory"
+    ]
+  },
+  {
+    "id": "concept_born_oppenheimer",
+    "name": "Born\u2013Oppenheimer Approximation",
+    "short_definition": "Separation of nuclear and electronic motion.",
+    "long_explanation": "Born\u2013Oppenheimer Approximation is a fundamental concept in quantum chemistry. This entry provides an extended explanation...",
+    "mathematical_details": {
+      "equations": [],
+      "notes": "Detailed mathematical formulation can be expanded further."
+    },
+    "common_pitfalls": [
+      "Misinterpretation",
+      "Approximation limits"
+    ],
+    "faq": [
+      {
+        "q": "What is Born\u2013Oppenheimer Approximation?",
+        "a": "Separation of nuclear and electronic motion."
+      },
+      {
+        "q": "Why is Born\u2013Oppenheimer Approximation important?",
+        "a": "It is central to understanding quantum chemical models."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "theory"
+    ]
+  },
+  {
+    "id": "concept_potential_energy_surface",
+    "name": "Potential Energy Surface",
+    "short_definition": "Energy as a function of nuclear positions.",
+    "long_explanation": "Potential Energy Surface is a fundamental concept in quantum chemistry. This entry provides an extended explanation...",
+    "mathematical_details": {
+      "equations": [],
+      "notes": "Detailed mathematical formulation can be expanded further."
+    },
+    "common_pitfalls": [
+      "Misinterpretation",
+      "Approximation limits"
+    ],
+    "faq": [
+      {
+        "q": "What is Potential Energy Surface?",
+        "a": "Energy as a function of nuclear positions."
+      },
+      {
+        "q": "Why is Potential Energy Surface important?",
+        "a": "It is central to understanding quantum chemical models."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "theory"
+    ]
+  },
+  {
+    "id": "concept_hartree_fock",
+    "name": "Hartree\u2013Fock Theory",
+    "short_definition": "Mean-field approximation using a single determinant.",
+    "long_explanation": "Hartree\u2013Fock Theory is a fundamental concept in quantum chemistry. This entry provides an extended explanation...",
+    "mathematical_details": {
+      "equations": [],
+      "notes": "Detailed mathematical formulation can be expanded further."
+    },
+    "common_pitfalls": [
+      "Misinterpretation",
+      "Approximation limits"
+    ],
+    "faq": [
+      {
+        "q": "What is Hartree\u2013Fock Theory?",
+        "a": "Mean-field approximation using a single determinant."
+      },
+      {
+        "q": "Why is Hartree\u2013Fock Theory important?",
+        "a": "It is central to understanding quantum chemical models."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "theory"
+    ]
+  },
+  {
+    "id": "concept_density_functional_theory",
+    "name": "Density Functional Theory",
+    "short_definition": "Energy expressed as functional of electron density.",
+    "long_explanation": "Density Functional Theory is a fundamental concept in quantum chemistry. This entry provides an extended explanation...",
+    "mathematical_details": {
+      "equations": [],
+      "notes": "Detailed mathematical formulation can be expanded further."
+    },
+    "common_pitfalls": [
+      "Misinterpretation",
+      "Approximation limits"
+    ],
+    "faq": [
+      {
+        "q": "What is Density Functional Theory?",
+        "a": "Energy expressed as functional of electron density."
+      },
+      {
+        "q": "Why is Density Functional Theory important?",
+        "a": "It is central to understanding quantum chemical models."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "theory"
+    ]
+  }
+]

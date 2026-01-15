@@ -1,0 +1,11 @@
+id,domain_name,sector,use_cases,trl_level,market_potential,technical_requirements,competitive_landscape
+1,defense,applications,"[""Various applications""]",,High potential based on document frequency,,
+2,radar,applications,"[""Various applications""]",,High potential based on document frequency,,
+3,industrial,applications,"[""Various applications""]",,High potential based on document frequency,,
+4,automotive,applications,"[""Various applications""]",,High potential based on document frequency,,
+5,lidar,applications,"[""Various applications""]",,High potential based on document frequency,,
+6,energy,infrastructure_sectors,"[""Various applications""]",,High potential based on document frequency,,
+7,chemical,infrastructure_sectors,"[""Various applications""]",,High potential based on document frequency,,
+8,water,infrastructure_sectors,"[""Various applications""]",,High potential based on document frequency,,
+9,communications,infrastructure_sectors,"[""Various applications""]",,High potential based on document frequency,,
+10,transportation,infrastructure_sectors,"[""Various applications""]",,High potential based on document frequency,,

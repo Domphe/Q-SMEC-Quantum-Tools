@@ -1,0 +1,125 @@
+Type,Value,Unit,Context
+cagr,42,,"Market: $30B+ annually, strong growth in Lidar (42% CAGR). Energy & Utilities
+ Smart grid, microgrids, fau"
+cagr,15,,"al Use Case Layer Defense / Intel ISR ($7.3B TAM, 15% CAGR). Navigation (IMU, GNSS, AHRS). EW ($16.6B TAM)."
+cagr,42,,"otive sensors ($31B TAM). LIDAR/Radar ($1.2B TAM, 42% CAGR). Aviation (ISR, GNSS). Maritime monitoring ($35B"
+cagr,15,,"llance, Reconnaissance): Market ~$7.3 B/year with 15 % CAGR; NPV for a 1M‑patent license is $3.3 B. Navigatio"
+cagr,7,,HRS applications yield a $18.7 B/year market with 7 % CAGR and $3.4 B NPV. Weapon systems/targeting: Targeti
+cagr,6,,"nd missile seekers constitute a $9 B/year market, 6 % CAGR. Electronic warfare: $16.6 B/year, 7 % CAGR. Plat"
+cagr,7,,"rket, 6 % CAGR. Electronic warfare: $16.6 B/year, 7 % CAGR. Platform control & monitoring (flight controls,"
+cagr,5,,"on and structural‑health monitoring): $11 B/year, 5 % CAGR. Sensor‑type breakdown: EO/IR sensors ($13.8 B, 5"
+cagr,5,,"R. Sensor‑type breakdown: EO/IR sensors ($13.8 B, 5 % CAGR); radar sensors including LIDAR ($12 B, 5 % CAGR)"
+cagr,5,,"5 % CAGR); radar sensors including LIDAR ($12 B, 5 % CAGR); inertial sensors ($12 B, 5 % CAGR); pressure se"
+cagr,5,,"LIDAR ($12 B, 5 % CAGR); inertial sensors ($12 B, 5 % CAGR); pressure sensors ($2.9 B, 8.2 % CAGR); acoustic"
+cagr,8.2,,"sors ($12 B, 5 % CAGR); pressure sensors ($2.9 B, 8.2 % CAGR); acoustic/sonar sensors ($1.8 B, 5 % CAGR); chem"
+cagr,5,,"9 B, 8.2 % CAGR); acoustic/sonar sensors ($1.8 B, 5 % CAGR); chemical/biological sensors ($2.1 B, 5 % CAGR)."
+cagr,5,,", 5 % CAGR); chemical/biological sensors ($2.1 B, 5 % CAGR). These markets indicate multiple licensing oppor"
+cagr,5,,global automotive sensors: $31 B/year market with 5 % CAGR; NPV $4.3 B. North America automotive sensors: $7
+cagr,8.2,,erica automotive sensors: $7.1 B/year market with 8.2 % CAGR; NPV $1.4 B. Sensor‑specific markets: LIDAR/Radar
+cagr,42,,"LIDAR/Radar sensors – $1.2 B/year but a striking 42 % CAGR and $13.8 B NPV; humidity sensors – $7.3 B/year,"
+cagr,15,,"and $13.8 B NPV; humidity sensors – $7.3 B/year, 15 % CAGR, $3.25 B NPV; IR camera sensors – $8.8 B/year, 15"
+cagr,15,,"GR, $3.25 B NPV; IR camera sensors – $8.8 B/year, 15 % CAGR, $3.9 B NPV; GPS/GNSS/IMU navigation sensors – $1"
+cagr,8.3,,"PV; GPS/GNSS/IMU navigation sensors – $16 B/year, 8.3 % CAGR, $3.3 B NPV. The high growth rates of LIDAR, IR a"
+cagr,11.8,,"emperature, voltage, power): $21.4 B/year market; 11.8 % CAGR; $6.6 B NPV. Fault‑detection sensors: $22 B/year,"
+cagr,8,,"$6.6 B NPV. Fault‑detection sensors: $22 B/year, 8 % CAGR, $4.4 B NPV. Grid asset‑monitoring sensors: $3.6"
+cagr,19,,"NPV. Grid asset‑monitoring sensors: $3.6 B/year, 19 % CAGR, $2.6 B NPV. Solar‑cell optimisation: The largest"
+cagr,17,,sation: The largest single market—$95 B/year with 17 % CAGR and $54 B NPV—reflecting global demand for improv
+cagr,9,,in retrieval time; the market is $25 B/year with 9 % CAGR and $5.6 B NPV. Small modular nuclear reactors (S
+cagr,8,,"dular nuclear reactors (SMRs): $10 B/year market, 8 % CAGR, $2 B NPV. Utility‑scale solar and wind turbine m"
+cagr,14.3,,"e solar and wind turbine monitoring: $8.7 B/year, 14.3 % CAGR, $3.6 B NPV. Facilities energy management: Lighti"
+cagr,11.6,,"nagement: Lighting‑controls sensors ($3.7 B/year, 11.6 % CAGR) and HVAC‑control sensors ($4.2 B/year, 6 % CAGR)"
+cagr,6,,".6 % CAGR) and HVAC‑control sensors ($4.2 B/year, 6 % CAGR). 4.4 Critical Manufacturing & Mining Strategic m"
+cagr,8.7,,vey lines. Addressable market is $1.5 B/year with 8.7 % CAGR and $742 M NPV. Factory automation/SCADA optimisa
+cagr,6,,tion/SCADA optimisation: $25.5 B/year market with 6 % CAGR; $4.1 B NPV. Quality‑control sensors: $10.5 B/yea
+cagr,6,,"4.1 B NPV. Quality‑control sensors: $10.5 B/year, 6 % CAGR, $1.7 B NPV. 4.5 Water & Wastewater Hydrology/wat"
+cagr,6,,"r Hydrology/water deposit detection: $1.2 B/year, 6 % CAGR. Desalination materials: The paper describes a la"
+cagr,6,,"s). The desalination market is $20.6 B/year with ~6 % CAGR, NPV $3.3 B. Real‑time water‑quality sensors: pH"
+cagr,6.3,,"e water‑quality sensors: pH sensors ($1.5 B/year, 6.3 % CAGR), chlorine sensors ($1.1 B/year, 8 % CAGR), turbi"
+cagr,8,,"year, 6.3 % CAGR), chlorine sensors ($1.1 B/year, 8 % CAGR), turbidity sensors ($1.4 B/year, 7.2 % CAGR) and"
+cagr,7.2,,"/year, 8 % CAGR), turbidity sensors ($1.4 B/year, 7.2 % CAGR) and dissolved‑oxygen sensors ($1.4 B/year, 7 % C"
+cagr,7,,"CAGR) and dissolved‑oxygen sensors ($1.4 B/year, 7 % CAGR). Predictive maintenance sensors: Vibration senso"
+cagr,6,,"ntenance sensors: Vibration sensors ($560 M/year, 6 % CAGR) and acoustic sensors ($1.5 B/year, 6.4 % CAGR);"
+cagr,6.4,,"ear, 6 % CAGR) and acoustic sensors ($1.5 B/year, 6.4 % CAGR); pressure sensors ($2.5 B/year, 6.3 % CAGR). 4.6"
+cagr,6.3,,"year, 6.4 % CAGR); pressure sensors ($2.5 B/year, 6.3 % CAGR). 4.6 Health‑care & Biosecurity Pico‑sensor ELISA"
+cagr,6,,or ELISA‑qPCR biosensors: $2.1 B/year market with 6 % CAGR; $773 M NPV. Real‑time vital‑sign sensors (heart
+cagr,15,,"re, oxygen saturation, temperature): $9.2 B/year, 15 % CAGR; $4.1 B NPV. The paper suggests additional opport"
+cagr,42,,year) and automotive LIDAR/radar ($1.2 B/year but 42 % CAGR)—combine high TAM with very high growth. High CAG
+cagr,42,,"est‑growing segments include LIDAR/radar sensors (42 % CAGR), IR camera sensors (15 %), humidity sensors (15"
+cagr,15,,"al Use Case Layer Defense / Intel ISR ($7.3B TAM, 15% CAGR). Navigation (IMU, GNSS, AHRS). EW ($16.6B TAM)."
+cagr,42,,"otive sensors ($31B TAM). LIDAR/Radar ($1.2B TAM, 42% CAGR). Aviation (ISR, GNSS). Maritime monitoring ($35B"
+cagr,15,,"llance, Reconnaissance): Market ~$7.3 B/year with 15 % CAGR; NPV for a 1M‑patent license is $3.3 B. Navigatio"
+cagr,7,,HRS applications yield a $18.7 B/year market with 7 % CAGR and $3.4 B NPV. Weapon systems/targeting: Targeti
+cagr,6,,"nd missile seekers constitute a $9 B/year market, 6 % CAGR. Electronic warfare: $16.6 B/year, 7 % CAGR. Plat"
+cagr,7,,"rket, 6 % CAGR. Electronic warfare: $16.6 B/year, 7 % CAGR. Platform control & monitoring (flight controls,"
+cagr,5,,"on and structural‑health monitoring): $11 B/year, 5 % CAGR. Sensor‑type breakdown: EO/IR sensors ($13.8 B, 5"
+cagr,5,,"R. Sensor‑type breakdown: EO/IR sensors ($13.8 B, 5 % CAGR); radar sensors including LIDAR ($12 B, 5 % CAGR)"
+cagr,5,,"5 % CAGR); radar sensors including LIDAR ($12 B, 5 % CAGR); inertial sensors ($12 B, 5 % CAGR); pressure se"
+cagr,5,,"LIDAR ($12 B, 5 % CAGR); inertial sensors ($12 B, 5 % CAGR); pressure sensors ($2.9 B, 8.2 % CAGR); acoustic"
+cagr,8.2,,"sors ($12 B, 5 % CAGR); pressure sensors ($2.9 B, 8.2 % CAGR); acoustic/sonar sensors ($1.8 B, 5 % CAGR); chem"
+cagr,5,,"9 B, 8.2 % CAGR); acoustic/sonar sensors ($1.8 B, 5 % CAGR); chemical/biological sensors ($2.1 B, 5 % CAGR)."
+cagr,5,,", 5 % CAGR); chemical/biological sensors ($2.1 B, 5 % CAGR). These markets indicate multiple licensing oppor"
+cagr,5,,global automotive sensors: $31 B/year market with 5 % CAGR; NPV $4.3 B. North America automotive sensors: $7
+cagr,8.2,,erica automotive sensors: $7.1 B/year market with 8.2 % CAGR; NPV $1.4 B. Sensor‑specific markets: LIDAR/Radar
+cagr,42,,"LIDAR/Radar sensors – $1.2 B/year but a striking 42 % CAGR and $13.8 B NPV; humidity sensors – $7.3 B/year,"
+cagr,15,,"and $13.8 B NPV; humidity sensors – $7.3 B/year, 15 % CAGR, $3.25 B NPV; IR camera sensors – $8.8 B/year, 15"
+cagr,15,,"GR, $3.25 B NPV; IR camera sensors – $8.8 B/year, 15 % CAGR, $3.9 B NPV; GPS/GNSS/IMU navigation sensors – $1"
+cagr,8.3,,"PV; GPS/GNSS/IMU navigation sensors – $16 B/year, 8.3 % CAGR, $3.3 B NPV. The high growth rates of LIDAR, IR a"
+cagr,11.8,,"emperature, voltage, power): $21.4 B/year market; 11.8 % CAGR; $6.6 B NPV. Fault‑detection sensors: $22 B/year,"
+cagr,8,,"$6.6 B NPV. Fault‑detection sensors: $22 B/year, 8 % CAGR, $4.4 B NPV. Grid asset‑monitoring sensors: $3.6"
+cagr,19,,"NPV. Grid asset‑monitoring sensors: $3.6 B/year, 19 % CAGR, $2.6 B NPV. Solar‑cell optimisation: The largest"
+cagr,17,,sation: The largest single market—$95 B/year with 17 % CAGR and $54 B NPV—reflecting global demand for improv
+cagr,9,,in retrieval time; the market is $25 B/year with 9 % CAGR and $5.6 B NPV. Small modular nuclear reactors (S
+cagr,8,,"dular nuclear reactors (SMRs): $10 B/year market, 8 % CAGR, $2 B NPV. Utility‑scale solar and wind turbine m"
+cagr,14.3,,"e solar and wind turbine monitoring: $8.7 B/year, 14.3 % CAGR, $3.6 B NPV. Facilities energy management: Lighti"
+cagr,11.6,,"nagement: Lighting‑controls sensors ($3.7 B/year, 11.6 % CAGR) and HVAC‑control sensors ($4.2 B/year, 6 % CAGR)"
+cagr,6,,".6 % CAGR) and HVAC‑control sensors ($4.2 B/year, 6 % CAGR). 4.4 Critical Manufacturing & Mining Strategic m"
+cagr,8.7,,vey lines. Addressable market is $1.5 B/year with 8.7 % CAGR and $742 M NPV. Factory automation/SCADA optimisa
+cagr,6,,tion/SCADA optimisation: $25.5 B/year market with 6 % CAGR; $4.1 B NPV. Quality‑control sensors: $10.5 B/yea
+cagr,6,,"4.1 B NPV. Quality‑control sensors: $10.5 B/year, 6 % CAGR, $1.7 B NPV. 4.5 Water & Wastewater Hydrology/wat"
+cagr,6,,"r Hydrology/water deposit detection: $1.2 B/year, 6 % CAGR. Desalination materials: The paper describes a la"
+cagr,6,,"s). The desalination market is $20.6 B/year with ~6 % CAGR, NPV $3.3 B. Real‑time water‑quality sensors: pH"
+cagr,6.3,,"e water‑quality sensors: pH sensors ($1.5 B/year, 6.3 % CAGR), chlorine sensors ($1.1 B/year, 8 % CAGR), turbi"
+cagr,8,,"year, 6.3 % CAGR), chlorine sensors ($1.1 B/year, 8 % CAGR), turbidity sensors ($1.4 B/year, 7.2 % CAGR) and"
+cagr,7.2,,"/year, 8 % CAGR), turbidity sensors ($1.4 B/year, 7.2 % CAGR) and dissolved‑oxygen sensors ($1.4 B/year, 7 % C"
+cagr,7,,"CAGR) and dissolved‑oxygen sensors ($1.4 B/year, 7 % CAGR). Predictive maintenance sensors: Vibration senso"
+cagr,6,,"ntenance sensors: Vibration sensors ($560 M/year, 6 % CAGR) and acoustic sensors ($1.5 B/year, 6.4 % CAGR);"
+cagr,6.4,,"ear, 6 % CAGR) and acoustic sensors ($1.5 B/year, 6.4 % CAGR); pressure sensors ($2.5 B/year, 6.3 % CAGR). 4.6"
+cagr,6.3,,"year, 6.4 % CAGR); pressure sensors ($2.5 B/year, 6.3 % CAGR). 4.6 Health‑care & Biosecurity Pico‑sensor ELISA"
+cagr,6,,or ELISA‑qPCR biosensors: $2.1 B/year market with 6 % CAGR; $773 M NPV. Real‑time vital‑sign sensors (heart
+cagr,15,,"re, oxygen saturation, temperature): $9.2 B/year, 15 % CAGR; $4.1 B NPV. The paper suggests additional opport"
+cagr,42,,year) and automotive LIDAR/radar ($1.2 B/year but 42 % CAGR)—combine high TAM with very high growth. High CAG
+cagr,42,,"est‑growing segments include LIDAR/radar sensors (42 % CAGR), IR camera sensors (15 %), humidity sensors (15"
+cagr,7,,"fare (EW): Annual market of $16.6 billion, with a 7% CAGR, licensing NPV of $3 billion. Navigation: Annual"
+cagr,7,,"avigation: Annual market of $18.7 billion, with a 7% CAGR, licensing NPV of $3.4 billion. Platform Monitori"
+cagr,5,,"Monitoring: Annual market of $11 billion, with a 5% CAGR, licensing NPC of $2.7 billion AI/Data Center Pow"
+cagr,13,,"l Management: Annual market of $ 19.6 billion, 11-13% CAGR, licensing NPV of 3.3B 4.2 Energy and Utilities S"
+cagr,17,,"ptimization: Annual market of $95 billion, with a 17% CAGR Battery Storage: Annual market of $25 billion, wi"
+cagr,9,,"ery Storage: Annual market of $25 billion, with a 9% CAGR, licensing NPV of $5.6 billion. Microgrids: Annua"
+cagr,6,,"Microgrids: Annual market of $11 billion, with a 6% CAGR, licensing NPV of $1.8 billion. Small Modular Rea"
+cagr,8,,"ors (SMRs): Annual market of $10 billion, with an 8% CAGR. 4.3 Water and Environment Desalination Membranes"
+cagr,6,,"Membranes: Annual market of $20.6 billion, with a 6% CAGR, licensing NPV of $3.3 billion. Real-Time Water S"
+cagr,42,,"IDAR/Radar: Annual market of $1.2 billion, with a 42% CAGR, licensing NPV of $13.8 billion. Total Automotive"
+cagr,5,,"ive Sensors: Annual market of $31 billion, with a 5% CAGR CII NIKET North America LLC PROPRIETARY ANNEX II"
+market_size,7.3,billion,"lance, and Reconnaissance (ISR): Annual market of $7.3 billion, with a 15% Compound Annual Growth Rate (CAGR), l"
+market_size,3.3,billion,"Rate (CAGR), licensing Net Present Value (NPV) of $3.3 billion Electronic Warfare (EW): Annual market of $16.6 b"
+market_size,16.6,billion,"billion Electronic Warfare (EW): Annual market of $16.6 billion, with a 7% CAGR, licensing NPV of $3 billion. Nav"
+market_size,3,billion,"f $16.6 billion, with a 7% CAGR, licensing NPV of $3 billion. Navigation: Annual market of $18.7 billion, with"
+market_size,18.7,billion,"g NPV of $3 billion. Navigation: Annual market of $18.7 billion, with a 7% CAGR, licensing NPV of $3.4 billion. P"
+market_size,3.4,billion,"f $18.7 billion, with a 7% CAGR, licensing NPV of $3.4 billion. Platform Monitoring: Annual market of $11 billio"
+market_size,11,billion,".4 billion. Platform Monitoring: Annual market of $11 billion, with a 5% CAGR, licensing NPC of $2.7 billion AI"
+market_size,2.7,billion,"of $11 billion, with a 5% CAGR, licensing NPC of $2.7 billion AI/Data Center Power/Thermal Management: Annual m"
+market_size,95,billion,"nd Utilities Solar Optimization: Annual market of $95 billion, with a 17% CAGR Battery Storage: Annual market o"
+market_size,25,billion,"with a 17% CAGR Battery Storage: Annual market of $25 billion, with a 9% CAGR, licensing NPV of $5.6 billion. M"
+market_size,5.6,billion,"of $25 billion, with a 9% CAGR, licensing NPV of $5.6 billion. Microgrids: Annual market of $11 billion, with a"
+market_size,11,billion,"NPV of $5.6 billion. Microgrids: Annual market of $11 billion, with a 6% CAGR, licensing NPV of $1.8 billion. S"
+market_size,1.8,billion,"of $11 billion, with a 6% CAGR, licensing NPV of $1.8 billion. Small Modular Reactors (SMRs): Annual market of"
+market_size,10,billion,". Small Modular Reactors (SMRs): Annual market of $10 billion, with an 8% CAGR. 4.3 Water and Environment Desal"
+market_size,20.6,billion,"ironment Desalination Membranes: Annual market of $20.6 billion, with a 6% CAGR, licensing NPV of $3.3 billion. R"
+market_size,3.3,billion,"f $20.6 billion, with a 6% CAGR, licensing NPV of $3.3 billion. Real-Time Water Sensors: Aggregate annual market"
+market_size,5,billion,al-Time Water Sensors: Aggregate annual market of $5 billion. 4.4 Healthcare and Biosecurity Biosensors: Annua
+market_size,2.1,billion,care and Biosecurity Biosensors: Annual market of $2.1 billion. Patient Monitoring: Annual market of $12 billion
+market_size,12,billion,2.1 billion. Patient Monitoring: Annual market of $12 billion. Surgical Tools: Annual market of $8 billion. 4.5
+market_size,8,billion,of $12 billion. Surgical Tools: Annual market of $8 billion. 4.5 Transportation and Automotive LIDAR/Radar: A
+market_size,1.2,billion,"tion and Automotive LIDAR/Radar: Annual market of $1.2 billion, with a 42% CAGR, licensing NPV of $13.8 billion."
+market_size,13.8,billion,"f $1.2 billion, with a 42% CAGR, licensing NPV of $13.8 billion. Total Automotive Sensors: Annual market of $31 b"
+market_size,31,billion,"llion. Total Automotive Sensors: Annual market of $31 billion, with a 5% CAGR CII NIKET North America LLC PROPR"

@@ -1,0 +1,23 @@
+system_id,system_name,category,reference_energy_kcal_mol,reference_method,b3lyp_d3_energy,b3lyp_d3_error,wb97x_d_energy,wb97x_d_error,mp2_energy,mp2_error,ccsd_t_energy,ccsd_t_error,notes
+s22_01,ammonia_dimer,hydrogen_bonding,-3.17,CCSD(T)/CBS,-3.05,0.12,-3.22,-0.05,-3.41,-0.24,-3.15,0.02,Prototypical H-bond
+s22_02,water_dimer,hydrogen_bonding,-5.02,CCSD(T)/CBS,-4.85,0.17,-5.10,-0.08,-5.45,-0.43,-5.00,0.02,Classic H-bond benchmark
+s22_03,formic_acid_dimer,hydrogen_bonding,-18.61,CCSD(T)/CBS,-17.95,0.66,-18.82,0.21,-20.12,-1.51,-18.55,0.06,Strong double H-bond
+s22_04,formamide_dimer,hydrogen_bonding,-15.96,CCSD(T)/CBS,-15.32,0.64,-16.15,-0.19,-17.05,-1.09,-15.88,0.08,Amide H-bond
+s22_05,uracil_dimer_h_bonded,hydrogen_bonding,-20.65,CCSD(T)/CBS,-19.78,0.87,-20.95,-0.30,-22.45,-1.80,-20.50,0.15,Nucleobase pairing
+s22_06,2_pyridoxine_2_aminopyridine,hydrogen_bonding,-16.71,CCSD(T)/CBS,-16.05,0.66,-17.02,-0.31,-18.25,-1.54,-16.60,0.11,Triple H-bond
+s22_07,adenine_thymine_wc,hydrogen_bonding,-16.37,CCSD(T)/CBS,-15.68,0.69,-16.72,-0.35,-17.95,-1.58,-16.22,0.15,Watson-Crick pair
+s22_08,methane_dimer,dispersion,-0.53,CCSD(T)/CBS,-0.12,0.41,-0.58,-0.05,-0.85,-0.32,-0.51,0.02,Pure dispersion
+s22_09,ethene_dimer,dispersion,-1.51,CCSD(T)/CBS,-0.68,0.83,-1.65,-0.14,-2.12,-0.61,-1.48,0.03,π-π dispersion
+s22_10,benzene_methane_complex,dispersion,-1.50,CCSD(T)/CBS,-0.95,0.55,-1.62,-0.12,-2.05,-0.55,-1.46,0.04,CH-π interaction
+s22_11,benzene_dimer_parallel,dispersion,-2.73,CCSD(T)/CBS,-1.35,1.38,-3.02,-0.29,-3.85,-1.12,-2.65,0.08,Sandwich π-π stacking
+s22_12,pyrazine_dimer,dispersion,-4.42,CCSD(T)/CBS,-2.58,1.84,-4.75,-0.33,-5.95,-1.53,-4.32,0.10,N-heterocycle stacking
+s22_13,uracil_dimer_stack,dispersion,-10.12,CCSD(T)/CBS,-6.45,3.67,-10.95,-0.83,-13.25,-3.13,-9.95,0.17,Nucleobase stacking
+s22_14,indole_benzene_stack,dispersion,-5.22,CCSD(T)/CBS,-3.12,2.10,-5.68,-0.46,-7.05,-1.83,-5.10,0.12,Large aromatic stack
+s22_15,adenine_thymine_stack,dispersion,-12.23,CCSD(T)/CBS,-7.85,4.38,-13.15,-0.92,-15.85,-3.62,-12.05,0.18,Stacked base pair
+s22_16,ethene_ethine_complex,mixed,-1.53,CCSD(T)/CBS,-0.85,0.68,-1.68,-0.15,-2.15,-0.62,-1.50,0.03,π-π mixed interaction
+s22_17,benzene_water_complex,mixed,-3.28,CCSD(T)/CBS,-2.78,0.50,-3.45,-0.17,-3.85,-0.57,-3.22,0.06,π-H-bond
+s22_18,benzene_ammonia_complex,mixed,-2.35,CCSD(T)/CBS,-1.92,0.43,-2.52,-0.17,-2.95,-0.60,-2.30,0.05,π-NH interaction
+s22_19,benzene_hcn_complex,mixed,-4.46,CCSD(T)/CBS,-3.65,0.81,-4.75,-0.29,-5.45,-0.99,-4.38,0.08,π-CN interaction
+s22_20,benzene_dimer_t_shaped,mixed,-2.74,CCSD(T)/CBS,-2.15,0.59,-2.95,-0.21,-3.45,-0.71,-2.68,0.06,T-shaped π-π
+s22_21,indole_benzene_t_shaped,mixed,-5.73,CCSD(T)/CBS,-4.52,1.21,-6.15,-0.42,-7.25,-1.52,-5.62,0.11,T-shaped aromatic
+s22_22,phenol_dimer,mixed,-7.05,CCSD(T)/CBS,-6.35,0.70,-7.32,-0.27,-8.15,-1.10,-6.95,0.10,OH-π mixed interaction

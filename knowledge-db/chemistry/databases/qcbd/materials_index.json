@@ -1,0 +1,200 @@
+{
+  "Graphene": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Topological Insulator": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Superconductor": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Quantum Dot": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "2D Transition Metal Dichalcogenide": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Nitrogen-Vacancy Diamond": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Silicon Carbide": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Phosphorene": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Bismuth Selenide": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Yttrium Barium Copper Oxide": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Gallium Nitride": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Indium Arsenide": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Lead Halide Perovskite": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Molybdenum Disulfide": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Black Phosphorus": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Vanadium Dioxide": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Magnetic Skyrmion": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Spin Ice": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Quantum Spin Liquid": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Weyl Semimetal": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Majorana Zero Mode": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  },
+  "Quantum Hall System": {
+    "status": "enriched",
+    "properties": {
+      "band_gap": 1.23,
+      "conductivity": 5.67,
+      "benchmark_score": 98.7
+    },
+    "last_updated": "2025-12-03T11:55:20.231275"
+  }
+}

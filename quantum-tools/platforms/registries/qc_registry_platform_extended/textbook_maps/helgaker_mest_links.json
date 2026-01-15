@@ -1,0 +1,15 @@
+{
+  "id": "map.textbook.helgaker_mest",
+  "source_id": "src.textbook.helgaker_mest",
+  "linked_methods": [
+    "method.qc.ccsd_t",
+    "method.qc.casscf"
+  ],
+  "linked_equations": [
+    "eq.qc.coupled_cluster"
+  ],
+  "linked_workflows": [
+    "workflow.qc.benchmark_dft"
+  ],
+  "notes": "This textbook covers formal theory for post-HF methods and practical applications."
+}

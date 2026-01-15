@@ -1,0 +1,2365 @@
+{
+  "Concepts": [
+    {
+      "id": "concept_schrodinger_equation",
+      "type": "Concept",
+      "name": "Time-Independent Schr\u00f6dinger Equation",
+      "category": [
+        "Quantum Mechanics",
+        "Foundation"
+      ],
+      "short_definition": "Fundamental equation of non-relativistic quantum mechanics describing stationary states of a system.",
+      "key_equations": [
+        "\u0124\u03a8 = E\u03a8"
+      ],
+      "prerequisites": [],
+      "related_methods": [],
+      "implemented_in": [],
+      "tags": [
+        "QM",
+        "equation",
+        "fundamental"
+      ]
+    },
+    {
+      "id": "concept_born_oppenheimer",
+      "type": "Concept",
+      "name": "Born\u2013Oppenheimer Approximation",
+      "category": [
+        "Quantum Mechanics",
+        "Electronic Structure",
+        "Foundation"
+      ],
+      "short_definition": "Approximation separating nuclear and electronic motion due to large mass differences.",
+      "key_equations": [],
+      "prerequisites": [
+        "concept_schrodinger_equation"
+      ],
+      "related_methods": [],
+      "implemented_in": [],
+      "tags": [
+        "approximation",
+        "PES"
+      ]
+    },
+    {
+      "id": "concept_potential_energy_surface",
+      "type": "Concept",
+      "name": "Potential Energy Surface",
+      "category": [
+        "Electronic Structure",
+        "Geometry"
+      ],
+      "short_definition": "Multidimensional surface giving electronic energy as a function of nuclear coordinates.",
+      "key_equations": [],
+      "prerequisites": [
+        "concept_born_oppenheimer"
+      ],
+      "related_methods": [],
+      "implemented_in": [],
+      "tags": [
+        "PES",
+        "geometry",
+        "reactions"
+      ]
+    },
+    {
+      "id": "concept_hartree_fock",
+      "type": "Concept",
+      "name": "Hartree\u2013Fock Theory",
+      "category": [
+        "Electronic Structure",
+        "Foundation"
+      ],
+      "short_definition": "Mean-field method approximating the many-electron wavefunction as a single Slater determinant.",
+      "key_equations": [
+        "F\u03c6_i = \u03b5_i S \u03c6_i"
+      ],
+      "prerequisites": [
+        "concept_schrodinger_equation"
+      ],
+      "related_methods": [
+        "method_hf",
+        "method_rhf",
+        "method_uhf"
+      ],
+      "implemented_in": [
+        "tool_gaussian",
+        "tool_orca",
+        "tool_psi4",
+        "tool_pyscf",
+        "tool_qchem",
+        "tool_nwchem",
+        "tool_turbomole",
+        "tool_molpro",
+        "tool_gamess",
+        "tool_cfour",
+        "tool_adf",
+        "tool_dalton"
+      ],
+      "tags": [
+        "HF",
+        "mean-field",
+        "SCF"
+      ]
+    },
+    {
+      "id": "concept_electron_correlation",
+      "type": "Concept",
+      "name": "Electron Correlation",
+      "category": [
+        "Electronic Structure"
+      ],
+      "short_definition": "Difference between exact electronic energy and the Hartree\u2013Fock energy, capturing electron\u2013electron interactions beyond mean-field.",
+      "key_equations": [
+        "E_corr = E_exact - E_HF"
+      ],
+      "prerequisites": [
+        "concept_hartree_fock"
+      ],
+      "related_methods": [
+        "method_mp2",
+        "method_ccsd",
+        "method_ccsd_t",
+        "method_casscf"
+      ],
+      "implemented_in": [],
+      "tags": [
+        "correlation",
+        "post-HF"
+      ]
+    },
+    {
+      "id": "concept_density_functional_theory",
+      "type": "Concept",
+      "name": "Density Functional Theory",
+      "category": [
+        "Electronic Structure"
+      ],
+      "short_definition": "Electronic-structure framework where the ground-state energy is a functional of the electron density.",
+      "key_equations": [
+        "E[\u03c1] = T_s[\u03c1] + V_ne[\u03c1] + J[\u03c1] + E_xc[\u03c1]"
+      ],
+      "prerequisites": [
+        "concept_schrodinger_equation"
+      ],
+      "related_methods": [
+        "method_b3lyp",
+        "method_pbe0",
+        "method_m062x",
+        "method_omega_b97x_d",
+        "method_gga_pbe",
+        "method_lda"
+      ],
+      "implemented_in": [
+        "tool_gaussian",
+        "tool_orca",
+        "tool_psi4",
+        "tool_pyscf",
+        "tool_qchem",
+        "tool_nwchem",
+        "tool_cp2k",
+        "tool_turbomole",
+        "tool_molpro",
+        "tool_gamess",
+        "tool_cfour",
+        "tool_adf",
+        "tool_dalton",
+        "tool_dftbplus"
+      ],
+      "tags": [
+        "DFT",
+        "Kohn-Sham",
+        "xc-functional"
+      ]
+    },
+    {
+      "id": "concept_basis_sets_gaussian",
+      "type": "Concept",
+      "name": "Gaussian Basis Sets",
+      "category": [
+        "Basis Sets"
+      ],
+      "short_definition": "Sets of Gaussian-type orbitals used to represent molecular orbitals in ab initio and DFT calculations.",
+      "key_equations": [],
+      "prerequisites": [
+        "concept_hartree_fock"
+      ],
+      "related_methods": [],
+      "implemented_in": [
+        "tool_gaussian",
+        "tool_orca",
+        "tool_psi4",
+        "tool_pyscf",
+        "tool_qchem",
+        "tool_nwchem",
+        "tool_turbomole",
+        "tool_molpro",
+        "tool_gamess",
+        "tool_cfour",
+        "tool_adf",
+        "tool_dalton"
+      ],
+      "tags": [
+        "GTO",
+        "Pople",
+        "Dunning",
+        "Ahlrichs"
+      ]
+    },
+    {
+      "id": "concept_basis_sets_plane_wave",
+      "type": "Concept",
+      "name": "Plane-Wave Basis Sets",
+      "category": [
+        "Basis Sets",
+        "Periodic"
+      ],
+      "short_definition": "Plane-wave expansions used to represent electronic wavefunctions in periodic systems, controlled by kinetic energy cutoff.",
+      "key_equations": [],
+      "prerequisites": [
+        "concept_schrodinger_equation"
+      ],
+      "related_methods": [],
+      "implemented_in": [
+        "tool_cp2k",
+        "tool_dftbplus"
+      ],
+      "tags": [
+        "plane-wave",
+        "periodic",
+        "cutoff"
+      ]
+    },
+    {
+      "id": "concept_effective_core_potentials",
+      "type": "Concept",
+      "name": "Effective Core Potentials",
+      "category": [
+        "Basis Sets",
+        "Relativistic"
+      ],
+      "short_definition": "Pseudopotentials replacing core electrons with an effective potential to reduce basis size and include scalar relativistic effects.",
+      "key_equations": [],
+      "prerequisites": [
+        "concept_basis_sets_gaussian"
+      ],
+      "related_methods": [],
+      "implemented_in": [
+        "tool_gaussian",
+        "tool_orca",
+        "tool_qchem",
+        "tool_molpro",
+        "tool_cp2k"
+      ],
+      "tags": [
+        "ECP",
+        "pseudopotential"
+      ]
+    },
+    {
+      "id": "concept_scf",
+      "type": "Concept",
+      "name": "Self-Consistent Field Procedure",
+      "category": [
+        "Numerical Methods"
+      ],
+      "short_definition": "Iterative procedure to reach consistency between the Fock/Kohn\u2013Sham operator and the resulting orbitals or density.",
+      "key_equations": [],
+      "prerequisites": [
+        "concept_hartree_fock",
+        "concept_density_functional_theory"
+      ],
+      "related_methods": [
+        "method_hf",
+        "method_rhf",
+        "method_uhf"
+      ],
+      "implemented_in": [],
+      "tags": [
+        "SCF",
+        "iteration",
+        "convergence"
+      ]
+    },
+    {
+      "id": "concept_geometry_optimization",
+      "type": "Concept",
+      "name": "Geometry Optimization",
+      "category": [
+        "Geometry",
+        "Numerical Methods"
+      ],
+      "short_definition": "Algorithmic procedure to locate minima or transition states on the potential energy surface using energy and gradients.",
+      "key_equations": [],
+      "prerequisites": [
+        "concept_potential_energy_surface"
+      ],
+      "related_methods": [],
+      "implemented_in": [],
+      "tags": [
+        "optimization",
+        "minima",
+        "transition states"
+      ]
+    },
+    {
+      "id": "concept_vibrational_analysis",
+      "type": "Concept",
+      "name": "Vibrational Frequency Analysis",
+      "category": [
+        "Properties"
+      ],
+      "short_definition": "Computation of harmonic normal modes from the Hessian matrix, used to characterize stationary points and thermochemistry.",
+      "key_equations": [],
+      "prerequisites": [
+        "concept_geometry_optimization"
+      ],
+      "related_methods": [],
+      "implemented_in": [],
+      "tags": [
+        "IR",
+        "Raman",
+        "Hessian",
+        "frequencies"
+      ]
+    },
+    {
+      "id": "concept_transition_state",
+      "type": "Concept",
+      "name": "Transition State and Reaction Pathways",
+      "category": [
+        "Reactivity",
+        "Geometry"
+      ],
+      "short_definition": "First-order saddle point on a potential energy surface corresponding to the highest energy along the minimum-energy path.",
+      "key_equations": [],
+      "prerequisites": [
+        "concept_potential_energy_surface",
+        "concept_vibrational_analysis"
+      ],
+      "related_methods": [],
+      "implemented_in": [],
+      "tags": [
+        "TS",
+        "IRC",
+        "reactions"
+      ]
+    },
+    {
+      "id": "concept_charge_analysis",
+      "type": "Concept",
+      "name": "Charge and Population Analysis",
+      "category": [
+        "Properties"
+      ],
+      "short_definition": "Schemes to partition electron density into atomic contributions (Mulliken, L\u00f6wdin, NBO, Hirshfeld, etc.).",
+      "key_equations": [],
+      "prerequisites": [
+        "concept_density_functional_theory"
+      ],
+      "related_methods": [],
+      "implemented_in": [],
+      "tags": [
+        "charges",
+        "NBO",
+        "Mulliken"
+      ]
+    },
+    {
+      "id": "concept_dispersion_corrections",
+      "type": "Concept",
+      "name": "Dispersion Corrections",
+      "category": [
+        "Electronic Structure"
+      ],
+      "short_definition": "Additive or nonlocal corrections to account for London dispersion interactions missing in many DFT functionals.",
+      "key_equations": [],
+      "prerequisites": [
+        "concept_density_functional_theory"
+      ],
+      "related_methods": [],
+      "implemented_in": [],
+      "tags": [
+        "dispersion",
+        "D3",
+        "D4",
+        "vdW"
+      ]
+    },
+    {
+      "id": "concept_relativistic_qc",
+      "type": "Concept",
+      "name": "Relativistic Quantum Chemistry",
+      "category": [
+        "Relativistic"
+      ],
+      "short_definition": "Treatment of electronic structure including relativistic effects using scalar-relativistic Hamiltonians or four-component Dirac equations.",
+      "key_equations": [],
+      "prerequisites": [
+        "concept_schrodinger_equation"
+      ],
+      "related_methods": [],
+      "implemented_in": [
+        "tool_dirac",
+        "tool_adf",
+        "tool_orca"
+      ],
+      "tags": [
+        "relativistic",
+        "Dirac",
+        "spin-orbit"
+      ]
+    },
+    {
+      "id": "concept_coupled_cluster_theory",
+      "type": "Concept",
+      "name": "Coupled Cluster Theory",
+      "category": [
+        "High-Level Wavefunction"
+      ],
+      "short_definition": "Wavefunction method using an exponential ansatz with cluster operators to include electron correlation in a size-extensive manner.",
+      "key_equations": [
+        "|\u03a8_CC> = e^T |\u03a6_0>"
+      ],
+      "prerequisites": [
+        "concept_electron_correlation"
+      ],
+      "related_methods": [
+        "method_ccsd",
+        "method_ccsd_t"
+      ],
+      "implemented_in": [
+        "tool_molpro",
+        "tool_cfour",
+        "tool_orca",
+        "tool_qchem",
+        "tool_psi4",
+        "tool_nwchem",
+        "tool_gamess"
+      ],
+      "tags": [
+        "CC",
+        "post-HF",
+        "high-accuracy"
+      ]
+    },
+    {
+      "id": "concept_multireference_theory",
+      "type": "Concept",
+      "name": "Multireference Methods",
+      "category": [
+        "High-Level Wavefunction"
+      ],
+      "short_definition": "Methods that use more than one determinant as reference to describe systems with strong static correlation.",
+      "key_equations": [],
+      "prerequisites": [
+        "concept_electron_correlation"
+      ],
+      "related_methods": [
+        "method_casscf"
+      ],
+      "implemented_in": [
+        "tool_molpro",
+        "tool_orca",
+        "tool_qchem",
+        "tool_gamess"
+      ],
+      "tags": [
+        "CASSCF",
+        "static correlation"
+      ]
+    },
+    {
+      "id": "concept_md_aimd",
+      "type": "Concept",
+      "name": "Molecular Dynamics and Ab Initio MD",
+      "category": [
+        "Dynamics"
+      ],
+      "short_definition": "Simulation of nuclear motion using classical equations of motion, with forces from empirical potentials or on-the-fly quantum chemistry.",
+      "key_equations": [],
+      "prerequisites": [
+        "concept_potential_energy_surface"
+      ],
+      "related_methods": [],
+      "implemented_in": [
+        "tool_cp2k",
+        "tool_dftbplus"
+      ],
+      "tags": [
+        "MD",
+        "AIMD",
+        "trajectories"
+      ]
+    },
+    {
+      "id": "concept_qmmm",
+      "type": "Concept",
+      "name": "QM/MM Hybrid Methods",
+      "category": [
+        "Multiscale"
+      ],
+      "short_definition": "Hybrid approach where a quantum region is embedded in a larger classical environment.",
+      "key_equations": [],
+      "prerequisites": [
+        "concept_potential_energy_surface"
+      ],
+      "related_methods": [],
+      "implemented_in": [
+        "tool_cp2k",
+        "tool_nwchem"
+      ],
+      "tags": [
+        "QM/MM",
+        "multiscale"
+      ]
+    },
+    {
+      "id": "concept_linux_hpc",
+      "type": "Concept",
+      "name": "Linux and High-Performance Computing Basics",
+      "category": [
+        "Practical Computing"
+      ],
+      "short_definition": "Command-line usage, job schedulers, and basic resource management required to run large quantum chemistry workloads.",
+      "key_equations": [],
+      "prerequisites": [],
+      "related_methods": [],
+      "implemented_in": [],
+      "tags": [
+        "HPC",
+        "Linux",
+        "clusters"
+      ]
+    },
+    {
+      "id": "concept_python_automation",
+      "type": "Concept",
+      "name": "Python Automation for Quantum Chemistry",
+      "category": [
+        "Practical Computing"
+      ],
+      "short_definition": "Use of Python and libraries such as ASE, PySCF, and cclib to generate inputs, submit jobs, and analyze results.",
+      "key_equations": [],
+      "prerequisites": [],
+      "related_methods": [],
+      "implemented_in": [
+        "tool_ase",
+        "tool_pyscf",
+        "tool_psi4",
+        "tool_cclib"
+      ],
+      "tags": [
+        "Python",
+        "automation",
+        "workflows"
+      ]
+    }
+  ],
+  "Methods": [
+    {
+      "id": "method_hf",
+      "type": "Method",
+      "name": "Hartree\u2013Fock",
+      "class": "HF",
+      "theoretical_basis": [
+        "concept_hartree_fock"
+      ],
+      "scaling": "N^4",
+      "recommended_basis_sets": [
+        "param_def2svp",
+        "param_def2tzvp"
+      ],
+      "strengths": [
+        "Simple, size-consistent, useful reference for post-HF"
+      ],
+      "weaknesses": [
+        "Neglects dynamic correlation, poor for dispersion"
+      ],
+      "suitable_for": [
+        "Trends",
+        "Small molecules"
+      ],
+      "unsuitable_for": [
+        "Bond breaking",
+        "Strong correlation"
+      ],
+      "implemented_in": [
+        "tool_gaussian",
+        "tool_orca",
+        "tool_psi4",
+        "tool_pyscf",
+        "tool_qchem",
+        "tool_nwchem",
+        "tool_turbomole",
+        "tool_molpro",
+        "tool_gamess",
+        "tool_cfour",
+        "tool_adf",
+        "tool_dalton"
+      ],
+      "tags": [
+        "HF",
+        "SCF",
+        "reference"
+      ]
+    },
+    {
+      "id": "method_rhf",
+      "type": "Method",
+      "name": "Restricted Hartree\u2013Fock",
+      "class": "HF",
+      "theoretical_basis": [
+        "concept_hartree_fock"
+      ],
+      "scaling": "N^4",
+      "recommended_basis_sets": [
+        "param_def2svp"
+      ],
+      "strengths": [
+        "Good for closed-shell systems"
+      ],
+      "weaknesses": [
+        "Not suitable for open-shell or bond-breaking cases"
+      ],
+      "suitable_for": [
+        "Closed-shell ground states"
+      ],
+      "unsuitable_for": [
+        "Radicals",
+        "Diradicals"
+      ],
+      "implemented_in": [
+        "tool_gaussian",
+        "tool_orca",
+        "tool_psi4"
+      ],
+      "tags": [
+        "RHF",
+        "closed-shell"
+      ]
+    },
+    {
+      "id": "method_uhf",
+      "type": "Method",
+      "name": "Unrestricted Hartree\u2013Fock",
+      "class": "HF",
+      "theoretical_basis": [
+        "concept_hartree_fock"
+      ],
+      "scaling": "N^4",
+      "recommended_basis_sets": [
+        "param_def2svp"
+      ],
+      "strengths": [
+        "Simple open-shell treatment"
+      ],
+      "weaknesses": [
+        "Spin contamination"
+      ],
+      "suitable_for": [
+        "Radicals",
+        "Open-shell systems"
+      ],
+      "unsuitable_for": [
+        "Where spin-pure description is critical"
+      ],
+      "implemented_in": [
+        "tool_gaussian",
+        "tool_orca",
+        "tool_psi4"
+      ],
+      "tags": [
+        "UHF",
+        "open-shell"
+      ]
+    },
+    {
+      "id": "method_mp2",
+      "type": "Method",
+      "name": "MP2",
+      "class": "Post-HF",
+      "theoretical_basis": [
+        "concept_electron_correlation"
+      ],
+      "scaling": "N^5",
+      "recommended_basis_sets": [
+        "param_ccpvdz",
+        "param_ccpvtz"
+      ],
+      "strengths": [
+        "Includes dynamic correlation, good for noncovalent interactions at modest cost"
+      ],
+      "weaknesses": [
+        "Basis-set sensitive, can overbind, fails for strong correlation"
+      ],
+      "suitable_for": [
+        "Small to medium molecules",
+        "Noncovalent interactions"
+      ],
+      "unsuitable_for": [
+        "Strongly correlated systems"
+      ],
+      "implemented_in": [
+        "tool_gaussian",
+        "tool_orca",
+        "tool_psi4",
+        "tool_qchem",
+        "tool_molpro",
+        "tool_cfour",
+        "tool_gamess",
+        "tool_nwchem",
+        "tool_pyscf"
+      ],
+      "tags": [
+        "MP2",
+        "correlated"
+      ]
+    },
+    {
+      "id": "method_ccsd",
+      "type": "Method",
+      "name": "CCSD",
+      "class": "Coupled Cluster",
+      "theoretical_basis": [
+        "concept_coupled_cluster_theory"
+      ],
+      "scaling": "N^6",
+      "recommended_basis_sets": [
+        "param_ccpvdz",
+        "param_ccpvtz"
+      ],
+      "strengths": [
+        "Accurate for single-reference systems"
+      ],
+      "weaknesses": [
+        "High computational cost"
+      ],
+      "suitable_for": [
+        "Small to medium molecules with single-reference character"
+      ],
+      "unsuitable_for": [
+        "Large systems",
+        "Strong multireference character"
+      ],
+      "implemented_in": [
+        "tool_molpro",
+        "tool_cfour",
+        "tool_orca",
+        "tool_psi4",
+        "tool_qchem",
+        "tool_nwchem",
+        "tool_gamess",
+        "tool_pyscf"
+      ],
+      "tags": [
+        "CCSD",
+        "correlated"
+      ]
+    },
+    {
+      "id": "method_ccsd_t",
+      "type": "Method",
+      "name": "CCSD(T)",
+      "class": "Coupled Cluster",
+      "theoretical_basis": [
+        "concept_coupled_cluster_theory"
+      ],
+      "scaling": "N^7",
+      "recommended_basis_sets": [
+        "param_ccpvtz",
+        "param_ccpvqz"
+      ],
+      "strengths": [
+        "Gold standard for many ground-state properties"
+      ],
+      "weaknesses": [
+        "Very expensive, fails for strong multireference cases"
+      ],
+      "suitable_for": [
+        "High-accuracy benchmark calculations"
+      ],
+      "unsuitable_for": [
+        "Very large systems",
+        "Multireference systems"
+      ],
+      "implemented_in": [
+        "tool_molpro",
+        "tool_cfour",
+        "tool_orca",
+        "tool_psi4",
+        "tool_qchem",
+        "tool_nwchem",
+        "tool_gamess"
+      ],
+      "tags": [
+        "CCSD(T)",
+        "benchmark"
+      ]
+    },
+    {
+      "id": "method_casscf",
+      "type": "Method",
+      "name": "CASSCF",
+      "class": "Multireference",
+      "theoretical_basis": [
+        "concept_multireference_theory"
+      ],
+      "scaling": "System and active-space dependent",
+      "recommended_basis_sets": [
+        "param_def2tzvp",
+        "param_ccpvdz"
+      ],
+      "strengths": [
+        "Captures static correlation, good for excited states and bond breaking"
+      ],
+      "weaknesses": [
+        "Requires careful active space selection, lacks dynamic correlation"
+      ],
+      "suitable_for": [
+        "Diradicals",
+        "Excited states",
+        "Bond breaking"
+      ],
+      "unsuitable_for": [
+        "Large systems without clear active space"
+      ],
+      "implemented_in": [
+        "tool_molpro",
+        "tool_orca",
+        "tool_qchem",
+        "tool_gamess"
+      ],
+      "tags": [
+        "CASSCF",
+        "multireference"
+      ]
+    },
+    {
+      "id": "method_lda",
+      "type": "Method",
+      "name": "Local Density Approximation (LDA)",
+      "class": "DFT",
+      "theoretical_basis": [
+        "concept_density_functional_theory"
+      ],
+      "scaling": "N^3\u2013N^4",
+      "recommended_basis_sets": [
+        "param_def2svp"
+      ],
+      "strengths": [
+        "Simple, robust"
+      ],
+      "weaknesses": [
+        "Overbinding, poor for molecular chemistry"
+      ],
+      "suitable_for": [
+        "Metals",
+        "Bulk solids"
+      ],
+      "unsuitable_for": [
+        "Accurate molecular energetics"
+      ],
+      "implemented_in": [
+        "tool_qchem",
+        "tool_cp2k",
+        "tool_adf"
+      ],
+      "tags": [
+        "LDA"
+      ]
+    },
+    {
+      "id": "method_gga_pbe",
+      "type": "Method",
+      "name": "PBE",
+      "class": "DFT",
+      "theoretical_basis": [
+        "concept_density_functional_theory"
+      ],
+      "scaling": "N^3\u2013N^4",
+      "recommended_basis_sets": [
+        "param_def2svp",
+        "param_def2tzvp"
+      ],
+      "strengths": [
+        "Good for solids, robust GGA"
+      ],
+      "weaknesses": [
+        "Underestimates some barriers and band gaps"
+      ],
+      "suitable_for": [
+        "Solids",
+        "General DFT starting point"
+      ],
+      "unsuitable_for": [
+        "High-accuracy reaction barriers"
+      ],
+      "implemented_in": [
+        "tool_orca",
+        "tool_qchem",
+        "tool_cp2k",
+        "tool_turbomole",
+        "tool_nwchem"
+      ],
+      "tags": [
+        "PBE",
+        "GGA"
+      ]
+    },
+    {
+      "id": "method_b3lyp",
+      "type": "Method",
+      "name": "B3LYP",
+      "class": "DFT",
+      "theoretical_basis": [
+        "concept_density_functional_theory"
+      ],
+      "scaling": "N^3\u2013N^4",
+      "recommended_basis_sets": [
+        "param_631gstar",
+        "param_def2tzvp"
+      ],
+      "strengths": [
+        "Popular hybrid functional with decent performance for many organic systems"
+      ],
+      "weaknesses": [
+        "Mediocre for kinetics, dispersion, and modern benchmarks"
+      ],
+      "suitable_for": [
+        "Organic molecules",
+        "Legacy comparisons"
+      ],
+      "unsuitable_for": [
+        "High-precision thermochemistry",
+        "Difficult transition metals"
+      ],
+      "implemented_in": [
+        "tool_gaussian",
+        "tool_orca",
+        "tool_qchem",
+        "tool_psi4",
+        "tool_pyscf",
+        "tool_nwchem",
+        "tool_turbomole"
+      ],
+      "tags": [
+        "B3LYP",
+        "hybrid DFT"
+      ]
+    },
+    {
+      "id": "method_pbe0",
+      "type": "Method",
+      "name": "PBE0",
+      "class": "DFT",
+      "theoretical_basis": [
+        "concept_density_functional_theory"
+      ],
+      "scaling": "N^3\u2013N^4",
+      "recommended_basis_sets": [
+        "param_def2tzvp"
+      ],
+      "strengths": [
+        "Balanced hybrid GGA functional"
+      ],
+      "weaknesses": [
+        "May still need dispersion corrections"
+      ],
+      "suitable_for": [
+        "General DFT work",
+        "Molecules and solids"
+      ],
+      "unsuitable_for": [
+        "Strongly correlated systems"
+      ],
+      "implemented_in": [
+        "tool_orca",
+        "tool_qchem",
+        "tool_psi4",
+        "tool_turbomole"
+      ],
+      "tags": [
+        "PBE0",
+        "hybrid"
+      ]
+    },
+    {
+      "id": "method_m062x",
+      "type": "Method",
+      "name": "M06-2X",
+      "class": "DFT",
+      "theoretical_basis": [
+        "concept_density_functional_theory"
+      ],
+      "scaling": "N^3\u2013N^4",
+      "recommended_basis_sets": [
+        "param_def2tzvp"
+      ],
+      "strengths": [
+        "Good for main-group thermochemistry and kinetics"
+      ],
+      "weaknesses": [
+        "Less robust for transition metals"
+      ],
+      "suitable_for": [
+        "Main group reactivity"
+      ],
+      "unsuitable_for": [
+        "Many transition metal complexes"
+      ],
+      "implemented_in": [
+        "tool_gaussian",
+        "tool_orca",
+        "tool_qchem"
+      ],
+      "tags": [
+        "M06-2X"
+      ]
+    },
+    {
+      "id": "method_omega_b97x_d",
+      "type": "Method",
+      "name": "\u03c9B97X-D",
+      "class": "DFT",
+      "theoretical_basis": [
+        "concept_density_functional_theory"
+      ],
+      "scaling": "N^3\u2013N^4",
+      "recommended_basis_sets": [
+        "param_def2tzvp"
+      ],
+      "strengths": [
+        "Range-separated hybrid with dispersion, good general-purpose accuracy"
+      ],
+      "weaknesses": [
+        "More expensive than GGA"
+      ],
+      "suitable_for": [
+        "Broad set of molecules, noncovalent interactions"
+      ],
+      "unsuitable_for": [
+        "Very large systems with minimal resources"
+      ],
+      "implemented_in": [
+        "tool_qchem",
+        "tool_orca",
+        "tool_psi4"
+      ],
+      "tags": [
+        "\u03c9B97X-D",
+        "range-separated"
+      ]
+    },
+    {
+      "id": "method_td_dft",
+      "type": "Method",
+      "name": "TD-DFT",
+      "class": "Excited State",
+      "theoretical_basis": [
+        "concept_density_functional_theory"
+      ],
+      "scaling": "N^4",
+      "recommended_basis_sets": [
+        "param_def2tzvp",
+        "param_aug_ccpvdz"
+      ],
+      "strengths": [
+        "Efficient excited-state method"
+      ],
+      "weaknesses": [
+        "Struggles with charge-transfer and Rydberg states for some functionals"
+      ],
+      "suitable_for": [
+        "UV/Vis spectra",
+        "Valence excitations"
+      ],
+      "unsuitable_for": [
+        "Strongly correlated excited states"
+      ],
+      "implemented_in": [
+        "tool_gaussian",
+        "tool_orca",
+        "tool_qchem",
+        "tool_psi4",
+        "tool_adf",
+        "tool_dalton"
+      ],
+      "tags": [
+        "TD-DFT",
+        "excited states"
+      ]
+    },
+    {
+      "id": "method_gfn2xtb",
+      "type": "Method",
+      "name": "GFN2-xTB",
+      "class": "Semiempirical",
+      "theoretical_basis": [
+        "concept_density_functional_theory"
+      ],
+      "scaling": "Very low",
+      "recommended_basis_sets": [],
+      "strengths": [
+        "Very fast, good for geometries and conformer searches"
+      ],
+      "weaknesses": [
+        "Energies less reliable than DFT/ab initio in difficult cases"
+      ],
+      "suitable_for": [
+        "Preoptimization",
+        "Large systems",
+        "Conformer searches"
+      ],
+      "unsuitable_for": [
+        "High-accuracy energetics"
+      ],
+      "implemented_in": [
+        "tool_xtb",
+        "tool_crest"
+      ],
+      "tags": [
+        "xTB",
+        "GFN2",
+        "semiempirical"
+      ]
+    },
+    {
+      "id": "method_dftb3",
+      "type": "Method",
+      "name": "DFTB3",
+      "class": "Tight-Binding",
+      "theoretical_basis": [
+        "concept_density_functional_theory"
+      ],
+      "scaling": "Very low",
+      "recommended_basis_sets": [],
+      "strengths": [
+        "Fast, suitable for MD of large systems"
+      ],
+      "weaknesses": [
+        "Depends strongly on parameter sets"
+      ],
+      "suitable_for": [
+        "Approximate MD",
+        "Screening"
+      ],
+      "unsuitable_for": [
+        "High-precision energetics"
+      ],
+      "implemented_in": [
+        "tool_dftbplus"
+      ],
+      "tags": [
+        "DFTB3",
+        "tight-binding"
+      ]
+    }
+  ],
+  "SoftwareTools": [
+    {
+      "id": "tool_gaussian",
+      "type": "SoftwareTool",
+      "name": "Gaussian",
+      "category": "MolecularAbInitio",
+      "license": "Commercial",
+      "supported_methods": [
+        "method_hf",
+        "method_mp2",
+        "method_b3lyp",
+        "method_pbe0",
+        "method_m062x",
+        "method_td_dft",
+        "method_ccsd_t"
+      ],
+      "input_style": "Route section and Z-matrix/Cartesian coordinates in text input files",
+      "output_style": "Text log files with energies, gradients, properties",
+      "core_features": [
+        "Wide range of methods",
+        "Rich spectroscopy modules",
+        "PCM/SMD solvation"
+      ],
+      "performance_notes": "Mature code, parallel performance can be moderate compared to newer codes",
+      "best_use_cases": [
+        "General quantum chemistry",
+        "Spectroscopy",
+        "Legacy workflows"
+      ],
+      "limitations": [
+        "Closed-source, license cost, less flexible scripting"
+      ],
+      "interoperability": [
+        "tool_cclib",
+        "tool_ase"
+      ],
+      "tags": [
+        "Gaussian",
+        "ab initio",
+        "DFT"
+      ]
+    },
+    {
+      "id": "tool_orca",
+      "type": "SoftwareTool",
+      "name": "ORCA",
+      "category": "MolecularAbInitio",
+      "license": "Free for academics",
+      "supported_methods": [
+        "method_hf",
+        "method_mp2",
+        "method_b3lyp",
+        "method_pbe0",
+        "method_m062x",
+        "method_td_dft",
+        "method_ccsd",
+        "method_ccsd_t",
+        "method_casscf",
+        "method_gfn2xtb"
+      ],
+      "input_style": "Block-based .inp files",
+      "output_style": "Text log files and auxiliary files (Molden, gbw)",
+      "core_features": [
+        "Efficient DFT",
+        "RI/RIJCOSX",
+        "DLPNO-CCSD(T) approximation family",
+        "EPR/NMR"
+      ],
+      "performance_notes": "Excellent parallel scalability on multicore systems",
+      "best_use_cases": [
+        "Transition metal complexes",
+        "Medium to large systems",
+        "Spectroscopy"
+      ],
+      "limitations": [
+        "Some high-level methods less extensive than specialized codes"
+      ],
+      "interoperability": [
+        "tool_ase",
+        "tool_cclib",
+        "tool_xtb",
+        "tool_crest"
+      ],
+      "tags": [
+        "ORCA",
+        "DLPNO",
+        "DFT",
+        "CC"
+      ]
+    },
+    {
+      "id": "tool_psi4",
+      "type": "SoftwareTool",
+      "name": "Psi4",
+      "category": "MolecularAbInitio",
+      "license": "Open-source",
+      "supported_methods": [
+        "method_hf",
+        "method_mp2",
+        "method_b3lyp",
+        "method_pbe0",
+        "method_ccsd",
+        "method_ccsd_t",
+        "method_td_dft"
+      ],
+      "input_style": "Python-like input scripts",
+      "output_style": "Text logs with optional NumPy data",
+      "core_features": [
+        "Python integration",
+        "Good reference implementation",
+        "Method development platform"
+      ],
+      "performance_notes": "Well-suited for automated workflows",
+      "best_use_cases": [
+        "Automation",
+        "Teaching",
+        "Method prototyping"
+      ],
+      "limitations": [
+        "Less specialized spectroscopy than some commercial codes"
+      ],
+      "interoperability": [
+        "tool_pyscf",
+        "tool_ase",
+        "tool_cclib"
+      ],
+      "tags": [
+        "Psi4",
+        "Python",
+        "open-source"
+      ]
+    },
+    {
+      "id": "tool_pyscf",
+      "type": "SoftwareTool",
+      "name": "PySCF",
+      "category": "MolecularAbInitio",
+      "license": "Open-source",
+      "supported_methods": [
+        "method_hf",
+        "method_mp2",
+        "method_ccsd",
+        "method_casscf"
+      ],
+      "input_style": "Python API",
+      "output_style": "Python data structures, logs",
+      "core_features": [
+        "Library-style design",
+        "DMRG interfaces",
+        "Highly scriptable"
+      ],
+      "performance_notes": "Flexible but requires Python literacy",
+      "best_use_cases": [
+        "Research code",
+        "Custom workflows",
+        "ML/QC integration"
+      ],
+      "limitations": [
+        "Not a turnkey GUI application"
+      ],
+      "interoperability": [
+        "tool_ase"
+      ],
+      "tags": [
+        "PySCF",
+        "library",
+        "Python"
+      ]
+    },
+    {
+      "id": "tool_qchem",
+      "type": "SoftwareTool",
+      "name": "Q-Chem",
+      "category": "MolecularAbInitio",
+      "license": "Commercial",
+      "supported_methods": [
+        "method_hf",
+        "method_mp2",
+        "method_b3lyp",
+        "method_pbe0",
+        "method_m062x",
+        "method_omega_b97x_d",
+        "method_ccsd",
+        "method_ccsd_t",
+        "method_td_dft"
+      ],
+      "input_style": "Section-based text inputs",
+      "output_style": "Text logs, formatted outputs",
+      "core_features": [
+        "Modern DFT",
+        "EOM-CC",
+        "Excited-state methods"
+      ],
+      "performance_notes": "Efficient for excited-state calculations",
+      "best_use_cases": [
+        "Excited states",
+        "Spectroscopy",
+        "Advanced DFT"
+      ],
+      "limitations": [
+        "Commercial license"
+      ],
+      "interoperability": [
+        "tool_cclib"
+      ],
+      "tags": [
+        "Q-Chem",
+        "EOM-CC",
+        "DFT"
+      ]
+    },
+    {
+      "id": "tool_nwchem",
+      "type": "SoftwareTool",
+      "name": "NWChem",
+      "category": "MolecularAbInitio",
+      "license": "Open-source",
+      "supported_methods": [
+        "method_hf",
+        "method_mp2",
+        "method_b3lyp",
+        "method_pbe0",
+        "method_ccsd",
+        "method_ccsd_t"
+      ],
+      "input_style": "Task-based text inputs",
+      "output_style": "Text logs",
+      "core_features": [
+        "Scales on large HPC systems",
+        "QM/MM capabilities",
+        "Periodic DFT"
+      ],
+      "performance_notes": "Designed for massively parallel architectures",
+      "best_use_cases": [
+        "Large-scale calculations",
+        "QM/MM",
+        "HPC environments"
+      ],
+      "limitations": [
+        "More complex input for beginners"
+      ],
+      "interoperability": [
+        "tool_cclib"
+      ],
+      "tags": [
+        "NWChem",
+        "HPC",
+        "QM/MM"
+      ]
+    },
+    {
+      "id": "tool_cp2k",
+      "type": "SoftwareTool",
+      "name": "CP2K",
+      "category": "MixedMolecularPeriodic",
+      "license": "Open-source",
+      "supported_methods": [
+        "method_gga_pbe",
+        "method_lda",
+        "method_dftb3"
+      ],
+      "input_style": "Keyword/block input files",
+      "output_style": "Text logs, trajectory files",
+      "core_features": [
+        "GPW method",
+        "MD/AIMD",
+        "Periodic simulations"
+      ],
+      "performance_notes": "Highly optimized for condensed-phase systems",
+      "best_use_cases": [
+        "AIMD",
+        "Liquids",
+        "Solids"
+      ],
+      "limitations": [
+        "Steeper learning curve"
+      ],
+      "interoperability": [
+        "tool_ase"
+      ],
+      "tags": [
+        "CP2K",
+        "GPW",
+        "AIMD"
+      ]
+    },
+    {
+      "id": "tool_turbomole",
+      "type": "SoftwareTool",
+      "name": "Turbomole",
+      "category": "MolecularAbInitio",
+      "license": "Commercial (with academic options)",
+      "supported_methods": [
+        "method_hf",
+        "method_gga_pbe",
+        "method_b3lyp",
+        "method_pbe0"
+      ],
+      "input_style": "Command-line tools and control files",
+      "output_style": "Text logs",
+      "core_features": [
+        "Efficient DFT with RI",
+        "Large-molecule performance"
+      ],
+      "performance_notes": "Excellent DFT performance for larger systems",
+      "best_use_cases": [
+        "Large organic systems",
+        "RI-DFT"
+      ],
+      "limitations": [
+        "Less intuitive interface for beginners"
+      ],
+      "interoperability": [
+        "tool_cclib"
+      ],
+      "tags": [
+        "Turbomole",
+        "RI-DFT"
+      ]
+    },
+    {
+      "id": "tool_molpro",
+      "type": "SoftwareTool",
+      "name": "MOLPRO",
+      "category": "HighLevelWavefunction",
+      "license": "Commercial",
+      "supported_methods": [
+        "method_hf",
+        "method_mp2",
+        "method_ccsd",
+        "method_ccsd_t",
+        "method_casscf"
+      ],
+      "input_style": "Proprietary input language",
+      "output_style": "Text logs",
+      "core_features": [
+        "High-accuracy wavefunction methods",
+        "F12 methods"
+      ],
+      "performance_notes": "Designed for very accurate small/medium system calculations",
+      "best_use_cases": [
+        "Benchmark calculations",
+        "Spectroscopy"
+      ],
+      "limitations": [
+        "Not optimized for very large systems"
+      ],
+      "interoperability": [],
+      "tags": [
+        "MOLPRO",
+        "CCSD(T)",
+        "CASSCF"
+      ]
+    },
+    {
+      "id": "tool_gamess",
+      "type": "SoftwareTool",
+      "name": "GAMESS",
+      "category": "MolecularAbInitio",
+      "license": "Free (with registration)",
+      "supported_methods": [
+        "method_hf",
+        "method_mp2",
+        "method_b3lyp",
+        "method_ccsd",
+        "method_ccsd_t",
+        "method_casscf"
+      ],
+      "input_style": "Section-based inputs",
+      "output_style": "Text logs",
+      "core_features": [
+        "Broad method coverage",
+        "Educational use"
+      ],
+      "performance_notes": "Legacy code with many features",
+      "best_use_cases": [
+        "Teaching",
+        "General QC"
+      ],
+      "limitations": [
+        "Less modern infrastructure than some newer codes"
+      ],
+      "interoperability": [
+        "tool_cclib"
+      ],
+      "tags": [
+        "GAMESS",
+        "legacy",
+        "education"
+      ]
+    },
+    {
+      "id": "tool_cfour",
+      "type": "SoftwareTool",
+      "name": "CFOUR",
+      "category": "HighLevelWavefunction",
+      "license": "Free for academics (with conditions)",
+      "supported_methods": [
+        "method_ccsd",
+        "method_ccsd_t"
+      ],
+      "input_style": "Text input files",
+      "output_style": "Text logs",
+      "core_features": [
+        "High-accuracy CC methods",
+        "Spectroscopy"
+      ],
+      "performance_notes": "Specialized for very precise calculations",
+      "best_use_cases": [
+        "Benchmark spectroscopy",
+        "Rovibrational properties"
+      ],
+      "limitations": [
+        "Narrower scope than general-purpose codes"
+      ],
+      "interoperability": [],
+      "tags": [
+        "CFOUR",
+        "CC",
+        "spectroscopy"
+      ]
+    },
+    {
+      "id": "tool_adf",
+      "type": "SoftwareTool",
+      "name": "ADF",
+      "category": "MolecularDFT",
+      "license": "Commercial",
+      "supported_methods": [
+        "method_lda",
+        "method_gga_pbe",
+        "method_b3lyp",
+        "method_pbe0",
+        "method_td_dft"
+      ],
+      "input_style": "Section-based inputs",
+      "output_style": "Text logs, graphical output via GUI",
+      "core_features": [
+        "Slater-type orbitals",
+        "ZORA relativistic DFT",
+        "Spectroscopy"
+      ],
+      "performance_notes": "Efficient for heavy-element DFT",
+      "best_use_cases": [
+        "Transition metals",
+        "Heavy-element chemistry",
+        "Spectra"
+      ],
+      "limitations": [
+        "DFT-focused, not a general wavefunction code"
+      ],
+      "interoperability": [],
+      "tags": [
+        "ADF",
+        "STO",
+        "relativistic DFT"
+      ]
+    },
+    {
+      "id": "tool_dirac",
+      "type": "SoftwareTool",
+      "name": "DIRAC",
+      "category": "Relativistic",
+      "license": "Free for academics (with conditions)",
+      "supported_methods": [
+        "method_lda",
+        "method_gga_pbe",
+        "method_b3lyp"
+      ],
+      "input_style": "Text input files",
+      "output_style": "Text logs",
+      "core_features": [
+        "Four-component relativistic methods",
+        "Spin\u2013orbit coupling"
+      ],
+      "performance_notes": "Specialized, niche but powerful",
+      "best_use_cases": [
+        "Heavy atoms",
+        "Relativistic effects"
+      ],
+      "limitations": [
+        "Complex, specialized use case"
+      ],
+      "interoperability": [],
+      "tags": [
+        "DIRAC",
+        "relativistic",
+        "4-component"
+      ]
+    },
+    {
+      "id": "tool_dalton",
+      "type": "SoftwareTool",
+      "name": "Dalton",
+      "category": "ResponseTheory",
+      "license": "Free for academics",
+      "supported_methods": [
+        "method_hf",
+        "method_b3lyp",
+        "method_pbe0",
+        "method_ccsd"
+      ],
+      "input_style": "Keyword-based inputs",
+      "output_style": "Text logs",
+      "core_features": [
+        "Molecular response properties",
+        "Polarizabilities",
+        "Hyperpolarizabilities"
+      ],
+      "performance_notes": "Specialized for response theory",
+      "best_use_cases": [
+        "Nonlinear optics",
+        "Molecular properties"
+      ],
+      "limitations": [
+        "Not a general-purpose QC code"
+      ],
+      "interoperability": [],
+      "tags": [
+        "Dalton",
+        "response",
+        "properties"
+      ]
+    },
+    {
+      "id": "tool_xtb",
+      "type": "SoftwareTool",
+      "name": "xTB",
+      "category": "SemiEmpirical",
+      "license": "Open-source (with some restrictions)",
+      "supported_methods": [
+        "method_gfn2xtb"
+      ],
+      "input_style": "Command-line driven",
+      "output_style": "Text logs",
+      "core_features": [
+        "GFN methods",
+        "Very fast semiempirical QC"
+      ],
+      "performance_notes": "Excellent for large systems and conformer scans",
+      "best_use_cases": [
+        "Preoptimization",
+        "Conformer search",
+        "Large systems"
+      ],
+      "limitations": [
+        "Limited accuracy for difficult electronic structures"
+      ],
+      "interoperability": [
+        "tool_crest",
+        "tool_ase"
+      ],
+      "tags": [
+        "xTB",
+        "GFN",
+        "semiempirical"
+      ]
+    },
+    {
+      "id": "tool_dftbplus",
+      "type": "SoftwareTool",
+      "name": "DFTB+",
+      "category": "TightBinding",
+      "license": "Open-source",
+      "supported_methods": [
+        "method_dftb3"
+      ],
+      "input_style": "Text configuration files",
+      "output_style": "Text logs, trajectory files",
+      "core_features": [
+        "DFTB for molecules and solids",
+        "MD"
+      ],
+      "performance_notes": "Scales to large systems with MD",
+      "best_use_cases": [
+        "Approximate MD",
+        "Large periodic systems"
+      ],
+      "limitations": [
+        "Dependent on parameter sets (Slater-Koster files)"
+      ],
+      "interoperability": [
+        "tool_ase"
+      ],
+      "tags": [
+        "DFTB+",
+        "tight-binding"
+      ]
+    },
+    {
+      "id": "tool_mopac",
+      "type": "SoftwareTool",
+      "name": "MOPAC",
+      "category": "SemiEmpirical",
+      "license": "Free for some uses, commercial for others",
+      "supported_methods": [],
+      "input_style": "Keyword-based input files",
+      "output_style": "Text logs",
+      "core_features": [
+        "PM7/PM6 semiempirical methods"
+      ],
+      "performance_notes": "Very fast, long-standing code",
+      "best_use_cases": [
+        "Heats of formation",
+        "Preoptimization"
+      ],
+      "limitations": [
+        "Semiempirical accuracy limits"
+      ],
+      "interoperability": [],
+      "tags": [
+        "MOPAC",
+        "PM6",
+        "PM7"
+      ]
+    },
+    {
+      "id": "tool_ase",
+      "type": "SoftwareTool",
+      "name": "Atomic Simulation Environment (ASE)",
+      "category": "Support",
+      "license": "Open-source",
+      "supported_methods": [],
+      "input_style": "Python API",
+      "output_style": "Python objects, trajectories",
+      "core_features": [
+        "Builder for atoms and molecules",
+        "Wrapper for many QC/MD codes"
+      ],
+      "performance_notes": "Lightweight interface layer",
+      "best_use_cases": [
+        "Automation",
+        "Structure building",
+        "High-throughput"
+      ],
+      "limitations": [
+        "Not a QC code itself"
+      ],
+      "interoperability": [
+        "tool_orca",
+        "tool_cp2k",
+        "tool_xtb",
+        "tool_dftbplus"
+      ],
+      "tags": [
+        "ASE",
+        "Python",
+        "workflow"
+      ]
+    },
+    {
+      "id": "tool_cclib",
+      "type": "SoftwareTool",
+      "name": "cclib",
+      "category": "Support",
+      "license": "Open-source",
+      "supported_methods": [],
+      "input_style": "Python API (reads QC output files)",
+      "output_style": "Parsed data structures",
+      "core_features": [
+        "Parse outputs from many QC codes",
+        "Energies, orbitals, charges, etc."
+      ],
+      "performance_notes": "Focused on analysis, not computation",
+      "best_use_cases": [
+        "Post-processing",
+        "Data extraction",
+        "Workflow integration"
+      ],
+      "limitations": [
+        "Read-only, no actual QC calculations"
+      ],
+      "interoperability": [
+        "tool_gaussian",
+        "tool_orca",
+        "tool_qchem",
+        "tool_gamess",
+        "tool_nwchem",
+        "tool_turbomole"
+      ],
+      "tags": [
+        "cclib",
+        "parsing",
+        "analysis"
+      ]
+    },
+    {
+      "id": "tool_crest",
+      "type": "SoftwareTool",
+      "name": "CREST",
+      "category": "Support",
+      "license": "Open-source (with conditions)",
+      "supported_methods": [
+        "method_gfn2xtb"
+      ],
+      "input_style": "Command-line driven",
+      "output_style": "Text logs, conformer ensembles",
+      "core_features": [
+        "Conformer search using xTB methods"
+      ],
+      "performance_notes": "Very efficient conformer sampling",
+      "best_use_cases": [
+        "Conformer exploration",
+        "Generating ensembles for refinement"
+      ],
+      "limitations": [
+        "Depends on xTB accuracy"
+      ],
+      "interoperability": [
+        "tool_xtb",
+        "tool_orca",
+        "tool_ase"
+      ],
+      "tags": [
+        "CREST",
+        "conformers",
+        "xTB"
+      ]
+    }
+  ],
+  "Parameters": [
+    {
+      "id": "param_def2svp",
+      "type": "Parameter",
+      "name": "def2-SVP",
+      "parameter_type": "basis_set",
+      "description": "Split-valence double-zeta basis from the def2 family.",
+      "recommended_for": [
+        "DFT screening",
+        "Medium accuracy"
+      ],
+      "effect_on_accuracy": "Moderate accuracy, good compromise for geometry optimizations",
+      "effect_on_cost": "Low to moderate",
+      "implemented_in": [
+        "tool_orca",
+        "tool_gaussian",
+        "tool_qchem",
+        "tool_turbomole"
+      ],
+      "tags": [
+        "basis set",
+        "def2"
+      ]
+    },
+    {
+      "id": "param_def2tzvp",
+      "type": "Parameter",
+      "name": "def2-TZVP",
+      "parameter_type": "basis_set",
+      "description": "Triple-zeta valence plus polarization basis from the def2 family.",
+      "recommended_for": [
+        "DFT",
+        "High-quality HF/post-HF"
+      ],
+      "effect_on_accuracy": "Good accuracy for many properties",
+      "effect_on_cost": "Moderate to high",
+      "implemented_in": [
+        "tool_orca",
+        "tool_gaussian",
+        "tool_qchem",
+        "tool_turbomole"
+      ],
+      "tags": [
+        "basis set",
+        "def2",
+        "TZV"
+      ]
+    },
+    {
+      "id": "param_ccpvdz",
+      "type": "Parameter",
+      "name": "cc-pVDZ",
+      "parameter_type": "basis_set",
+      "description": "Correlation-consistent polarized double-zeta basis.",
+      "recommended_for": [
+        "Post-HF",
+        "Pilot studies"
+      ],
+      "effect_on_accuracy": "Lower than triple-zeta, good for trends",
+      "effect_on_cost": "Lower cost",
+      "implemented_in": [
+        "tool_molpro",
+        "tool_cfour",
+        "tool_gaussian",
+        "tool_orca"
+      ],
+      "tags": [
+        "basis set",
+        "Dunning",
+        "cc-pVnZ"
+      ]
+    },
+    {
+      "id": "param_ccpvtz",
+      "type": "Parameter",
+      "name": "cc-pVTZ",
+      "parameter_type": "basis_set",
+      "description": "Correlation-consistent polarized triple-zeta basis.",
+      "recommended_for": [
+        "CCSD(T)",
+        "High-accuracy work"
+      ],
+      "effect_on_accuracy": "High accuracy when combined with post-HF",
+      "effect_on_cost": "High",
+      "implemented_in": [
+        "tool_molpro",
+        "tool_cfour",
+        "tool_gaussian",
+        "tool_orca"
+      ],
+      "tags": [
+        "basis set",
+        "Dunning",
+        "cc-pVnZ"
+      ]
+    },
+    {
+      "id": "param_aug_ccpvdz",
+      "type": "Parameter",
+      "name": "aug-cc-pVDZ",
+      "parameter_type": "basis_set",
+      "description": "Augmented cc-pVDZ with diffuse functions.",
+      "recommended_for": [
+        "Anions",
+        "Rydberg states",
+        "Weak interactions"
+      ],
+      "effect_on_accuracy": "Improves description of diffuse electron density",
+      "effect_on_cost": "Increased cost vs non-augmented",
+      "implemented_in": [
+        "tool_molpro",
+        "tool_cfour",
+        "tool_gaussian",
+        "tool_orca"
+      ],
+      "tags": [
+        "basis set",
+        "augmented"
+      ]
+    },
+    {
+      "id": "param_631gstar",
+      "type": "Parameter",
+      "name": "6-31G*",
+      "parameter_type": "basis_set",
+      "description": "Pople split-valence basis with polarization on heavy atoms.",
+      "recommended_for": [
+        "Legacy B3LYP calculations",
+        "Organic molecules"
+      ],
+      "effect_on_accuracy": "Reasonable but dated; superseded by modern basis sets",
+      "effect_on_cost": "Relatively low",
+      "implemented_in": [
+        "tool_gaussian",
+        "tool_orca",
+        "tool_qchem"
+      ],
+      "tags": [
+        "basis set",
+        "Pople"
+      ]
+    },
+    {
+      "id": "param_scf_tight",
+      "type": "Parameter",
+      "name": "SCF Tight Convergence",
+      "parameter_type": "scf_setting",
+      "description": "Stricter SCF convergence thresholds for energy and density.",
+      "recommended_for": [
+        "Accurate energy differences",
+        "Response properties"
+      ],
+      "effect_on_accuracy": "Reduces numerical noise",
+      "effect_on_cost": "Can increase number of iterations",
+      "implemented_in": [
+        "tool_gaussian",
+        "tool_orca",
+        "tool_qchem",
+        "tool_psi4"
+      ],
+      "tags": [
+        "SCF",
+        "convergence"
+      ]
+    },
+    {
+      "id": "param_integration_grid_fine",
+      "type": "Parameter",
+      "name": "Fine Integration Grid",
+      "parameter_type": "numerical_grid",
+      "description": "Denser numerical grid for DFT integration.",
+      "recommended_for": [
+        "DFT energies",
+        "DFT gradients"
+      ],
+      "effect_on_accuracy": "Improves numerical stability of DFT",
+      "effect_on_cost": "Increased CPU time per SCF cycle",
+      "implemented_in": [
+        "tool_gaussian",
+        "tool_orca",
+        "tool_qchem"
+      ],
+      "tags": [
+        "DFT",
+        "grid"
+      ]
+    },
+    {
+      "id": "param_pw_cutoff_cp2k",
+      "type": "Parameter",
+      "name": "Plane-Wave Cutoff (CP2K)",
+      "parameter_type": "plane_wave_cutoff",
+      "description": "Energy cutoff controlling the resolution of plane-wave expansion.",
+      "recommended_for": [
+        "Periodic systems",
+        "AIMD"
+      ],
+      "effect_on_accuracy": "Higher cutoff increases accuracy but cost",
+      "effect_on_cost": "Strong effect on computational expense",
+      "implemented_in": [
+        "tool_cp2k"
+      ],
+      "tags": [
+        "plane-wave",
+        "cutoff"
+      ]
+    },
+    {
+      "id": "param_kpoint_mesh",
+      "type": "Parameter",
+      "name": "k-Point Mesh",
+      "parameter_type": "brillouin_sampling",
+      "description": "Grid used to sample the Brillouin zone in periodic calculations.",
+      "recommended_for": [
+        "Periodic DFT",
+        "Solids"
+      ],
+      "effect_on_accuracy": "More k-points improve convergence for metals and small-bandgap systems",
+      "effect_on_cost": "Increases number of SCF calculations per step",
+      "implemented_in": [
+        "tool_cp2k",
+        "tool_dftbplus"
+      ],
+      "tags": [
+        "k-points",
+        "periodic"
+      ]
+    }
+  ],
+  "Workflows": [
+    {
+      "id": "workflow_basic_dft_geometry_frequency",
+      "type": "Workflow",
+      "name": "Basic DFT Geometry Optimization and Frequency Analysis",
+      "goal": "Obtain an optimized geometry and verify stationary point for a closed-shell molecule.",
+      "difficulty": "beginner",
+      "steps": [
+        {
+          "step": 1,
+          "description": "Build initial structure (e.g. using ASE or a molecular editor).",
+          "tool": "tool_ase",
+          "method": null
+        },
+        {
+          "step": 2,
+          "description": "Run DFT geometry optimization with a hybrid functional and medium basis (e.g., B3LYP/def2-SVP).",
+          "tool": "tool_orca",
+          "method": "method_b3lyp"
+        },
+        {
+          "step": 3,
+          "description": "Run harmonic frequency analysis at the optimized geometry to confirm a minimum (no imaginary frequencies).",
+          "tool": "tool_orca",
+          "method": "method_b3lyp"
+        }
+      ],
+      "related_concepts": [
+        "concept_potential_energy_surface",
+        "concept_geometry_optimization",
+        "concept_vibrational_analysis"
+      ],
+      "example_problems": [
+        "example_water_geometry",
+        "example_benzene_geometry"
+      ],
+      "tags": [
+        "DFT",
+        "geometry",
+        "frequencies"
+      ]
+    },
+    {
+      "id": "workflow_conformer_search_xtb_crest_dft",
+      "type": "Workflow",
+      "name": "Conformer Search with xTB/CREST and DFT Refinement",
+      "goal": "Identify and refine the lowest-energy conformers of a flexible organic molecule.",
+      "difficulty": "intermediate",
+      "steps": [
+        {
+          "step": 1,
+          "description": "Generate conformers using CREST and GFN2-xTB.",
+          "tool": "tool_crest",
+          "method": "method_gfn2xtb"
+        },
+        {
+          "step": 2,
+          "description": "Cluster and select unique low-energy conformers.",
+          "tool": "tool_crest",
+          "method": "method_gfn2xtb"
+        },
+        {
+          "step": 3,
+          "description": "Re-optimize selected conformers using DFT (e.g., B3LYP/def2-SVP).",
+          "tool": "tool_orca",
+          "method": "method_b3lyp"
+        }
+      ],
+      "related_concepts": [
+        "concept_potential_energy_surface",
+        "concept_geometry_optimization"
+      ],
+      "example_problems": [
+        "example_caffeine_conformers"
+      ],
+      "tags": [
+        "conformers",
+        "xTB",
+        "DFT"
+      ]
+    }
+  ],
+  "ExampleProblems": [
+    {
+      "id": "example_water_geometry",
+      "type": "ExampleProblem",
+      "title": "Water Monomer Geometry Optimization",
+      "system_description": "Single H2O molecule in the gas phase.",
+      "target_properties": [
+        "Equilibrium geometry",
+        "Vibrational frequencies"
+      ],
+      "recommended_workflow": "workflow_basic_dft_geometry_frequency",
+      "expected_results": {
+        "oh_bond_length_angstrom": "\u22480.96",
+        "hoh_angle_degrees": "\u2248104.5"
+      },
+      "difficulty": "beginner",
+      "tags": [
+        "water",
+        "geometry",
+        "vibrations"
+      ]
+    },
+    {
+      "id": "example_benzene_geometry",
+      "type": "ExampleProblem",
+      "title": "Benzene Geometry Optimization",
+      "system_description": "Planar benzene molecule in gas phase.",
+      "target_properties": [
+        "Bond lengths",
+        "Planarity"
+      ],
+      "recommended_workflow": "workflow_basic_dft_geometry_frequency",
+      "expected_results": {
+        "cc_bond_length_angstrom": "\u22481.39"
+      },
+      "difficulty": "beginner",
+      "tags": [
+        "benzene",
+        "aromatic"
+      ]
+    },
+    {
+      "id": "example_caffeine_conformers",
+      "type": "ExampleProblem",
+      "title": "Caffeine Conformer Search",
+      "system_description": "Flexible organic molecule with multiple rotamers.",
+      "target_properties": [
+        "Low-energy conformer structures",
+        "Relative energies"
+      ],
+      "recommended_workflow": "workflow_conformer_search_xtb_crest_dft",
+      "expected_results": {
+        "num_low_energy_conformers": "\u22483\u201310 depending on threshold"
+      },
+      "difficulty": "intermediate",
+      "tags": [
+        "caffeine",
+        "conformers"
+      ]
+    }
+  ],
+  "BenchmarkSets": [
+    {
+      "id": "benchmark_s22",
+      "type": "BenchmarkSet",
+      "name": "S22 Noncovalent Interaction Set",
+      "description": "22 hydrogen-bonded, dispersion-dominated, and mixed complexes for benchmarking noncovalent interactions.",
+      "systems": [
+        "Water dimer",
+        "Ammonia dimer",
+        "Benzene dimer (parallel)"
+      ],
+      "gold_standard_method": "method_ccsd_t",
+      "recommended_testing": [
+        "method_b3lyp",
+        "method_m062x",
+        "method_omega_b97x_d",
+        "method_mp2"
+      ],
+      "tags": [
+        "noncovalent",
+        "benchmark"
+      ]
+    },
+    {
+      "id": "benchmark_gmtkn55",
+      "type": "BenchmarkSet",
+      "name": "GMTKN55",
+      "description": "Large database of main-group thermochemistry, kinetics, and noncovalent interactions.",
+      "systems": [],
+      "gold_standard_method": "method_ccsd_t",
+      "recommended_testing": [
+        "method_m062x",
+        "method_omega_b97x_d",
+        "method_b3lyp"
+      ],
+      "tags": [
+        "thermochemistry",
+        "kinetics",
+        "noncovalent"
+      ]
+    }
+  ],
+  "Resources": [
+    {
+      "id": "resource_levine_qc",
+      "type": "Resource",
+      "title": "Quantum Chemistry",
+      "authors": [
+        "Ira N. Levine"
+      ],
+      "year": 2013,
+      "type_category": "book",
+      "summary": "Classic introduction to quantum chemistry, covering wave mechanics, HF, and basic electronic structure.",
+      "covers": [
+        "concept_schrodinger_equation",
+        "concept_hartree_fock",
+        "concept_electron_correlation"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "resource_modern_qc_jensen",
+      "type": "Resource",
+      "title": "Introduction to Computational Chemistry",
+      "authors": [
+        "Frank Jensen"
+      ],
+      "year": 2017,
+      "type_category": "book",
+      "summary": "Textbook introducing computational chemistry methods, particularly HF, DFT, and basis sets.",
+      "covers": [
+        "concept_hartree_fock",
+        "concept_density_functional_theory",
+        "concept_basis_sets_gaussian"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "resource_szabo_ostlund",
+      "type": "Resource",
+      "title": "Modern Quantum Chemistry",
+      "authors": [
+        "Attila Szabo",
+        "Neil S. Ostlund"
+      ],
+      "year": 1996,
+      "type_category": "book",
+      "summary": "Foundational text on ab initio methods, HF, MP2, and CI.",
+      "covers": [
+        "concept_hartree_fock",
+        "concept_electron_correlation"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "resource_helgaker_book",
+      "type": "Resource",
+      "title": "Molecular Electronic-Structure Theory",
+      "authors": [
+        "Trygve Helgaker",
+        "Paul Jorgensen",
+        "Jeppe Olsen"
+      ],
+      "year": 2000,
+      "type_category": "book",
+      "summary": "Comprehensive reference on electronic-structure theory and methods.",
+      "covers": [
+        "concept_coupled_cluster_theory",
+        "concept_multireference_theory"
+      ],
+      "difficulty": "advanced"
+    }
+  ]
+}

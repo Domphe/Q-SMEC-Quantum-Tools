@@ -1,0 +1,487 @@
+[
+  {
+    "id": "tool_gaussian",
+    "name": "Gaussian",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "General-purpose ab initio and DFT package.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": [
+      "method_hf",
+      "method_b3lyp",
+      "method_mp2",
+      "method_ccsd_t"
+    ]
+  },
+  {
+    "id": "tool_orca",
+    "name": "ORCA",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Fast DFT and wavefunction toolkit with strong spectroscopy modules.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": [
+      "method_hf",
+      "method_b3lyp",
+      "method_pbe",
+      "method_mp2"
+    ]
+  },
+  {
+    "id": "tool_psi4",
+    "name": "Psi4",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Open-source ab initio package with strong Python integration.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": [
+      "method_hf",
+      "method_b3lyp",
+      "method_mp2",
+      "method_ccsd_t"
+    ]
+  },
+  {
+    "id": "tool_pyscf",
+    "name": "PySCF",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Python-based QC framework for research and automation.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": [
+      "method_hf",
+      "method_b3lyp",
+      "method_mp2"
+    ]
+  },
+  {
+    "id": "tool_qchem",
+    "name": "Q-Chem",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Advanced DFT and excited-state package with modern methods.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": [
+      "method_hf",
+      "method_b3lyp",
+      "method_pbe"
+    ]
+  },
+  {
+    "id": "tool_nwchem",
+    "name": "NWChem",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Open-source HPC quantum chemistry suite.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": [
+      "method_hf",
+      "method_b3lyp",
+      "method_mp2"
+    ]
+  },
+  {
+    "id": "tool_cp2k",
+    "name": "CP2K",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "DFT, AIMD, and periodic simulation engine.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": [
+      "method_b3lyp",
+      "method_pbe"
+    ]
+  },
+  {
+    "id": "tool_turbomole",
+    "name": "Turbomole",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Efficient RI-DFT for large molecules.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": [
+      "method_hf",
+      "method_b3lyp",
+      "method_mp2"
+    ]
+  },
+  {
+    "id": "tool_molpro",
+    "name": "Molpro",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "High-accuracy wavefunction-focused package.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": [
+      "method_ccsd_t"
+    ]
+  },
+  {
+    "id": "tool_gamess",
+    "name": "GAMESS",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Broad ab initio platform for education and research.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": [
+      "method_hf",
+      "method_b3lyp",
+      "method_mp2"
+    ]
+  },
+  {
+    "id": "tool_cfour",
+    "name": "CFOUR",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "High-precision coupled-cluster and spectroscopy suite.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": [
+      "method_ccsd_t"
+    ]
+  },
+  {
+    "id": "tool_adf",
+    "name": "ADF",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Slater-orbital based DFT with strong relativistic capabilities.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": [
+      "method_b3lyp",
+      "method_pbe"
+    ]
+  },
+  {
+    "id": "tool_dirac",
+    "name": "DIRAC",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Four-component relativistic quantum chemistry package.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": []
+  },
+  {
+    "id": "tool_dalton",
+    "name": "Dalton",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Specialized code for molecular response properties.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": []
+  },
+  {
+    "id": "tool_xtb",
+    "name": "xTB",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Semi-empirical quantum chemistry with GFN methods.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": []
+  },
+  {
+    "id": "tool_dftbplus",
+    "name": "DFTB+",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Tight-binding code for molecules and materials.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": []
+  },
+  {
+    "id": "tool_mopac",
+    "name": "MOPAC",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Semi-empirical PM6/PM7 computational chemistry.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": []
+  },
+  {
+    "id": "tool_ase",
+    "name": "ASE",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Python framework for atomic simulations and QC automation.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": []
+  },
+  {
+    "id": "tool_cclib",
+    "name": "cclib",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Parser for QC output files.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": []
+  },
+  {
+    "id": "tool_crest",
+    "name": "CREST",
+    "version": "1.0",
+    "developer": "Various",
+    "license": "Open Source",
+    "platforms": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "description": "Conformer sampling engine using xTB.",
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "implemented_methods": []
+  }
+]

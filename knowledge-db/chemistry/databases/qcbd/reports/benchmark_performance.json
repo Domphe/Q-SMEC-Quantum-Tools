@@ -1,0 +1,839 @@
+{
+  "generated": "2025-12-01T17:28:57.108704",
+  "benchmark_count": 18,
+  "benchmarks": {
+    "ACONF": {
+      "statistics": {
+        "benchmark_set": "ACONF",
+        "system_count": 7,
+        "avg_reference_energy_kcal": 1.0314285714285714,
+        "energy_range_kcal": [
+          0.0,
+          2.4
+        ],
+        "property_type": "relative_energy",
+        "reference_level": "CCSD(T)/CBS"
+      },
+      "method_comparison": {
+        "HF": {
+          "system_count": 7,
+          "MAE": 0.2,
+          "RMSE": 0.2,
+          "Max_Error": 0.2,
+          "Min_Error": 0.2
+        },
+        "MP2": {
+          "system_count": 7,
+          "MAE": 0.08,
+          "RMSE": 0.08,
+          "Max_Error": 0.08,
+          "Min_Error": 0.08
+        },
+        "CCSD": {
+          "system_count": 7,
+          "MAE": 0.02,
+          "RMSE": 0.02,
+          "Max_Error": 0.02,
+          "Min_Error": 0.02
+        },
+        "B3LYP": {
+          "error": "No B3LYP data available"
+        }
+      },
+      "method_ranking": [
+        {
+          "method": "CCSD",
+          "mae": 0.02
+        },
+        {
+          "method": "MP2",
+          "mae": 0.08
+        },
+        {
+          "method": "HF",
+          "mae": 0.2
+        }
+      ]
+    },
+    "AHB21": {
+      "statistics": {
+        "benchmark_set": "AHB21",
+        "system_count": 3,
+        "avg_reference_energy_kcal": -17.333333333333332,
+        "energy_range_kcal": [
+          -28.4,
+          -9.8
+        ],
+        "property_type": "interaction_energy",
+        "reference_level": "CCSD(T)/CBS"
+      },
+      "method_comparison": {
+        "HF": {
+          "system_count": 3,
+          "MAE": 5.2,
+          "RMSE": 5.7264,
+          "Max_Error": 8.52,
+          "Min_Error": 2.94
+        },
+        "MP2": {
+          "system_count": 3,
+          "MAE": 1.04,
+          "RMSE": 1.1453,
+          "Max_Error": 1.704,
+          "Min_Error": 0.588
+        },
+        "CCSD": {
+          "system_count": 3,
+          "MAE": 0.26,
+          "RMSE": 0.2863,
+          "Max_Error": 0.426,
+          "Min_Error": 0.147
+        },
+        "B3LYP": {
+          "error": "No B3LYP data available"
+        }
+      },
+      "method_ranking": [
+        {
+          "method": "CCSD",
+          "mae": 0.26
+        },
+        {
+          "method": "MP2",
+          "mae": 1.04
+        },
+        {
+          "method": "HF",
+          "mae": 5.2
+        }
+      ]
+    },
+    "CHAL336": {
+      "statistics": {
+        "benchmark_set": "CHAL336",
+        "system_count": 3,
+        "avg_reference_energy_kcal": -2.506666666666667,
+        "energy_range_kcal": [
+          -3.12,
+          -1.66
+        ],
+        "property_type": "interaction_energy",
+        "reference_level": "CCSD(T)/CBS"
+      },
+      "method_comparison": {
+        "HF": {
+          "system_count": 3,
+          "MAE": 0.8033,
+          "RMSE": 0.8277,
+          "Max_Error": 1.0,
+          "Min_Error": 0.53
+        },
+        "MP2": {
+          "system_count": 3,
+          "MAE": 0.1753,
+          "RMSE": 0.1806,
+          "Max_Error": 0.218,
+          "Min_Error": 0.116
+        },
+        "CCSD": {
+          "system_count": 3,
+          "MAE": 0.045,
+          "RMSE": 0.0463,
+          "Max_Error": 0.056,
+          "Min_Error": 0.03
+        },
+        "B3LYP": {
+          "error": "No B3LYP data available"
+        }
+      },
+      "method_ranking": [
+        {
+          "method": "CCSD",
+          "mae": 0.045
+        },
+        {
+          "method": "MP2",
+          "mae": 0.1753
+        },
+        {
+          "method": "HF",
+          "mae": 0.8033
+        }
+      ]
+    },
+    "CYCONF": {
+      "statistics": {
+        "benchmark_set": "CYCONF",
+        "system_count": 3,
+        "avg_reference_energy_kcal": 0.15333333333333335,
+        "energy_range_kcal": [
+          0.0,
+          0.34
+        ],
+        "property_type": "relative_energy",
+        "reference_level": "CCSD(T)/CBS"
+      },
+      "method_comparison": {
+        "HF": {
+          "system_count": 3,
+          "MAE": 0.25,
+          "RMSE": 0.25,
+          "Max_Error": 0.25,
+          "Min_Error": 0.25
+        },
+        "MP2": {
+          "system_count": 3,
+          "MAE": 0.1,
+          "RMSE": 0.1,
+          "Max_Error": 0.1,
+          "Min_Error": 0.1
+        },
+        "CCSD": {
+          "system_count": 3,
+          "MAE": 0.03,
+          "RMSE": 0.03,
+          "Max_Error": 0.03,
+          "Min_Error": 0.03
+        },
+        "B3LYP": {
+          "error": "No B3LYP data available"
+        }
+      },
+      "method_ranking": [
+        {
+          "method": "CCSD",
+          "mae": 0.03
+        },
+        {
+          "method": "MP2",
+          "mae": 0.1
+        },
+        {
+          "method": "HF",
+          "mae": 0.25
+        }
+      ]
+    },
+    "DBH24": {
+      "statistics": {
+        "benchmark_set": "DBH24",
+        "system_count": 3,
+        "avg_reference_energy_kcal": 15.613333333333335,
+        "energy_range_kcal": [
+          10.7,
+          18.14
+        ],
+        "property_type": "barrier_height",
+        "reference_level": "W4/CCSD(T)/CBS"
+      },
+      "method_comparison": {
+        "HF": {
+          "system_count": 3,
+          "MAE": 2.34,
+          "RMSE": 2.3978,
+          "Max_Error": 2.72,
+          "Min_Error": 1.6
+        },
+        "MP2": {
+          "system_count": 3,
+          "MAE": 0.6247,
+          "RMSE": 0.64,
+          "Max_Error": 0.726,
+          "Min_Error": 0.428
+        },
+        "CCSD": {
+          "system_count": 3,
+          "MAE": 0.156,
+          "RMSE": 0.1598,
+          "Max_Error": 0.181,
+          "Min_Error": 0.107
+        },
+        "B3LYP": {
+          "error": "No B3LYP data available"
+        }
+      },
+      "method_ranking": [
+        {
+          "method": "CCSD",
+          "mae": 0.156
+        },
+        {
+          "method": "MP2",
+          "mae": 0.6247
+        },
+        {
+          "method": "HF",
+          "mae": 2.34
+        }
+      ]
+    },
+    "G2_97": {
+      "statistics": {
+        "benchmark_set": "G2_97",
+        "system_count": 5,
+        "avg_reference_energy_kcal": 209.74,
+        "energy_range_kcal": [
+          56.0,
+          392.5
+        ],
+        "property_type": "atomization_energy",
+        "reference_level": "Experimental"
+      },
+      "method_comparison": {
+        "HF": {
+          "system_count": 5,
+          "MAE": 31.462,
+          "RMSE": 36.2943,
+          "Max_Error": 58.88,
+          "Min_Error": 8.4
+        },
+        "MP2": {
+          "system_count": 5,
+          "MAE": 8.3896,
+          "RMSE": 9.6781,
+          "Max_Error": 15.7,
+          "Min_Error": 2.24
+        },
+        "CCSD": {
+          "system_count": 5,
+          "MAE": 2.0974,
+          "RMSE": 2.4195,
+          "Max_Error": 3.925,
+          "Min_Error": 0.56
+        },
+        "B3LYP": {
+          "error": "No B3LYP data available"
+        }
+      },
+      "method_ranking": [
+        {
+          "method": "CCSD",
+          "mae": 2.0974
+        },
+        {
+          "method": "MP2",
+          "mae": 8.3896
+        },
+        {
+          "method": "HF",
+          "mae": 31.462
+        }
+      ]
+    },
+    "GMTKN55": {
+      "statistics": {
+        "system_count": 0,
+        "error": "No records found for GMTKN55"
+      },
+      "method_comparison": {},
+      "method_ranking": []
+    },
+    "HB15": {
+      "statistics": {
+        "benchmark_set": "HB15",
+        "system_count": 3,
+        "avg_reference_energy_kcal": -5.866666666666667,
+        "energy_range_kcal": [
+          -11.02,
+          -2.01
+        ],
+        "property_type": "interaction_energy",
+        "reference_level": "CCSD(T)/CBS"
+      },
+      "method_comparison": {
+        "HF": {
+          "system_count": 3,
+          "MAE": 1.76,
+          "RMSE": 2.0971,
+          "Max_Error": 3.31,
+          "Min_Error": 0.6
+        },
+        "MP2": {
+          "system_count": 3,
+          "MAE": 0.352,
+          "RMSE": 0.419,
+          "Max_Error": 0.661,
+          "Min_Error": 0.121
+        },
+        "CCSD": {
+          "system_count": 3,
+          "MAE": 0.088,
+          "RMSE": 0.1047,
+          "Max_Error": 0.165,
+          "Min_Error": 0.03
+        },
+        "B3LYP": {
+          "error": "No B3LYP data available"
+        }
+      },
+      "method_ranking": [
+        {
+          "method": "CCSD",
+          "mae": 0.088
+        },
+        {
+          "method": "MP2",
+          "mae": 0.352
+        },
+        {
+          "method": "HF",
+          "mae": 1.76
+        }
+      ]
+    },
+    "IL16": {
+      "statistics": {
+        "benchmark_set": "IL16",
+        "system_count": 3,
+        "avg_reference_energy_kcal": -95.33333333333333,
+        "energy_range_kcal": [
+          -102.3,
+          -88.5
+        ],
+        "property_type": "interaction_energy",
+        "reference_level": "CCSD(T)/CBS"
+      },
+      "method_comparison": {
+        "HF": {
+          "system_count": 3,
+          "MAE": 30.5067,
+          "RMSE": 30.56,
+          "Max_Error": 32.74,
+          "Min_Error": 28.32
+        },
+        "MP2": {
+          "system_count": 3,
+          "MAE": 6.6733,
+          "RMSE": 6.685,
+          "Max_Error": 7.161,
+          "Min_Error": 6.195
+        },
+        "CCSD": {
+          "system_count": 3,
+          "MAE": 1.716,
+          "RMSE": 1.719,
+          "Max_Error": 1.841,
+          "Min_Error": 1.593
+        },
+        "B3LYP": {
+          "error": "No B3LYP data available"
+        }
+      },
+      "method_ranking": [
+        {
+          "method": "CCSD",
+          "mae": 1.716
+        },
+        {
+          "method": "MP2",
+          "mae": 6.6733
+        },
+        {
+          "method": "HF",
+          "mae": 30.5067
+        }
+      ]
+    },
+    "NBC10": {
+      "statistics": {
+        "benchmark_set": "NBC10",
+        "system_count": 3,
+        "avg_reference_energy_kcal": -20.8,
+        "energy_range_kcal": [
+          -25.5,
+          -16.7
+        ],
+        "property_type": "interaction_energy",
+        "reference_level": "CCSD(T)/CBS"
+      },
+      "method_comparison": {
+        "HF": {
+          "system_count": 3,
+          "MAE": 6.24,
+          "RMSE": 6.3337,
+          "Max_Error": 7.65,
+          "Min_Error": 5.01
+        },
+        "MP2": {
+          "system_count": 3,
+          "MAE": 1.248,
+          "RMSE": 1.2667,
+          "Max_Error": 1.53,
+          "Min_Error": 1.002
+        },
+        "CCSD": {
+          "system_count": 3,
+          "MAE": 0.3123,
+          "RMSE": 0.317,
+          "Max_Error": 0.383,
+          "Min_Error": 0.251
+        },
+        "B3LYP": {
+          "error": "No B3LYP data available"
+        }
+      },
+      "method_ranking": [
+        {
+          "method": "CCSD",
+          "mae": 0.3123
+        },
+        {
+          "method": "MP2",
+          "mae": 1.248
+        },
+        {
+          "method": "HF",
+          "mae": 6.24
+        }
+      ]
+    },
+    "PCONF": {
+      "statistics": {
+        "benchmark_set": "PCONF",
+        "system_count": 3,
+        "avg_reference_energy_kcal": 0.77,
+        "energy_range_kcal": [
+          0.0,
+          2.31
+        ],
+        "property_type": "relative_energy",
+        "reference_level": "CCSD(T)/CBS"
+      },
+      "method_comparison": {
+        "HF": {
+          "system_count": 3,
+          "MAE": 0.25,
+          "RMSE": 0.25,
+          "Max_Error": 0.25,
+          "Min_Error": 0.25
+        },
+        "MP2": {
+          "system_count": 3,
+          "MAE": 0.1,
+          "RMSE": 0.1,
+          "Max_Error": 0.1,
+          "Min_Error": 0.1
+        },
+        "CCSD": {
+          "system_count": 3,
+          "MAE": 0.03,
+          "RMSE": 0.03,
+          "Max_Error": 0.03,
+          "Min_Error": 0.03
+        },
+        "B3LYP": {
+          "error": "No B3LYP data available"
+        }
+      },
+      "method_ranking": [
+        {
+          "method": "CCSD",
+          "mae": 0.03
+        },
+        {
+          "method": "MP2",
+          "mae": 0.1
+        },
+        {
+          "method": "HF",
+          "mae": 0.25
+        }
+      ]
+    },
+    "S22": {
+      "statistics": {
+        "benchmark_set": "S22",
+        "system_count": 22,
+        "avg_reference_energy_kcal": -7.358636363636363,
+        "energy_range_kcal": [
+          -20.65,
+          -0.53
+        ],
+        "property_type": "interaction_energy",
+        "reference_level": "CCSD(T)/CBS"
+      },
+      "method_comparison": {
+        "HF": {
+          "system_count": 22,
+          "MAE": 2.85,
+          "RMSE": 3.3582,
+          "Max_Error": 6.5,
+          "Min_Error": 0.4
+        },
+        "MP2": {
+          "system_count": 22,
+          "MAE": 0.225,
+          "RMSE": 0.2458,
+          "Max_Error": 0.4,
+          "Min_Error": 0.05
+        },
+        "CCSD": {
+          "system_count": 22,
+          "MAE": 0.0582,
+          "RMSE": 0.0634,
+          "Max_Error": 0.1,
+          "Min_Error": 0.01
+        },
+        "B3LYP": {
+          "error": "No B3LYP data available"
+        }
+      },
+      "method_ranking": [
+        {
+          "method": "CCSD",
+          "mae": 0.0582
+        },
+        {
+          "method": "MP2",
+          "mae": 0.225
+        },
+        {
+          "method": "HF",
+          "mae": 2.85
+        }
+      ]
+    },
+    "S66": {
+      "statistics": {
+        "benchmark_set": "S66",
+        "system_count": 10,
+        "avg_reference_energy_kcal": -5.840999999999999,
+        "energy_range_kcal": [
+          -10.12,
+          -1.48
+        ],
+        "property_type": "interaction_energy",
+        "reference_level": "CCSD(T)/CBS"
+      },
+      "method_comparison": {},
+      "method_ranking": []
+    },
+    "S66x8": {
+      "statistics": {
+        "benchmark_set": "S66x8",
+        "system_count": 40,
+        "avg_reference_energy_kcal": -4.7361249999999995,
+        "energy_range_kcal": [
+          -14.997,
+          -0.078
+        ],
+        "property_type": "interaction_energy",
+        "reference_level": "CCSD(T)/CBS"
+      },
+      "method_comparison": {
+        "HF": {
+          "system_count": 40,
+          "MAE": 1.8947,
+          "RMSE": 2.491,
+          "Max_Error": 6.0,
+          "Min_Error": 0.03
+        },
+        "MP2": {
+          "system_count": 40,
+          "MAE": 0.2368,
+          "RMSE": 0.3114,
+          "Max_Error": 0.75,
+          "Min_Error": 0.004
+        },
+        "CCSD": {
+          "system_count": 40,
+          "MAE": 0.0473,
+          "RMSE": 0.0623,
+          "Max_Error": 0.15,
+          "Min_Error": 0.001
+        },
+        "B3LYP": {
+          "error": "No B3LYP data available"
+        }
+      },
+      "method_ranking": [
+        {
+          "method": "CCSD",
+          "mae": 0.0473
+        },
+        {
+          "method": "MP2",
+          "mae": 0.2368
+        },
+        {
+          "method": "HF",
+          "mae": 1.8947
+        }
+      ]
+    },
+    "SCONF": {
+      "statistics": {
+        "benchmark_set": "SCONF",
+        "system_count": 3,
+        "avg_reference_energy_kcal": 0.15,
+        "energy_range_kcal": [
+          0.0,
+          0.35
+        ],
+        "property_type": "relative_energy",
+        "reference_level": "CCSD(T)/CBS"
+      },
+      "method_comparison": {
+        "HF": {
+          "system_count": 3,
+          "MAE": 0.25,
+          "RMSE": 0.25,
+          "Max_Error": 0.25,
+          "Min_Error": 0.25
+        },
+        "MP2": {
+          "system_count": 3,
+          "MAE": 0.1,
+          "RMSE": 0.1,
+          "Max_Error": 0.1,
+          "Min_Error": 0.1
+        },
+        "CCSD": {
+          "system_count": 3,
+          "MAE": 0.03,
+          "RMSE": 0.03,
+          "Max_Error": 0.03,
+          "Min_Error": 0.03
+        },
+        "B3LYP": {
+          "error": "No B3LYP data available"
+        }
+      },
+      "method_ranking": [
+        {
+          "method": "CCSD",
+          "mae": 0.03
+        },
+        {
+          "method": "MP2",
+          "mae": 0.1
+        },
+        {
+          "method": "HF",
+          "mae": 0.25
+        }
+      ]
+    },
+    "W4_17": {
+      "statistics": {
+        "benchmark_set": "W4_17",
+        "system_count": 3,
+        "avg_reference_energy_kcal": 407.76666666666665,
+        "energy_range_kcal": [
+          302.5,
+          531.9
+        ],
+        "property_type": "atomization_energy",
+        "reference_level": "W4/CCSD(T)/CBS"
+      },
+      "method_comparison": {
+        "HF": {
+          "system_count": 3,
+          "MAE": 61.1633,
+          "RMSE": 62.7869,
+          "Max_Error": 79.78,
+          "Min_Error": 45.38
+        },
+        "MP2": {
+          "system_count": 3,
+          "MAE": 16.3107,
+          "RMSE": 16.7438,
+          "Max_Error": 21.276,
+          "Min_Error": 12.1
+        },
+        "CCSD": {
+          "system_count": 3,
+          "MAE": 4.0777,
+          "RMSE": 4.186,
+          "Max_Error": 5.319,
+          "Min_Error": 3.025
+        },
+        "B3LYP": {
+          "error": "No B3LYP data available"
+        }
+      },
+      "method_ranking": [
+        {
+          "method": "CCSD",
+          "mae": 4.0777
+        },
+        {
+          "method": "MP2",
+          "mae": 16.3107
+        },
+        {
+          "method": "HF",
+          "mae": 61.1633
+        }
+      ]
+    },
+    "Water27": {
+      "statistics": {
+        "benchmark_set": "Water27",
+        "system_count": 7,
+        "avg_reference_energy_kcal": -31.66,
+        "energy_range_kcal": [
+          -45.9,
+          -5.02
+        ],
+        "property_type": "binding_energy",
+        "reference_level": "CCSD(T)/CBS"
+      },
+      "method_comparison": {},
+      "method_ranking": []
+    },
+    "X40": {
+      "statistics": {
+        "benchmark_set": "X40",
+        "system_count": 10,
+        "avg_reference_energy_kcal": -3.9240000000000004,
+        "energy_range_kcal": [
+          -4.89,
+          -2.84
+        ],
+        "property_type": "interaction_energy",
+        "reference_level": "CCSD(T)/CBS"
+      },
+      "method_comparison": {
+        "HF": {
+          "system_count": 10,
+          "MAE": 1.372,
+          "RMSE": 1.3883,
+          "Max_Error": 1.71,
+          "Min_Error": 0.99
+        },
+        "MP2": {
+          "system_count": 10,
+          "MAE": 0.2354,
+          "RMSE": 0.2382,
+          "Max_Error": 0.293,
+          "Min_Error": 0.17
+        },
+        "CCSD": {
+          "system_count": 10,
+          "MAE": 0.0589,
+          "RMSE": 0.0596,
+          "Max_Error": 0.073,
+          "Min_Error": 0.043
+        },
+        "B3LYP": {
+          "error": "No B3LYP data available"
+        }
+      },
+      "method_ranking": [
+        {
+          "method": "CCSD",
+          "mae": 0.0589
+        },
+        {
+          "method": "MP2",
+          "mae": 0.2354
+        },
+        {
+          "method": "HF",
+          "mae": 1.372
+        }
+      ]
+    }
+  }
+}

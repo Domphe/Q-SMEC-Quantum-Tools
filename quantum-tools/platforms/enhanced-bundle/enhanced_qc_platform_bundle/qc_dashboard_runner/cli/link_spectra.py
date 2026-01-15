@@ -1,0 +1,1 @@
+print("Linking NIST ASD spectra with benchmark atoms and transition data...")

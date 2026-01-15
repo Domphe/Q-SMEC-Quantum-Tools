@@ -1,0 +1,21 @@
+# Seed for pip-compile (do not lock yet)
+# Workspace linkage: research, mining
+fastapi
+uvicorn
+streamlit
+scikit-learn
+matplotlib
+jupyter
+pandas
+pyarrow
+requests
+tqdm
+pydantic
+jsonschema
+python-dotenv
+ruamel.yaml
+beautifulsoup4
+lxml
+tenacity
+rdkit
+pip-tools

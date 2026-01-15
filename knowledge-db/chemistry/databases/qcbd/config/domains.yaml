@@ -1,0 +1,24 @@
+domains:
+  quantum_chemistry:
+    subdomains:
+      - electronic_structure
+      - spectroscopy
+      - thermochemistry
+      - reaction_dynamics
+      - basis_sets
+      - dft_functionals
+      - post_hf_methods
+      - molecular_properties
+
+  quantum_physics:
+    subdomains:
+      - foundations
+      - atomic_physics
+      - many_body
+      - scattering
+      - qft
+      - relativistic_qm
+      - angular_momentum
+      - perturbation_theory
+
+# Scope restricted to QC/QP only for harvesting and validation

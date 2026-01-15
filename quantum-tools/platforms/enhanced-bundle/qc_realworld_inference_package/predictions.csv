@@ -1,0 +1,31 @@
+name,smiles,predicted_energy_hartree,reference_energy_hartree,polarizability_au,homo_lumo_gap_ev,spectral_lines_nm,attention_weights,model_used
+Water,O,None,None,None,None,,,Graphormer
+Ethanol,CCO,None,None,None,None,,,Graphormer
+Methane,C,None,None,None,None,,,Graphormer
+Ammonia,N,None,None,None,None,,,Graphormer
+Carbon Dioxide,O=C=O,None,None,None,None,,,Graphormer
+Acetylene,C#C,None,None,None,None,,,Graphormer
+Benzene,c1ccccc1,None,None,None,None,,,Graphormer
+Formaldehyde,C=O,None,None,None,None,,,Graphormer
+Formic Acid,O=CO,None,None,None,None,,,Graphormer
+Toluene,Cc1ccccc1,None,None,None,None,,,Graphormer
+Chloroform,ClC(Cl)Cl,None,None,None,None,,,Graphormer
+Pyridone,C1=CC(=O)NC=C1,None,None,None,None,,,Graphormer
+Tetramethylammonium,C[N+](C)(C)C,None,None,None,None,,,Graphormer
+Nitric Acid,O=N(=O)O,None,None,None,None,,,Graphormer
+Boric Acid,B(O)(O)O,None,None,None,None,,,Graphormer
+Phenol,c1ccc(cc1)O,None,None,None,None,,,Graphormer
+Acetic Acid,CC(=O)O,None,None,None,None,,,Graphormer
+Formate Ion,C(=O)[O-],None,None,None,None,,,Graphormer
+Amide Anion,[NH2-],None,None,None,None,,,Graphormer
+Hydroxyl Radical,[OH],None,None,None,None,,,Graphormer
+Chlorine Atom,[Cl],None,None,None,None,,,Graphormer
+Superoxide,[O-][O],None,None,None,None,,,Graphormer
+Lithium Ion,[Li+],None,None,None,None,,,Graphormer
+Sodium Ion,[Na+],None,None,None,None,,,Graphormer
+Ammonium Ion,[NH4+],None,None,None,None,,,Graphormer
+Carbocation,[CH3+],None,None,None,None,,,Graphormer
+Acetate,CC(=O)[O-],None,None,None,None,,,Graphormer
+Nitrite,[O-]N=O,None,None,None,None,,,Graphormer
+Carbonate,C(=O)([O-])[O-],None,None,None,None,,,Graphormer
+Hydronium,[H3O+],None,None,None,None,,,Graphormer

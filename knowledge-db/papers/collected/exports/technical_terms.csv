@@ -1,0 +1,32 @@
+id,term,category,frequency,context,definition,extraction_date
+1,quantum,quantum_terms,78,,,2025-11-04T13:11:53.730675
+2,superconducting,quantum_terms,19,,,2025-11-04T13:11:53.730675
+3,quantum materials,quantum_terms,4,,,2025-11-04T13:11:53.730675
+4,quantum sensing,quantum_terms,3,,,2025-11-04T13:11:53.730675
+5,qubit,quantum_terms,2,,,2025-11-04T13:11:53.730675
+6,entanglement,quantum_terms,1,,,2025-11-04T13:11:53.730675
+7,optimization,ai_ml_terms,37,,,2025-11-04T13:11:53.730675
+8,scada,ai_ml_terms,23,,,2025-11-04T13:11:53.730675
+9,artificial intelligence,ai_ml_terms,4,,,2025-11-04T13:11:53.730675
+10,machine learning,ai_ml_terms,2,,,2025-11-04T13:11:53.730675
+11,neural network,ai_ml_terms,2,,,2025-11-04T13:11:53.730675
+12,ai-doe,ai_ml_terms,1,,,2025-11-04T13:11:53.730675
+13,grid,energy_terms,22,,,2025-11-04T13:11:53.730675
+14,superconducting,energy_terms,19,,,2025-11-04T13:11:53.730675
+15,energy storage,energy_terms,11,,,2025-11-04T13:11:53.730675
+16,energy density,energy_terms,6,,,2025-11-04T13:11:53.730675
+17,defense,defense_terms,42,,,2025-11-04T13:11:53.730675
+18,dhs,defense_terms,20,,,2025-11-04T13:11:53.730675
+19,surveillance,defense_terms,12,,,2025-11-04T13:11:53.730675
+20,national security,defense_terms,11,,,2025-11-04T13:11:53.730675
+21,dod,defense_terms,11,,,2025-11-04T13:11:53.730675
+22,reconnaissance,defense_terms,9,,,2025-11-04T13:11:53.730675
+23,military,defense_terms,4,,,2025-11-04T13:11:53.730675
+24,imu,sensor_terms,49,,,2025-11-04T13:11:53.730675
+25,accelerometer,sensor_terms,5,,,2025-11-04T13:11:53.730675
+26,gyroscope,sensor_terms,5,,,2025-11-04T13:11:53.730675
+27,acoustic sensor,sensor_terms,5,,,2025-11-04T13:11:53.730675
+28,magnetometer,sensor_terms,2,,,2025-11-04T13:11:53.730675
+29,mems,sensor_terms,2,,,2025-11-04T13:11:53.730675
+30,optical sensor,sensor_terms,1,,,2025-11-04T13:11:53.730675
+31,chemical sensor,sensor_terms,1,,,2025-11-04T13:11:53.730675

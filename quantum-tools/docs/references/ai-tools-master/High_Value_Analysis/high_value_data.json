@@ -1,0 +1,1537 @@
+{
+  "top_files": [
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\CNN .xlsx",
+      "file_name": "CNN .xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+      "ai_relevance_score": 100.5,
+      "quantum_relevance_score": 0.0,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 0.0,
+      "total_score": 100.5,
+      "size_kb": 19.185546875,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI_Tools_Database.xlsx",
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 4.8,
+      "total_score": 100.5,
+      "size_kb": 32.818359375,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\AI_Tools_Database.xlsx",
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 4.8,
+      "total_score": 100.5,
+      "size_kb": 32.818359375,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\NLP GenAI.xlsx",
+      "file_name": "NLP GenAI.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+      "ai_relevance_score": 97.5,
+      "quantum_relevance_score": 0.0,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 0.0,
+      "total_score": 97.5,
+      "size_kb": 21.7724609375,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\AI Tools for Q-SMEC v2.docx",
+      "file_name": "AI Tools for Q-SMEC v2.docx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+      "ai_relevance_score": 86.5,
+      "quantum_relevance_score": 1.5,
+      "qsmec_relevance_score": 2.0,
+      "cii_relevance_score": 0.0,
+      "total_score": 90.0,
+      "size_kb": 305.88671875,
+      "file_ext": ".docx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum Chemistry + AI Tools Simulation.xlsx",
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 7.199999999999999,
+      "total_score": 90.0,
+      "size_kb": 71.751953125,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum Chemistry + AI Tools Simulation (2).xlsx",
+      "file_name": "Quantum Chemistry + AI Tools Simulation (2).xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 7.199999999999999,
+      "total_score": 90.0,
+      "size_kb": 72.1123046875,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\All AITools Complete Database .xlsx",
+      "file_name": "All AITools Complete Database .xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+      "ai_relevance_score": 10.0,
+      "quantum_relevance_score": 79.5,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 0.0,
+      "total_score": 89.5,
+      "size_kb": 320.869140625,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\Quantum Modeling.xlsx",
+      "file_name": "Quantum Modeling.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+      "ai_relevance_score": 10.0,
+      "quantum_relevance_score": 79.5,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 0.0,
+      "total_score": 89.5,
+      "size_kb": 18.7822265625,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\QSMEC AI Tool Integration Matrix.xlsx",
+      "file_name": "QSMEC AI Tool Integration Matrix.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_relevance_score": 61.5,
+      "quantum_relevance_score": 10.5,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 98.4,
+      "total_score": 72.0,
+      "size_kb": 17.904296875,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx",
+      "file_name": "QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_relevance_score": 61.5,
+      "quantum_relevance_score": 10.5,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 98.4,
+      "total_score": 72.0,
+      "size_kb": 18.2763671875,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\QSMEC AI Tool Integration Matrix.xlsx",
+      "file_name": "QSMEC AI Tool Integration Matrix.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_relevance_score": 61.5,
+      "quantum_relevance_score": 10.5,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 98.4,
+      "total_score": 72.0,
+      "size_kb": 17.904296875,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx",
+      "file_name": "QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_relevance_score": 61.5,
+      "quantum_relevance_score": 10.5,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 98.4,
+      "total_score": 72.0,
+      "size_kb": 18.2763671875,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\Intelligent Agents.xlsx",
+      "file_name": "Intelligent Agents.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+      "ai_relevance_score": 50.5,
+      "quantum_relevance_score": 0.0,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 0.0,
+      "total_score": 50.5,
+      "size_kb": 12.5703125,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Open Source Quantum Modeling Packages.docx",
+      "file_name": "Open Source Quantum Modeling Packages.docx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_relevance_score": 19.5,
+      "quantum_relevance_score": 24.0,
+      "qsmec_relevance_score": 2.0,
+      "cii_relevance_score": 2.4,
+      "total_score": 45.5,
+      "size_kb": 20.07421875,
+      "file_ext": ".docx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum Chemistry + AI Tools Simulation (1).xlsx",
+      "file_name": "Quantum Chemistry + AI Tools Simulation (1).xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_relevance_score": 17.0,
+      "quantum_relevance_score": 24.0,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 7.199999999999999,
+      "total_score": 41.0,
+      "size_kb": 64.39453125,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\Install-Downloading AI Tools\\Quantum_Tools_Next_Steps.xlsx",
+      "file_name": "Quantum_Tools_Next_Steps.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Install-Downloading AI Tools",
+      "ai_relevance_score": 1.0,
+      "quantum_relevance_score": 30.0,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 0.0,
+      "total_score": 31.0,
+      "size_kb": 7.978515625,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum_Tool_Categorization_with_References Table.xlsx",
+      "file_name": "Quantum_Tool_Categorization_with_References Table.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_relevance_score": 8.5,
+      "quantum_relevance_score": 22.5,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 0.0,
+      "total_score": 31.0,
+      "size_kb": 13.28515625,
+      "file_ext": ".xlsx"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum_Tool_Categorization_with_References Table.xlsx",
+      "file_name": "Quantum_Tool_Categorization_with_References Table.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_relevance_score": 8.5,
+      "quantum_relevance_score": 22.5,
+      "qsmec_relevance_score": 0.0,
+      "cii_relevance_score": 0.0,
+      "total_score": 31.0,
+      "size_kb": 13.28515625,
+      "file_ext": ".xlsx"
+    }
+  ],
+  "frameworks": [
+    {
+      "framework_name": "copilot",
+      "mention_count": 13,
+      "files": "QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx,Tool Categorization with Prerequisites - MASTER.xlsx,AI_Tools_Database.xlsx,AI Tools for Q-SMEC v2.docx,Master AI Tools (w_Quantum) Index.xlsx,NLP GenAI.xlsx,Quantum Chemistry + AI Tools Simulation.xlsx,Quantum Chemistry + AI Tools Simulation (2).xlsx,QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx,Tool Categorization with Prerequisites - MASTER.xlsx,AI_Tools_Database.xlsx",
+      "avg_ai_score": 60.80769230769231
+    },
+    {
+      "framework_name": "openai",
+      "mention_count": 12,
+      "files": "QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx,Tool Categorization with Prerequisites - MASTER.xlsx,AI_Tools_Database.xlsx,AI Tools for Q-SMEC v2.docx,Intelligent Agents.xlsx,Master AI Tools (w_Quantum) Index.xlsx,NLP GenAI.xlsx,QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx,Tool Categorization with Prerequisites - MASTER.xlsx,AI_Tools_Database.xlsx",
+      "avg_ai_score": 63.333333333333336
+    },
+    {
+      "framework_name": "gpt",
+      "mention_count": 12,
+      "files": "QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx,Tool Categorization with Prerequisites - MASTER.xlsx,AI_Tools_Database.xlsx,AI Tools for Q-SMEC v2.docx,Intelligent Agents.xlsx,Master AI Tools (w_Quantum) Index.xlsx,NLP GenAI.xlsx,QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx,Tool Categorization with Prerequisites - MASTER.xlsx,AI_Tools_Database.xlsx",
+      "avg_ai_score": 63.333333333333336
+    },
+    {
+      "framework_name": "claude",
+      "mention_count": 11,
+      "files": "QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx,Tool Categorization with Prerequisites - MASTER.xlsx,AI_Tools_Database.xlsx,AI Tools for Q-SMEC v2.docx,Master AI Tools (w_Quantum) Index.xlsx,NLP GenAI.xlsx,QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx,Tool Categorization with Prerequisites - MASTER.xlsx,AI_Tools_Database.xlsx",
+      "avg_ai_score": 64.5
+    },
+    {
+      "framework_name": "pytorch",
+      "mention_count": 10,
+      "files": "Tool Categorization with Prerequisites - MASTER.xlsx,AI_Tools_Database.xlsx,AI Tools for Q-SMEC v2.docx,CNN .xlsx,Master AI Tools (w_Quantum) Index.xlsx,Reinforcement Learning.xlsx,Quantum Chemistry + AI Tools Simulation.xlsx,Quantum Chemistry + AI Tools Simulation (2).xlsx,Tool Categorization with Prerequisites - MASTER.xlsx,AI_Tools_Database.xlsx",
+      "avg_ai_score": 58.9
+    },
+    {
+      "framework_name": "anthropic",
+      "mention_count": 10,
+      "files": "QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx,Tool Categorization with Prerequisites - MASTER.xlsx,AI_Tools_Database.xlsx,Master AI Tools (w_Quantum) Index.xlsx,NLP GenAI.xlsx,QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx,Tool Categorization with Prerequisites - MASTER.xlsx,AI_Tools_Database.xlsx",
+      "avg_ai_score": 62.3
+    },
+    {
+      "framework_name": "keras",
+      "mention_count": 9,
+      "files": "QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx,AI Tools for Q-SMEC v2.docx,CNN .xlsx,Master AI Tools (w_Quantum) Index.xlsx,Quantum Chemistry + AI Tools Simulation.xlsx,Quantum Chemistry + AI Tools Simulation (2).xlsx,QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx",
+      "avg_ai_score": 60.833333333333336
+    },
+    {
+      "framework_name": "tensorflow",
+      "mention_count": 8,
+      "files": "Tool Categorization with Prerequisites - MASTER.xlsx,AI Tools for Q-SMEC v2.docx,CNN .xlsx,Master AI Tools (w_Quantum) Index.xlsx,Reinforcement Learning.xlsx,Quantum Chemistry + AI Tools Simulation.xlsx,Quantum Chemistry + AI Tools Simulation (2).xlsx,Tool Categorization with Prerequisites - MASTER.xlsx",
+      "avg_ai_score": 54.875
+    },
+    {
+      "framework_name": "midjourney",
+      "mention_count": 7,
+      "files": "QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx,AI Tools for Q-SMEC v2.docx,Master AI Tools (w_Quantum) Index.xlsx,NLP GenAI.xlsx,QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx",
+      "avg_ai_score": 66.21428571428571
+    },
+    {
+      "framework_name": "llama",
+      "mention_count": 7,
+      "files": "QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx,AI Tools for Q-SMEC v2.docx,Master AI Tools (w_Quantum) Index.xlsx,NLP GenAI.xlsx,QSMEC AI Tool Integration Matrix.xlsx,QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx",
+      "avg_ai_score": 66.21428571428571
+    },
+    {
+      "framework_name": "scikit-learn",
+      "mention_count": 2,
+      "files": "AI Tools for Q-SMEC v2.docx,Master AI Tools (w_Quantum) Index.xlsx",
+      "avg_ai_score": 60.0
+    }
+  ],
+  "quantum_capabilities": [
+    {
+      "capability_name": "quantum circuit",
+      "mention_count": 14,
+      "files": "Quantum_Tool_Categorization_with_References Table.xlsx,Quantum_Tools_Addons_Master_Clean.xlsx,Categorizing the Tools & Their Strengths.docx,AI_Tools_Database.xlsx,All AITools Complete Database .xlsx,Quantum Modeling.xlsx,Quantum Chemistry + AI Tools Simulation.xlsx,Quantum_Tool_Categorization_with_References Table.xlsx,Quantum_Tools_Addons_Master_Clean.xlsx,Open Source Quantum Modeling Packages.docx,Quantum Chemistry + AI Tools Simulation (1).xlsx,Quantum Chemistry + AI Tools Simulation (2).xlsx,Categorizing the Tools & Their Strengths.docx,AI_Tools_Database.xlsx",
+      "avg_quantum_score": 34.07142857142857
+    },
+    {
+      "capability_name": "qiskit",
+      "mention_count": 14,
+      "files": "Quantum_Tool_Categorization_with_References Table.xlsx,Quantum_Tools_Addons_Master_Clean.xlsx,(FULL) Q-Smec Pipeline Repository (1).docx,Categorizing the Tools & Their Strengths.docx,All AITools Complete Database .xlsx,Quantum Modeling.xlsx,Quantum Chemistry + AI Tools Simulation.xlsx,Quantum_Tool_Categorization_with_References Table.xlsx,Quantum_Tools_Addons_Master_Clean.xlsx,Open Source Quantum Modeling Packages.docx,Quantum Chemistry + AI Tools Simulation (1).xlsx,Quantum Chemistry + AI Tools Simulation (2).xlsx,Quantum_Tools_Next_Steps.xlsx,Categorizing the Tools & Their Strengths.docx",
+      "avg_quantum_score": 33.857142857142854
+    },
+    {
+      "capability_name": "pennylane",
+      "mention_count": 14,
+      "files": "Quantum_Tool_Categorization_with_References Table.xlsx,Quantum_Tools_Addons_Master_Clean.xlsx,(FULL) Q-Smec Pipeline Repository (1).docx,Categorizing the Tools & Their Strengths.docx,All AITools Complete Database .xlsx,Quantum Modeling.xlsx,Quantum Chemistry + AI Tools Simulation.xlsx,Quantum_Tool_Categorization_with_References Table.xlsx,Quantum_Tools_Addons_Master_Clean.xlsx,Open Source Quantum Modeling Packages.docx,Quantum Chemistry + AI Tools Simulation (1).xlsx,Quantum Chemistry + AI Tools Simulation (2).xlsx,Quantum_Tools_Next_Steps.xlsx,Categorizing the Tools & Their Strengths.docx",
+      "avg_quantum_score": 33.857142857142854
+    },
+    {
+      "capability_name": "cirq",
+      "mention_count": 13,
+      "files": "Quantum_Tool_Categorization_with_References Table.xlsx,Quantum_Tools_Addons_Master_Clean.xlsx,AI_Tools_Database.xlsx,All AITools Complete Database .xlsx,Quantum Modeling.xlsx,Quantum Chemistry + AI Tools Simulation.xlsx,Quantum_Tool_Categorization_with_References Table.xlsx,Quantum_Tools_Addons_Master_Clean.xlsx,Open Source Quantum Modeling Packages.docx,Quantum Chemistry + AI Tools Simulation (1).xlsx,Quantum Chemistry + AI Tools Simulation (2).xlsx,Quantum_Tools_Next_Steps.xlsx,AI_Tools_Database.xlsx",
+      "avg_quantum_score": 36.0
+    },
+    {
+      "capability_name": "quantum computing",
+      "mention_count": 9,
+      "files": "Quantum_Tool_Categorization_with_References Table.xlsx,Quantum_Tools_Addons_Master_Clean.xlsx,AI_Tools_Database.xlsx,Quantum Chemistry + AI Tools Simulation.xlsx,Quantum_Tool_Categorization_with_References Table.xlsx,Quantum_Tools_Addons_Master_Clean.xlsx,Open Source Quantum Modeling Packages.docx,Quantum Chemistry + AI Tools Simulation (2).xlsx,AI_Tools_Database.xlsx",
+      "avg_quantum_score": 28.333333333333332
+    },
+    {
+      "capability_name": "quantum algorithm",
+      "mention_count": 9,
+      "files": "Quantum_Tool_Categorization_with_References Table.xlsx,Quantum_Tools_Addons_Master_Clean.xlsx,AI_Tools_Database.xlsx,Quantum Chemistry + AI Tools Simulation.xlsx,Quantum_Tool_Categorization_with_References Table.xlsx,Quantum_Tools_Addons_Master_Clean.xlsx,Quantum Chemistry + AI Tools Simulation (1).xlsx,Quantum Chemistry + AI Tools Simulation (2).xlsx,AI_Tools_Database.xlsx",
+      "avg_quantum_score": 28.333333333333332
+    },
+    {
+      "capability_name": "hamiltonian",
+      "mention_count": 8,
+      "files": "(FULL) Q-Smec Pipeline Repository (1).docx,Categorizing the Tools & Their Strengths.docx,All AITools Complete Database .xlsx,Quantum Modeling.xlsx,Quantum Chemistry + AI Tools Simulation.xlsx,Quantum Chemistry + AI Tools Simulation (1).xlsx,Quantum Chemistry + AI Tools Simulation (2).xlsx,Categorizing the Tools & Their Strengths.docx",
+      "avg_quantum_score": 42.375
+    },
+    {
+      "capability_name": "vqe",
+      "mention_count": 7,
+      "files": "(FULL) Q-Smec Pipeline Repository (1).docx,Categorizing the Tools & Their Strengths.docx,All AITools Complete Database .xlsx,Quantum Modeling.xlsx,Quantum Chemistry + AI Tools Simulation.xlsx,Quantum Chemistry + AI Tools Simulation (2).xlsx,Categorizing the Tools & Their Strengths.docx",
+      "avg_quantum_score": 45.0
+    },
+    {
+      "capability_name": "quantum simulation",
+      "mention_count": 7,
+      "files": "Categorizing the Tools & Their Strengths.docx,All AITools Complete Database .xlsx,Quantum Modeling.xlsx,Quantum Chemistry + AI Tools Simulation.xlsx,Quantum Chemistry + AI Tools Simulation (1).xlsx,Quantum Chemistry + AI Tools Simulation (2).xlsx,Categorizing the Tools & Their Strengths.docx",
+      "avg_quantum_score": 45.857142857142854
+    },
+    {
+      "capability_name": "quantum machine learning",
+      "mention_count": 6,
+      "files": "Quantum_Tool_Categorization_with_References Table.xlsx,Quantum_Tools_Addons_Master_Clean.xlsx,Quantum Chemistry + AI Tools Simulation.xlsx,Quantum_Tool_Categorization_with_References Table.xlsx,Quantum_Tools_Addons_Master_Clean.xlsx,Quantum Chemistry + AI Tools Simulation (2).xlsx",
+      "avg_quantum_score": 30.0
+    },
+    {
+      "capability_name": "qubit",
+      "mention_count": 5,
+      "files": "All AITools Complete Database .xlsx,Quantum Modeling.xlsx,Quantum Chemistry + AI Tools Simulation.xlsx,Quantum Chemistry + AI Tools Simulation (2).xlsx,Quantum_Tools_Next_Steps.xlsx",
+      "avg_quantum_score": 57.6
+    },
+    {
+      "capability_name": "qml",
+      "mention_count": 4,
+      "files": "Quantum Chemistry + AI Tools Simulation.xlsx,Quantum Chemistry + AI Tools Simulation (1).xlsx,Quantum Chemistry + AI Tools Simulation (2).xlsx,Quantum_Tools_Next_Steps.xlsx",
+      "avg_quantum_score": 38.25
+    },
+    {
+      "capability_name": "qaoa",
+      "mention_count": 2,
+      "files": "All AITools Complete Database .xlsx,Quantum Modeling.xlsx",
+      "avg_quantum_score": 79.5
+    },
+    {
+      "capability_name": "quantum state",
+      "mention_count": 1,
+      "files": "Open Source Quantum Modeling Packages.docx",
+      "avg_quantum_score": 24.0
+    },
+    {
+      "capability_name": "q-smec",
+      "mention_count": 1,
+      "files": "Open Source Quantum Modeling Packages.docx",
+      "avg_quantum_score": 24.0
+    }
+  ],
+  "qsmec_files": [
+    {
+      "file_path": "g:\\My Drive\\Databases\\16 DHS Critical Infrastructure Sectors\\QSMECs alignment with each of the 16.docx",
+      "file_name": "QSMECs alignment with each of the 16.docx",
+      "qsmec_relevance_score": 56.0,
+      "ai_relevance_score": 4.0,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\Databases\\16 DHS Critical Infrastructure Sectors"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\16 DHS Critical Infrastructure Sectors\\Deep Research\\QSMECs alignment with each of the 16.docx",
+      "file_name": "QSMECs alignment with each of the 16.docx",
+      "qsmec_relevance_score": 56.0,
+      "ai_relevance_score": 4.0,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\Databases\\16 DHS Critical Infrastructure Sectors\\Deep Research"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\Scientific\\Scientific & Technical Facets.docx",
+      "file_name": "Scientific & Technical Facets.docx",
+      "qsmec_relevance_score": 48.0,
+      "ai_relevance_score": 6.5,
+      "quantum_relevance_score": 7.5,
+      "parent_folder": "g:\\My Drive\\Databases\\Scientific"
+    },
+    {
+      "file_path": "g:\\My Drive\\White Paper (Patent)\\NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+      "file_name": "NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+      "qsmec_relevance_score": 44.0,
+      "ai_relevance_score": 10.0,
+      "quantum_relevance_score": 7.5,
+      "parent_folder": "g:\\My Drive\\White Paper (Patent)"
+    },
+    {
+      "file_path": "g:\\My Drive\\White Paper (Patent)\\Behind NDA\\NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+      "file_name": "NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+      "qsmec_relevance_score": 44.0,
+      "ai_relevance_score": 10.0,
+      "quantum_relevance_score": 7.5,
+      "parent_folder": "g:\\My Drive\\White Paper (Patent)\\Behind NDA"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\Scientific\\Doctoral-level dissertation review.docx",
+      "file_name": "Doctoral-level dissertation review.docx",
+      "qsmec_relevance_score": 38.0,
+      "ai_relevance_score": 4.0,
+      "quantum_relevance_score": 1.5,
+      "parent_folder": "g:\\My Drive\\Databases\\Scientific"
+    },
+    {
+      "file_path": "g:\\My Drive\\White Paper (Patent)\\Behind NDA\\NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+      "file_name": "NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+      "qsmec_relevance_score": 36.0,
+      "ai_relevance_score": 8.5,
+      "quantum_relevance_score": 7.5,
+      "parent_folder": "g:\\My Drive\\White Paper (Patent)\\Behind NDA"
+    },
+    {
+      "file_path": "g:\\My Drive\\CommonTechnologies\\Comprehensive Folder with all Documents\\Combined_Patent_Technology_Stack_Overview.docx",
+      "file_name": "Combined_Patent_Technology_Stack_Overview.docx",
+      "qsmec_relevance_score": 34.0,
+      "ai_relevance_score": 1.5,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\CommonTechnologies\\Comprehensive Folder with all Documents"
+    },
+    {
+      "file_path": "g:\\My Drive\\CommonTechnologies\\CII NIKET Q-SMEC Sensor Taxonomy WP PROPRIETARY V8 Rev 5 Dely Rev 08302025.docx",
+      "file_name": "CII NIKET Q-SMEC Sensor Taxonomy WP PROPRIETARY V8 Rev 5 Dely Rev 08302025.docx",
+      "qsmec_relevance_score": 32.0,
+      "ai_relevance_score": 1.5,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\CommonTechnologies"
+    },
+    {
+      "file_path": "g:\\My Drive\\CommonTechnologies\\Comprehensive Folder with all Documents\\Patents\\CII NIKET Q-SMEC Sensor Taxonomy WP PROPRIETARY V8 Rev 5 Dely Rev 08302025.docx",
+      "file_name": "CII NIKET Q-SMEC Sensor Taxonomy WP PROPRIETARY V8 Rev 5 Dely Rev 08302025.docx",
+      "qsmec_relevance_score": 32.0,
+      "ai_relevance_score": 1.5,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\CommonTechnologies\\Comprehensive Folder with all Documents\\Patents"
+    },
+    {
+      "file_path": "g:\\My Drive\\White Paper (Patent)\\Behind NDA\\Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+      "file_name": "Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+      "qsmec_relevance_score": 32.0,
+      "ai_relevance_score": 1.5,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\White Paper (Patent)\\Behind NDA"
+    },
+    {
+      "file_path": "g:\\My Drive\\White Paper (Patent)\\Behind NDA\\POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+      "file_name": "POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+      "qsmec_relevance_score": 32.0,
+      "ai_relevance_score": 1.5,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\White Paper (Patent)\\Behind NDA"
+    },
+    {
+      "file_path": "g:\\My Drive\\White Paper (Patent)\\Behind NDA\\NIKET Q-SMEC Science Overview PROPRIETARY (V2).pdf",
+      "file_name": "NIKET Q-SMEC Science Overview PROPRIETARY (V2).pdf",
+      "qsmec_relevance_score": 32.0,
+      "ai_relevance_score": 10.0,
+      "quantum_relevance_score": 7.5,
+      "parent_folder": "g:\\My Drive\\White Paper (Patent)\\Behind NDA"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI Tools\\Intregratation NIKET- Golden Dome + Infrastructure Backbone.docx",
+      "file_name": "Intregratation NIKET- Golden Dome + Infrastructure Backbone.docx",
+      "qsmec_relevance_score": 32.0,
+      "ai_relevance_score": 4.5,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\Intregratation NIKET- Golden Dome + Infrastructure Backbone.docx",
+      "file_name": "Intregratation NIKET- Golden Dome + Infrastructure Backbone.docx",
+      "qsmec_relevance_score": 32.0,
+      "ai_relevance_score": 4.5,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\Scientific\\Frontier-Level Research.docx",
+      "file_name": "Frontier-Level Research.docx",
+      "qsmec_relevance_score": 30.0,
+      "ai_relevance_score": 1.0,
+      "quantum_relevance_score": 4.5,
+      "parent_folder": "g:\\My Drive\\Databases\\Scientific"
+    },
+    {
+      "file_path": "g:\\My Drive\\Databases\\Scientific\\Granular Scientific Analysis.docx",
+      "file_name": "Granular Scientific Analysis.docx",
+      "qsmec_relevance_score": 30.0,
+      "ai_relevance_score": 7.5,
+      "quantum_relevance_score": 4.5,
+      "parent_folder": "g:\\My Drive\\Databases\\Scientific"
+    },
+    {
+      "file_path": "g:\\My Drive\\White Paper (Patent)\\document_analysis_results.json",
+      "file_name": "document_analysis_results.json",
+      "qsmec_relevance_score": 28.0,
+      "ai_relevance_score": 2.0,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\White Paper (Patent)"
+    },
+    {
+      "file_path": "g:\\My Drive\\Pitch Decks\\Ppt-prompt-data\\(2a) DeepThink Analysis Report.docx",
+      "file_name": "(2a) DeepThink Analysis Report.docx",
+      "qsmec_relevance_score": 26.0,
+      "ai_relevance_score": 1.0,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\Pitch Decks\\Ppt-prompt-data"
+    },
+    {
+      "file_path": "g:\\My Drive\\White Paper (Patent)\\NON-Proprietary\\Q-SMEC_Commercialization_Directive_Updated.docx",
+      "file_name": "Q-SMEC_Commercialization_Directive_Updated.docx",
+      "qsmec_relevance_score": 26.0,
+      "ai_relevance_score": 12.5,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\White Paper (Patent)\\NON-Proprietary"
+    },
+    {
+      "file_path": "g:\\My Drive\\CommonTechnologies\\Untitled document.docx",
+      "file_name": "Untitled document.docx",
+      "qsmec_relevance_score": 18.0,
+      "ai_relevance_score": 2.5,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\CommonTechnologies"
+    },
+    {
+      "file_path": "g:\\My Drive\\White Paper (Patent)\\niket_knowledge_base.json",
+      "file_name": "niket_knowledge_base.json",
+      "qsmec_relevance_score": 18.0,
+      "ai_relevance_score": 1.0,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\White Paper (Patent)"
+    },
+    {
+      "file_path": "g:\\My Drive\\White Paper (Patent)\\NON-Proprietary\\Q-SMEC Technical White Paper NDA Safe.docx",
+      "file_name": "Q-SMEC Technical White Paper NDA Safe.docx",
+      "qsmec_relevance_score": 18.0,
+      "ai_relevance_score": 1.5,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\White Paper (Patent)\\NON-Proprietary"
+    },
+    {
+      "file_path": "g:\\My Drive\\White Paper (Patent)\\NON-Proprietary\\NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+      "file_name": "NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+      "qsmec_relevance_score": 18.0,
+      "ai_relevance_score": 1.5,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\White Paper (Patent)\\NON-Proprietary"
+    },
+    {
+      "file_path": "g:\\My Drive\\src\\orchestrators\\website\\main.py",
+      "file_name": "main.py",
+      "qsmec_relevance_score": 16.0,
+      "ai_relevance_score": 0.0,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\src\\orchestrators\\website"
+    },
+    {
+      "file_path": "g:\\My Drive\\src\\orchestrators\\databases\\main.py",
+      "file_name": "main.py",
+      "qsmec_relevance_score": 16.0,
+      "ai_relevance_score": 0.0,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\src\\orchestrators\\databases"
+    },
+    {
+      "file_path": "g:\\My Drive\\src\\dashboard\\main.py",
+      "file_name": "main.py",
+      "qsmec_relevance_score": 16.0,
+      "ai_relevance_score": 0.0,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\src\\dashboard"
+    },
+    {
+      "file_path": "g:\\My Drive\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Executive Licensing Read-Ahead.docx",
+      "file_name": "Q-SMEC Executive Licensing Read-Ahead.docx",
+      "qsmec_relevance_score": 16.0,
+      "ai_relevance_score": 1.5,
+      "quantum_relevance_score": 1.5,
+      "parent_folder": "g:\\My Drive\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case"
+    },
+    {
+      "file_path": "g:\\My Drive\\White Paper (Patent)\\NON-Proprietary\\Q-SMEC Technical White Paper NDA Safe.pdf",
+      "file_name": "Q-SMEC Technical White Paper NDA Safe.pdf",
+      "qsmec_relevance_score": 16.0,
+      "ai_relevance_score": 1.5,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\White Paper (Patent)\\NON-Proprietary"
+    },
+    {
+      "file_path": "g:\\My Drive\\src\\orchestrators\\clients\\main.py",
+      "file_name": "main.py",
+      "qsmec_relevance_score": 14.0,
+      "ai_relevance_score": 0.0,
+      "quantum_relevance_score": 0.0,
+      "parent_folder": "g:\\My Drive\\src\\orchestrators\\clients"
+    }
+  ],
+  "integration_opportunities": [
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "pytorch",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "pytorch",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "pytorch",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "pytorch",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "gpt",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "gpt",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "gpt",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "gpt",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "openai",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "openai",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "openai",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "openai",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "anthropic",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "anthropic",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "anthropic",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "anthropic",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "claude",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "claude",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "claude",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "claude",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "copilot",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "copilot",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "copilot",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+      "ai_framework": "copilot",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "gpt",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "gpt",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "gpt",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "gpt",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "openai",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "openai",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "openai",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "openai",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "anthropic",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "anthropic",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "anthropic",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "anthropic",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "claude",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "claude",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "claude",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "claude",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "AI_Tools_Database.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 75.0,
+      "quantum_relevance_score": 25.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "hamiltonian",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "pennylane",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "qiskit",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "qml",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "quantum machine learning",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "quantum simulation",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "qubit",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "vqe",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "hamiltonian",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "pennylane",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "qiskit",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "qml",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "quantum machine learning",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "quantum simulation",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "qubit",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "pytorch",
+      "quantum_capability": "vqe",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "keras",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "keras",
+      "quantum_capability": "hamiltonian",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "keras",
+      "quantum_capability": "pennylane",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "keras",
+      "quantum_capability": "qiskit",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "keras",
+      "quantum_capability": "qml",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "keras",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "keras",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "keras",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "keras",
+      "quantum_capability": "quantum machine learning",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "keras",
+      "quantum_capability": "quantum simulation",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "keras",
+      "quantum_capability": "qubit",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "keras",
+      "quantum_capability": "vqe",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "hamiltonian",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "pennylane",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "qiskit",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "qml",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "quantum algorithm",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "quantum circuit",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "quantum computing",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "quantum machine learning",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "quantum simulation",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "qubit",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "copilot",
+      "quantum_capability": "vqe",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation (2).xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "cirq",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation (2).xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "hamiltonian",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation (2).xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "pennylane",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    },
+    {
+      "file_name": "Quantum Chemistry + AI Tools Simulation (2).xlsx",
+      "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+      "ai_framework": "tensorflow",
+      "quantum_capability": "qiskit",
+      "ai_relevance_score": 40.5,
+      "quantum_relevance_score": 49.5,
+      "qsmec_relevance_score": 0.0
+    }
+  ],
+  "energy_sector": []
+}

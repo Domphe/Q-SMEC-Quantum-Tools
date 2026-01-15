@@ -1,0 +1,170 @@
+[
+  {
+    "tool": "Gaussian",
+    "url": "https://gaussian.com/ordering/",
+    "error": "HTTP 404 for https://gaussian.com/ordering/",
+    "ts": "2026-01-06T13:31:22.752219"
+  },
+  {
+    "tool": "CASTEP",
+    "url": "https://www.3ds.com/products/simulia/materials-studio/",
+    "error": "HTTP 404 for https://www.3ds.com/products/simulia/materials-studio/",
+    "ts": "2026-01-06T13:31:29.104474"
+  },
+  {
+    "tool": "CASTEP",
+    "url": "https://www.3ds.com/pricing",
+    "error": "HTTP 404 for https://www.3ds.com/pricing",
+    "ts": "2026-01-06T13:31:33.825476"
+  },
+  {
+    "tool": "FHI-aims (commercial)",
+    "url": "https://fhi-aims.org/pricing/",
+    "error": "HTTP 404 for https://fhi-aims.org/pricing/",
+    "ts": "2026-01-06T13:31:38.619190"
+  },
+  {
+    "tool": "FHI-aims (commercial)",
+    "url": "https://aimsclub.fhi-berlin.mpg.de/",
+    "error": "HTTPSConnectionPool(host='aimsclub.fhi-berlin.mpg.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='aimsclub.fhi-berlin.mpg.de', port=443) at 0x7d45070e39b0>, 'Connection to aimsclub.fhi-berlin.mpg.de timed out. (connect timeout=20)'))",
+    "ts": "2026-01-06T13:32:41.738162"
+  },
+  {
+    "tool": "Materials Studio",
+    "url": "https://www.3ds.com/products/simulia/materials-studio/",
+    "error": "HTTP 404 for https://www.3ds.com/products/simulia/materials-studio/",
+    "ts": "2026-01-06T13:32:47.144059"
+  },
+  {
+    "tool": "Q-Chem",
+    "url": "https://www.q-chem.com/pricing/",
+    "error": "HTTP 404 for https://www.q-chem.com/pricing/",
+    "ts": "2026-01-06T13:32:51.380290"
+  },
+  {
+    "tool": "Q-Chem",
+    "url": "https://www.q-chem.com/prices.php",
+    "error": "HTTP 404 for https://www.q-chem.com/prices.php",
+    "ts": "2026-01-06T13:32:54.974802"
+  },
+  {
+    "tool": "TeraChem",
+    "url": "https://www.petachem.com/terachem.html",
+    "error": "HTTPSConnectionPool(host='www.petachem.com', port=443): Max retries exceeded with url: /terachem.html (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.petachem.com'. (_ssl.c:1000)\")))",
+    "ts": "2026-01-06T13:32:59.466719"
+  },
+  {
+    "tool": "Spearmint (commercial support)",
+    "url": "https://www.sigopt.com/",
+    "error": "HTTPSConnectionPool(host='www.sigopt.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.sigopt.com', port=443): Failed to resolve 'www.sigopt.com' ([Errno -2] Name or service not known)\"))",
+    "ts": "2026-01-06T13:33:02.595434"
+  },
+  {
+    "tool": "PennyLane Enterprise",
+    "url": "https://pennylane.ai/enterprise/",
+    "error": "HTTP 404 for https://pennylane.ai/enterprise/",
+    "ts": "2026-01-06T13:33:06.643193"
+  },
+  {
+    "tool": "ANSYS (Mech/Fluent/AM)",
+    "url": "https://www.ansys.com/",
+    "error": "HTTPSConnectionPool(host='www.ansys.com', port=443): Read timed out. (read timeout=20)",
+    "ts": "2026-01-06T13:34:20.937181"
+  },
+  {
+    "tool": "COMSOL Multiphysics",
+    "url": "https://www.comsol.com/pricing",
+    "error": "HTTP 404 for https://www.comsol.com/pricing",
+    "ts": "2026-01-06T13:34:25.559275"
+  },
+  {
+    "tool": "LS-DYNA",
+    "url": "https://www.ansys.com/products/structures/ansys-ls-dyna",
+    "error": "HTTPSConnectionPool(host='www.ansys.com', port=443): Read timed out. (read timeout=20)",
+    "ts": "2026-01-06T13:35:30.931636"
+  },
+  {
+    "tool": "MSC Nastran/Patran",
+    "url": "https://www.hexagon.com/products/msc-nastran",
+    "error": "HTTP 403 for https://www.hexagon.com/products/msc-nastran",
+    "ts": "2026-01-06T13:35:34.796362"
+  },
+  {
+    "tool": "STAR-CCM+",
+    "url": "https://plm.sw.siemens.com/en-US/simcenter/fluids/star-ccm/",
+    "error": "HTTP 404 for https://plm.sw.siemens.com/en-US/simcenter/fluids/star-ccm/",
+    "ts": "2026-01-06T13:35:38.627565"
+  },
+  {
+    "tool": "Simcenter 3D",
+    "url": "https://plm.sw.siemens.com/en-US/simcenter/3d/",
+    "error": "HTTP 404 for https://plm.sw.siemens.com/en-US/simcenter/3d/",
+    "ts": "2026-01-06T13:35:42.357862"
+  },
+  {
+    "tool": "Altair HyperWorks",
+    "url": "https://www.altair.com/pricing",
+    "error": "HTTP 404 for https://www.altair.com/pricing",
+    "ts": "2026-01-06T13:35:46.856339"
+  },
+  {
+    "tool": "Adams",
+    "url": "https://www.hexagon.com/products/adams",
+    "error": "HTTP 403 for https://www.hexagon.com/products/adams",
+    "ts": "2026-01-06T13:35:50.761825"
+  },
+  {
+    "tool": "Digimat",
+    "url": "https://hexagon.com/products/digimat",
+    "error": "HTTP 403 for https://hexagon.com/products/digimat",
+    "ts": "2026-01-06T13:35:55.673345"
+  },
+  {
+    "tool": "Moldflow",
+    "url": "https://www.autodesk.com/products/moldflow/subscribe",
+    "error": "HTTPSConnectionPool(host='www.autodesk.com', port=443): Read timed out. (read timeout=20)",
+    "ts": "2026-01-06T13:36:59.152802"
+  },
+  {
+    "tool": "SolidWorks Simulation",
+    "url": "https://www.solidworks.com/product/solidworks-simulation",
+    "error": "HTTPSConnectionPool(host='www.solidworks.com', port=443): Read timed out. (read timeout=20)",
+    "ts": "2026-01-06T13:38:02.625647"
+  },
+  {
+    "tool": "Simulink + Simscape",
+    "url": "https://www.mathworks.com/pricing-licensing.html",
+    "error": "HTTP 403 for https://www.mathworks.com/pricing-licensing.html",
+    "ts": "2026-01-06T13:38:06.238816"
+  },
+  {
+    "tool": "LabVIEW + NI toolkits",
+    "url": "https://www.ni.com/en-us/shop/labview/pricing.html",
+    "error": "HTTP 404 for https://www.ni.com/en-us/shop/labview/pricing.html",
+    "ts": "2026-01-06T13:38:10.545354"
+  },
+  {
+    "tool": "TwinBuilder (Ansys)",
+    "url": "https://www.ansys.com/products/systems/ansys-twin-builder",
+    "error": "HTTPSConnectionPool(host='www.ansys.com', port=443): Read timed out. (read timeout=20)",
+    "ts": "2026-01-06T13:39:14.010964"
+  },
+  {
+    "tool": "Rocky DEM / EDEM",
+    "url": "https://rocky.esss.co/",
+    "error": "HTTPSConnectionPool(host='rocky.esss.co', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='rocky.esss.co', port=443): Failed to resolve 'rocky.esss.co' ([Errno -2] Name or service not known)\"))",
+    "ts": "2026-01-06T13:39:18.686236"
+  },
+  {
+    "tool": "Lumerical (Ansys)",
+    "url": "https://www.ansys.com/products/optics/lumerical-photonics",
+    "error": "HTTPSConnectionPool(host='www.ansys.com', port=443): Read timed out. (read timeout=20)",
+    "ts": "2026-01-06T13:40:23.150726"
+  },
+  {
+    "tool": "Elmer FEM",
+    "url": "https://www.elmerfem.org/",
+    "error": "HTTP 403 for https://www.elmerfem.org/",
+    "ts": "2026-01-06T13:40:29.298277"
+  }
+]

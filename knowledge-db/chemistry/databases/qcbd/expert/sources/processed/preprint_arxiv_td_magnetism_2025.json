@@ -1,0 +1,23 @@
+{
+  "source_id": "preprint_arxiv_td_magnetism_2025",
+  "title": "Time-Dependent Magnetism in Correlated 2D Materials",
+  "category": "preprints",
+  "fetched_at": "2025-12-03T11:37:36.385002",
+  "hash": "8daf68f22ef0789f2ea1a18ec15ab07d59621802b358419a607fc8aa106ff3b5",
+  "facts": [],
+  "equations": [],
+  "citations": [
+    {
+      "source_id": "preprint_arxiv_td_magnetism_2025",
+      "key": "1f39b103b9",
+      "title": "Time-Dependent Magnetism in Correlated 2D Materials",
+      "year": 2025
+    }
+  ],
+  "quality": {
+    "confidence_score": 10,
+    "category": "preprints",
+    "fact_count": 0
+  },
+  "warnings": []
+}

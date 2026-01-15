@@ -1,0 +1,2 @@
+{"id":"s22-01","benchmark_set":"S22","system_name":"Water dimer","molecular_formula":"H2O2","reference_energy_kcal":-5.0,"level_of_theory":"CCSD(T)/CBS","basis_set":"CBS","property_type":"binding_energy","doi":"10.1063/1.2204403","tags":["H-bond"]}
+{"id":"s22-02","benchmark_set":"S22","system_name":"Benzene dimer","molecular_formula":"C12H12","reference_energy_kcal":-2.7,"level_of_theory":"CCSD(T)/CBS","basis_set":"CBS","property_type":"binding_energy","doi":"10.1063/1.2204403","tags":["pi-stacking"]}

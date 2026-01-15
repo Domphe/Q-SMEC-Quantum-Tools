@@ -1,0 +1,188 @@
+{
+  "generated": "20251202_185030",
+  "summaries": [
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\document_analysis_results.json",
+      "ext": ".json",
+      "summary": {
+        "line_count": 8635,
+        "sample_head": [
+          "{",
+          "\"directory\": \"G:\\\\My Drive\\\\White Paper (Patent)\",",
+          "\"analysis_date\": \"2025-11-04T13:08:43.257766\",",
+          "\"files\": {",
+          "\"Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases.docx\": {",
+          "\"file_name\": \"Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases.docx\",",
+          "\"file_path\": \"G:\\\\My Drive\\\\White Paper (Patent)\\\\Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases.docx\",",
+          "\"file_size\": 10176,",
+          "\"modified_date\": \"2025-09-25T15:23:50\",",
+          "\"extension\": \".docx\",",
+          "\"analysis_date\": \"2025-11-04T13:08:43.267959\",",
+          "\"content\": {",
+          "\"paragraphs\": [",
+          "{",
+          "\"text\": \"Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases\",",
+          "\"style\": \"normal\"",
+          "},",
+          "{",
+          "\"text\": \"Q-SMEC Technology Overview Q-SMEC (Quantum Superconducting Magnetic Energy Containment) is a patented platform of sensor/storage material architectures leveraging quantum physics, AI-enhanced DOE modeling, and thin-film/3D-printed fabrication. Each instantiation is a unique multi-layer configuration of up to 22 quantum-optimized materials (10 disclosed; 12 confidential), enabling:\",",
+          "\"style\": \"normal\"",
+          "},",
+          "{",
+          "\"text\": \"Ultra-high bondon density (quantum bond network)\",",
+          "\"style\": \"normal\"",
+          "},"
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "Nb",
+          "THz",
+          "Ti",
+          "battery",
+          "defect",
+          "graphene",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\niket_knowledge_base.json",
+      "ext": ".json",
+      "summary": {
+        "line_count": 6180,
+        "sample_head": [
+          "{",
+          "\"extraction_date\": \"2025-11-04T13:10:35.067106\",",
+          "\"source_documents\": [",
+          "{",
+          "\"filename\": \"Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases.docx\",",
+          "\"file_size\": 10176,",
+          "\"modified_date\": \"2025-09-25T15:23:50\",",
+          "\"word_count\": 516",
+          "},",
+          "{",
+          "\"filename\": \"Q-SMEC_Commercialization_Directive_Updated.docx\",",
+          "\"file_size\": 10841,",
+          "\"modified_date\": \"2025-09-25T15:23:50\",",
+          "\"word_count\": 974",
+          "},",
+          "{",
+          "\"filename\": \"Scope of the Q-SMEC Patent_White Paper.docx\",",
+          "\"file_size\": 782171,",
+          "\"modified_date\": \"2025-09-25T15:24:10\",",
+          "\"word_count\": 485",
+          "},",
+          "{",
+          "\"filename\": \"Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx\",",
+          "\"file_size\": 1389337,",
+          "\"modified_date\": \"2025-10-14T10:10:36\","
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "THz",
+          "Ti",
+          "battery",
+          "graphene",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\knowledge_summary_report.txt",
+      "ext": ".txt",
+      "summary": {
+        "line_count": 114,
+        "sample_head": [
+          "\ud83c\udfaf NIKET KNOWLEDGE BASE SUMMARY",
+          "============================================================",
+          "Generated: 2025-11-04T13:10:35.067106",
+          "Source Documents: 12",
+          "\ud83d\udd27 TECHNICAL SPECIFICATIONS",
+          "----------------------------------------",
+          "Year: 28 data points",
+          "\u2022 2026 None - instantiation project accepted every 2 months (H1 2026) Deep Analysis & Strategic Feedback Strengths...",
+          "\u2022 2025 None - r Materials Adely@CII-International.com September 2025 TABLE OF CONTENTS: Background",
+          "\u2022 2008 None - ectors through TTT Inc Holding Group between 1985-2008, US government contracting at the Raytheon Ad...",
+          "Trl Level: 35 data points",
+          "\u2022 3-4 None - DOE optimization (AI/HPC/Quantum) \u2013 $110K Task 3: TRL 3-4 prototype systems engineering \u2013 $190K Task...",
+          "\u2022 5-6 None - 3-4 prototype systems engineering \u2013 $190K Task 4: TRL 5-6 Lab integration \u2013 $110K Task 5: TRL 7 demo...",
+          "\u2022 7 None - K Task 4: TRL 5-6 Lab integration \u2013 $110K Task 5: TRL 7 demo/LRIP manufacturing \u2013 $130K Task 6: TRL ...",
+          "Signal Improvement: 5 data points",
+          "\u2022 120 dB - r/Emitter Parameters: NEP 0.01\u20131 pW/Hz^0.5, SNR > 120dB, FOM > 2500, Sub-150nm resolution Applicable...",
+          "\u2022 140 dB - /sqr Hz Highest Signal to  Noise Ratio (SNR): 100-140 dB Peak Q-Factor: Greater than 1000 Figure of ...",
+          "\u2022 110 dB - Range: 0.1 to 10 THz Dynamic Range : Higher than 110 dB Response Time: Less than 150 picoseconds Sub...",
+          "Time Period: 18 data points",
+          "\u2022 1 year - gineering process totaling $770K, 7,700 Hrs over ~1 year: Task 1: Quantum modeling (DFT, CWF) \u2013 $100...",
+          "\u2022 2 months - acity: 1 new instantiation project accepted every 2 months (H1 2026) Deep Analysis & Strategic Feedb...",
+          "\u2022 2 months - Team Bandwidth: Limiting new projects to 1 every 2 months caps revenue potential and may deter large...",
+          "Temperature: 160 data points",
+          "\u2022 12 c - to 22 quantum-optimized materials (10 disclosed; 12 confidential), enabling: Ultra-high bondon densi...",
+          "\u2022 770 K - Model 6-Task staged engineering process totaling $770K, 7,700 Hrs over ~1 year: Task 1: Quantum mode..."
+        ],
+        "keywords": [
+          "DFT",
+          "DOE",
+          "Ge",
+          "THz",
+          "Ti",
+          "superconduct"
+        ]
+      }
+    },
+    {
+      "path": "G:\\\\My Drive\\\\White Paper (Patent)\\QCBD_Benchmark_Data_Extraction.md",
+      "ext": ".md",
+      "summary": {
+        "line_count": 445,
+        "sample_head": [
+          "# QCBD Benchmark Dataset Extraction from White Paper Directory",
+          "## Quantum Chemistry & Materials Modeling Data Analysis",
+          "**Date**: December 1, 2025",
+          "**Source Directory**: G:\\My Drive\\White Paper (Patent)",
+          "**Purpose**: Extract data for QCBD quantum chemistry benchmark database",
+          "---",
+          "## EXECUTIVE SUMMARY",
+          "The White Paper directory contains extensive materials science and quantum physics documentation for Q-SMEC (Quantum Superconducting Magnetic Energy Containment) technology. While the documents focus on sensor applications and market analysis rather than pure computational chemistry benchmarks, several key areas of quantum materials data were identified that could contribute to QCBD benchmark datasets.",
+          "---",
+          "## 1. COMPUTATIONAL METHODS IDENTIFIED",
+          "### DFT (Density Functional Theory)",
+          "**Source**: Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx - NRE Task 1",
+          "- **Method**: DFT (Density Function Theory)",
+          "- **Purpose**: Quantum/Condensed Matter Physics/Quantum Orbital Chemistry/Electrodynamics Model",
+          "- **Application**: Superconducting Magnetic Energy Containment (SMEC) material configuration optimization",
+          "- **Duration**: 8 Calendar Weeks per use case",
+          "- **Cost**: 1000 Engineering Hours / $100K",
+          "### Correlation Wave Functions (CWF)",
+          "**Source**: Same as above",
+          "- **Method**: CWF (Correlation Wave Functions)",
+          "- **Purpose**: Optimize aggregate sensor behavior/performance",
+          "- **Combined with**: DFT in proprietary Q-SMEC models",
+          "### Computational Software Tools Mentioned",
+          "**Source**: NRE Task 1 description",
+          "Tools used for quantum modeling include:"
+        ],
+        "keywords": [
+          "AlN",
+          "DFT",
+          "DOE",
+          "GaN",
+          "Ge",
+          "HSE06",
+          "Nb",
+          "THz",
+          "Ti",
+          "battery",
+          "defect",
+          "graphene",
+          "superconduct"
+        ]
+      }
+    }
+  ]
+}

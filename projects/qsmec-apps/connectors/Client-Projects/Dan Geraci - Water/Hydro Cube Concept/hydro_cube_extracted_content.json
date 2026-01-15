@@ -1,0 +1,2079 @@
+{
+  "metadata": {
+    "title": "Unknown",
+    "author": "Unknown",
+    "creator": "Unknown",
+    "creation_date": "Unknown",
+    "modification_date": "Unknown",
+    "total_pages": 7
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "The Hydro Cube\nDual-Cycle TEC Atmospheric Water Generator & Distillation\nSystem\n1. Executive Summary\nThe Hydro Cube is a compact, field-portable dual-cycle water system: it condenses ambient\nhumidity via a 33-fin array cooled by a multi-TEC cold plate, while its hot side is realized as an\nimmersed heatsink in liquid. That liquid bath serves a dual purpose—waste-heat rejection and\nboiling/distillation of condensate or contaminated liquids. The unit runs exclusively on\nthermoelectric energy (no external heaters), with user-selectable TEC modules to trade power vs\noutput. Prototype design targets ~0.28–0.33 L/h at 70 % RH under ideal conditions, with\ndistillation up to ~0.25 L/h possible when boiling. This concept bridges atmospheric water\ngeneration and small-scale distillation in one compact, rugged package.\nUnlike pure AWG units that waste heat, the Hydro Cube stands apart by converting cold and hot\nsides into productive functions. Compared to other military/AWG programs (e.g., DARPA\nAWE, GE’s AIR2WATER, SOURCE Hydropanels), the Hydro Cube’s size, dual use, and\nmodular power control give tactical flexibility and competitive performance in the portable class.\n2. System Design & Architecture\n2.1 Geometry & Deployment\n• Stowed configuration: 5″ × 5″ × 5″ cube\n• Deployed configuration: 5″ × 5″ × 11″ column\n• The top shell houses an optional use 44 CFM updraft fan that draws air from bottom\nfiltered vents, pulls it through the fin array upward, and exhausts via a chimney.\n• The fin pack footprint is 4″ depth × 3.25″ width (usable width ≈ 76.5 mm after side\nrails). 33 fins (0.8–1.0 mm thick) with 1.5 mm gaps give a dense, high-area condensing\ncore.\n2.2 Cold Side & Condensation\n• The cold plate is a 4″×4″×¼″ Al-6061 spreader bonded to TEC modules (TEC1-12706).\n• The fin stack (“33 fins × 6″ tall”) is mounted directly to the cold spreader. Each fin (both\nfaces) yields 4″×6″ → 48 in² raw.\n• Effective wet condensing area (with hydrophilic finish & droplet shedding) is estimated\nat ~0.55–0.60 m².",
+      "lines": [
+        {
+          "line_number": 1,
+          "anchor": "fileciteturn9file8L1",
+          "content": "The Hydro Cube"
+        },
+        {
+          "line_number": 2,
+          "anchor": "fileciteturn9file8L2",
+          "content": "Dual-Cycle TEC Atmospheric Water Generator & Distillation"
+        },
+        {
+          "line_number": 3,
+          "anchor": "fileciteturn9file8L3",
+          "content": "System"
+        },
+        {
+          "line_number": 4,
+          "anchor": "fileciteturn9file8L4",
+          "content": "1. Executive Summary"
+        },
+        {
+          "line_number": 5,
+          "anchor": "fileciteturn9file8L5",
+          "content": "The Hydro Cube is a compact, field-portable dual-cycle water system: it condenses ambient"
+        },
+        {
+          "line_number": 6,
+          "anchor": "fileciteturn9file8L6",
+          "content": "humidity via a 33-fin array cooled by a multi-TEC cold plate, while its hot side is realized as an"
+        },
+        {
+          "line_number": 7,
+          "anchor": "fileciteturn9file8L7",
+          "content": "immersed heatsink in liquid. That liquid bath serves a dual purpose—waste-heat rejection and"
+        },
+        {
+          "line_number": 8,
+          "anchor": "fileciteturn9file8L8",
+          "content": "boiling/distillation of condensate or contaminated liquids. The unit runs exclusively on"
+        },
+        {
+          "line_number": 9,
+          "anchor": "fileciteturn9file8L9",
+          "content": "thermoelectric energy (no external heaters), with user-selectable TEC modules to trade power vs"
+        },
+        {
+          "line_number": 10,
+          "anchor": "fileciteturn9file8L10",
+          "content": "output. Prototype design targets ~0.28–0.33 L/h at 70 % RH under ideal conditions, with"
+        },
+        {
+          "line_number": 11,
+          "anchor": "fileciteturn9file8L11",
+          "content": "distillation up to ~0.25 L/h possible when boiling. This concept bridges atmospheric water"
+        },
+        {
+          "line_number": 12,
+          "anchor": "fileciteturn9file8L12",
+          "content": "generation and small-scale distillation in one compact, rugged package."
+        },
+        {
+          "line_number": 13,
+          "anchor": "fileciteturn9file8L13",
+          "content": "Unlike pure AWG units that waste heat, the Hydro Cube stands apart by converting cold and hot"
+        },
+        {
+          "line_number": 14,
+          "anchor": "fileciteturn9file8L14",
+          "content": "sides into productive functions. Compared to other military/AWG programs (e.g., DARPA"
+        },
+        {
+          "line_number": 15,
+          "anchor": "fileciteturn9file8L15",
+          "content": "AWE, GE’s AIR2WATER, SOURCE Hydropanels), the Hydro Cube’s size, dual use, and"
+        },
+        {
+          "line_number": 16,
+          "anchor": "fileciteturn9file8L16",
+          "content": "modular power control give tactical flexibility and competitive performance in the portable class."
+        },
+        {
+          "line_number": 17,
+          "anchor": "fileciteturn9file8L17",
+          "content": "2. System Design & Architecture"
+        },
+        {
+          "line_number": 18,
+          "anchor": "fileciteturn9file8L18",
+          "content": "2.1 Geometry & Deployment"
+        },
+        {
+          "line_number": 19,
+          "anchor": "fileciteturn9file8L19",
+          "content": "• Stowed configuration: 5″ × 5″ × 5″ cube"
+        },
+        {
+          "line_number": 20,
+          "anchor": "fileciteturn9file8L20",
+          "content": "• Deployed configuration: 5″ × 5″ × 11″ column"
+        },
+        {
+          "line_number": 21,
+          "anchor": "fileciteturn9file8L21",
+          "content": "• The top shell houses an optional use 44 CFM updraft fan that draws air from bottom"
+        },
+        {
+          "line_number": 22,
+          "anchor": "fileciteturn9file8L22",
+          "content": "filtered vents, pulls it through the fin array upward, and exhausts via a chimney."
+        },
+        {
+          "line_number": 23,
+          "anchor": "fileciteturn9file8L23",
+          "content": "• The fin pack footprint is 4″ depth × 3.25″ width (usable width ≈ 76.5 mm after side"
+        },
+        {
+          "line_number": 24,
+          "anchor": "fileciteturn9file8L24",
+          "content": "rails). 33 fins (0.8–1.0 mm thick) with 1.5 mm gaps give a dense, high-area condensing"
+        },
+        {
+          "line_number": 25,
+          "anchor": "fileciteturn9file8L25",
+          "content": "core."
+        },
+        {
+          "line_number": 26,
+          "anchor": "fileciteturn9file8L26",
+          "content": "2.2 Cold Side & Condensation"
+        },
+        {
+          "line_number": 27,
+          "anchor": "fileciteturn9file8L27",
+          "content": "• The cold plate is a 4″×4″×¼″ Al-6061 spreader bonded to TEC modules (TEC1-12706)."
+        },
+        {
+          "line_number": 28,
+          "anchor": "fileciteturn9file8L28",
+          "content": "• The fin stack (“33 fins × 6″ tall”) is mounted directly to the cold spreader. Each fin (both"
+        },
+        {
+          "line_number": 29,
+          "anchor": "fileciteturn9file8L29",
+          "content": "faces) yields 4″×6″ → 48 in² raw."
+        },
+        {
+          "line_number": 30,
+          "anchor": "fileciteturn9file8L30",
+          "content": "• Effective wet condensing area (with hydrophilic finish & droplet shedding) is estimated"
+        },
+        {
+          "line_number": 31,
+          "anchor": "fileciteturn9file8L31",
+          "content": "at ~0.55–0.60 m²."
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "text": "• The optional top fan ensures good airflow renewal over each channel (~44 CFM total →\n~1.3–1.4 CFM per channel), sustaining condensation flux.\n2.3 Hot Side & Immersed Heatsink / Distillation Bath\n• Instead of a passive water jacket, the hot side is realized via a finned heatsink immersed\nin a small, sealed liquid reservoir (e.g., distilled water or condensate).\n• The hot-side fins or pins are submerged in liquid; as the TEC pumps heat into the sink, it\ncan drive local boiling at the interface, turning that same liquid into steam.\n• That steam is directed into a condensation path (over the cold fin array) to produce\ndistilled output, or condensed back into potable water.\n• This design yields synergy: the liquid bath removes waste heat while simultaneously\nserving as the working mass to be boiled/distilled.\n• Control of TEC power is essential to avoid overheating; active derating above ~70 °C at\nthe interface is recommended.\n2.4 Power, Controls & Modularity\n• The cold plate is powered by up to 4 TEC1-12706 modules (12 V, ~60 W each).\n• The system includes a switch/control bank to enable 1, 2, 3, or 4 TECs, depending on\ndesired yield vs. runtime.\n• Control logic monitors hot-face NTC, liquid bath temperature, and ensures safe\noperation (derate, shutdown).\n• All operation is powered electrically—no external heater or fuel source is required;\nboiling is achieved from TEC waste heat.\n2.5 UV-C Sterilization Subsystem\nThe Hydro Cube integrates a UV-C mini-LED sterilization system designed to ensure complete\nmicrobial control within the unit’s air and water pathways. The UV-C system employs compact\n265–275 nm emitters with optical outputs of 20–30 mW per diode. These LEDs are strategically\nlocated in three primary zones:\n1. Condensate Fin Array: 6–8 LEDs mounted vertically along the fin pack’s sides, angled\ninward 30–40°, irradiate condensation surfaces, and prevent biofilm formation.\n2. Collection Basin / Distillation Cup: Two downward–facing LEDs are positioned within\nthe upper rim to sterilize the stored condensate or distilled water.\n3. Airflow / Fan Chamber – 2 LEDs embedded in the upper shell near the exhaust vent to\nprevent microbial buildup in air-handling components\nThe subsystem draws less than 0.75 W (at 5 V) and operates through a 12 V→5 V step-down\nconverter. The UV-C cycle may run intermittently (2 min on / 15 min off) or continuously,\ndepending on mission parameters. Reflective baffles and optical isolation ensure operator safety\nand high irradiance efficiency.",
+      "lines": [
+        {
+          "line_number": 32,
+          "anchor": "fileciteturn9file8L32",
+          "content": "• The optional top fan ensures good airflow renewal over each channel (~44 CFM total →"
+        },
+        {
+          "line_number": 33,
+          "anchor": "fileciteturn9file8L33",
+          "content": "~1.3–1.4 CFM per channel), sustaining condensation flux."
+        },
+        {
+          "line_number": 34,
+          "anchor": "fileciteturn9file8L34",
+          "content": "2.3 Hot Side & Immersed Heatsink / Distillation Bath"
+        },
+        {
+          "line_number": 35,
+          "anchor": "fileciteturn9file8L35",
+          "content": "• Instead of a passive water jacket, the hot side is realized via a finned heatsink immersed"
+        },
+        {
+          "line_number": 36,
+          "anchor": "fileciteturn9file8L36",
+          "content": "in a small, sealed liquid reservoir (e.g., distilled water or condensate)."
+        },
+        {
+          "line_number": 37,
+          "anchor": "fileciteturn9file8L37",
+          "content": "• The hot-side fins or pins are submerged in liquid; as the TEC pumps heat into the sink, it"
+        },
+        {
+          "line_number": 38,
+          "anchor": "fileciteturn9file8L38",
+          "content": "can drive local boiling at the interface, turning that same liquid into steam."
+        },
+        {
+          "line_number": 39,
+          "anchor": "fileciteturn9file8L39",
+          "content": "• That steam is directed into a condensation path (over the cold fin array) to produce"
+        },
+        {
+          "line_number": 40,
+          "anchor": "fileciteturn9file8L40",
+          "content": "distilled output, or condensed back into potable water."
+        },
+        {
+          "line_number": 41,
+          "anchor": "fileciteturn9file8L41",
+          "content": "• This design yields synergy: the liquid bath removes waste heat while simultaneously"
+        },
+        {
+          "line_number": 42,
+          "anchor": "fileciteturn9file8L42",
+          "content": "serving as the working mass to be boiled/distilled."
+        },
+        {
+          "line_number": 43,
+          "anchor": "fileciteturn9file8L43",
+          "content": "• Control of TEC power is essential to avoid overheating; active derating above ~70 °C at"
+        },
+        {
+          "line_number": 44,
+          "anchor": "fileciteturn9file8L44",
+          "content": "the interface is recommended."
+        },
+        {
+          "line_number": 45,
+          "anchor": "fileciteturn9file8L45",
+          "content": "2.4 Power, Controls & Modularity"
+        },
+        {
+          "line_number": 46,
+          "anchor": "fileciteturn9file8L46",
+          "content": "• The cold plate is powered by up to 4 TEC1-12706 modules (12 V, ~60 W each)."
+        },
+        {
+          "line_number": 47,
+          "anchor": "fileciteturn9file8L47",
+          "content": "• The system includes a switch/control bank to enable 1, 2, 3, or 4 TECs, depending on"
+        },
+        {
+          "line_number": 48,
+          "anchor": "fileciteturn9file8L48",
+          "content": "desired yield vs. runtime."
+        },
+        {
+          "line_number": 49,
+          "anchor": "fileciteturn9file8L49",
+          "content": "• Control logic monitors hot-face NTC, liquid bath temperature, and ensures safe"
+        },
+        {
+          "line_number": 50,
+          "anchor": "fileciteturn9file8L50",
+          "content": "operation (derate, shutdown)."
+        },
+        {
+          "line_number": 51,
+          "anchor": "fileciteturn9file8L51",
+          "content": "• All operation is powered electrically—no external heater or fuel source is required;"
+        },
+        {
+          "line_number": 52,
+          "anchor": "fileciteturn9file8L52",
+          "content": "boiling is achieved from TEC waste heat."
+        },
+        {
+          "line_number": 53,
+          "anchor": "fileciteturn9file8L53",
+          "content": "2.5 UV-C Sterilization Subsystem"
+        },
+        {
+          "line_number": 54,
+          "anchor": "fileciteturn9file8L54",
+          "content": "The Hydro Cube integrates a UV-C mini-LED sterilization system designed to ensure complete"
+        },
+        {
+          "line_number": 55,
+          "anchor": "fileciteturn9file8L55",
+          "content": "microbial control within the unit’s air and water pathways. The UV-C system employs compact"
+        },
+        {
+          "line_number": 56,
+          "anchor": "fileciteturn9file8L56",
+          "content": "265–275 nm emitters with optical outputs of 20–30 mW per diode. These LEDs are strategically"
+        },
+        {
+          "line_number": 57,
+          "anchor": "fileciteturn9file8L57",
+          "content": "located in three primary zones:"
+        },
+        {
+          "line_number": 58,
+          "anchor": "fileciteturn9file8L58",
+          "content": "1. Condensate Fin Array: 6–8 LEDs mounted vertically along the fin pack’s sides, angled"
+        },
+        {
+          "line_number": 59,
+          "anchor": "fileciteturn9file8L59",
+          "content": "inward 30–40°, irradiate condensation surfaces, and prevent biofilm formation."
+        },
+        {
+          "line_number": 60,
+          "anchor": "fileciteturn9file8L60",
+          "content": "2. Collection Basin / Distillation Cup: Two downward–facing LEDs are positioned within"
+        },
+        {
+          "line_number": 61,
+          "anchor": "fileciteturn9file8L61",
+          "content": "the upper rim to sterilize the stored condensate or distilled water."
+        },
+        {
+          "line_number": 62,
+          "anchor": "fileciteturn9file8L62",
+          "content": "3. Airflow / Fan Chamber – 2 LEDs embedded in the upper shell near the exhaust vent to"
+        },
+        {
+          "line_number": 63,
+          "anchor": "fileciteturn9file8L63",
+          "content": "prevent microbial buildup in air-handling components"
+        },
+        {
+          "line_number": 64,
+          "anchor": "fileciteturn9file8L64",
+          "content": "The subsystem draws less than 0.75 W (at 5 V) and operates through a 12 V→5 V step-down"
+        },
+        {
+          "line_number": 65,
+          "anchor": "fileciteturn9file8L65",
+          "content": "converter. The UV-C cycle may run intermittently (2 min on / 15 min off) or continuously,"
+        },
+        {
+          "line_number": 66,
+          "anchor": "fileciteturn9file8L66",
+          "content": "depending on mission parameters. Reflective baffles and optical isolation ensure operator safety"
+        },
+        {
+          "line_number": 67,
+          "anchor": "fileciteturn9file8L67",
+          "content": "and high irradiance efficiency."
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "text": "Performance Gains:\n• Delivers sterile water (< 10 CFU/mL).\n• Reduces fin biofouling frequency by > 75%.\n• Extends water storage life from 24 h to 72 h+.\n• Adds < 3 % power draw / < 15 g mass.\n3. Performance Estimates\nThese are target estimates suitable for concept-level justification. Real performance will depend\non fabrication tolerances, surface finishes, and test conditions.\n3.1 Atmospheric Condensation Mode (Clean Water Output)\nAssume ambient 30 °C, sealed shroud, 44 CFM, 33 fins × 1.5 mm spacing, liquid-cooled hot\nsink (immersed).\nRelative Humidity L/h, 4 TECs L/day, 4 TECs L/h, 3 TECs L/h, 2 TECs\n60 % 0.20 – 0.24 4.8 – 5.8 0.15 – 0.18 0.10 – 0.13\n70 % 0.28 – 0.33 6.7 – 8.0 0.21 – 0.25 0.14 – 0.18\n80 % 0.34 – 0.40 8.2 – 9.6 0.26 – 0.32 0.18 – 0.24\n90 % 0.38 – 0.45 9.1 – 10.8 0.30 – 0.35 0.22 – 0.28\n• These yields reflect the additional condensing area and high airflow renewal.\n• Gains beyond ~85–90% will flatten as TEC heat-lift capacity becomes the limiting factor.\n3.2 Distillation / Boiling Mode (Dirty Water Processing)\n• The immersed heatsink hot side can reach boiling in local zones if TECs supply ~300–\n360+ W of heat.\n• With 4 TECs, Qh ≈ Qc + Pin ≈ 350–420 W, leaving enough latent energy to support\n~0.20–0.25 L/h of distillation from contaminated water (contingent on HX design and\nminimal thermal losses).\n• With 3 TECs, expect ~0.15–0.18 L/h; with 2 TECs, ~0.10–0.12 L/h.\n• In hybrid duty cycles, the system may alternate between condensing and distillation\nphases to maintain temperatures and yield.",
+      "lines": [
+        {
+          "line_number": 68,
+          "anchor": "fileciteturn9file8L68",
+          "content": "Performance Gains:"
+        },
+        {
+          "line_number": 69,
+          "anchor": "fileciteturn9file8L69",
+          "content": "• Delivers sterile water (< 10 CFU/mL)."
+        },
+        {
+          "line_number": 70,
+          "anchor": "fileciteturn9file8L70",
+          "content": "• Reduces fin biofouling frequency by > 75%."
+        },
+        {
+          "line_number": 71,
+          "anchor": "fileciteturn9file8L71",
+          "content": "• Extends water storage life from 24 h to 72 h+."
+        },
+        {
+          "line_number": 72,
+          "anchor": "fileciteturn9file8L72",
+          "content": "• Adds < 3 % power draw / < 15 g mass."
+        },
+        {
+          "line_number": 73,
+          "anchor": "fileciteturn9file8L73",
+          "content": "3. Performance Estimates"
+        },
+        {
+          "line_number": 74,
+          "anchor": "fileciteturn9file8L74",
+          "content": "These are target estimates suitable for concept-level justification. Real performance will depend"
+        },
+        {
+          "line_number": 75,
+          "anchor": "fileciteturn9file8L75",
+          "content": "on fabrication tolerances, surface finishes, and test conditions."
+        },
+        {
+          "line_number": 76,
+          "anchor": "fileciteturn9file8L76",
+          "content": "3.1 Atmospheric Condensation Mode (Clean Water Output)"
+        },
+        {
+          "line_number": 77,
+          "anchor": "fileciteturn9file8L77",
+          "content": "Assume ambient 30 °C, sealed shroud, 44 CFM, 33 fins × 1.5 mm spacing, liquid-cooled hot"
+        },
+        {
+          "line_number": 78,
+          "anchor": "fileciteturn9file8L78",
+          "content": "sink (immersed)."
+        },
+        {
+          "line_number": 79,
+          "anchor": "fileciteturn9file8L79",
+          "content": "Relative Humidity L/h, 4 TECs L/day, 4 TECs L/h, 3 TECs L/h, 2 TECs"
+        },
+        {
+          "line_number": 80,
+          "anchor": "fileciteturn9file8L80",
+          "content": "60 % 0.20 – 0.24 4.8 – 5.8 0.15 – 0.18 0.10 – 0.13"
+        },
+        {
+          "line_number": 81,
+          "anchor": "fileciteturn9file8L81",
+          "content": "70 % 0.28 – 0.33 6.7 – 8.0 0.21 – 0.25 0.14 – 0.18"
+        },
+        {
+          "line_number": 82,
+          "anchor": "fileciteturn9file8L82",
+          "content": "80 % 0.34 – 0.40 8.2 – 9.6 0.26 – 0.32 0.18 – 0.24"
+        },
+        {
+          "line_number": 83,
+          "anchor": "fileciteturn9file8L83",
+          "content": "90 % 0.38 – 0.45 9.1 – 10.8 0.30 – 0.35 0.22 – 0.28"
+        },
+        {
+          "line_number": 84,
+          "anchor": "fileciteturn9file8L84",
+          "content": "• These yields reflect the additional condensing area and high airflow renewal."
+        },
+        {
+          "line_number": 85,
+          "anchor": "fileciteturn9file8L85",
+          "content": "• Gains beyond ~85–90% will flatten as TEC heat-lift capacity becomes the limiting factor."
+        },
+        {
+          "line_number": 86,
+          "anchor": "fileciteturn9file8L86",
+          "content": "3.2 Distillation / Boiling Mode (Dirty Water Processing)"
+        },
+        {
+          "line_number": 87,
+          "anchor": "fileciteturn9file8L87",
+          "content": "• The immersed heatsink hot side can reach boiling in local zones if TECs supply ~300–"
+        },
+        {
+          "line_number": 88,
+          "anchor": "fileciteturn9file8L88",
+          "content": "360+ W of heat."
+        },
+        {
+          "line_number": 89,
+          "anchor": "fileciteturn9file8L89",
+          "content": "• With 4 TECs, Qh ≈ Qc + Pin ≈ 350–420 W, leaving enough latent energy to support"
+        },
+        {
+          "line_number": 90,
+          "anchor": "fileciteturn9file8L90",
+          "content": "~0.20–0.25 L/h of distillation from contaminated water (contingent on HX design and"
+        },
+        {
+          "line_number": 91,
+          "anchor": "fileciteturn9file8L91",
+          "content": "minimal thermal losses)."
+        },
+        {
+          "line_number": 92,
+          "anchor": "fileciteturn9file8L92",
+          "content": "• With 3 TECs, expect ~0.15–0.18 L/h; with 2 TECs, ~0.10–0.12 L/h."
+        },
+        {
+          "line_number": 93,
+          "anchor": "fileciteturn9file8L93",
+          "content": "• In hybrid duty cycles, the system may alternate between condensing and distillation"
+        },
+        {
+          "line_number": 94,
+          "anchor": "fileciteturn9file8L94",
+          "content": "phases to maintain temperatures and yield."
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "text": "3.3 Cold Climate / Low Temperature Performance\nPerformance drops as humidity (absolute) decreases. For ambient ~20 °C:\n• At 70 % RH (~14 g/m³ vapor), yields might drop by ~25–35%.\n• For example: 0.28 L/h (warm) → ~0.18–0.22 L/h in cooler air.\n• Distillation is less affected (since boiling is actively driven), but heat losses grow.\nThese estimates assume good insulation, low parasitic heat paths, and precise thermal control.\n4. Biosecurity & Hygiene Advantages\nThe UV-C subsystem enhances the Hydro Cube’s field readiness by eliminating biological\ncontamination and maintaining sterile operation without filters or chemicals. This silent,\nmaintenance-free solution ensures operational safety for special-forces personnel, forward\noperators, or disaster-response teams in regions lacking medical or cleaning resources.\n5. Applications and Deployment\n• DoD & SOF Use: Tactical water independence for small units or unmanned platforms.\n• FEMA / DHS: Emergency shelters and mobile command units.\n• Humanitarian Operations: Rapid-response water generation from humid or coastal air.\n• Commercial: Basecamp, expeditionary, camping, recreational, or survival applications.\n6. Cost and Production\nComponent Estimated Cost per Unit (10,000 units)\nTEC Array (×4) $20\nAluminum Housing + Fins $15\nLiquid Heatsink Assembly $10\nUV-C LED Subsystem $9\nElectronics + Battery $12\nAssembly / QA $14\nTotal (Approx.) $80 per unit",
+      "lines": [
+        {
+          "line_number": 95,
+          "anchor": "fileciteturn9file8L95",
+          "content": "3.3 Cold Climate / Low Temperature Performance"
+        },
+        {
+          "line_number": 96,
+          "anchor": "fileciteturn9file8L96",
+          "content": "Performance drops as humidity (absolute) decreases. For ambient ~20 °C:"
+        },
+        {
+          "line_number": 97,
+          "anchor": "fileciteturn9file8L97",
+          "content": "• At 70 % RH (~14 g/m³ vapor), yields might drop by ~25–35%."
+        },
+        {
+          "line_number": 98,
+          "anchor": "fileciteturn9file8L98",
+          "content": "• For example: 0.28 L/h (warm) → ~0.18–0.22 L/h in cooler air."
+        },
+        {
+          "line_number": 99,
+          "anchor": "fileciteturn9file8L99",
+          "content": "• Distillation is less affected (since boiling is actively driven), but heat losses grow."
+        },
+        {
+          "line_number": 100,
+          "anchor": "fileciteturn9file8L100",
+          "content": "These estimates assume good insulation, low parasitic heat paths, and precise thermal control."
+        },
+        {
+          "line_number": 101,
+          "anchor": "fileciteturn9file8L101",
+          "content": "4. Biosecurity & Hygiene Advantages"
+        },
+        {
+          "line_number": 102,
+          "anchor": "fileciteturn9file8L102",
+          "content": "The UV-C subsystem enhances the Hydro Cube’s field readiness by eliminating biological"
+        },
+        {
+          "line_number": 103,
+          "anchor": "fileciteturn9file8L103",
+          "content": "contamination and maintaining sterile operation without filters or chemicals. This silent,"
+        },
+        {
+          "line_number": 104,
+          "anchor": "fileciteturn9file8L104",
+          "content": "maintenance-free solution ensures operational safety for special-forces personnel, forward"
+        },
+        {
+          "line_number": 105,
+          "anchor": "fileciteturn9file8L105",
+          "content": "operators, or disaster-response teams in regions lacking medical or cleaning resources."
+        },
+        {
+          "line_number": 106,
+          "anchor": "fileciteturn9file8L106",
+          "content": "5. Applications and Deployment"
+        },
+        {
+          "line_number": 107,
+          "anchor": "fileciteturn9file8L107",
+          "content": "• DoD & SOF Use: Tactical water independence for small units or unmanned platforms."
+        },
+        {
+          "line_number": 108,
+          "anchor": "fileciteturn9file8L108",
+          "content": "• FEMA / DHS: Emergency shelters and mobile command units."
+        },
+        {
+          "line_number": 109,
+          "anchor": "fileciteturn9file8L109",
+          "content": "• Humanitarian Operations: Rapid-response water generation from humid or coastal air."
+        },
+        {
+          "line_number": 110,
+          "anchor": "fileciteturn9file8L110",
+          "content": "• Commercial: Basecamp, expeditionary, camping, recreational, or survival applications."
+        },
+        {
+          "line_number": 111,
+          "anchor": "fileciteturn9file8L111",
+          "content": "6. Cost and Production"
+        },
+        {
+          "line_number": 112,
+          "anchor": "fileciteturn9file8L112",
+          "content": "Component Estimated Cost per Unit (10,000 units)"
+        },
+        {
+          "line_number": 113,
+          "anchor": "fileciteturn9file8L113",
+          "content": "TEC Array (×4) $20"
+        },
+        {
+          "line_number": 114,
+          "anchor": "fileciteturn9file8L114",
+          "content": "Aluminum Housing + Fins $15"
+        },
+        {
+          "line_number": 115,
+          "anchor": "fileciteturn9file8L115",
+          "content": "Liquid Heatsink Assembly $10"
+        },
+        {
+          "line_number": 116,
+          "anchor": "fileciteturn9file8L116",
+          "content": "UV-C LED Subsystem $9"
+        },
+        {
+          "line_number": 117,
+          "anchor": "fileciteturn9file8L117",
+          "content": "Electronics + Battery $12"
+        },
+        {
+          "line_number": 118,
+          "anchor": "fileciteturn9file8L118",
+          "content": "Assembly / QA $14"
+        },
+        {
+          "line_number": 119,
+          "anchor": "fileciteturn9file8L119",
+          "content": "Total (Approx.) $80 per unit"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "text": "7. Comparisons to Existing Programs & Commercial AWG Efforts\nTo show how The Hydro Cube fits the broader R&D and market space:\n• DARPA AWE (Atmospheric Water Extraction)\nGoal: build lightweight, low-power systems that supply potable water even in arid\no\nzones. (darpa.mil)\nMultiple contracts to GE, Honeywell, MIT, PSI, NRL, etc. (darpa.mil)\no\nGE’s AIR2WATER project under AWE aims to produce hundreds of liters/day\no\nfrom deployed systems. (GE)\nAWE encourages sorbent-based approaches (adsorb-desorb cycles) to lower\no\nenergy per liter in dry ambient conditions. (darpa.mil)\nExample: DARPA’s distillation-enabled AWE challenge requires devices that\no\noperate even in extremely low humidity, imposing a higher standard of SWaP\n(size, weight, and power) (idstch.com)\n• SOURCE Hydropanels (Zero Mass Water / SOURCE Global)\nUses solar-powered hygroscopic capture + passive condensation — no external\no\npower grid needed. (SOURCE)\nEffective in moderate RH environments; scale is non-tactical (rooftop panels,\no\nhomes) rather than personal systems. (SOURCE)\nSOURCE claims to mineralize and ozonate output for taste/sterility. (SOURCE)\no\nCritics note cost efficiency and performance limits at low humidity, but they\no\nillustrate how passive/solar AWG is entering the market. (The Guardian)\n• Navy AWG-OTM (On The Move)\nA U.S. Marine Corps SBIR topic: portable AWG system producing ~24 gallons\no\nin 24 hours (~90 L/day) for a small team using onboard power (vehicle)\n(navysbir.com)\nEmphasis is on vehicular/vehicle-integrated systems, not wearable or individual\no\nscale.\nThese benchmarks show that while large systems target tens to hundreds of liters per day, the\nsmall, self-contained, individual-scale niche remains underexplored. The Hydro Cube aims to fill\nthat gap by combining condensation and distillation in one, with modular power scaling and\nadvantageous compactness.\n8. Operational & Tactical Advantages\n• Dual-use thermodynamics: Both cold and hot sides are harnessed for water production\nrather than waste heat rejection alone.\n• Flexible scaling: Operator can disable TEC modules to conserve battery or modulate\noutput as conditions vary.\n• Low signature & silent operation: No compressors, no flue exhaust, modest fan noise.\n• Reduced logistics burden: Less water transport, fewer resupply convoys, lower heat/fuel\nfootprints.",
+      "lines": [
+        {
+          "line_number": 120,
+          "anchor": "fileciteturn9file8L120",
+          "content": "7. Comparisons to Existing Programs & Commercial AWG Efforts"
+        },
+        {
+          "line_number": 121,
+          "anchor": "fileciteturn9file8L121",
+          "content": "To show how The Hydro Cube fits the broader R&D and market space:"
+        },
+        {
+          "line_number": 122,
+          "anchor": "fileciteturn9file8L122",
+          "content": "• DARPA AWE (Atmospheric Water Extraction)"
+        },
+        {
+          "line_number": 123,
+          "anchor": "fileciteturn9file8L123",
+          "content": "Goal: build lightweight, low-power systems that supply potable water even in arid"
+        },
+        {
+          "line_number": 124,
+          "anchor": "fileciteturn9file8L124",
+          "content": "o"
+        },
+        {
+          "line_number": 125,
+          "anchor": "fileciteturn9file8L125",
+          "content": "zones. (darpa.mil)"
+        },
+        {
+          "line_number": 126,
+          "anchor": "fileciteturn9file8L126",
+          "content": "Multiple contracts to GE, Honeywell, MIT, PSI, NRL, etc. (darpa.mil)"
+        },
+        {
+          "line_number": 127,
+          "anchor": "fileciteturn9file8L127",
+          "content": "o"
+        },
+        {
+          "line_number": 128,
+          "anchor": "fileciteturn9file8L128",
+          "content": "GE’s AIR2WATER project under AWE aims to produce hundreds of liters/day"
+        },
+        {
+          "line_number": 129,
+          "anchor": "fileciteturn9file8L129",
+          "content": "o"
+        },
+        {
+          "line_number": 130,
+          "anchor": "fileciteturn9file8L130",
+          "content": "from deployed systems. (GE)"
+        },
+        {
+          "line_number": 131,
+          "anchor": "fileciteturn9file8L131",
+          "content": "AWE encourages sorbent-based approaches (adsorb-desorb cycles) to lower"
+        },
+        {
+          "line_number": 132,
+          "anchor": "fileciteturn9file8L132",
+          "content": "o"
+        },
+        {
+          "line_number": 133,
+          "anchor": "fileciteturn9file8L133",
+          "content": "energy per liter in dry ambient conditions. (darpa.mil)"
+        },
+        {
+          "line_number": 134,
+          "anchor": "fileciteturn9file8L134",
+          "content": "Example: DARPA’s distillation-enabled AWE challenge requires devices that"
+        },
+        {
+          "line_number": 135,
+          "anchor": "fileciteturn9file8L135",
+          "content": "o"
+        },
+        {
+          "line_number": 136,
+          "anchor": "fileciteturn9file8L136",
+          "content": "operate even in extremely low humidity, imposing a higher standard of SWaP"
+        },
+        {
+          "line_number": 137,
+          "anchor": "fileciteturn9file8L137",
+          "content": "(size, weight, and power) (idstch.com)"
+        },
+        {
+          "line_number": 138,
+          "anchor": "fileciteturn9file8L138",
+          "content": "• SOURCE Hydropanels (Zero Mass Water / SOURCE Global)"
+        },
+        {
+          "line_number": 139,
+          "anchor": "fileciteturn9file8L139",
+          "content": "Uses solar-powered hygroscopic capture + passive condensation — no external"
+        },
+        {
+          "line_number": 140,
+          "anchor": "fileciteturn9file8L140",
+          "content": "o"
+        },
+        {
+          "line_number": 141,
+          "anchor": "fileciteturn9file8L141",
+          "content": "power grid needed. (SOURCE)"
+        },
+        {
+          "line_number": 142,
+          "anchor": "fileciteturn9file8L142",
+          "content": "Effective in moderate RH environments; scale is non-tactical (rooftop panels,"
+        },
+        {
+          "line_number": 143,
+          "anchor": "fileciteturn9file8L143",
+          "content": "o"
+        },
+        {
+          "line_number": 144,
+          "anchor": "fileciteturn9file8L144",
+          "content": "homes) rather than personal systems. (SOURCE)"
+        },
+        {
+          "line_number": 145,
+          "anchor": "fileciteturn9file8L145",
+          "content": "SOURCE claims to mineralize and ozonate output for taste/sterility. (SOURCE)"
+        },
+        {
+          "line_number": 146,
+          "anchor": "fileciteturn9file8L146",
+          "content": "o"
+        },
+        {
+          "line_number": 147,
+          "anchor": "fileciteturn9file8L147",
+          "content": "Critics note cost efficiency and performance limits at low humidity, but they"
+        },
+        {
+          "line_number": 148,
+          "anchor": "fileciteturn9file8L148",
+          "content": "o"
+        },
+        {
+          "line_number": 149,
+          "anchor": "fileciteturn9file8L149",
+          "content": "illustrate how passive/solar AWG is entering the market. (The Guardian)"
+        },
+        {
+          "line_number": 150,
+          "anchor": "fileciteturn9file8L150",
+          "content": "• Navy AWG-OTM (On The Move)"
+        },
+        {
+          "line_number": 151,
+          "anchor": "fileciteturn9file8L151",
+          "content": "A U.S. Marine Corps SBIR topic: portable AWG system producing ~24 gallons"
+        },
+        {
+          "line_number": 152,
+          "anchor": "fileciteturn9file8L152",
+          "content": "o"
+        },
+        {
+          "line_number": 153,
+          "anchor": "fileciteturn9file8L153",
+          "content": "in 24 hours (~90 L/day) for a small team using onboard power (vehicle)"
+        },
+        {
+          "line_number": 154,
+          "anchor": "fileciteturn9file8L154",
+          "content": "(navysbir.com)"
+        },
+        {
+          "line_number": 155,
+          "anchor": "fileciteturn9file8L155",
+          "content": "Emphasis is on vehicular/vehicle-integrated systems, not wearable or individual"
+        },
+        {
+          "line_number": 156,
+          "anchor": "fileciteturn9file8L156",
+          "content": "o"
+        },
+        {
+          "line_number": 157,
+          "anchor": "fileciteturn9file8L157",
+          "content": "scale."
+        },
+        {
+          "line_number": 158,
+          "anchor": "fileciteturn9file8L158",
+          "content": "These benchmarks show that while large systems target tens to hundreds of liters per day, the"
+        },
+        {
+          "line_number": 159,
+          "anchor": "fileciteturn9file8L159",
+          "content": "small, self-contained, individual-scale niche remains underexplored. The Hydro Cube aims to fill"
+        },
+        {
+          "line_number": 160,
+          "anchor": "fileciteturn9file8L160",
+          "content": "that gap by combining condensation and distillation in one, with modular power scaling and"
+        },
+        {
+          "line_number": 161,
+          "anchor": "fileciteturn9file8L161",
+          "content": "advantageous compactness."
+        },
+        {
+          "line_number": 162,
+          "anchor": "fileciteturn9file8L162",
+          "content": "8. Operational & Tactical Advantages"
+        },
+        {
+          "line_number": 163,
+          "anchor": "fileciteturn9file8L163",
+          "content": "• Dual-use thermodynamics: Both cold and hot sides are harnessed for water production"
+        },
+        {
+          "line_number": 164,
+          "anchor": "fileciteturn9file8L164",
+          "content": "rather than waste heat rejection alone."
+        },
+        {
+          "line_number": 165,
+          "anchor": "fileciteturn9file8L165",
+          "content": "• Flexible scaling: Operator can disable TEC modules to conserve battery or modulate"
+        },
+        {
+          "line_number": 166,
+          "anchor": "fileciteturn9file8L166",
+          "content": "output as conditions vary."
+        },
+        {
+          "line_number": 167,
+          "anchor": "fileciteturn9file8L167",
+          "content": "• Low signature & silent operation: No compressors, no flue exhaust, modest fan noise."
+        },
+        {
+          "line_number": 168,
+          "anchor": "fileciteturn9file8L168",
+          "content": "• Reduced logistics burden: Less water transport, fewer resupply convoys, lower heat/fuel"
+        },
+        {
+          "line_number": 169,
+          "anchor": "fileciteturn9file8L169",
+          "content": "footprints."
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "text": "• Boiling/hygiene capability built-in: Distillation from dirty sources or localized\nsterilization of condensate fluid.\n• Competitive in DARPA/DoD space: Personal class systems are exactly the\n“expeditionary track” goal of AWE.\n9. Risks, Challenges & Mitigations\n• Heat leaks & non-ideal thermal paths reduce COP — careful sealing and insulation\nrequired.\n• Boil detachment and bubble formation in an immersed heatsink may reduce thermal\ncoupling, so a robust boiling surface design (micro-fins, nucleation sites) is needed.\n• Water quality concerns in distillation mode: ensure materials are inert and path is sealed\nto avoid contamination.\n• Power constraints in low-RH conditions: output falls rapidly with RH drop. Mitigation:\nuse local heating cycles.\n• Durability & fouling: repeated condensation cycles risk corrosion or fouling of fins or\nimmersion surfaces; coatings and maintenance protocols are essential.\n10. Development Roadmap & Cost Estimate\nPhase I – Prototype Demonstration\n• Build a benchtop with a 33-fin array, 4 TEC modules, and an immersed heatsink.\nValidate condensation and distillation rates vs. targets.\n• Thermal mapping, flow calibration, and durability cycles.\nPhase II – Rugged Field Prototype\n• Reinforced shell, deployable mechanisms, filtration modules, connectors, field sealing,\nenvironmental tests (dust, shock, salt fog).\nPhase III – Pre-Production & Field Trials\n• Small batch (1,000–10,000 units) production, user field evaluation, integration into\nsoldier systems.",
+      "lines": [
+        {
+          "line_number": 170,
+          "anchor": "fileciteturn9file8L170",
+          "content": "• Boiling/hygiene capability built-in: Distillation from dirty sources or localized"
+        },
+        {
+          "line_number": 171,
+          "anchor": "fileciteturn9file8L171",
+          "content": "sterilization of condensate fluid."
+        },
+        {
+          "line_number": 172,
+          "anchor": "fileciteturn9file8L172",
+          "content": "• Competitive in DARPA/DoD space: Personal class systems are exactly the"
+        },
+        {
+          "line_number": 173,
+          "anchor": "fileciteturn9file8L173",
+          "content": "“expeditionary track” goal of AWE."
+        },
+        {
+          "line_number": 174,
+          "anchor": "fileciteturn9file8L174",
+          "content": "9. Risks, Challenges & Mitigations"
+        },
+        {
+          "line_number": 175,
+          "anchor": "fileciteturn9file8L175",
+          "content": "• Heat leaks & non-ideal thermal paths reduce COP — careful sealing and insulation"
+        },
+        {
+          "line_number": 176,
+          "anchor": "fileciteturn9file8L176",
+          "content": "required."
+        },
+        {
+          "line_number": 177,
+          "anchor": "fileciteturn9file8L177",
+          "content": "• Boil detachment and bubble formation in an immersed heatsink may reduce thermal"
+        },
+        {
+          "line_number": 178,
+          "anchor": "fileciteturn9file8L178",
+          "content": "coupling, so a robust boiling surface design (micro-fins, nucleation sites) is needed."
+        },
+        {
+          "line_number": 179,
+          "anchor": "fileciteturn9file8L179",
+          "content": "• Water quality concerns in distillation mode: ensure materials are inert and path is sealed"
+        },
+        {
+          "line_number": 180,
+          "anchor": "fileciteturn9file8L180",
+          "content": "to avoid contamination."
+        },
+        {
+          "line_number": 181,
+          "anchor": "fileciteturn9file8L181",
+          "content": "• Power constraints in low-RH conditions: output falls rapidly with RH drop. Mitigation:"
+        },
+        {
+          "line_number": 182,
+          "anchor": "fileciteturn9file8L182",
+          "content": "use local heating cycles."
+        },
+        {
+          "line_number": 183,
+          "anchor": "fileciteturn9file8L183",
+          "content": "• Durability & fouling: repeated condensation cycles risk corrosion or fouling of fins or"
+        },
+        {
+          "line_number": 184,
+          "anchor": "fileciteturn9file8L184",
+          "content": "immersion surfaces; coatings and maintenance protocols are essential."
+        },
+        {
+          "line_number": 185,
+          "anchor": "fileciteturn9file8L185",
+          "content": "10. Development Roadmap & Cost Estimate"
+        },
+        {
+          "line_number": 186,
+          "anchor": "fileciteturn9file8L186",
+          "content": "Phase I – Prototype Demonstration"
+        },
+        {
+          "line_number": 187,
+          "anchor": "fileciteturn9file8L187",
+          "content": "• Build a benchtop with a 33-fin array, 4 TEC modules, and an immersed heatsink."
+        },
+        {
+          "line_number": 188,
+          "anchor": "fileciteturn9file8L188",
+          "content": "Validate condensation and distillation rates vs. targets."
+        },
+        {
+          "line_number": 189,
+          "anchor": "fileciteturn9file8L189",
+          "content": "• Thermal mapping, flow calibration, and durability cycles."
+        },
+        {
+          "line_number": 190,
+          "anchor": "fileciteturn9file8L190",
+          "content": "Phase II – Rugged Field Prototype"
+        },
+        {
+          "line_number": 191,
+          "anchor": "fileciteturn9file8L191",
+          "content": "• Reinforced shell, deployable mechanisms, filtration modules, connectors, field sealing,"
+        },
+        {
+          "line_number": 192,
+          "anchor": "fileciteturn9file8L192",
+          "content": "environmental tests (dust, shock, salt fog)."
+        },
+        {
+          "line_number": 193,
+          "anchor": "fileciteturn9file8L193",
+          "content": "Phase III – Pre-Production & Field Trials"
+        },
+        {
+          "line_number": 194,
+          "anchor": "fileciteturn9file8L194",
+          "content": "• Small batch (1,000–10,000 units) production, user field evaluation, integration into"
+        },
+        {
+          "line_number": 195,
+          "anchor": "fileciteturn9file8L195",
+          "content": "soldier systems."
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "text": "11. Conclusion\nThe Hydro Cube merges solid-state reliability, UV-C sterilization, and dual-mode heat\nutilization into a single, compact system. Its modular design allows adaptation from field kits to\nvehicle-mounted units. By maintaining potable, sterile water generation in the most austere\nenvironments, it directly supports U.S. DoD logistics reduction initiatives, NATO field resilience\nefforts, and humanitarian disaster-relief operations worldwide.\nBlue Planet Filtration • Stonington, CT • (860)917-6478 • jgeraci@blueplanetfiltration.com",
+      "lines": [
+        {
+          "line_number": 196,
+          "anchor": "fileciteturn9file8L196",
+          "content": "11. Conclusion"
+        },
+        {
+          "line_number": 197,
+          "anchor": "fileciteturn9file8L197",
+          "content": "The Hydro Cube merges solid-state reliability, UV-C sterilization, and dual-mode heat"
+        },
+        {
+          "line_number": 198,
+          "anchor": "fileciteturn9file8L198",
+          "content": "utilization into a single, compact system. Its modular design allows adaptation from field kits to"
+        },
+        {
+          "line_number": 199,
+          "anchor": "fileciteturn9file8L199",
+          "content": "vehicle-mounted units. By maintaining potable, sterile water generation in the most austere"
+        },
+        {
+          "line_number": 200,
+          "anchor": "fileciteturn9file8L200",
+          "content": "environments, it directly supports U.S. DoD logistics reduction initiatives, NATO field resilience"
+        },
+        {
+          "line_number": 201,
+          "anchor": "fileciteturn9file8L201",
+          "content": "efforts, and humanitarian disaster-relief operations worldwide."
+        },
+        {
+          "line_number": 202,
+          "anchor": "fileciteturn9file8L202",
+          "content": "Blue Planet Filtration • Stonington, CT • (860)917-6478 • jgeraci@blueplanetfiltration.com"
+        }
+      ]
+    }
+  ],
+  "full_text": "The Hydro Cube\nDual-Cycle TEC Atmospheric Water Generator & Distillation\nSystem\n1. Executive Summary\nThe Hydro Cube is a compact, field-portable dual-cycle water system: it condenses ambient\nhumidity via a 33-fin array cooled by a multi-TEC cold plate, while its hot side is realized as an\nimmersed heatsink in liquid. That liquid bath serves a dual purpose—waste-heat rejection and\nboiling/distillation of condensate or contaminated liquids. The unit runs exclusively on\nthermoelectric energy (no external heaters), with user-selectable TEC modules to trade power vs\noutput. Prototype design targets ~0.28–0.33 L/h at 70 % RH under ideal conditions, with\ndistillation up to ~0.25 L/h possible when boiling. This concept bridges atmospheric water\ngeneration and small-scale distillation in one compact, rugged package.\nUnlike pure AWG units that waste heat, the Hydro Cube stands apart by converting cold and hot\nsides into productive functions. Compared to other military/AWG programs (e.g., DARPA\nAWE, GE’s AIR2WATER, SOURCE Hydropanels), the Hydro Cube’s size, dual use, and\nmodular power control give tactical flexibility and competitive performance in the portable class.\n2. System Design & Architecture\n2.1 Geometry & Deployment\n• Stowed configuration: 5″ × 5″ × 5″ cube\n• Deployed configuration: 5″ × 5″ × 11″ column\n• The top shell houses an optional use 44 CFM updraft fan that draws air from bottom\nfiltered vents, pulls it through the fin array upward, and exhausts via a chimney.\n• The fin pack footprint is 4″ depth × 3.25″ width (usable width ≈ 76.5 mm after side\nrails). 33 fins (0.8–1.0 mm thick) with 1.5 mm gaps give a dense, high-area condensing\ncore.\n2.2 Cold Side & Condensation\n• The cold plate is a 4″×4″×¼″ Al-6061 spreader bonded to TEC modules (TEC1-12706).\n• The fin stack (“33 fins × 6″ tall”) is mounted directly to the cold spreader. Each fin (both\nfaces) yields 4″×6″ → 48 in² raw.\n• Effective wet condensing area (with hydrophilic finish & droplet shedding) is estimated\nat ~0.55–0.60 m².\n\n• The optional top fan ensures good airflow renewal over each channel (~44 CFM total →\n~1.3–1.4 CFM per channel), sustaining condensation flux.\n2.3 Hot Side & Immersed Heatsink / Distillation Bath\n• Instead of a passive water jacket, the hot side is realized via a finned heatsink immersed\nin a small, sealed liquid reservoir (e.g., distilled water or condensate).\n• The hot-side fins or pins are submerged in liquid; as the TEC pumps heat into the sink, it\ncan drive local boiling at the interface, turning that same liquid into steam.\n• That steam is directed into a condensation path (over the cold fin array) to produce\ndistilled output, or condensed back into potable water.\n• This design yields synergy: the liquid bath removes waste heat while simultaneously\nserving as the working mass to be boiled/distilled.\n• Control of TEC power is essential to avoid overheating; active derating above ~70 °C at\nthe interface is recommended.\n2.4 Power, Controls & Modularity\n• The cold plate is powered by up to 4 TEC1-12706 modules (12 V, ~60 W each).\n• The system includes a switch/control bank to enable 1, 2, 3, or 4 TECs, depending on\ndesired yield vs. runtime.\n• Control logic monitors hot-face NTC, liquid bath temperature, and ensures safe\noperation (derate, shutdown).\n• All operation is powered electrically—no external heater or fuel source is required;\nboiling is achieved from TEC waste heat.\n2.5 UV-C Sterilization Subsystem\nThe Hydro Cube integrates a UV-C mini-LED sterilization system designed to ensure complete\nmicrobial control within the unit’s air and water pathways. The UV-C system employs compact\n265–275 nm emitters with optical outputs of 20–30 mW per diode. These LEDs are strategically\nlocated in three primary zones:\n1. Condensate Fin Array: 6–8 LEDs mounted vertically along the fin pack’s sides, angled\ninward 30–40°, irradiate condensation surfaces, and prevent biofilm formation.\n2. Collection Basin / Distillation Cup: Two downward–facing LEDs are positioned within\nthe upper rim to sterilize the stored condensate or distilled water.\n3. Airflow / Fan Chamber – 2 LEDs embedded in the upper shell near the exhaust vent to\nprevent microbial buildup in air-handling components\nThe subsystem draws less than 0.75 W (at 5 V) and operates through a 12 V→5 V step-down\nconverter. The UV-C cycle may run intermittently (2 min on / 15 min off) or continuously,\ndepending on mission parameters. Reflective baffles and optical isolation ensure operator safety\nand high irradiance efficiency.\n\nPerformance Gains:\n• Delivers sterile water (< 10 CFU/mL).\n• Reduces fin biofouling frequency by > 75%.\n• Extends water storage life from 24 h to 72 h+.\n• Adds < 3 % power draw / < 15 g mass.\n3. Performance Estimates\nThese are target estimates suitable for concept-level justification. Real performance will depend\non fabrication tolerances, surface finishes, and test conditions.\n3.1 Atmospheric Condensation Mode (Clean Water Output)\nAssume ambient 30 °C, sealed shroud, 44 CFM, 33 fins × 1.5 mm spacing, liquid-cooled hot\nsink (immersed).\nRelative Humidity L/h, 4 TECs L/day, 4 TECs L/h, 3 TECs L/h, 2 TECs\n60 % 0.20 – 0.24 4.8 – 5.8 0.15 – 0.18 0.10 – 0.13\n70 % 0.28 – 0.33 6.7 – 8.0 0.21 – 0.25 0.14 – 0.18\n80 % 0.34 – 0.40 8.2 – 9.6 0.26 – 0.32 0.18 – 0.24\n90 % 0.38 – 0.45 9.1 – 10.8 0.30 – 0.35 0.22 – 0.28\n• These yields reflect the additional condensing area and high airflow renewal.\n• Gains beyond ~85–90% will flatten as TEC heat-lift capacity becomes the limiting factor.\n3.2 Distillation / Boiling Mode (Dirty Water Processing)\n• The immersed heatsink hot side can reach boiling in local zones if TECs supply ~300–\n360+ W of heat.\n• With 4 TECs, Qh ≈ Qc + Pin ≈ 350–420 W, leaving enough latent energy to support\n~0.20–0.25 L/h of distillation from contaminated water (contingent on HX design and\nminimal thermal losses).\n• With 3 TECs, expect ~0.15–0.18 L/h; with 2 TECs, ~0.10–0.12 L/h.\n• In hybrid duty cycles, the system may alternate between condensing and distillation\nphases to maintain temperatures and yield.\n\n3.3 Cold Climate / Low Temperature Performance\nPerformance drops as humidity (absolute) decreases. For ambient ~20 °C:\n• At 70 % RH (~14 g/m³ vapor), yields might drop by ~25–35%.\n• For example: 0.28 L/h (warm) → ~0.18–0.22 L/h in cooler air.\n• Distillation is less affected (since boiling is actively driven), but heat losses grow.\nThese estimates assume good insulation, low parasitic heat paths, and precise thermal control.\n4. Biosecurity & Hygiene Advantages\nThe UV-C subsystem enhances the Hydro Cube’s field readiness by eliminating biological\ncontamination and maintaining sterile operation without filters or chemicals. This silent,\nmaintenance-free solution ensures operational safety for special-forces personnel, forward\noperators, or disaster-response teams in regions lacking medical or cleaning resources.\n5. Applications and Deployment\n• DoD & SOF Use: Tactical water independence for small units or unmanned platforms.\n• FEMA / DHS: Emergency shelters and mobile command units.\n• Humanitarian Operations: Rapid-response water generation from humid or coastal air.\n• Commercial: Basecamp, expeditionary, camping, recreational, or survival applications.\n6. Cost and Production\nComponent Estimated Cost per Unit (10,000 units)\nTEC Array (×4) $20\nAluminum Housing + Fins $15\nLiquid Heatsink Assembly $10\nUV-C LED Subsystem $9\nElectronics + Battery $12\nAssembly / QA $14\nTotal (Approx.) $80 per unit\n\n7. Comparisons to Existing Programs & Commercial AWG Efforts\nTo show how The Hydro Cube fits the broader R&D and market space:\n• DARPA AWE (Atmospheric Water Extraction)\nGoal: build lightweight, low-power systems that supply potable water even in arid\no\nzones. (darpa.mil)\nMultiple contracts to GE, Honeywell, MIT, PSI, NRL, etc. (darpa.mil)\no\nGE’s AIR2WATER project under AWE aims to produce hundreds of liters/day\no\nfrom deployed systems. (GE)\nAWE encourages sorbent-based approaches (adsorb-desorb cycles) to lower\no\nenergy per liter in dry ambient conditions. (darpa.mil)\nExample: DARPA’s distillation-enabled AWE challenge requires devices that\no\noperate even in extremely low humidity, imposing a higher standard of SWaP\n(size, weight, and power) (idstch.com)\n• SOURCE Hydropanels (Zero Mass Water / SOURCE Global)\nUses solar-powered hygroscopic capture + passive condensation — no external\no\npower grid needed. (SOURCE)\nEffective in moderate RH environments; scale is non-tactical (rooftop panels,\no\nhomes) rather than personal systems. (SOURCE)\nSOURCE claims to mineralize and ozonate output for taste/sterility. (SOURCE)\no\nCritics note cost efficiency and performance limits at low humidity, but they\no\nillustrate how passive/solar AWG is entering the market. (The Guardian)\n• Navy AWG-OTM (On The Move)\nA U.S. Marine Corps SBIR topic: portable AWG system producing ~24 gallons\no\nin 24 hours (~90 L/day) for a small team using onboard power (vehicle)\n(navysbir.com)\nEmphasis is on vehicular/vehicle-integrated systems, not wearable or individual\no\nscale.\nThese benchmarks show that while large systems target tens to hundreds of liters per day, the\nsmall, self-contained, individual-scale niche remains underexplored. The Hydro Cube aims to fill\nthat gap by combining condensation and distillation in one, with modular power scaling and\nadvantageous compactness.\n8. Operational & Tactical Advantages\n• Dual-use thermodynamics: Both cold and hot sides are harnessed for water production\nrather than waste heat rejection alone.\n• Flexible scaling: Operator can disable TEC modules to conserve battery or modulate\noutput as conditions vary.\n• Low signature & silent operation: No compressors, no flue exhaust, modest fan noise.\n• Reduced logistics burden: Less water transport, fewer resupply convoys, lower heat/fuel\nfootprints.\n\n• Boiling/hygiene capability built-in: Distillation from dirty sources or localized\nsterilization of condensate fluid.\n• Competitive in DARPA/DoD space: Personal class systems are exactly the\n“expeditionary track” goal of AWE.\n9. Risks, Challenges & Mitigations\n• Heat leaks & non-ideal thermal paths reduce COP — careful sealing and insulation\nrequired.\n• Boil detachment and bubble formation in an immersed heatsink may reduce thermal\ncoupling, so a robust boiling surface design (micro-fins, nucleation sites) is needed.\n• Water quality concerns in distillation mode: ensure materials are inert and path is sealed\nto avoid contamination.\n• Power constraints in low-RH conditions: output falls rapidly with RH drop. Mitigation:\nuse local heating cycles.\n• Durability & fouling: repeated condensation cycles risk corrosion or fouling of fins or\nimmersion surfaces; coatings and maintenance protocols are essential.\n10. Development Roadmap & Cost Estimate\nPhase I – Prototype Demonstration\n• Build a benchtop with a 33-fin array, 4 TEC modules, and an immersed heatsink.\nValidate condensation and distillation rates vs. targets.\n• Thermal mapping, flow calibration, and durability cycles.\nPhase II – Rugged Field Prototype\n• Reinforced shell, deployable mechanisms, filtration modules, connectors, field sealing,\nenvironmental tests (dust, shock, salt fog).\nPhase III – Pre-Production & Field Trials\n• Small batch (1,000–10,000 units) production, user field evaluation, integration into\nsoldier systems.\n\n11. Conclusion\nThe Hydro Cube merges solid-state reliability, UV-C sterilization, and dual-mode heat\nutilization into a single, compact system. Its modular design allows adaptation from field kits to\nvehicle-mounted units. By maintaining potable, sterile water generation in the most austere\nenvironments, it directly supports U.S. DoD logistics reduction initiatives, NATO field resilience\nefforts, and humanitarian disaster-relief operations worldwide.\nBlue Planet Filtration • Stonington, CT • (860)917-6478 • jgeraci@blueplanetfiltration.com\n\n",
+  "line_anchors": {
+    "fileciteturn9file8L1": {
+      "page": 1,
+      "line": 1,
+      "content": "The Hydro Cube"
+    },
+    "fileciteturn9file8L2": {
+      "page": 1,
+      "line": 2,
+      "content": "Dual-Cycle TEC Atmospheric Water Generator & Distillation"
+    },
+    "fileciteturn9file8L3": {
+      "page": 1,
+      "line": 3,
+      "content": "System"
+    },
+    "fileciteturn9file8L4": {
+      "page": 1,
+      "line": 4,
+      "content": "1. Executive Summary"
+    },
+    "fileciteturn9file8L5": {
+      "page": 1,
+      "line": 5,
+      "content": "The Hydro Cube is a compact, field-portable dual-cycle water system: it condenses ambient"
+    },
+    "fileciteturn9file8L6": {
+      "page": 1,
+      "line": 6,
+      "content": "humidity via a 33-fin array cooled by a multi-TEC cold plate, while its hot side is realized as an"
+    },
+    "fileciteturn9file8L7": {
+      "page": 1,
+      "line": 7,
+      "content": "immersed heatsink in liquid. That liquid bath serves a dual purpose—waste-heat rejection and"
+    },
+    "fileciteturn9file8L8": {
+      "page": 1,
+      "line": 8,
+      "content": "boiling/distillation of condensate or contaminated liquids. The unit runs exclusively on"
+    },
+    "fileciteturn9file8L9": {
+      "page": 1,
+      "line": 9,
+      "content": "thermoelectric energy (no external heaters), with user-selectable TEC modules to trade power vs"
+    },
+    "fileciteturn9file8L10": {
+      "page": 1,
+      "line": 10,
+      "content": "output. Prototype design targets ~0.28–0.33 L/h at 70 % RH under ideal conditions, with"
+    },
+    "fileciteturn9file8L11": {
+      "page": 1,
+      "line": 11,
+      "content": "distillation up to ~0.25 L/h possible when boiling. This concept bridges atmospheric water"
+    },
+    "fileciteturn9file8L12": {
+      "page": 1,
+      "line": 12,
+      "content": "generation and small-scale distillation in one compact, rugged package."
+    },
+    "fileciteturn9file8L13": {
+      "page": 1,
+      "line": 13,
+      "content": "Unlike pure AWG units that waste heat, the Hydro Cube stands apart by converting cold and hot"
+    },
+    "fileciteturn9file8L14": {
+      "page": 1,
+      "line": 14,
+      "content": "sides into productive functions. Compared to other military/AWG programs (e.g., DARPA"
+    },
+    "fileciteturn9file8L15": {
+      "page": 1,
+      "line": 15,
+      "content": "AWE, GE’s AIR2WATER, SOURCE Hydropanels), the Hydro Cube’s size, dual use, and"
+    },
+    "fileciteturn9file8L16": {
+      "page": 1,
+      "line": 16,
+      "content": "modular power control give tactical flexibility and competitive performance in the portable class."
+    },
+    "fileciteturn9file8L17": {
+      "page": 1,
+      "line": 17,
+      "content": "2. System Design & Architecture"
+    },
+    "fileciteturn9file8L18": {
+      "page": 1,
+      "line": 18,
+      "content": "2.1 Geometry & Deployment"
+    },
+    "fileciteturn9file8L19": {
+      "page": 1,
+      "line": 19,
+      "content": "• Stowed configuration: 5″ × 5″ × 5″ cube"
+    },
+    "fileciteturn9file8L20": {
+      "page": 1,
+      "line": 20,
+      "content": "• Deployed configuration: 5″ × 5″ × 11″ column"
+    },
+    "fileciteturn9file8L21": {
+      "page": 1,
+      "line": 21,
+      "content": "• The top shell houses an optional use 44 CFM updraft fan that draws air from bottom"
+    },
+    "fileciteturn9file8L22": {
+      "page": 1,
+      "line": 22,
+      "content": "filtered vents, pulls it through the fin array upward, and exhausts via a chimney."
+    },
+    "fileciteturn9file8L23": {
+      "page": 1,
+      "line": 23,
+      "content": "• The fin pack footprint is 4″ depth × 3.25″ width (usable width ≈ 76.5 mm after side"
+    },
+    "fileciteturn9file8L24": {
+      "page": 1,
+      "line": 24,
+      "content": "rails). 33 fins (0.8–1.0 mm thick) with 1.5 mm gaps give a dense, high-area condensing"
+    },
+    "fileciteturn9file8L25": {
+      "page": 1,
+      "line": 25,
+      "content": "core."
+    },
+    "fileciteturn9file8L26": {
+      "page": 1,
+      "line": 26,
+      "content": "2.2 Cold Side & Condensation"
+    },
+    "fileciteturn9file8L27": {
+      "page": 1,
+      "line": 27,
+      "content": "• The cold plate is a 4″×4″×¼″ Al-6061 spreader bonded to TEC modules (TEC1-12706)."
+    },
+    "fileciteturn9file8L28": {
+      "page": 1,
+      "line": 28,
+      "content": "• The fin stack (“33 fins × 6″ tall”) is mounted directly to the cold spreader. Each fin (both"
+    },
+    "fileciteturn9file8L29": {
+      "page": 1,
+      "line": 29,
+      "content": "faces) yields 4″×6″ → 48 in² raw."
+    },
+    "fileciteturn9file8L30": {
+      "page": 1,
+      "line": 30,
+      "content": "• Effective wet condensing area (with hydrophilic finish & droplet shedding) is estimated"
+    },
+    "fileciteturn9file8L31": {
+      "page": 1,
+      "line": 31,
+      "content": "at ~0.55–0.60 m²."
+    },
+    "fileciteturn9file8L32": {
+      "page": 2,
+      "line": 32,
+      "content": "• The optional top fan ensures good airflow renewal over each channel (~44 CFM total →"
+    },
+    "fileciteturn9file8L33": {
+      "page": 2,
+      "line": 33,
+      "content": "~1.3–1.4 CFM per channel), sustaining condensation flux."
+    },
+    "fileciteturn9file8L34": {
+      "page": 2,
+      "line": 34,
+      "content": "2.3 Hot Side & Immersed Heatsink / Distillation Bath"
+    },
+    "fileciteturn9file8L35": {
+      "page": 2,
+      "line": 35,
+      "content": "• Instead of a passive water jacket, the hot side is realized via a finned heatsink immersed"
+    },
+    "fileciteturn9file8L36": {
+      "page": 2,
+      "line": 36,
+      "content": "in a small, sealed liquid reservoir (e.g., distilled water or condensate)."
+    },
+    "fileciteturn9file8L37": {
+      "page": 2,
+      "line": 37,
+      "content": "• The hot-side fins or pins are submerged in liquid; as the TEC pumps heat into the sink, it"
+    },
+    "fileciteturn9file8L38": {
+      "page": 2,
+      "line": 38,
+      "content": "can drive local boiling at the interface, turning that same liquid into steam."
+    },
+    "fileciteturn9file8L39": {
+      "page": 2,
+      "line": 39,
+      "content": "• That steam is directed into a condensation path (over the cold fin array) to produce"
+    },
+    "fileciteturn9file8L40": {
+      "page": 2,
+      "line": 40,
+      "content": "distilled output, or condensed back into potable water."
+    },
+    "fileciteturn9file8L41": {
+      "page": 2,
+      "line": 41,
+      "content": "• This design yields synergy: the liquid bath removes waste heat while simultaneously"
+    },
+    "fileciteturn9file8L42": {
+      "page": 2,
+      "line": 42,
+      "content": "serving as the working mass to be boiled/distilled."
+    },
+    "fileciteturn9file8L43": {
+      "page": 2,
+      "line": 43,
+      "content": "• Control of TEC power is essential to avoid overheating; active derating above ~70 °C at"
+    },
+    "fileciteturn9file8L44": {
+      "page": 2,
+      "line": 44,
+      "content": "the interface is recommended."
+    },
+    "fileciteturn9file8L45": {
+      "page": 2,
+      "line": 45,
+      "content": "2.4 Power, Controls & Modularity"
+    },
+    "fileciteturn9file8L46": {
+      "page": 2,
+      "line": 46,
+      "content": "• The cold plate is powered by up to 4 TEC1-12706 modules (12 V, ~60 W each)."
+    },
+    "fileciteturn9file8L47": {
+      "page": 2,
+      "line": 47,
+      "content": "• The system includes a switch/control bank to enable 1, 2, 3, or 4 TECs, depending on"
+    },
+    "fileciteturn9file8L48": {
+      "page": 2,
+      "line": 48,
+      "content": "desired yield vs. runtime."
+    },
+    "fileciteturn9file8L49": {
+      "page": 2,
+      "line": 49,
+      "content": "• Control logic monitors hot-face NTC, liquid bath temperature, and ensures safe"
+    },
+    "fileciteturn9file8L50": {
+      "page": 2,
+      "line": 50,
+      "content": "operation (derate, shutdown)."
+    },
+    "fileciteturn9file8L51": {
+      "page": 2,
+      "line": 51,
+      "content": "• All operation is powered electrically—no external heater or fuel source is required;"
+    },
+    "fileciteturn9file8L52": {
+      "page": 2,
+      "line": 52,
+      "content": "boiling is achieved from TEC waste heat."
+    },
+    "fileciteturn9file8L53": {
+      "page": 2,
+      "line": 53,
+      "content": "2.5 UV-C Sterilization Subsystem"
+    },
+    "fileciteturn9file8L54": {
+      "page": 2,
+      "line": 54,
+      "content": "The Hydro Cube integrates a UV-C mini-LED sterilization system designed to ensure complete"
+    },
+    "fileciteturn9file8L55": {
+      "page": 2,
+      "line": 55,
+      "content": "microbial control within the unit’s air and water pathways. The UV-C system employs compact"
+    },
+    "fileciteturn9file8L56": {
+      "page": 2,
+      "line": 56,
+      "content": "265–275 nm emitters with optical outputs of 20–30 mW per diode. These LEDs are strategically"
+    },
+    "fileciteturn9file8L57": {
+      "page": 2,
+      "line": 57,
+      "content": "located in three primary zones:"
+    },
+    "fileciteturn9file8L58": {
+      "page": 2,
+      "line": 58,
+      "content": "1. Condensate Fin Array: 6–8 LEDs mounted vertically along the fin pack’s sides, angled"
+    },
+    "fileciteturn9file8L59": {
+      "page": 2,
+      "line": 59,
+      "content": "inward 30–40°, irradiate condensation surfaces, and prevent biofilm formation."
+    },
+    "fileciteturn9file8L60": {
+      "page": 2,
+      "line": 60,
+      "content": "2. Collection Basin / Distillation Cup: Two downward–facing LEDs are positioned within"
+    },
+    "fileciteturn9file8L61": {
+      "page": 2,
+      "line": 61,
+      "content": "the upper rim to sterilize the stored condensate or distilled water."
+    },
+    "fileciteturn9file8L62": {
+      "page": 2,
+      "line": 62,
+      "content": "3. Airflow / Fan Chamber – 2 LEDs embedded in the upper shell near the exhaust vent to"
+    },
+    "fileciteturn9file8L63": {
+      "page": 2,
+      "line": 63,
+      "content": "prevent microbial buildup in air-handling components"
+    },
+    "fileciteturn9file8L64": {
+      "page": 2,
+      "line": 64,
+      "content": "The subsystem draws less than 0.75 W (at 5 V) and operates through a 12 V→5 V step-down"
+    },
+    "fileciteturn9file8L65": {
+      "page": 2,
+      "line": 65,
+      "content": "converter. The UV-C cycle may run intermittently (2 min on / 15 min off) or continuously,"
+    },
+    "fileciteturn9file8L66": {
+      "page": 2,
+      "line": 66,
+      "content": "depending on mission parameters. Reflective baffles and optical isolation ensure operator safety"
+    },
+    "fileciteturn9file8L67": {
+      "page": 2,
+      "line": 67,
+      "content": "and high irradiance efficiency."
+    },
+    "fileciteturn9file8L68": {
+      "page": 3,
+      "line": 68,
+      "content": "Performance Gains:"
+    },
+    "fileciteturn9file8L69": {
+      "page": 3,
+      "line": 69,
+      "content": "• Delivers sterile water (< 10 CFU/mL)."
+    },
+    "fileciteturn9file8L70": {
+      "page": 3,
+      "line": 70,
+      "content": "• Reduces fin biofouling frequency by > 75%."
+    },
+    "fileciteturn9file8L71": {
+      "page": 3,
+      "line": 71,
+      "content": "• Extends water storage life from 24 h to 72 h+."
+    },
+    "fileciteturn9file8L72": {
+      "page": 3,
+      "line": 72,
+      "content": "• Adds < 3 % power draw / < 15 g mass."
+    },
+    "fileciteturn9file8L73": {
+      "page": 3,
+      "line": 73,
+      "content": "3. Performance Estimates"
+    },
+    "fileciteturn9file8L74": {
+      "page": 3,
+      "line": 74,
+      "content": "These are target estimates suitable for concept-level justification. Real performance will depend"
+    },
+    "fileciteturn9file8L75": {
+      "page": 3,
+      "line": 75,
+      "content": "on fabrication tolerances, surface finishes, and test conditions."
+    },
+    "fileciteturn9file8L76": {
+      "page": 3,
+      "line": 76,
+      "content": "3.1 Atmospheric Condensation Mode (Clean Water Output)"
+    },
+    "fileciteturn9file8L77": {
+      "page": 3,
+      "line": 77,
+      "content": "Assume ambient 30 °C, sealed shroud, 44 CFM, 33 fins × 1.5 mm spacing, liquid-cooled hot"
+    },
+    "fileciteturn9file8L78": {
+      "page": 3,
+      "line": 78,
+      "content": "sink (immersed)."
+    },
+    "fileciteturn9file8L79": {
+      "page": 3,
+      "line": 79,
+      "content": "Relative Humidity L/h, 4 TECs L/day, 4 TECs L/h, 3 TECs L/h, 2 TECs"
+    },
+    "fileciteturn9file8L80": {
+      "page": 3,
+      "line": 80,
+      "content": "60 % 0.20 – 0.24 4.8 – 5.8 0.15 – 0.18 0.10 – 0.13"
+    },
+    "fileciteturn9file8L81": {
+      "page": 3,
+      "line": 81,
+      "content": "70 % 0.28 – 0.33 6.7 – 8.0 0.21 – 0.25 0.14 – 0.18"
+    },
+    "fileciteturn9file8L82": {
+      "page": 3,
+      "line": 82,
+      "content": "80 % 0.34 – 0.40 8.2 – 9.6 0.26 – 0.32 0.18 – 0.24"
+    },
+    "fileciteturn9file8L83": {
+      "page": 3,
+      "line": 83,
+      "content": "90 % 0.38 – 0.45 9.1 – 10.8 0.30 – 0.35 0.22 – 0.28"
+    },
+    "fileciteturn9file8L84": {
+      "page": 3,
+      "line": 84,
+      "content": "• These yields reflect the additional condensing area and high airflow renewal."
+    },
+    "fileciteturn9file8L85": {
+      "page": 3,
+      "line": 85,
+      "content": "• Gains beyond ~85–90% will flatten as TEC heat-lift capacity becomes the limiting factor."
+    },
+    "fileciteturn9file8L86": {
+      "page": 3,
+      "line": 86,
+      "content": "3.2 Distillation / Boiling Mode (Dirty Water Processing)"
+    },
+    "fileciteturn9file8L87": {
+      "page": 3,
+      "line": 87,
+      "content": "• The immersed heatsink hot side can reach boiling in local zones if TECs supply ~300–"
+    },
+    "fileciteturn9file8L88": {
+      "page": 3,
+      "line": 88,
+      "content": "360+ W of heat."
+    },
+    "fileciteturn9file8L89": {
+      "page": 3,
+      "line": 89,
+      "content": "• With 4 TECs, Qh ≈ Qc + Pin ≈ 350–420 W, leaving enough latent energy to support"
+    },
+    "fileciteturn9file8L90": {
+      "page": 3,
+      "line": 90,
+      "content": "~0.20–0.25 L/h of distillation from contaminated water (contingent on HX design and"
+    },
+    "fileciteturn9file8L91": {
+      "page": 3,
+      "line": 91,
+      "content": "minimal thermal losses)."
+    },
+    "fileciteturn9file8L92": {
+      "page": 3,
+      "line": 92,
+      "content": "• With 3 TECs, expect ~0.15–0.18 L/h; with 2 TECs, ~0.10–0.12 L/h."
+    },
+    "fileciteturn9file8L93": {
+      "page": 3,
+      "line": 93,
+      "content": "• In hybrid duty cycles, the system may alternate between condensing and distillation"
+    },
+    "fileciteturn9file8L94": {
+      "page": 3,
+      "line": 94,
+      "content": "phases to maintain temperatures and yield."
+    },
+    "fileciteturn9file8L95": {
+      "page": 4,
+      "line": 95,
+      "content": "3.3 Cold Climate / Low Temperature Performance"
+    },
+    "fileciteturn9file8L96": {
+      "page": 4,
+      "line": 96,
+      "content": "Performance drops as humidity (absolute) decreases. For ambient ~20 °C:"
+    },
+    "fileciteturn9file8L97": {
+      "page": 4,
+      "line": 97,
+      "content": "• At 70 % RH (~14 g/m³ vapor), yields might drop by ~25–35%."
+    },
+    "fileciteturn9file8L98": {
+      "page": 4,
+      "line": 98,
+      "content": "• For example: 0.28 L/h (warm) → ~0.18–0.22 L/h in cooler air."
+    },
+    "fileciteturn9file8L99": {
+      "page": 4,
+      "line": 99,
+      "content": "• Distillation is less affected (since boiling is actively driven), but heat losses grow."
+    },
+    "fileciteturn9file8L100": {
+      "page": 4,
+      "line": 100,
+      "content": "These estimates assume good insulation, low parasitic heat paths, and precise thermal control."
+    },
+    "fileciteturn9file8L101": {
+      "page": 4,
+      "line": 101,
+      "content": "4. Biosecurity & Hygiene Advantages"
+    },
+    "fileciteturn9file8L102": {
+      "page": 4,
+      "line": 102,
+      "content": "The UV-C subsystem enhances the Hydro Cube’s field readiness by eliminating biological"
+    },
+    "fileciteturn9file8L103": {
+      "page": 4,
+      "line": 103,
+      "content": "contamination and maintaining sterile operation without filters or chemicals. This silent,"
+    },
+    "fileciteturn9file8L104": {
+      "page": 4,
+      "line": 104,
+      "content": "maintenance-free solution ensures operational safety for special-forces personnel, forward"
+    },
+    "fileciteturn9file8L105": {
+      "page": 4,
+      "line": 105,
+      "content": "operators, or disaster-response teams in regions lacking medical or cleaning resources."
+    },
+    "fileciteturn9file8L106": {
+      "page": 4,
+      "line": 106,
+      "content": "5. Applications and Deployment"
+    },
+    "fileciteturn9file8L107": {
+      "page": 4,
+      "line": 107,
+      "content": "• DoD & SOF Use: Tactical water independence for small units or unmanned platforms."
+    },
+    "fileciteturn9file8L108": {
+      "page": 4,
+      "line": 108,
+      "content": "• FEMA / DHS: Emergency shelters and mobile command units."
+    },
+    "fileciteturn9file8L109": {
+      "page": 4,
+      "line": 109,
+      "content": "• Humanitarian Operations: Rapid-response water generation from humid or coastal air."
+    },
+    "fileciteturn9file8L110": {
+      "page": 4,
+      "line": 110,
+      "content": "• Commercial: Basecamp, expeditionary, camping, recreational, or survival applications."
+    },
+    "fileciteturn9file8L111": {
+      "page": 4,
+      "line": 111,
+      "content": "6. Cost and Production"
+    },
+    "fileciteturn9file8L112": {
+      "page": 4,
+      "line": 112,
+      "content": "Component Estimated Cost per Unit (10,000 units)"
+    },
+    "fileciteturn9file8L113": {
+      "page": 4,
+      "line": 113,
+      "content": "TEC Array (×4) $20"
+    },
+    "fileciteturn9file8L114": {
+      "page": 4,
+      "line": 114,
+      "content": "Aluminum Housing + Fins $15"
+    },
+    "fileciteturn9file8L115": {
+      "page": 4,
+      "line": 115,
+      "content": "Liquid Heatsink Assembly $10"
+    },
+    "fileciteturn9file8L116": {
+      "page": 4,
+      "line": 116,
+      "content": "UV-C LED Subsystem $9"
+    },
+    "fileciteturn9file8L117": {
+      "page": 4,
+      "line": 117,
+      "content": "Electronics + Battery $12"
+    },
+    "fileciteturn9file8L118": {
+      "page": 4,
+      "line": 118,
+      "content": "Assembly / QA $14"
+    },
+    "fileciteturn9file8L119": {
+      "page": 4,
+      "line": 119,
+      "content": "Total (Approx.) $80 per unit"
+    },
+    "fileciteturn9file8L120": {
+      "page": 5,
+      "line": 120,
+      "content": "7. Comparisons to Existing Programs & Commercial AWG Efforts"
+    },
+    "fileciteturn9file8L121": {
+      "page": 5,
+      "line": 121,
+      "content": "To show how The Hydro Cube fits the broader R&D and market space:"
+    },
+    "fileciteturn9file8L122": {
+      "page": 5,
+      "line": 122,
+      "content": "• DARPA AWE (Atmospheric Water Extraction)"
+    },
+    "fileciteturn9file8L123": {
+      "page": 5,
+      "line": 123,
+      "content": "Goal: build lightweight, low-power systems that supply potable water even in arid"
+    },
+    "fileciteturn9file8L124": {
+      "page": 5,
+      "line": 124,
+      "content": "o"
+    },
+    "fileciteturn9file8L125": {
+      "page": 5,
+      "line": 125,
+      "content": "zones. (darpa.mil)"
+    },
+    "fileciteturn9file8L126": {
+      "page": 5,
+      "line": 126,
+      "content": "Multiple contracts to GE, Honeywell, MIT, PSI, NRL, etc. (darpa.mil)"
+    },
+    "fileciteturn9file8L127": {
+      "page": 5,
+      "line": 127,
+      "content": "o"
+    },
+    "fileciteturn9file8L128": {
+      "page": 5,
+      "line": 128,
+      "content": "GE’s AIR2WATER project under AWE aims to produce hundreds of liters/day"
+    },
+    "fileciteturn9file8L129": {
+      "page": 5,
+      "line": 129,
+      "content": "o"
+    },
+    "fileciteturn9file8L130": {
+      "page": 5,
+      "line": 130,
+      "content": "from deployed systems. (GE)"
+    },
+    "fileciteturn9file8L131": {
+      "page": 5,
+      "line": 131,
+      "content": "AWE encourages sorbent-based approaches (adsorb-desorb cycles) to lower"
+    },
+    "fileciteturn9file8L132": {
+      "page": 5,
+      "line": 132,
+      "content": "o"
+    },
+    "fileciteturn9file8L133": {
+      "page": 5,
+      "line": 133,
+      "content": "energy per liter in dry ambient conditions. (darpa.mil)"
+    },
+    "fileciteturn9file8L134": {
+      "page": 5,
+      "line": 134,
+      "content": "Example: DARPA’s distillation-enabled AWE challenge requires devices that"
+    },
+    "fileciteturn9file8L135": {
+      "page": 5,
+      "line": 135,
+      "content": "o"
+    },
+    "fileciteturn9file8L136": {
+      "page": 5,
+      "line": 136,
+      "content": "operate even in extremely low humidity, imposing a higher standard of SWaP"
+    },
+    "fileciteturn9file8L137": {
+      "page": 5,
+      "line": 137,
+      "content": "(size, weight, and power) (idstch.com)"
+    },
+    "fileciteturn9file8L138": {
+      "page": 5,
+      "line": 138,
+      "content": "• SOURCE Hydropanels (Zero Mass Water / SOURCE Global)"
+    },
+    "fileciteturn9file8L139": {
+      "page": 5,
+      "line": 139,
+      "content": "Uses solar-powered hygroscopic capture + passive condensation — no external"
+    },
+    "fileciteturn9file8L140": {
+      "page": 5,
+      "line": 140,
+      "content": "o"
+    },
+    "fileciteturn9file8L141": {
+      "page": 5,
+      "line": 141,
+      "content": "power grid needed. (SOURCE)"
+    },
+    "fileciteturn9file8L142": {
+      "page": 5,
+      "line": 142,
+      "content": "Effective in moderate RH environments; scale is non-tactical (rooftop panels,"
+    },
+    "fileciteturn9file8L143": {
+      "page": 5,
+      "line": 143,
+      "content": "o"
+    },
+    "fileciteturn9file8L144": {
+      "page": 5,
+      "line": 144,
+      "content": "homes) rather than personal systems. (SOURCE)"
+    },
+    "fileciteturn9file8L145": {
+      "page": 5,
+      "line": 145,
+      "content": "SOURCE claims to mineralize and ozonate output for taste/sterility. (SOURCE)"
+    },
+    "fileciteturn9file8L146": {
+      "page": 5,
+      "line": 146,
+      "content": "o"
+    },
+    "fileciteturn9file8L147": {
+      "page": 5,
+      "line": 147,
+      "content": "Critics note cost efficiency and performance limits at low humidity, but they"
+    },
+    "fileciteturn9file8L148": {
+      "page": 5,
+      "line": 148,
+      "content": "o"
+    },
+    "fileciteturn9file8L149": {
+      "page": 5,
+      "line": 149,
+      "content": "illustrate how passive/solar AWG is entering the market. (The Guardian)"
+    },
+    "fileciteturn9file8L150": {
+      "page": 5,
+      "line": 150,
+      "content": "• Navy AWG-OTM (On The Move)"
+    },
+    "fileciteturn9file8L151": {
+      "page": 5,
+      "line": 151,
+      "content": "A U.S. Marine Corps SBIR topic: portable AWG system producing ~24 gallons"
+    },
+    "fileciteturn9file8L152": {
+      "page": 5,
+      "line": 152,
+      "content": "o"
+    },
+    "fileciteturn9file8L153": {
+      "page": 5,
+      "line": 153,
+      "content": "in 24 hours (~90 L/day) for a small team using onboard power (vehicle)"
+    },
+    "fileciteturn9file8L154": {
+      "page": 5,
+      "line": 154,
+      "content": "(navysbir.com)"
+    },
+    "fileciteturn9file8L155": {
+      "page": 5,
+      "line": 155,
+      "content": "Emphasis is on vehicular/vehicle-integrated systems, not wearable or individual"
+    },
+    "fileciteturn9file8L156": {
+      "page": 5,
+      "line": 156,
+      "content": "o"
+    },
+    "fileciteturn9file8L157": {
+      "page": 5,
+      "line": 157,
+      "content": "scale."
+    },
+    "fileciteturn9file8L158": {
+      "page": 5,
+      "line": 158,
+      "content": "These benchmarks show that while large systems target tens to hundreds of liters per day, the"
+    },
+    "fileciteturn9file8L159": {
+      "page": 5,
+      "line": 159,
+      "content": "small, self-contained, individual-scale niche remains underexplored. The Hydro Cube aims to fill"
+    },
+    "fileciteturn9file8L160": {
+      "page": 5,
+      "line": 160,
+      "content": "that gap by combining condensation and distillation in one, with modular power scaling and"
+    },
+    "fileciteturn9file8L161": {
+      "page": 5,
+      "line": 161,
+      "content": "advantageous compactness."
+    },
+    "fileciteturn9file8L162": {
+      "page": 5,
+      "line": 162,
+      "content": "8. Operational & Tactical Advantages"
+    },
+    "fileciteturn9file8L163": {
+      "page": 5,
+      "line": 163,
+      "content": "• Dual-use thermodynamics: Both cold and hot sides are harnessed for water production"
+    },
+    "fileciteturn9file8L164": {
+      "page": 5,
+      "line": 164,
+      "content": "rather than waste heat rejection alone."
+    },
+    "fileciteturn9file8L165": {
+      "page": 5,
+      "line": 165,
+      "content": "• Flexible scaling: Operator can disable TEC modules to conserve battery or modulate"
+    },
+    "fileciteturn9file8L166": {
+      "page": 5,
+      "line": 166,
+      "content": "output as conditions vary."
+    },
+    "fileciteturn9file8L167": {
+      "page": 5,
+      "line": 167,
+      "content": "• Low signature & silent operation: No compressors, no flue exhaust, modest fan noise."
+    },
+    "fileciteturn9file8L168": {
+      "page": 5,
+      "line": 168,
+      "content": "• Reduced logistics burden: Less water transport, fewer resupply convoys, lower heat/fuel"
+    },
+    "fileciteturn9file8L169": {
+      "page": 5,
+      "line": 169,
+      "content": "footprints."
+    },
+    "fileciteturn9file8L170": {
+      "page": 6,
+      "line": 170,
+      "content": "• Boiling/hygiene capability built-in: Distillation from dirty sources or localized"
+    },
+    "fileciteturn9file8L171": {
+      "page": 6,
+      "line": 171,
+      "content": "sterilization of condensate fluid."
+    },
+    "fileciteturn9file8L172": {
+      "page": 6,
+      "line": 172,
+      "content": "• Competitive in DARPA/DoD space: Personal class systems are exactly the"
+    },
+    "fileciteturn9file8L173": {
+      "page": 6,
+      "line": 173,
+      "content": "“expeditionary track” goal of AWE."
+    },
+    "fileciteturn9file8L174": {
+      "page": 6,
+      "line": 174,
+      "content": "9. Risks, Challenges & Mitigations"
+    },
+    "fileciteturn9file8L175": {
+      "page": 6,
+      "line": 175,
+      "content": "• Heat leaks & non-ideal thermal paths reduce COP — careful sealing and insulation"
+    },
+    "fileciteturn9file8L176": {
+      "page": 6,
+      "line": 176,
+      "content": "required."
+    },
+    "fileciteturn9file8L177": {
+      "page": 6,
+      "line": 177,
+      "content": "• Boil detachment and bubble formation in an immersed heatsink may reduce thermal"
+    },
+    "fileciteturn9file8L178": {
+      "page": 6,
+      "line": 178,
+      "content": "coupling, so a robust boiling surface design (micro-fins, nucleation sites) is needed."
+    },
+    "fileciteturn9file8L179": {
+      "page": 6,
+      "line": 179,
+      "content": "• Water quality concerns in distillation mode: ensure materials are inert and path is sealed"
+    },
+    "fileciteturn9file8L180": {
+      "page": 6,
+      "line": 180,
+      "content": "to avoid contamination."
+    },
+    "fileciteturn9file8L181": {
+      "page": 6,
+      "line": 181,
+      "content": "• Power constraints in low-RH conditions: output falls rapidly with RH drop. Mitigation:"
+    },
+    "fileciteturn9file8L182": {
+      "page": 6,
+      "line": 182,
+      "content": "use local heating cycles."
+    },
+    "fileciteturn9file8L183": {
+      "page": 6,
+      "line": 183,
+      "content": "• Durability & fouling: repeated condensation cycles risk corrosion or fouling of fins or"
+    },
+    "fileciteturn9file8L184": {
+      "page": 6,
+      "line": 184,
+      "content": "immersion surfaces; coatings and maintenance protocols are essential."
+    },
+    "fileciteturn9file8L185": {
+      "page": 6,
+      "line": 185,
+      "content": "10. Development Roadmap & Cost Estimate"
+    },
+    "fileciteturn9file8L186": {
+      "page": 6,
+      "line": 186,
+      "content": "Phase I – Prototype Demonstration"
+    },
+    "fileciteturn9file8L187": {
+      "page": 6,
+      "line": 187,
+      "content": "• Build a benchtop with a 33-fin array, 4 TEC modules, and an immersed heatsink."
+    },
+    "fileciteturn9file8L188": {
+      "page": 6,
+      "line": 188,
+      "content": "Validate condensation and distillation rates vs. targets."
+    },
+    "fileciteturn9file8L189": {
+      "page": 6,
+      "line": 189,
+      "content": "• Thermal mapping, flow calibration, and durability cycles."
+    },
+    "fileciteturn9file8L190": {
+      "page": 6,
+      "line": 190,
+      "content": "Phase II – Rugged Field Prototype"
+    },
+    "fileciteturn9file8L191": {
+      "page": 6,
+      "line": 191,
+      "content": "• Reinforced shell, deployable mechanisms, filtration modules, connectors, field sealing,"
+    },
+    "fileciteturn9file8L192": {
+      "page": 6,
+      "line": 192,
+      "content": "environmental tests (dust, shock, salt fog)."
+    },
+    "fileciteturn9file8L193": {
+      "page": 6,
+      "line": 193,
+      "content": "Phase III – Pre-Production & Field Trials"
+    },
+    "fileciteturn9file8L194": {
+      "page": 6,
+      "line": 194,
+      "content": "• Small batch (1,000–10,000 units) production, user field evaluation, integration into"
+    },
+    "fileciteturn9file8L195": {
+      "page": 6,
+      "line": 195,
+      "content": "soldier systems."
+    },
+    "fileciteturn9file8L196": {
+      "page": 7,
+      "line": 196,
+      "content": "11. Conclusion"
+    },
+    "fileciteturn9file8L197": {
+      "page": 7,
+      "line": 197,
+      "content": "The Hydro Cube merges solid-state reliability, UV-C sterilization, and dual-mode heat"
+    },
+    "fileciteturn9file8L198": {
+      "page": 7,
+      "line": 198,
+      "content": "utilization into a single, compact system. Its modular design allows adaptation from field kits to"
+    },
+    "fileciteturn9file8L199": {
+      "page": 7,
+      "line": 199,
+      "content": "vehicle-mounted units. By maintaining potable, sterile water generation in the most austere"
+    },
+    "fileciteturn9file8L200": {
+      "page": 7,
+      "line": 200,
+      "content": "environments, it directly supports U.S. DoD logistics reduction initiatives, NATO field resilience"
+    },
+    "fileciteturn9file8L201": {
+      "page": 7,
+      "line": 201,
+      "content": "efforts, and humanitarian disaster-relief operations worldwide."
+    },
+    "fileciteturn9file8L202": {
+      "page": 7,
+      "line": 202,
+      "content": "Blue Planet Filtration • Stonington, CT • (860)917-6478 • jgeraci@blueplanetfiltration.com"
+    }
+  },
+  "checksum_sha256": "2ae8c6bc38459d074603ed91fe538513d81b657671d940a133b75ab3aa294e05",
+  "extraction_method": "pdfplumber"
+}

@@ -1,0 +1,1097 @@
+{
+  "generated": "2025-11-17T10:18:43.690883",
+  "database": "g:/My Drive\\Databases/Quantumn AI DB _ Tools/quantum_ai_tools.db",
+  "target_directories": [
+    "G:\\My Drive\\Databases\\AI Tools",
+    "G:\\My Drive\\Databases\\AI_Tools_Database"
+  ],
+  "structure": {
+    "AI Tools": {
+      "path": "G:\\My Drive\\Databases\\AI Tools",
+      "subdirs": {},
+      "files": [],
+      "total_files": 0,
+      "total_size": 0,
+      "ai_files": 0,
+      "quantum_files": 0,
+      "qsmec_files": 0
+    },
+    "AI_Tools_Database": {
+      "path": "G:\\My Drive\\Databases\\AI_Tools_Database",
+      "subdirs": {},
+      "files": [],
+      "total_files": 0,
+      "total_size": 0,
+      "ai_files": 0,
+      "quantum_files": 0,
+      "qsmec_files": 0
+    }
+  },
+  "ai_tools": {
+    "AI Tools": [
+      {
+        "framework_name": "tensorflow",
+        "total_mentions": 59,
+        "file_count": 17,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools"
+      },
+      {
+        "framework_name": "pytorch",
+        "total_mentions": 44,
+        "file_count": 17,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools"
+      },
+      {
+        "framework_name": "gpt",
+        "total_mentions": 44,
+        "file_count": 10,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools"
+      },
+      {
+        "framework_name": "copilot",
+        "total_mentions": 29,
+        "file_count": 11,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools"
+      },
+      {
+        "framework_name": "keras",
+        "total_mentions": 21,
+        "file_count": 7,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools"
+      },
+      {
+        "framework_name": "anthropic",
+        "total_mentions": 18,
+        "file_count": 8,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools"
+      },
+      {
+        "framework_name": "llama",
+        "total_mentions": 16,
+        "file_count": 5,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools"
+      },
+      {
+        "framework_name": "claude",
+        "total_mentions": 16,
+        "file_count": 9,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools"
+      },
+      {
+        "framework_name": "openai",
+        "total_mentions": 15,
+        "file_count": 10,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools"
+      },
+      {
+        "framework_name": "midjourney",
+        "total_mentions": 9,
+        "file_count": 7,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools"
+      },
+      {
+        "framework_name": "scikit-learn",
+        "total_mentions": 4,
+        "file_count": 3,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete"
+      }
+    ],
+    "AI_Tools_Database": [
+      {
+        "framework_name": "gpt",
+        "total_mentions": 13,
+        "file_count": 4,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database"
+      },
+      {
+        "framework_name": "pytorch",
+        "total_mentions": 8,
+        "file_count": 2,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database"
+      },
+      {
+        "framework_name": "copilot",
+        "total_mentions": 8,
+        "file_count": 5,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database"
+      },
+      {
+        "framework_name": "tensorflow",
+        "total_mentions": 7,
+        "file_count": 3,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database"
+      },
+      {
+        "framework_name": "claude",
+        "total_mentions": 6,
+        "file_count": 4,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database"
+      },
+      {
+        "framework_name": "anthropic",
+        "total_mentions": 5,
+        "file_count": 4,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database"
+      },
+      {
+        "framework_name": "openai",
+        "total_mentions": 4,
+        "file_count": 4,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database"
+      },
+      {
+        "framework_name": "midjourney",
+        "total_mentions": 2,
+        "file_count": 2,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database"
+      },
+      {
+        "framework_name": "llama",
+        "total_mentions": 2,
+        "file_count": 2,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database"
+      },
+      {
+        "framework_name": "keras",
+        "total_mentions": 2,
+        "file_count": 2,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database"
+      }
+    ]
+  },
+  "quantum_capabilities": {
+    "AI Tools": [
+      {
+        "capability_name": "qiskit",
+        "capability_type": "quantum",
+        "total_mentions": 87,
+        "file_count": 22
+      },
+      {
+        "capability_name": "cirq",
+        "capability_type": "quantum",
+        "total_mentions": 69,
+        "file_count": 19
+      },
+      {
+        "capability_name": "quantum circuit",
+        "capability_type": "quantum",
+        "total_mentions": 55,
+        "file_count": 21
+      },
+      {
+        "capability_name": "pennylane",
+        "capability_type": "quantum",
+        "total_mentions": 52,
+        "file_count": 19
+      },
+      {
+        "capability_name": "quantum computing",
+        "capability_type": "quantum",
+        "total_mentions": 48,
+        "file_count": 16
+      },
+      {
+        "capability_name": "q-smec",
+        "capability_type": "qsmec",
+        "total_mentions": 28,
+        "file_count": 7
+      },
+      {
+        "capability_name": "quantum algorithm",
+        "capability_type": "quantum",
+        "total_mentions": 18,
+        "file_count": 14
+      },
+      {
+        "capability_name": "vqe",
+        "capability_type": "quantum",
+        "total_mentions": 18,
+        "file_count": 6
+      },
+      {
+        "capability_name": "hamiltonian",
+        "capability_type": "quantum",
+        "total_mentions": 17,
+        "file_count": 7
+      },
+      {
+        "capability_name": "quantum simulation",
+        "capability_type": "quantum",
+        "total_mentions": 14,
+        "file_count": 6
+      },
+      {
+        "capability_name": "qaoa",
+        "capability_type": "quantum",
+        "total_mentions": 10,
+        "file_count": 2
+      },
+      {
+        "capability_name": "qml",
+        "capability_type": "quantum",
+        "total_mentions": 10,
+        "file_count": 4
+      },
+      {
+        "capability_name": "qubit",
+        "capability_type": "quantum",
+        "total_mentions": 9,
+        "file_count": 7
+      },
+      {
+        "capability_name": "quantum machine learning",
+        "capability_type": "quantum",
+        "total_mentions": 7,
+        "file_count": 7
+      },
+      {
+        "capability_name": "quantum sensor",
+        "capability_type": "qsmec",
+        "total_mentions": 2,
+        "file_count": 1
+      },
+      {
+        "capability_name": "wave function",
+        "capability_type": "quantum",
+        "total_mentions": 2,
+        "file_count": 2
+      },
+      {
+        "capability_name": "quantum state",
+        "capability_type": "quantum",
+        "total_mentions": 1,
+        "file_count": 1
+      },
+      {
+        "capability_name": "superconducting",
+        "capability_type": "qsmec",
+        "total_mentions": 1,
+        "file_count": 1
+      }
+    ],
+    "AI_Tools_Database": [
+      {
+        "capability_name": "quantum computing",
+        "capability_type": "quantum",
+        "total_mentions": 24,
+        "file_count": 5
+      },
+      {
+        "capability_name": "q-smec",
+        "capability_type": "qsmec",
+        "total_mentions": 14,
+        "file_count": 1
+      },
+      {
+        "capability_name": "cirq",
+        "capability_type": "quantum",
+        "total_mentions": 13,
+        "file_count": 5
+      },
+      {
+        "capability_name": "quantum circuit",
+        "capability_type": "quantum",
+        "total_mentions": 8,
+        "file_count": 4
+      },
+      {
+        "capability_name": "pennylane",
+        "capability_type": "quantum",
+        "total_mentions": 5,
+        "file_count": 4
+      },
+      {
+        "capability_name": "qiskit",
+        "capability_type": "quantum",
+        "total_mentions": 5,
+        "file_count": 3
+      },
+      {
+        "capability_name": "quantum algorithm",
+        "capability_type": "quantum",
+        "total_mentions": 3,
+        "file_count": 3
+      },
+      {
+        "capability_name": "quantum sensor",
+        "capability_type": "qsmec",
+        "total_mentions": 2,
+        "file_count": 1
+      },
+      {
+        "capability_name": "quantum simulation",
+        "capability_type": "quantum",
+        "total_mentions": 2,
+        "file_count": 1
+      },
+      {
+        "capability_name": "vqe",
+        "capability_type": "quantum",
+        "total_mentions": 2,
+        "file_count": 1
+      },
+      {
+        "capability_name": "hamiltonian",
+        "capability_type": "quantum",
+        "total_mentions": 1,
+        "file_count": 1
+      },
+      {
+        "capability_name": "quantum machine learning",
+        "capability_type": "quantum",
+        "total_mentions": 1,
+        "file_count": 1
+      }
+    ]
+  },
+  "file_types": {
+    "AI Tools": [
+      {
+        "file_ext": ".xlsx",
+        "file_count": 32,
+        "total_size": 999988,
+        "avg_ai_score": 26.140625,
+        "avg_quantum_score": 16.40625,
+        "avg_qsmec_score": 0.375
+      },
+      {
+        "file_ext": ".docx",
+        "file_count": 12,
+        "total_size": 3156921,
+        "avg_ai_score": 13.375,
+        "avg_quantum_score": 8.375,
+        "avg_qsmec_score": 4.166666666666667
+      }
+    ],
+    "AI_Tools_Database": [
+      {
+        "file_ext": ".xlsx",
+        "file_count": 5,
+        "total_size": 92103,
+        "avg_ai_score": 50.7,
+        "avg_quantum_score": 15.3,
+        "avg_qsmec_score": 0.0
+      },
+      {
+        "file_ext": ".docx",
+        "file_count": 3,
+        "total_size": 1194198,
+        "avg_ai_score": 5.333333333333333,
+        "avg_quantum_score": 6.5,
+        "avg_qsmec_score": 10.666666666666666
+      }
+    ]
+  },
+  "top_ai_files": {
+    "AI Tools": [
+      {
+        "file_name": "CNN .xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\CNN .xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 19646,
+        "ai_relevance_score": 100.5,
+        "quantum_relevance_score": 0.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+        "text_snippet": "Tool Name Status Category\nLeNet Active CNN Architecture\nAlexNet Active CNN Architecture\nVGG Active CNN Architecture\nResNet Active CNN Architecture\nU-Net Active CNN Architecture\nPyTorch Active Framework\nTensorFlow Active Framework\nKeras Active API / Library\nCaffe Active Framework\nDeeplearning4j Active Framework\nMXNet Retired Framework\nTool Name Status Developer / Tool Source Category Primary Function and Purpose Target Audience / Use Cases Tool Use Case Core AI Algorithms / Models Key Features and Functionality Inputs Outputs Benchmarks / Performance Integration Capabilities Strategic Value Reliability / Validation Simulation Available Real Hardware Access Open Source / Licensing Costs Data Handling Tool Data Sensitivity & Access Control Compliance & Security Application to Compounds Workflow Link Competitor Landscape Customer Evidence Roadmap & Support Responsible AI URLs Source Verification Download/Install\nPyTorch Active PyTorch Foundation (Linux Foundation) Framework Open-source dee"
+      },
+      {
+        "file_name": "NLP GenAI.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\NLP GenAI.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 22295,
+        "ai_relevance_score": 97.5,
+        "quantum_relevance_score": 0.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+        "text_snippet": "Tool Name Status Developer / Tool Source Category Primary Function and Purpose Target Audience / Use Cases Tool Use Case Core AI Algorithms / Models Key Features and Functionality Inputs Outputs Benchmarks / Performance Integration Capabilities Strategic Value Reliability / Validation Simulation Available Real Hardware Access Open Source / Licensing Costs Data Handling Tool Data Sensitivity & Access Control Compliance & Security Application to Compounds Workflow Link Competitor Landscape Customer Evidence Roadmap & Support Responsible AI URLs Source Verification Download/Install\nAnthropic Claude Active Anthropic Conversational LLM; API and apps Reasoning, coding, analysis, enterprise assistant Enterprises and developers; Bedrock access; regulated industries Conversational AI, RAG, code assistance, analytics Claude 3.7 family (as of 2025), transformer-based LLM API and apps, artifacts, file tools, web fetch, Claude Workbench Text, images; files via API Text, structured JSON, tool calls;"
+      },
+      {
+        "file_name": "AI Tools for Q-SMEC v2.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\AI Tools for Q-SMEC v2.docx",
+        "file_ext": ".docx",
+        "file_size": 313228,
+        "ai_relevance_score": 86.5,
+        "quantum_relevance_score": 1.5,
+        "qsmec_relevance_score": 2.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+        "text_snippet": "Type of AI Tools\nThis document provides a comprehensive analysis, including use cases, reliability assessments, and ratings, for various AI tools categorized by their primary function.\n\nToolkits\n\nSupervised vs Unsupervised Learning\nWatson Studio (IBM)\nMATLAB Simulink (Mathworks)\nAzure ML (Microsoft) \nAmazon ML\nOpenNN\nVertex AI (Google)\nBigML\nApache Mahout\nWeka\nSciKit-learn Python !!\nAutoML (Google)\nColab (Google)\nKNIME\nRapidMiner\nShogun\nApache Spark \n\nReinforcement Learning\nGym (OpenAI)\nAgents (TensorFlow/Google Brain)\nReAgent (Meta)\nOpenSpeil (DeepMind/Google)\nSagemaker RL (Amazon)\nDopamine \n\nConvolutional Neural Networks\nCaffe (Berkeley Vision and Learning Center) \nLeNet \nTensorFlow (Google)\nKeras\nCNTK-Cognitive Network Toolkit/Visual Studi (Microsoft)\nDeeplearning 4j\nDIGITS (NVIDIA)\nMXNet \nPyTorch\nPyLearn2\nAlexNet\nGoogleNet\nOxfordNet\nUNet\nResNet\nInceptionNet \nVGG\n\nAdvanced Modeling and Simulation\nAnsys Discovery/CFX/Fluent/SCADE\nSimulink\nSimcenter STAR-CCM/Femap\nAnyLogic\nFusion 360\n"
+      },
+      {
+        "file_name": "AI_Tools_Database.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI_Tools_Database.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 33606,
+        "ai_relevance_score": 75.0,
+        "quantum_relevance_score": 25.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Tool Name OpenSource? Category AI Category Pre-requisites Details Notes Function(s) Pricing Model Cost Details Free Tier/Trial Available Download/install URL\nAgentGPT Yes AI Platform Autonomous AI Agents, NLP Git: winget install --id Git.Git -e --source winget \n Node.js (with npm): winget install --id OpenJS.NodeJS -e --source winget \n OpenAI API Key: (Paid Service) Requires further configuration (API keys) for self-hosting. Allows users to create and deploy autonomous AI agents that can understand goals, break them down into tasks, and execute them. Freemium Pro: $40/month Yes Web app: https://agentgpt.reworkd.ai/ \n Source code: https://github.com/reworkd/AgentGPT\nAitomia Partial AI Platform Scientific AI, Computational Chemistry Python: winget install --id Python.Python.3 -e --source winget \n pip: Included with Python Local installation is assumed; PowerShell script is hypothetical. An AI assistant for atomistic and quantum chemical simulations, helping with setup, execution, and ana"
+      },
+      {
+        "file_name": "QSMEC AI Tool Integration Matrix.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\QSMEC AI Tool Integration Matrix.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 18334,
+        "ai_relevance_score": 61.5,
+        "quantum_relevance_score": 10.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Tool Name AI Category Primary Q\u2011SMEC Task Fit Secondary Task Fit Core Function Sector Alignment Integration Environment Readiness Level Classification Basis\nAgentGPT AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAitomia AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAlexNet AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAltair AI Studio (formerly RapidMiner Studio) AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAmazon Machine Learning AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAmazon SageMaker RL AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cl"
+      },
+      {
+        "file_name": "QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 18715,
+        "ai_relevance_score": 61.5,
+        "quantum_relevance_score": 10.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Tool Name AI Category Primary Q\u2011SMEC Task Fit Secondary Task Fit Core Function Sector Alignment Integration Environment Readiness Level Classification Basis\nAgentGPT AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAitomia AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAlexNet AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAltair AI Studio (formerly RapidMiner Studio) AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAmazon Machine Learning AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAmazon SageMaker RL AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cl"
+      },
+      {
+        "file_name": "Intelligent Agents.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\Intelligent Agents.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 12872,
+        "ai_relevance_score": 50.5,
+        "quantum_relevance_score": 0.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+        "text_snippet": "Tool Name Status Developer / Tool Source Category Primary Function and Purpose Target Audience / Use Cases Tool Use Case Core AI Algorithms / Models Key Features and Functionality Inputs Outputs Benchmarks / Performance Integration Capabilities Strategic Value Reliability / Validation Simulation Available Real Hardware Access Open Source / Licensing Costs Data Handling Tool Data Sensitivity & Access Control Compliance & Security Application to Compounds Workflow Link Competitor Landscape Customer Evidence Roadmap & Support Responsible AI URLs Source Verification Download/Install\nPlayAI Active (2025) PlayAI, Inc. Real-time voice AI (TTS + agents) Build and deploy real-time voice agents with TTS/STT and telephony/web integration Contact centers; IVR; product teams needing voice agents Voice agent orchestration and deployment LLM-powered NLU; TTS; STT; vendor LLMs via integrations Real-time voice; agent builder; monitoring; telephony; web SDK Voice audio; text prompts; API events Synthesi"
+      },
+      {
+        "file_name": "Tool Categorization with Prerequisites - MASTER.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Tool Categorization with Prerequisites - MASTER.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 15669,
+        "ai_relevance_score": 48.0,
+        "quantum_relevance_score": 15.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Tool Name Category Primary Prerequisites How It's Used\n.NET SDK Library Package (Platform) Windows, macOS, or Linux Operating System A set of libraries and tools used to create .NET applications.\nAgentGPT Library Package (Python/JS) Node.js, Git, Docker, OpenAI API Key A framework you run from the command line to create autonomous AI agents.\nAitomia Actual Program (Web Service) Web Browser, Account A cloud platform you access through a web browser.\nAlexNet Concept / Model Python, a deep learning framework (e.g., PyTorch) An influential neural network architecture used within a library like PyTorch.\nAltair AI Studio Actual Program (GUI) Windows, macOS, or Linux; Valid License A graphical data science and machine learning platform.\nAmazon Machine Learning Actual Program (Web Service) Web Browser, AWS Account A cloud service used via the AWS web console or CLI to build ML models.\nAmazon SageMaker RL Actual Program (Web Service) Web Browser, AWS Account A specific feature within AWS SageMa"
+      },
+      {
+        "file_name": "Reinforcement Learning.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\Reinforcement Learning.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 13451,
+        "ai_relevance_score": 41.5,
+        "quantum_relevance_score": 0.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+        "text_snippet": "Tool Name Status Developer / Tool Source Category Primary Function and Purpose Target Audience / Use Cases Tool Use Case Core AI Algorithms / Models Key Features and Functionality Inputs Outputs Benchmarks / Performance Integration Capabilities Strategic Value Reliability / Validation Simulation Available Real Hardware Access Open Source / Licensing Costs Data Handling Tool Data Sensitivity & Access Control Compliance & Security Application to Compounds Workflow Link Competitor Landscape Customer Evidence Roadmap & Support Responsible AI URLs Source Verification Download/Install\nAmazon SageMaker RL Active Amazon Web Services (AWS) Managed Service | Reinforcement Learning Managed RL training and hosting within AWS SageMaker Industrial optimization; robotics; simulation-based RL Train RL with hosted notebooks, distributed training, envs Supports frameworks (Ray RLlib, TF-Agents); built-in examples Managed compute; distributed training; HPO; integrated envs S3 datasets; env interfaces; co"
+      },
+      {
+        "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum Chemistry + AI Tools Simulation.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 73474,
+        "ai_relevance_score": 40.5,
+        "quantum_relevance_score": 49.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "Tool Name Developer / Org Domain / Primary Use Access / Licensing Supported Backends / Features Science Impact Business Impact Category Notes & References / Uncertainty Integration Map Technology Readiness Level (TRL) Commercial Readiness Market Potential Investor Snapshot Notes\nCp2K CP2K Developers Group Quantum chemistry, MD, AIMD, QM/MM, DFT Open Source (GPL) DFT, MP2, mixed quantum/classical MD, QM/MM, NEB, vibrational analysis, Monte Carlo Used in hybrid simulations, large-scale QM/MM models, ab initio molecular dynamics Supports scalable simulations for materials, pharma, and energy applications Quantum Chemistry / Multiscale Simulation Partial GPU support; source: pubs.aip.org 2020 CP2K \u2194 ASE / DFTB+ / i-PI 2025-06-07 00:00:00 Open Source; Embedded in R&D stacks Molecular Dynamics, Pharma, Energy Sim Scales to large systems; plug-in ecosystem\nESML Arrows DOE Exascale Computing Project, PNNL, LLNL AI-enhanced quantum chemistry (density matrix prediction, surrogate models) DOE pro"
+      },
+      {
+        "file_name": "Quantum Chemistry + AI Tools Simulation (2).xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum Chemistry + AI Tools Simulation (2).xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 73843,
+        "ai_relevance_score": 40.5,
+        "quantum_relevance_score": 49.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "Tool Name Developer / Org Domain / Primary Use Access / Licensing Supported Backends / Features Science Impact Business Impact Category Notes & References / Uncertainty Integration Map Technology Readiness Level (TRL) Commercial Readiness Market Potential Investor Snapshot Notes\nCp2K CP2K Developers Group Quantum chemistry, MD, AIMD, QM/MM, DFT Open Source (GPL) DFT, MP2, mixed quantum/classical MD, QM/MM, NEB, vibrational analysis, Monte Carlo Used in hybrid simulations, large-scale QM/MM models, ab initio molecular dynamics Supports scalable simulations for materials, pharma, and energy applications Quantum Chemistry / Multiscale Simulation Partial GPU support; source: pubs.aip.org 2020 CP2K \u2194 ASE / DFTB+ / i-PI 2025-06-07 00:00:00 Open Source; Embedded in R&D stacks Molecular Dynamics, Pharma, Energy Sim Scales to large systems; plug-in ecosystem\nESML Arrows DOE Exascale Computing Project, PNNL, LLNL AI-enhanced quantum chemistry (density matrix prediction, surrogate models) DOE pro"
+      },
+      {
+        "file_name": "Master AI Tools (w_Quantum) Index.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\Master AI Tools (w_Quantum) Index.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 6598,
+        "ai_relevance_score": 33.5,
+        "quantum_relevance_score": 4.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+        "text_snippet": "Quantum AI Tools Modeling Simulation Advanced Modeling CNN Reinforcement Learning\nTool Tool Tool Tool Tool\nQiskit (IBM) Ansys Discovery Ansys Fluent LeNet (Architecture) Gym\nCirq (Google) Ansys Fluent Simcenter STAR-CCM+ AlexNet (Architecture) TF-Agents\nQuTiP Ansys CFX AnyLogic VGG (Architecture) ReAgent\nProjectQ Ansys SCADE SimScale ResNet (Architecture) OpenSpiel\nStrawberry Fields (Xanadu) Simulink FlexSim UNet (Architecture) SageMaker RL\nPennyLane (Xanadu) Simcenter STAR\u2011CCM+ PyTorch (Framework) Dopamine\nAzure Quantum (Microsoft) Simcenter Femap TensorFlow (Framework)\nAWS Braket AnyLogic Keras (Framework)\nD-Wave Leap (Ocean SDK) Autodesk Fusion (Fusion 360) Caffe (Framework)\nQuantinuum (Honeywell) Simio Deeplearning4j (Framework)\nSimScale MXNet (Framework)\nAutodesk FlexSim\n\n\nSupervised Unsupervised Intelligent Agents NLP GenAI DoE Bayesian\nTool Tool Tool Tool\nAmazon Machine Learning PlayAI Anthropic Claude BayesiaLab\nApache Mahout Dialogflow (Google) DeepMind AlphaCode MODDE\nApache "
+      },
+      {
+        "file_name": "Quantum_Tool_Categorization_with_Prerequisites_MASTER.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum_Tool_Categorization_with_Prerequisites_MASTER.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 12635,
+        "ai_relevance_score": 21.5,
+        "quantum_relevance_score": 13.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Tool_Name Category_Group Category How_It\u2019s_Used Primary_Prerequisites Install_Command Open-Source_(Y/N) URL_/_Reference Notes\n.NET SDK Core Frameworks Library Package (Platform) Windows, macOS, or Linux Operating System\nAgentGPT General Tools Library Package (Python/JS) Node.js, Git, Docker, OpenAI API Key\nAitomia General Tools Actual Program (Web Service) Web Browser, Account\nAlexNet General Tools Concept / Model Python, a deep learning framework (e.g., PyTorch)\nAltair AI Studio General Tools Actual Program (GUI) Windows, macOS, or Linux; Valid License\nAmazon Machine Learning General Tools Actual Program (Web Service) Web Browser, AWS Account\nAmazon SageMaker RL General Tools Actual Program (Web Service) Web Browser, AWS Account\nAnsys CFX / Discovery / Fluent / SCADE General Tools Actual Program (GUI) Windows or Linux, Valid Ansys License\nAnthropic Claude General Tools Actual Program (Web Service) Web Browser, Account/API Key\nAnyLogic General Tools Actual Program (GUI) Windows, macOS,"
+      },
+      {
+        "file_name": "Quantum_Tool_Categorization_with_Prerequisites_MASTER.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum_Tool_Categorization_with_Prerequisites_MASTER.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 12635,
+        "ai_relevance_score": 21.5,
+        "quantum_relevance_score": 13.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "Tool_Name Category_Group Category How_It\u2019s_Used Primary_Prerequisites Install_Command Open-Source_(Y/N) URL_/_Reference Notes\n.NET SDK Core Frameworks Library Package (Platform) Windows, macOS, or Linux Operating System\nAgentGPT General Tools Library Package (Python/JS) Node.js, Git, Docker, OpenAI API Key\nAitomia General Tools Actual Program (Web Service) Web Browser, Account\nAlexNet General Tools Concept / Model Python, a deep learning framework (e.g., PyTorch)\nAltair AI Studio General Tools Actual Program (GUI) Windows, macOS, or Linux; Valid License\nAmazon Machine Learning General Tools Actual Program (Web Service) Web Browser, AWS Account\nAmazon SageMaker RL General Tools Actual Program (Web Service) Web Browser, AWS Account\nAnsys CFX / Discovery / Fluent / SCADE General Tools Actual Program (GUI) Windows or Linux, Valid Ansys License\nAnthropic Claude General Tools Actual Program (Web Service) Web Browser, Account/API Key\nAnyLogic General Tools Actual Program (GUI) Windows, macOS,"
+      },
+      {
+        "file_name": "Quantum chemistry.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum chemistry.docx",
+        "file_ext": ".docx",
+        "file_size": 18765,
+        "ai_relevance_score": 21.5,
+        "quantum_relevance_score": 1.5,
+        "qsmec_relevance_score": 12.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "Quantum Chemistry and Materials Modeling Tools for Q-SMEC Optimization\nOverview\nThis section presents a comprehensive analysis of quantum chemistry and materials modeling tools relevant to Q-SMEC optimization. The focus is on the selection and classification of AI tools, modeling environments, and quantum artificial intelligence platforms, specifically tailored for tasks involving advanced modeling, simulation, and design of experiments.\nQ-SMEC Materials and Task Requirements\nTask 1 of Q-SMEC requires the integration of AI tools, with an emphasis on leveraging both advanced modeling and simulation alongside design of experiments (DOE), including Bayesian networks. The process involves research, validation, and formulation of AI solutions that address these requirements. In addition, there is a need to explore other AI tools beyond the pre-defined toolkit to ensure comprehensive coverage.\nA key focus is the analysis and development of compounds containing one or more of sixteen material"
+      },
+      {
+        "file_name": "Open Source Quantum Modeling Packages.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Open Source Quantum Modeling Packages.docx",
+        "file_ext": ".docx",
+        "file_size": 20556,
+        "ai_relevance_score": 19.5,
+        "quantum_relevance_score": 24.0,
+        "qsmec_relevance_score": 2.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "Integration of Advanced AI Tools with DOE and Bayesian Networks for Chalcogenide Compound Research\nObjective\nThe primary goal of Task 1 Integration is to combine advanced AI tools with Design of Experiments (DOE) and Bayesian Networks for the comprehensive research, validation, and formulation of chalcogenide compounds. This effort specifically targets the selection and analysis of 10 mixed-element compounds from a group of 16 materials within the project\u2019s scope.\n1. AI Tool Categories Grouped by Function\na) Advanced Quantum AI and Simulation\nA variety of quantum computing platforms are utilized to support quantum chemistry modeling and simulation. These include:\nQiskit (IBM): Used for quantum chemistry modeling and implementing variational algorithms.\nCirq (Google): Employed for designing quantum circuits and conducting noisy simulations.\nPennyLane (Xanadu): Applied in hybrid quantum-classical machine learning for materials science.\nQuTiP, ProjectQ, Strawberry Fields: Open-source plat"
+      },
+      {
+        "file_name": "Modeling Simulation.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\Modeling Simulation.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 20693,
+        "ai_relevance_score": 18.5,
+        "quantum_relevance_score": 0.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+        "text_snippet": "Tool Name Status Developer / Tool Source Category Primary Function and Purpose Target Audience / Use Cases Tool Use Case Core AI Algorithms / Models Key Features and Functionality Inputs Outputs Benchmarks / Performance Integration Capabilities Strategic Value Reliability / Validation Simulation Available Real Hardware Access Open Source / Licensing Costs Data Handling Tool Data Sensitivity & Access Control Compliance & Security Application to Compounds Workflow Link Competitor Landscape Customer Evidence Roadmap & Support Responsible AI URLs Source Verification Download/Install\nAnsys Discovery Active Ansys 3D design and upfront simulation Interactive geometry modeling with real-time physics simulation Design engineers, simulation engineers Rapid design exploration, what-if studies, topology optimization. N/A \u2014 physics-based CFD solver; vendor provides AI-assisted workflows in broader portfolio but not core solver. GPU-accelerated physics; topology optimization; live geometry editing; "
+      },
+      {
+        "file_name": "Supervised Unsupervised.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\Supervised Unsupervised.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 18322,
+        "ai_relevance_score": 17.5,
+        "quantum_relevance_score": 0.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+        "text_snippet": "Tool Name Status Developer / Tool Source Category Primary Function and Purpose Target Audience / Use Cases Tool Use Case Core AI Algorithms / Models Key Features and Functionality Inputs Outputs Benchmarks / Performance Integration Capabilities Strategic Value Reliability / Validation Simulation Available Real Hardware Access Open Source / Licensing Costs Data Handling Tool Data Sensitivity & Access Control Compliance & Security Application to Compounds Workflow Link Competitor Landscape Customer Evidence Roadmap & Support Responsible AI URLs Source Verification Download/Install\nAmazon Machine Learning Deprecated; not accepting new users Amazon Web Services (AWS) Classical ML Platform Managed service for building and deploying ML models (service now deprecated). Legacy AWS users; predictive analytics; classification and regression on tabular data. Supervised learning on AWS (replaced by Amazon SageMaker). Logistic/linear regression and tree-based methods as described in legacy docs. Da"
+      },
+      {
+        "file_name": "Quantum Chemistry + AI Tools Simulation (1).xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum Chemistry + AI Tools Simulation (1).xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 65940,
+        "ai_relevance_score": 17.0,
+        "quantum_relevance_score": 24.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "ToolName Category Vendor License Use Case Business Impact Science Impact Function Tools Open Source? TRL Use-case Tutorial-friendly? Business Application Mapping\nAitomia AI Simulation Assistant MLatom / Aitomia Hybrid AI agent interface for simulation workflows Reduces entry barrier Automates setup + summarization Unassigned Unmapped Unknown Not assigned Unknown Unmapped\nChemCopilot AI Chemistry / Synthesis Startup Commercial Predict outcomes, assist formulation Accelerates R&D + reduces costs Validates compounds, candidate screening Unassigned Unmapped Unknown Not assigned Unknown Unmapped\nCirq Quantum AI / NISQ circuits Google Apache 2.0 Noisy circuit simulation, pulse control Integrates with Google Quantum hardware Chemistry simulations via OpenFermion Quantum circuit simulation Quantum AI Toolkit Yes TRL 3\u20135 Yes Quantum circuit workflows\nDIRAC Relativistic QC DIRAC Developers LGPL 2.1 Relativistic effects, heavy elements Niche but vital for heavy-element materials Accurate Po, Bi c"
+      },
+      {
+        "file_name": "Advanced Modeling.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\Advanced Modeling.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 11054,
+        "ai_relevance_score": 12.0,
+        "quantum_relevance_score": 0.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+        "text_snippet": "Tool Name Status Developer / Tool Source Category Primary Function and Purpose Target Audience / Use Cases Tool Use Case Core AI Algorithms / Models Key Features and Functionality Inputs Outputs Benchmarks / Performance Integration Capabilities Strategic Value Reliability / Validation Simulation Available Real Hardware Access Open Source / Licensing Costs Data Handling Tool Data Sensitivity & Access Control Compliance & Security Application to Compounds Workflow Link Competitor Landscape Customer Evidence Roadmap & Support Responsible AI URLs Source Verification Download/Install\nAnsys Fluent Commercial, actively maintained (2025) Ansys CFD / Fluids Simulation CFD: aerodynamics, heat transfer, multiphase flows Engineers, simulation specialists, researchers CFD: aerodynamics, heat transfer, multiphase flows N/A See product page capabilities CAD/mesh; boundary conditions; solver controls; material props Field variables; reports; convergence history; param sweeps Industry-standard CFD veri"
+      }
+    ],
+    "AI_Tools_Database": [
+      {
+        "file_name": "AI_Tools_Database.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\AI_Tools_Database.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 33606,
+        "ai_relevance_score": 75.0,
+        "quantum_relevance_score": 25.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+        "text_snippet": "Tool Name OpenSource? Category AI Category Pre-requisites Details Notes Function(s) Pricing Model Cost Details Free Tier/Trial Available Download/install URL\nAgentGPT Yes AI Platform Autonomous AI Agents, NLP Git: winget install --id Git.Git -e --source winget \n Node.js (with npm): winget install --id OpenJS.NodeJS -e --source winget \n OpenAI API Key: (Paid Service) Requires further configuration (API keys) for self-hosting. Allows users to create and deploy autonomous AI agents that can understand goals, break them down into tasks, and execute them. Freemium Pro: $40/month Yes Web app: https://agentgpt.reworkd.ai/ \n Source code: https://github.com/reworkd/AgentGPT\nAitomia Partial AI Platform Scientific AI, Computational Chemistry Python: winget install --id Python.Python.3 -e --source winget \n pip: Included with Python Local installation is assumed; PowerShell script is hypothetical. An AI assistant for atomistic and quantum chemical simulations, helping with setup, execution, and ana"
+      },
+      {
+        "file_name": "QSMEC AI Tool Integration Matrix.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\QSMEC AI Tool Integration Matrix.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 18334,
+        "ai_relevance_score": 61.5,
+        "quantum_relevance_score": 10.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+        "text_snippet": "Tool Name AI Category Primary Q\u2011SMEC Task Fit Secondary Task Fit Core Function Sector Alignment Integration Environment Readiness Level Classification Basis\nAgentGPT AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAitomia AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAlexNet AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAltair AI Studio (formerly RapidMiner Studio) AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAmazon Machine Learning AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAmazon SageMaker RL AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cl"
+      },
+      {
+        "file_name": "QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 18715,
+        "ai_relevance_score": 61.5,
+        "quantum_relevance_score": 10.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+        "text_snippet": "Tool Name AI Category Primary Q\u2011SMEC Task Fit Secondary Task Fit Core Function Sector Alignment Integration Environment Readiness Level Classification Basis\nAgentGPT AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAitomia AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAlexNet AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAltair AI Studio (formerly RapidMiner Studio) AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAmazon Machine Learning AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAmazon SageMaker RL AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cl"
+      },
+      {
+        "file_name": "Tool Categorization with Prerequisites - MASTER.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\Tool Categorization with Prerequisites - MASTER.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 15669,
+        "ai_relevance_score": 48.0,
+        "quantum_relevance_score": 15.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+        "text_snippet": "Tool Name Category Primary Prerequisites How It's Used\n.NET SDK Library Package (Platform) Windows, macOS, or Linux Operating System A set of libraries and tools used to create .NET applications.\nAgentGPT Library Package (Python/JS) Node.js, Git, Docker, OpenAI API Key A framework you run from the command line to create autonomous AI agents.\nAitomia Actual Program (Web Service) Web Browser, Account A cloud platform you access through a web browser.\nAlexNet Concept / Model Python, a deep learning framework (e.g., PyTorch) An influential neural network architecture used within a library like PyTorch.\nAltair AI Studio Actual Program (GUI) Windows, macOS, or Linux; Valid License A graphical data science and machine learning platform.\nAmazon Machine Learning Actual Program (Web Service) Web Browser, AWS Account A cloud service used via the AWS web console or CLI to build ML models.\nAmazon SageMaker RL Actual Program (Web Service) Web Browser, AWS Account A specific feature within AWS SageMa"
+      },
+      {
+        "file_name": "Categorizing the Tools & Their Strengths.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\Categorizing the Tools & Their Strengths.docx",
+        "file_ext": ".docx",
+        "file_size": 371190,
+        "ai_relevance_score": 8.0,
+        "quantum_relevance_score": 19.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+        "text_snippet": "1. Categorizing the Tools & Their Strengths\nHere are categories and representative tools from your list, with their core capabilities:\nOne tool to highlight: TenCirChem \u2014 it\u2019s an open-source Python package (based on TensorCircuit) optimized for molecular properties and quantum circuit simulations. (GitHub)\n\n\n2. How to Incorporate These Tools into the Pipeline\nBelow is a mapping of pipeline stages to how these tools can be integrated:\nThis hybrid approach allows you to scale \u2014 you run approximate classical methods for many candidates, and occasionally run quantum / high-fidelity simulation for frontier candidates.\n\n3. Architectural Design: Modular Backend Abstraction\nTo support multiple simulation backends (classical or quantum), you should design your pipeline with an abstraction layer \u2014 e.g.:\n\uec03Backend Interface\n  \u251c\u2500\u2500 ClassicalBackend (e.g. DFT, with methods: run(), parse(), validate())\n  \u2514\u2500\u2500 QuantumBackend (e.g. VQE, noisy circuits; methods: run(), parse(), noise_model())\n\uec02Your AI-DOE"
+      },
+      {
+        "file_name": "Tools_Addons_Master_Part2.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\Tools_Addons_Master_Part2.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 5779,
+        "ai_relevance_score": 7.5,
+        "quantum_relevance_score": 15.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+        "text_snippet": "Tool Name Category How It's Used Primary Prerequisites Open Source (Yes/No)\nAWS Braket Web Service A cloud service for accessing quantum computers via console or SDK. Web Browser, AWS Account No\nAzure Quantum Web Service A cloud service for quantum hardware and simulators. Web Browser, Azure Account No\nBlueqat Python Library A Python library for quantum circuit simulation. Python Yes\nCirq Python Library A framework for creating and running quantum algorithms. Python, Rust compiler Yes\nD-Wave Leap (Ocean SDK) Python Library SDK for D-Wave quantum annealers. Python, D-Wave Account Yes\nOpenFermion Python Library Quantum chemistry library integrating physics and computation. Python Yes\nPennyLane (Xanadu) Python Library Quantum machine learning library. Python Yes\nQiskit (IBM) Python Library IBM\u2019s quantum computing SDK. Python Yes\nRigetti pyQuil / QCS Python Library Quantum programming SDK for Rigetti Quantum Cloud Service. Python, Rigetti Account Yes\nStrawberry Fields Python Library Photon"
+      },
+      {
+        "file_name": "Intregratation NIKET- Golden Dome + Infrastructure Backbone.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\Intregratation NIKET- Golden Dome + Infrastructure Backbone.docx",
+        "file_ext": ".docx",
+        "file_size": 41835,
+        "ai_relevance_score": 4.5,
+        "quantum_relevance_score": 0.0,
+        "qsmec_relevance_score": 32.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+        "text_snippet": "Architectural Overview: Dual-Layer Q-SMEC / Quantum Sensor Network for Golden Dome + Infrastructure Backbone\nHigh-level Goals & Principles\nSensor fusion and distributed sensing\nUse a network of quantum-enhanced sensor nodes (Q-SMEC variants) deployed in strategic locations (ground, aerial, space) that feed into a real-time fusion engine. These nodes help detect, localize, classify, and track missile threats from boost, midcourse, to terminal phases.\nDual-use infrastructure embedding\nSome Q-SMEC sensor nodes are co-located with critical infrastructure (power grid nodes, communication hubs, water systems, transportation nodes). These serve both infrastructure monitoring and as part of the missile-detection \u201cmesh,\u201d increasing coverage and redundancy.\nLow-latency decision / intercept loop\nThe architecture must enable extremely fast data paths: sensor \u2192 pre-processor \u2192 fusion/AI \u2192 command decisions \u2192 interceptor guidance. The Q-SMEC enhancements must reduce latency, improve signal-to-noise,"
+      },
+      {
+        "file_name": "AI Tools for Q-SMEC.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\AI Tools for Q-SMEC.docx",
+        "file_ext": ".docx",
+        "file_size": 781173,
+        "ai_relevance_score": 3.5,
+        "quantum_relevance_score": 0.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+        "text_snippet": "\n-Big Picture: (4) layers on why we are doing this\n1: practical and relevant \n\n3: War Gaming (involves \u201cEpoch Prison\u201d (CT+UofA (Nate Hogan (lead)) >> has a list of 8-9 war game exercises currently (but have NEVER conducted in real life) (END RESULT: AI enabled war game design and execution (primary) as well as business systems (secondary) \n-Tools + design +to create / conduct (cradle to grave))\n\n2: Which of the tools are free, user friendly & (able) create tutorial (server with as many tools available) End Goal:  free (or cost efficiency) + Security + user friendly + why + how-to\n\n every tool on your list  has a trusted, vendor-or primary-source link (no Wikipedia)\ncontains:\nArchitectures & Roadmaps\n\nBusiness + Science Server stack\n\nScientific Materials stack\n\nDual architecture map\n\nWorkflows\n\nEnd-to-End (Data \u2192 DOE \u2192 Simulation \u2192 Reporting)\n\nTools Inventory\n\nAll categories covered (ML, RL, CNN, Simulation, DOE, Agents, NLP, Digital Twins)\n\nTrusted source links (official docs, research"
+      }
+    ]
+  },
+  "top_quantum_files": {
+    "AI Tools": [
+      {
+        "file_name": "All AITools Complete Database .xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\All AITools Complete Database .xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 328570,
+        "ai_relevance_score": 10.0,
+        "quantum_relevance_score": 79.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+        "text_snippet": "Tool Name Status Developer / Tool Source Category Primary Function and Purpose Target Audience / Use Cases Tool Use Case Core AI Algorithms / Models Key Features and Functionality Inputs Outputs Benchmarks / Performance Integration Capabilities Strategic Value Reliability / Validation Simulation Available Real Hardware Access Open Source / Licensing Costs Data Handling Tool Data Sensitivity & Access Control Compliance & Security Application to Compounds Workflow Link Competitor Landscape Customer Evidence Roadmap & Support Responsible AI URLs Source Verification Download/Install\nQiskit (IBM) Active IBM SDK + Hardware Access (Gate-based) Open-source SDK for quantum circuits, transpilation, and execution on simulators and IBM Quantum hardware Researchers, educators, and engineers building algorithms (VQE/QAOA), benchmarking devices, and teaching QC. Quantum circuits, transpilation, algorithm execution on IBM devices Gate-based quantum circuits; transpiler passes; noise models; variationa"
+      },
+      {
+        "file_name": "Quantum Modeling.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\Quantum Modeling.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 19233,
+        "ai_relevance_score": 10.0,
+        "quantum_relevance_score": 79.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+        "text_snippet": "Tool Name Status Developer / Tool Source Category Primary Function and Purpose Target Audience / Use Cases Tool Use Case Core AI Algorithms / Models Key Features and Functionality Inputs Outputs Benchmarks / Performance Integration Capabilities Strategic Value Reliability / Validation Simulation Available Real Hardware Access Open Source / Licensing Costs Data Handling Tool Data Sensitivity & Access Control Compliance & Security Application to Compounds Workflow Link Competitor Landscape Customer Evidence Roadmap & Support Responsible AI URLs Source Verification Download/Install\nQiskit (IBM) Active IBM SDK + Hardware Access (Gate-based) Open-source SDK for quantum circuits, transpilation, and execution on simulators and IBM Quantum hardware Researchers, educators, and engineers building algorithms (VQE/QAOA), benchmarking devices, and teaching QC. Quantum circuits, transpilation, algorithm execution on IBM devices Gate-based quantum circuits; transpiler passes; noise models; variationa"
+      },
+      {
+        "file_name": "Quantum Chemistry + AI Tools Simulation.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum Chemistry + AI Tools Simulation.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 73474,
+        "ai_relevance_score": 40.5,
+        "quantum_relevance_score": 49.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "Tool Name Developer / Org Domain / Primary Use Access / Licensing Supported Backends / Features Science Impact Business Impact Category Notes & References / Uncertainty Integration Map Technology Readiness Level (TRL) Commercial Readiness Market Potential Investor Snapshot Notes\nCp2K CP2K Developers Group Quantum chemistry, MD, AIMD, QM/MM, DFT Open Source (GPL) DFT, MP2, mixed quantum/classical MD, QM/MM, NEB, vibrational analysis, Monte Carlo Used in hybrid simulations, large-scale QM/MM models, ab initio molecular dynamics Supports scalable simulations for materials, pharma, and energy applications Quantum Chemistry / Multiscale Simulation Partial GPU support; source: pubs.aip.org 2020 CP2K \u2194 ASE / DFTB+ / i-PI 2025-06-07 00:00:00 Open Source; Embedded in R&D stacks Molecular Dynamics, Pharma, Energy Sim Scales to large systems; plug-in ecosystem\nESML Arrows DOE Exascale Computing Project, PNNL, LLNL AI-enhanced quantum chemistry (density matrix prediction, surrogate models) DOE pro"
+      },
+      {
+        "file_name": "Quantum Chemistry + AI Tools Simulation (2).xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum Chemistry + AI Tools Simulation (2).xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 73843,
+        "ai_relevance_score": 40.5,
+        "quantum_relevance_score": 49.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "Tool Name Developer / Org Domain / Primary Use Access / Licensing Supported Backends / Features Science Impact Business Impact Category Notes & References / Uncertainty Integration Map Technology Readiness Level (TRL) Commercial Readiness Market Potential Investor Snapshot Notes\nCp2K CP2K Developers Group Quantum chemistry, MD, AIMD, QM/MM, DFT Open Source (GPL) DFT, MP2, mixed quantum/classical MD, QM/MM, NEB, vibrational analysis, Monte Carlo Used in hybrid simulations, large-scale QM/MM models, ab initio molecular dynamics Supports scalable simulations for materials, pharma, and energy applications Quantum Chemistry / Multiscale Simulation Partial GPU support; source: pubs.aip.org 2020 CP2K \u2194 ASE / DFTB+ / i-PI 2025-06-07 00:00:00 Open Source; Embedded in R&D stacks Molecular Dynamics, Pharma, Energy Sim Scales to large systems; plug-in ecosystem\nESML Arrows DOE Exascale Computing Project, PNNL, LLNL AI-enhanced quantum chemistry (density matrix prediction, surrogate models) DOE pro"
+      },
+      {
+        "file_name": "Quantum_Tools_Next_Steps.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Install-Downloading AI Tools\\Quantum_Tools_Next_Steps.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 8170,
+        "ai_relevance_score": 1.0,
+        "quantum_relevance_score": 30.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Install-Downloading AI Tools",
+        "text_snippet": "Provider Tool/SDK Account/Portal Auth Type Install + Configure Smoke Test Notes\nIBM Quantum Qiskit https://quantum.ibm.com/ API token In IBM Quantum web UI: Profile \u2192 API token. In shell: `qiskit-ibm-provider` then `qiskit-ibm-provider -h`. In Python: `from qiskit_ibm_runtime import QiskitRuntimeService; QiskitRuntimeService.save_account(token='...')` Python: `from qiskit_ibm_runtime import QiskitRuntimeService; print(QiskitRuntimeService().backends())` Use `qiskit-aer` for local sim; Runtime for cloud.\nD-Wave Ocean SDK / Leap https://cloud.dwavesys.com/leap/ API token Install: `pip install dwave-ocean-sdk`. Configure: `dwave config create` then paste token. Python: `from dwave.system import DWaveSampler; print(DWaveSampler().properties['num_qubits'])` Access requires active plan or trial.\nRigetti pyQuil / QCS https://www.rigetti.com/qcs API key + QCS setup Install: `pip install pyquil`. Configure: `qcs configure` then follow prompts or set `QCS_SETTINGS_APPLICATIONS_PYQUIL_EXECUTABLE`"
+      },
+      {
+        "file_name": "AI_Tools_Database.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI_Tools_Database.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 33606,
+        "ai_relevance_score": 75.0,
+        "quantum_relevance_score": 25.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Tool Name OpenSource? Category AI Category Pre-requisites Details Notes Function(s) Pricing Model Cost Details Free Tier/Trial Available Download/install URL\nAgentGPT Yes AI Platform Autonomous AI Agents, NLP Git: winget install --id Git.Git -e --source winget \n Node.js (with npm): winget install --id OpenJS.NodeJS -e --source winget \n OpenAI API Key: (Paid Service) Requires further configuration (API keys) for self-hosting. Allows users to create and deploy autonomous AI agents that can understand goals, break them down into tasks, and execute them. Freemium Pro: $40/month Yes Web app: https://agentgpt.reworkd.ai/ \n Source code: https://github.com/reworkd/AgentGPT\nAitomia Partial AI Platform Scientific AI, Computational Chemistry Python: winget install --id Python.Python.3 -e --source winget \n pip: Included with Python Local installation is assumed; PowerShell script is hypothetical. An AI assistant for atomistic and quantum chemical simulations, helping with setup, execution, and ana"
+      },
+      {
+        "file_name": "Open Source Quantum Modeling Packages.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Open Source Quantum Modeling Packages.docx",
+        "file_ext": ".docx",
+        "file_size": 20556,
+        "ai_relevance_score": 19.5,
+        "quantum_relevance_score": 24.0,
+        "qsmec_relevance_score": 2.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "Integration of Advanced AI Tools with DOE and Bayesian Networks for Chalcogenide Compound Research\nObjective\nThe primary goal of Task 1 Integration is to combine advanced AI tools with Design of Experiments (DOE) and Bayesian Networks for the comprehensive research, validation, and formulation of chalcogenide compounds. This effort specifically targets the selection and analysis of 10 mixed-element compounds from a group of 16 materials within the project\u2019s scope.\n1. AI Tool Categories Grouped by Function\na) Advanced Quantum AI and Simulation\nA variety of quantum computing platforms are utilized to support quantum chemistry modeling and simulation. These include:\nQiskit (IBM): Used for quantum chemistry modeling and implementing variational algorithms.\nCirq (Google): Employed for designing quantum circuits and conducting noisy simulations.\nPennyLane (Xanadu): Applied in hybrid quantum-classical machine learning for materials science.\nQuTiP, ProjectQ, Strawberry Fields: Open-source plat"
+      },
+      {
+        "file_name": "Quantum Chemistry + AI Tools Simulation (1).xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum Chemistry + AI Tools Simulation (1).xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 65940,
+        "ai_relevance_score": 17.0,
+        "quantum_relevance_score": 24.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "ToolName Category Vendor License Use Case Business Impact Science Impact Function Tools Open Source? TRL Use-case Tutorial-friendly? Business Application Mapping\nAitomia AI Simulation Assistant MLatom / Aitomia Hybrid AI agent interface for simulation workflows Reduces entry barrier Automates setup + summarization Unassigned Unmapped Unknown Not assigned Unknown Unmapped\nChemCopilot AI Chemistry / Synthesis Startup Commercial Predict outcomes, assist formulation Accelerates R&D + reduces costs Validates compounds, candidate screening Unassigned Unmapped Unknown Not assigned Unknown Unmapped\nCirq Quantum AI / NISQ circuits Google Apache 2.0 Noisy circuit simulation, pulse control Integrates with Google Quantum hardware Chemistry simulations via OpenFermion Quantum circuit simulation Quantum AI Toolkit Yes TRL 3\u20135 Yes Quantum circuit workflows\nDIRAC Relativistic QC DIRAC Developers LGPL 2.1 Relativistic effects, heavy elements Niche but vital for heavy-element materials Accurate Po, Bi c"
+      },
+      {
+        "file_name": "Quantum_Tool_Categorization_with_References Table.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum_Tool_Categorization_with_References Table.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 13604,
+        "ai_relevance_score": 8.5,
+        "quantum_relevance_score": 22.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Tool Name Category Command How It's Used Status\nAWS Braket Actual Program (Web Service) pip install amazon-braket-sdk A cloud service for accessing quantum computers, used via its web console or a Python SDK. Valid. The amazon-braket-sdk package is available on PyPI (the Python Package Index).\nAzure Quantum Actual Program (Web Service) az quantum workspace create A cloud service for accessing quantum hardware and simulators from Microsoft Azure. Incomplete. This is a valid Azure CLI command, but it requires additional arguments to run, such as --resource-group, --workspace-name, --location, and --storage-account.\nBlueqat Library Package (Python) pip install blueqat You import blueqat in Python scripts to work with quantum circuits. Valid. The blueqat package is available on PyPI.\nBroombridge Data Specification A data format for representing quantum chemistry problems; not a program itself. Manual Steps Required. This is not a package but a data format. You would typically clone a repos"
+      },
+      {
+        "file_name": "Quantum_Tool_Categorization_with_References Table.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum_Tool_Categorization_with_References Table.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 13604,
+        "ai_relevance_score": 8.5,
+        "quantum_relevance_score": 22.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "Tool Name Category Command How It's Used Status\nAWS Braket Actual Program (Web Service) pip install amazon-braket-sdk A cloud service for accessing quantum computers, used via its web console or a Python SDK. Valid. The amazon-braket-sdk package is available on PyPI (the Python Package Index).\nAzure Quantum Actual Program (Web Service) az quantum workspace create A cloud service for accessing quantum hardware and simulators from Microsoft Azure. Incomplete. This is a valid Azure CLI command, but it requires additional arguments to run, such as --resource-group, --workspace-name, --location, and --storage-account.\nBlueqat Library Package (Python) pip install blueqat You import blueqat in Python scripts to work with quantum circuits. Valid. The blueqat package is available on PyPI.\nBroombridge Data Specification A data format for representing quantum chemistry problems; not a program itself. Manual Steps Required. This is not a package but a data format. You would typically clone a repos"
+      },
+      {
+        "file_name": "Categorizing the Tools & Their Strengths.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Categorizing the Tools & Their Strengths.docx",
+        "file_ext": ".docx",
+        "file_size": 371328,
+        "ai_relevance_score": 8.0,
+        "quantum_relevance_score": 19.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Tab 1\n1. Categorizing the Tools & Their Strengths\nHere are categories and representative tools from your list, with their core capabilities:\nOne tool to highlight: TenCirChem \u2014 it\u2019s an open-source Python package (based on TensorCircuit) optimized for molecular properties and quantum circuit simulations. (GitHub)\n\n\n2. How to Incorporate These Tools into the Pipeline\nBelow is a mapping of pipeline stages to how these tools can be integrated:\nThis hybrid approach allows you to scale \u2014 you run approximate classical methods for many candidates, and occasionally run quantum / high-fidelity simulation for frontier candidates.\n\n3. Architectural Design: Modular Backend Abstraction\nTo support multiple simulation backends (classical or quantum), you should design your pipeline with an abstraction layer \u2014 e.g.:\n\uec03Backend Interface\n  \u251c\u2500\u2500 ClassicalBackend (e.g. DFT, with methods: run(), parse(), validate())\n  \u2514\u2500\u2500 QuantumBackend (e.g. VQE, noisy circuits; methods: run(), parse(), noise_model())\n\uec02Your "
+      },
+      {
+        "file_name": "Quantum_Tools_Addons_Master_Clean.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum_Tools_Addons_Master_Clean.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 6788,
+        "ai_relevance_score": 6.5,
+        "quantum_relevance_score": 18.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Tool_Name Category How_It's_Used Name Command Status\nAWS Braket Actual Program (Web Service) A cloud service for accessing quantum computers, used via its web console or a Python SDK.\nAzure Quantum Actual Program (Web Service) A cloud service for accessing quantum hardware and simulators from Microsoft Azure.\nBlueqat Library Package (Python) You import blueqat in Python scripts to work with quantum circuits.\nBroombridge Data Specification A data format for representing quantum chemistry problems; not a program itself.\nCirq Library Package (Python) You import cirq in Python scripts to create and run quantum algorithms.\nD-Wave Leap (Ocean SDK) Library Package (Python) You import dwave in Python to formulate problems for D-Wave's quantum annealers.\nOpenFermion Library Package (Python) You import openfermion in Python for quantum chemistry calculations.\nOpenFermion-Psi4 Library Package (Python) A plugin library to connect OpenFermion with the Psi4 chemistry package.\nPennyLane (Xanadu) Libr"
+      },
+      {
+        "file_name": "(FULL) Q-Smec Pipeline Repository (1).docx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\(FULL) Q-Smec Pipeline Repository (1).docx",
+        "file_ext": ".docx",
+        "file_size": 1415887,
+        "ai_relevance_score": 4.0,
+        "quantum_relevance_score": 18.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Tab 1\nFull qsmec_pipeline repository \nComplete working starter repo for QSMEC DOE pipeline with support for:\nClassical: Gaussian, QE, Psi4, ORCA, DIRAC\n\nQuantum: TenCirChem, Qiskit, PennyLane, OpenFermion, OpenAtom\n\nInput templates, parsing, and optimization\n\nFull test suite\n\nCLI interface\n\nDeployment & Usage GuidelinesFor clusters utilizing SLURM\nCustomize slurm_template.sh.\nPass --slurm to enable SLURM job dispatch (add flag in cli.py).\nUtilize JobManager.submit_slurm(...).\nFor researchers\nLoad materials from Materials Project or a local .cif file.\nCache results in a CSV or SQLite database.\nIncorporate a dashboard front-end via Streamlit.\nFor advanced development\nImplement hybrid workflows (e.g., classical prefiltering, quantum refinement).\nEmploy the ask() / tell() loop from skopt to monitor optimization in real-time.\nAdd parallel evaluation using multiprocessing.Pool or joblib.\n\n\n\n\n\nCore Repository Files\n\ud83d\udcc1 qsmec_pipeline/\nREADME.md\n\uec03# QSMEC Pipeline: AI-Driven Multi-Backend Materia"
+      },
+      {
+        "file_name": "Quantum_Tools_Addons_Master_Clean.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum_Tools_Addons_Master_Clean.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 6788,
+        "ai_relevance_score": 6.5,
+        "quantum_relevance_score": 18.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "Tool_Name Category How_It's_Used Name Command Status\nAWS Braket Actual Program (Web Service) A cloud service for accessing quantum computers, used via its web console or a Python SDK.\nAzure Quantum Actual Program (Web Service) A cloud service for accessing quantum hardware and simulators from Microsoft Azure.\nBlueqat Library Package (Python) You import blueqat in Python scripts to work with quantum circuits.\nBroombridge Data Specification A data format for representing quantum chemistry problems; not a program itself.\nCirq Library Package (Python) You import cirq in Python scripts to create and run quantum algorithms.\nD-Wave Leap (Ocean SDK) Library Package (Python) You import dwave in Python to formulate problems for D-Wave's quantum annealers.\nOpenFermion Library Package (Python) You import openfermion in Python for quantum chemistry calculations.\nOpenFermion-Psi4 Library Package (Python) A plugin library to connect OpenFermion with the Psi4 chemistry package.\nPennyLane (Xanadu) Libr"
+      },
+      {
+        "file_name": "Tools_Addons_Master_Part2.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Tools_Addons_Master_Part2.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 5779,
+        "ai_relevance_score": 7.5,
+        "quantum_relevance_score": 15.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Tool Name Category How It's Used Primary Prerequisites Open Source (Yes/No)\nAWS Braket Web Service A cloud service for accessing quantum computers via console or SDK. Web Browser, AWS Account No\nAzure Quantum Web Service A cloud service for quantum hardware and simulators. Web Browser, Azure Account No\nBlueqat Python Library A Python library for quantum circuit simulation. Python Yes\nCirq Python Library A framework for creating and running quantum algorithms. Python, Rust compiler Yes\nD-Wave Leap (Ocean SDK) Python Library SDK for D-Wave quantum annealers. Python, D-Wave Account Yes\nOpenFermion Python Library Quantum chemistry library integrating physics and computation. Python Yes\nPennyLane (Xanadu) Python Library Quantum machine learning library. Python Yes\nQiskit (IBM) Python Library IBM\u2019s quantum computing SDK. Python Yes\nRigetti pyQuil / QCS Python Library Quantum programming SDK for Rigetti Quantum Cloud Service. Python, Rigetti Account Yes\nStrawberry Fields Python Library Photon"
+      },
+      {
+        "file_name": "Tool Categorization with Prerequisites - MASTER.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Tool Categorization with Prerequisites - MASTER.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 15669,
+        "ai_relevance_score": 48.0,
+        "quantum_relevance_score": 15.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Tool Name Category Primary Prerequisites How It's Used\n.NET SDK Library Package (Platform) Windows, macOS, or Linux Operating System A set of libraries and tools used to create .NET applications.\nAgentGPT Library Package (Python/JS) Node.js, Git, Docker, OpenAI API Key A framework you run from the command line to create autonomous AI agents.\nAitomia Actual Program (Web Service) Web Browser, Account A cloud platform you access through a web browser.\nAlexNet Concept / Model Python, a deep learning framework (e.g., PyTorch) An influential neural network architecture used within a library like PyTorch.\nAltair AI Studio Actual Program (GUI) Windows, macOS, or Linux; Valid License A graphical data science and machine learning platform.\nAmazon Machine Learning Actual Program (Web Service) Web Browser, AWS Account A cloud service used via the AWS web console or CLI to build ML models.\nAmazon SageMaker RL Actual Program (Web Service) Web Browser, AWS Account A specific feature within AWS SageMa"
+      },
+      {
+        "file_name": "Quantum_Tool_Categorization_with_Prerequisites_MASTER.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum_Tool_Categorization_with_Prerequisites_MASTER.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 12635,
+        "ai_relevance_score": 21.5,
+        "quantum_relevance_score": 13.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Tool_Name Category_Group Category How_It\u2019s_Used Primary_Prerequisites Install_Command Open-Source_(Y/N) URL_/_Reference Notes\n.NET SDK Core Frameworks Library Package (Platform) Windows, macOS, or Linux Operating System\nAgentGPT General Tools Library Package (Python/JS) Node.js, Git, Docker, OpenAI API Key\nAitomia General Tools Actual Program (Web Service) Web Browser, Account\nAlexNet General Tools Concept / Model Python, a deep learning framework (e.g., PyTorch)\nAltair AI Studio General Tools Actual Program (GUI) Windows, macOS, or Linux; Valid License\nAmazon Machine Learning General Tools Actual Program (Web Service) Web Browser, AWS Account\nAmazon SageMaker RL General Tools Actual Program (Web Service) Web Browser, AWS Account\nAnsys CFX / Discovery / Fluent / SCADE General Tools Actual Program (GUI) Windows or Linux, Valid Ansys License\nAnthropic Claude General Tools Actual Program (Web Service) Web Browser, Account/API Key\nAnyLogic General Tools Actual Program (GUI) Windows, macOS,"
+      },
+      {
+        "file_name": "Quantum_Tool_Categorization_with_Prerequisites_MASTER.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum_Tool_Categorization_with_Prerequisites_MASTER.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 12635,
+        "ai_relevance_score": 21.5,
+        "quantum_relevance_score": 13.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "Tool_Name Category_Group Category How_It\u2019s_Used Primary_Prerequisites Install_Command Open-Source_(Y/N) URL_/_Reference Notes\n.NET SDK Core Frameworks Library Package (Platform) Windows, macOS, or Linux Operating System\nAgentGPT General Tools Library Package (Python/JS) Node.js, Git, Docker, OpenAI API Key\nAitomia General Tools Actual Program (Web Service) Web Browser, Account\nAlexNet General Tools Concept / Model Python, a deep learning framework (e.g., PyTorch)\nAltair AI Studio General Tools Actual Program (GUI) Windows, macOS, or Linux; Valid License\nAmazon Machine Learning General Tools Actual Program (Web Service) Web Browser, AWS Account\nAmazon SageMaker RL General Tools Actual Program (Web Service) Web Browser, AWS Account\nAnsys CFX / Discovery / Fluent / SCADE General Tools Actual Program (GUI) Windows or Linux, Valid Ansys License\nAnthropic Claude General Tools Actual Program (Web Service) Web Browser, Account/API Key\nAnyLogic General Tools Actual Program (GUI) Windows, macOS,"
+      },
+      {
+        "file_name": "Quantum_Tools_Addons_Master_Report_Updated.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum_Tools_Addons_Master_Report_Updated.docx",
+        "file_ext": ".docx",
+        "file_size": 37661,
+        "ai_relevance_score": 5.5,
+        "quantum_relevance_score": 12.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Quantum Integrations Master Report\nPart 1 \u2014 Core Frameworks and SDKs\nOpenFermion\nCategory: Core Library\nUsage: Bridge between quantum chemistry and quantum computing\nInstall Command: pip install openfermion\nPrimary Prerequisites: Python, NumPy\nURL: http://www.openfermion.org/\nOpen Source: Yes\n\nPsi4\nCategory: Core Chemistry Engine\nUsage: Performs ab initio quantum chemistry calculations\nInstall Command: conda install -c conda-forge psi4\nPrimary Prerequisites: Conda, Python\nURL: https://psicode.org/\nOpen Source: Yes\n\nPySCF\nCategory: Core Library\nUsage: Python-based framework for quantum chemistry simulations\nInstall Command: pip install pyscf\nPrimary Prerequisites: Python\nURL: https://pyscf.org/\nOpen Source: Yes\n\nProjectQ\nCategory: Quantum SDK\nUsage: Design, simulate, and run quantum algorithms\nInstall Command: pip install projectq\nPrimary Prerequisites: Python\nURL: https://projectq.ch/\nOpen Source: Yes\n\nQiskit (IBM)\nCategory: Quantum SDK\nUsage: Build and execute quantum algorithms on IB"
+      },
+      {
+        "file_name": "Quantum_Tools_Addons_Master_Combined.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum_Tools_Addons_Master_Combined.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 7350,
+        "ai_relevance_score": 5.5,
+        "quantum_relevance_score": 12.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Tool Name Category Usage Install Command Primary Prerequisites URL Open Source (Yes/No)\nOpenFermion Core Library Bridge between quantum chemistry and quantum computing pip install openfermion Python, NumPy http://www.openfermion.org/ Yes\nPsi4 Core Chemistry Engine Performs ab initio quantum chemistry calculations conda install -c conda-forge psi4 Conda, Python https://psicode.org/ Yes\nPySCF Core Library Python-based framework for quantum chemistry simulations pip install pyscf Python https://pyscf.org/ Yes\nProjectQ Quantum SDK Design, simulate, and run quantum algorithms pip install projectq Python https://projectq.ch/ Yes\nQiskit (IBM) Quantum SDK Build and execute quantum algorithms on IBM Quantum hardware pip install qiskit Python https://qiskit.org/ Yes\npyQuil (Rigetti) Quantum SDK Program Rigetti\u2019s Quantum Cloud Services (QCS) using Quil language pip install pyquil Python, Rigetti QCS Account https://pyquil-docs.rigetti.com/en/stable/ Yes\nOpenFermion-Psi4 Integration Plugin Links O"
+      }
+    ],
+    "AI_Tools_Database": [
+      {
+        "file_name": "AI_Tools_Database.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\AI_Tools_Database.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 33606,
+        "ai_relevance_score": 75.0,
+        "quantum_relevance_score": 25.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+        "text_snippet": "Tool Name OpenSource? Category AI Category Pre-requisites Details Notes Function(s) Pricing Model Cost Details Free Tier/Trial Available Download/install URL\nAgentGPT Yes AI Platform Autonomous AI Agents, NLP Git: winget install --id Git.Git -e --source winget \n Node.js (with npm): winget install --id OpenJS.NodeJS -e --source winget \n OpenAI API Key: (Paid Service) Requires further configuration (API keys) for self-hosting. Allows users to create and deploy autonomous AI agents that can understand goals, break them down into tasks, and execute them. Freemium Pro: $40/month Yes Web app: https://agentgpt.reworkd.ai/ \n Source code: https://github.com/reworkd/AgentGPT\nAitomia Partial AI Platform Scientific AI, Computational Chemistry Python: winget install --id Python.Python.3 -e --source winget \n pip: Included with Python Local installation is assumed; PowerShell script is hypothetical. An AI assistant for atomistic and quantum chemical simulations, helping with setup, execution, and ana"
+      },
+      {
+        "file_name": "Categorizing the Tools & Their Strengths.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\Categorizing the Tools & Their Strengths.docx",
+        "file_ext": ".docx",
+        "file_size": 371190,
+        "ai_relevance_score": 8.0,
+        "quantum_relevance_score": 19.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+        "text_snippet": "1. Categorizing the Tools & Their Strengths\nHere are categories and representative tools from your list, with their core capabilities:\nOne tool to highlight: TenCirChem \u2014 it\u2019s an open-source Python package (based on TensorCircuit) optimized for molecular properties and quantum circuit simulations. (GitHub)\n\n\n2. How to Incorporate These Tools into the Pipeline\nBelow is a mapping of pipeline stages to how these tools can be integrated:\nThis hybrid approach allows you to scale \u2014 you run approximate classical methods for many candidates, and occasionally run quantum / high-fidelity simulation for frontier candidates.\n\n3. Architectural Design: Modular Backend Abstraction\nTo support multiple simulation backends (classical or quantum), you should design your pipeline with an abstraction layer \u2014 e.g.:\n\uec03Backend Interface\n  \u251c\u2500\u2500 ClassicalBackend (e.g. DFT, with methods: run(), parse(), validate())\n  \u2514\u2500\u2500 QuantumBackend (e.g. VQE, noisy circuits; methods: run(), parse(), noise_model())\n\uec02Your AI-DOE"
+      },
+      {
+        "file_name": "Tools_Addons_Master_Part2.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\Tools_Addons_Master_Part2.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 5779,
+        "ai_relevance_score": 7.5,
+        "quantum_relevance_score": 15.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+        "text_snippet": "Tool Name Category How It's Used Primary Prerequisites Open Source (Yes/No)\nAWS Braket Web Service A cloud service for accessing quantum computers via console or SDK. Web Browser, AWS Account No\nAzure Quantum Web Service A cloud service for quantum hardware and simulators. Web Browser, Azure Account No\nBlueqat Python Library A Python library for quantum circuit simulation. Python Yes\nCirq Python Library A framework for creating and running quantum algorithms. Python, Rust compiler Yes\nD-Wave Leap (Ocean SDK) Python Library SDK for D-Wave quantum annealers. Python, D-Wave Account Yes\nOpenFermion Python Library Quantum chemistry library integrating physics and computation. Python Yes\nPennyLane (Xanadu) Python Library Quantum machine learning library. Python Yes\nQiskit (IBM) Python Library IBM\u2019s quantum computing SDK. Python Yes\nRigetti pyQuil / QCS Python Library Quantum programming SDK for Rigetti Quantum Cloud Service. Python, Rigetti Account Yes\nStrawberry Fields Python Library Photon"
+      },
+      {
+        "file_name": "Tool Categorization with Prerequisites - MASTER.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\Tool Categorization with Prerequisites - MASTER.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 15669,
+        "ai_relevance_score": 48.0,
+        "quantum_relevance_score": 15.0,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+        "text_snippet": "Tool Name Category Primary Prerequisites How It's Used\n.NET SDK Library Package (Platform) Windows, macOS, or Linux Operating System A set of libraries and tools used to create .NET applications.\nAgentGPT Library Package (Python/JS) Node.js, Git, Docker, OpenAI API Key A framework you run from the command line to create autonomous AI agents.\nAitomia Actual Program (Web Service) Web Browser, Account A cloud platform you access through a web browser.\nAlexNet Concept / Model Python, a deep learning framework (e.g., PyTorch) An influential neural network architecture used within a library like PyTorch.\nAltair AI Studio Actual Program (GUI) Windows, macOS, or Linux; Valid License A graphical data science and machine learning platform.\nAmazon Machine Learning Actual Program (Web Service) Web Browser, AWS Account A cloud service used via the AWS web console or CLI to build ML models.\nAmazon SageMaker RL Actual Program (Web Service) Web Browser, AWS Account A specific feature within AWS SageMa"
+      },
+      {
+        "file_name": "QSMEC AI Tool Integration Matrix.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\QSMEC AI Tool Integration Matrix.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 18334,
+        "ai_relevance_score": 61.5,
+        "quantum_relevance_score": 10.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+        "text_snippet": "Tool Name AI Category Primary Q\u2011SMEC Task Fit Secondary Task Fit Core Function Sector Alignment Integration Environment Readiness Level Classification Basis\nAgentGPT AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAitomia AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAlexNet AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAltair AI Studio (formerly RapidMiner Studio) AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAmazon Machine Learning AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAmazon SageMaker RL AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cl"
+      },
+      {
+        "file_name": "QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\QSMEC AI Tool Integration Matrix_with_DownloadInstall.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 18715,
+        "ai_relevance_score": 61.5,
+        "quantum_relevance_score": 10.5,
+        "qsmec_relevance_score": 0.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+        "text_snippet": "Tool Name AI Category Primary Q\u2011SMEC Task Fit Secondary Task Fit Core Function Sector Alignment Integration Environment Readiness Level Classification Basis\nAgentGPT AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAitomia AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAlexNet AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAltair AI Studio (formerly RapidMiner Studio) AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAmazon Machine Learning AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cloud Immediate default\nAmazon SageMaker RL AI\u2011Driven DOE & Optimization 2 3 Automated material-factor search Defense, Energy, Manufacturing HPC/Cl"
+      }
+    ]
+  },
+  "top_qsmec_files": {
+    "AI Tools": [
+      {
+        "file_name": "Intregratation NIKET- Golden Dome + Infrastructure Backbone.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Intregratation NIKET- Golden Dome + Infrastructure Backbone.docx",
+        "file_ext": ".docx",
+        "file_size": 41835,
+        "ai_relevance_score": 4.5,
+        "quantum_relevance_score": 0.0,
+        "qsmec_relevance_score": 32.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools",
+        "text_snippet": "Architectural Overview: Dual-Layer Q-SMEC / Quantum Sensor Network for Golden Dome + Infrastructure Backbone\nHigh-level Goals & Principles\nSensor fusion and distributed sensing\nUse a network of quantum-enhanced sensor nodes (Q-SMEC variants) deployed in strategic locations (ground, aerial, space) that feed into a real-time fusion engine. These nodes help detect, localize, classify, and track missile threats from boost, midcourse, to terminal phases.\nDual-use infrastructure embedding\nSome Q-SMEC sensor nodes are co-located with critical infrastructure (power grid nodes, communication hubs, water systems, transportation nodes). These serve both infrastructure monitoring and as part of the missile-detection \u201cmesh,\u201d increasing coverage and redundancy.\nLow-latency decision / intercept loop\nThe architecture must enable extremely fast data paths: sensor \u2192 pre-processor \u2192 fusion/AI \u2192 command decisions \u2192 interceptor guidance. The Q-SMEC enhancements must reduce latency, improve signal-to-noise,"
+      },
+      {
+        "file_name": "Quantum chemistry.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Quantum chemistry.docx",
+        "file_ext": ".docx",
+        "file_size": 18765,
+        "ai_relevance_score": 21.5,
+        "quantum_relevance_score": 1.5,
+        "qsmec_relevance_score": 12.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "Quantum Chemistry and Materials Modeling Tools for Q-SMEC Optimization\nOverview\nThis section presents a comprehensive analysis of quantum chemistry and materials modeling tools relevant to Q-SMEC optimization. The focus is on the selection and classification of AI tools, modeling environments, and quantum artificial intelligence platforms, specifically tailored for tasks involving advanced modeling, simulation, and design of experiments.\nQ-SMEC Materials and Task Requirements\nTask 1 of Q-SMEC requires the integration of AI tools, with an emphasis on leveraging both advanced modeling and simulation alongside design of experiments (DOE), including Bayesian networks. The process involves research, validation, and formulation of AI solutions that address these requirements. In addition, there is a need to explore other AI tools beyond the pre-defined toolkit to ensure comprehensive coverage.\nA key focus is the analysis and development of compounds containing one or more of sixteen material"
+      },
+      {
+        "file_name": "Q-SMEC_Chemistry_Properties.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools- Walk Thru\\Using Ai Tools -How To Walk Thru\\Chem pratice test & data\\Q-SMEC_Chemistry_Properties.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 11397,
+        "ai_relevance_score": 0.0,
+        "quantum_relevance_score": 0.0,
+        "qsmec_relevance_score": 6.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools- Walk Thru\\Using Ai Tools -How To Walk Thru\\Chem pratice test & data",
+        "text_snippet": "Section Description Go\nElectronic Properties Bandgap, DOS, mobility, Tc, linked to Composition \u2192 Electronic\nVibrational Properties IR/Raman modes linked to Vibrational_IR \u2192 Vibrational\nMechanical Properties \u0394H proxy, elastic placeholders linked to PES \u2192 Mechanical\nOptical Properties n,k,R placeholders linked to Dashboard \u2192 Optical\nDashboard Correlations and quick KPIs \u2192 Dashboard\nLinkMap (hidden) All external links and targets \u2192 LinkMap\n\nRefresh Sync Use the provided VBA macro (RefreshAllLinks.bas). In Excel: Developer \u2192 Visual Basic \u2192 Import File \u2192 select .bas. Insert a button and assign macro 'RefreshAllLinks'.\nMaterial Method Basis Eg Target (from Source) Linked Target Cell User Eg (eV) \u0394Eg Tc (K) Notes\nGST-225 DFT-PBE def2-SVP '[Q-SMEC_Chemistry_Workbook.xlsx]Composition_Matrix'!M2 Target string like Eg=0.5 eV; enter numeric in User Eg\nNb:GST B3LYP 6-31G* '[Q-SMEC_Chemistry_Workbook.xlsx]Composition_Matrix'!M3\nGeSbSe TD-DFT def2-SVP '[Q-SMEC_Chemistry_Workbook.xlsx]Composition_Matr"
+      },
+      {
+        "file_name": "Q-SMEC AI TOOL PROMPT.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Q-SMEC AI TOOL PROMPT.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 73741,
+        "ai_relevance_score": 0.5,
+        "quantum_relevance_score": 0.0,
+        "qsmec_relevance_score": 4.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "\n=== Q-SMEC AI TOOL PROMPT ===\n\nObjective: Rank and design chalcogenide compounds for mission outcomes. Predict properties, validate with physics-grade tools, map to air/land/sea/space use.\n\n[Full canonical Q-SMEC AI Tool Prompt text previously finalized here.]\n\n=== Embedded Automation Scripts ===\n\n# Python: QSMEC_Autonomous_Update.py\nimport pandas as pd\nimport requests\n\ndef fetch_doi(query):\n    url = f\"https://api.crossref.org/works?query={query}&rows=1\"\n    try:\n        r = requests.get(url, timeout=10)\n        if r.status_code == 200:\n            data = r.json()\n            if data[\"message\"][\"items\"]:\n                item = data[\"message\"][\"items\"][0]\n                title = item.get(\"title\", [\"NO TITLE\"])[0]\n                doi = item.get(\"DOI\", \"NO DOI\")\n                return f\"{title} \u2014 doi:{doi}\"\n    except:\n        return \"NO RELIABLE DATA\"\n    return \"NO RELIABLE DATA\"\n\nfile_path = \"Quantum_Chemistry_AI_Tools_Simulation_ENRICHED.xlsx\"\ndfs = pd.read_excel(file_path, sheet_na"
+      },
+      {
+        "file_name": "AI Tools for Q-SMEC v2.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete\\AI Tools for Q-SMEC v2.docx",
+        "file_ext": ".docx",
+        "file_size": 313228,
+        "ai_relevance_score": 86.5,
+        "quantum_relevance_score": 1.5,
+        "qsmec_relevance_score": 2.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools w Quantum Database - Complete",
+        "text_snippet": "Type of AI Tools\nThis document provides a comprehensive analysis, including use cases, reliability assessments, and ratings, for various AI tools categorized by their primary function.\n\nToolkits\n\nSupervised vs Unsupervised Learning\nWatson Studio (IBM)\nMATLAB Simulink (Mathworks)\nAzure ML (Microsoft) \nAmazon ML\nOpenNN\nVertex AI (Google)\nBigML\nApache Mahout\nWeka\nSciKit-learn Python !!\nAutoML (Google)\nColab (Google)\nKNIME\nRapidMiner\nShogun\nApache Spark \n\nReinforcement Learning\nGym (OpenAI)\nAgents (TensorFlow/Google Brain)\nReAgent (Meta)\nOpenSpeil (DeepMind/Google)\nSagemaker RL (Amazon)\nDopamine \n\nConvolutional Neural Networks\nCaffe (Berkeley Vision and Learning Center) \nLeNet \nTensorFlow (Google)\nKeras\nCNTK-Cognitive Network Toolkit/Visual Studi (Microsoft)\nDeeplearning 4j\nDIGITS (NVIDIA)\nMXNet \nPyTorch\nPyLearn2\nAlexNet\nGoogleNet\nOxfordNet\nUNet\nResNet\nInceptionNet \nVGG\n\nAdvanced Modeling and Simulation\nAnsys Discovery/CFX/Fluent/SCADE\nSimulink\nSimcenter STAR-CCM/Femap\nAnyLogic\nFusion 360\n"
+      },
+      {
+        "file_name": "Open Source Quantum Modeling Packages.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database\\Open Source Quantum Modeling Packages.docx",
+        "file_ext": ".docx",
+        "file_size": 20556,
+        "ai_relevance_score": 19.5,
+        "quantum_relevance_score": 24.0,
+        "qsmec_relevance_score": 2.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\Quantum modeling & Simulation Database",
+        "text_snippet": "Integration of Advanced AI Tools with DOE and Bayesian Networks for Chalcogenide Compound Research\nObjective\nThe primary goal of Task 1 Integration is to combine advanced AI tools with Design of Experiments (DOE) and Bayesian Networks for the comprehensive research, validation, and formulation of chalcogenide compounds. This effort specifically targets the selection and analysis of 10 mixed-element compounds from a group of 16 materials within the project\u2019s scope.\n1. AI Tool Categories Grouped by Function\na) Advanced Quantum AI and Simulation\nA variety of quantum computing platforms are utilized to support quantum chemistry modeling and simulation. These include:\nQiskit (IBM): Used for quantum chemistry modeling and implementing variational algorithms.\nCirq (Google): Employed for designing quantum circuits and conducting noisy simulations.\nPennyLane (Xanadu): Applied in hybrid quantum-classical machine learning for materials science.\nQuTiP, ProjectQ, Strawberry Fields: Open-source plat"
+      },
+      {
+        "file_name": "Quantum_Tools_HowTo_Usage.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools- Walk Thru\\Using Ai Tools -How To Walk Thru\\Quantum_Tools_HowTo_Usage.docx",
+        "file_ext": ".docx",
+        "file_size": 40654,
+        "ai_relevance_score": 1.5,
+        "quantum_relevance_score": 3.0,
+        "qsmec_relevance_score": 2.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools- Walk Thru\\Using Ai Tools -How To Walk Thru",
+        "text_snippet": "Q-SMEC Quantum Tools - Step by Step Walk-Thru\nAudience: first-time users of PowerShell, Conda, Python, Psi4, AWS Braket, and VS Code on macOS.\nGoal: teach practical usage. Installation already complete. This guide shows what to run, when, and why.\nQuick Navigation (Update Table of Contents in Word: References \u2192 Update Table)\n1. PowerShell Basics\n2. Conda: Environments & Packages\n3. Python: Run & Write Code\n4. Psi4: Local Quantum Chemistry\n5. AWS Braket: Cloud Circuits\n6. VS Code: Productive Editing\n7. Command Flows\n8. Hybrid Integrations\n9. What to Do Next\n10. Troubleshooting\n11. Alphabetical Index\n1. PowerShell Basics \u2014 How to Use\nUse PowerShell to run commands, Python scripts, and manage files. Always activate the desired Conda environment first.\nCommon actions:\n# Open current folder in Finder\nopen .\n\n# List files\nGet-ChildItem\n\n# Run a Python script\nconda activate qchem\npython ~/Desktop/He_scf.py\n\n# Pipe and search output\nGet-Content He_scf.out | Select-String \"Total Energy\"\n\nTempla"
+      },
+      {
+        "file_name": "Q-SMEC_Chemistry_Workbook.xlsx",
+        "file_path": "g:\\My Drive\\Databases\\AI Tools\\AI Tools- Walk Thru\\Using Ai Tools -How To Walk Thru\\Chem pratice test & data\\Q-SMEC_Chemistry_Workbook.xlsx",
+        "file_ext": ".xlsx",
+        "file_size": 16696,
+        "ai_relevance_score": 0.0,
+        "quantum_relevance_score": 0.0,
+        "qsmec_relevance_score": 2.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI Tools\\AI Tools- Walk Thru\\Using Ai Tools -How To Walk Thru\\Chem pratice test & data",
+        "text_snippet": "Section Description Go\nAtomic & Molecular Library Elements, oxidation, reference energies \u2192 Atomic_Molecular_Library\nGeometry Inputs Psi4/Gaussian-style blocks + expected energies \u2192 Geometry_Inputs\nBasis & Functional Sweep Compare basis sets and functionals \u2192 Basis_Functional_Sweep\nBond Scan / PES R vs Energy with derivatives \u2192 Bond_Scan_PES\nComposition Matrix Alloys, phases, target properties \u2192 Composition_Matrix\nVibrational / IR Frequencies, intensities, assignments \u2192 Vibrational_IR\nProperty Dashboard Auto charts from data tables \u2192 Property_Dashboard\nQuantum Linkage Map chemistry results to quantum params \u2192 Quantum_Linkage\nInstructor / Validation Auto-checks and tolerances \u2192 Instructor_Validation\nAbout Generated 2025-10-18 00:41\nElement Symbol Z Common Ox. States Role Ref Energy (Hartree) Notes\nGermanium Ge 32 +4 Phase-change core -2075.367 Baseline DFT ref\nGallium Ga 31 +3 doping/alloy -2563.456\nAntimony Sb 51 +3,+5 Alloy stabilizer -6485.112\nTellurium Te 52 -2,+4,+6 Thermal conduct"
+      }
+    ],
+    "AI_Tools_Database": [
+      {
+        "file_name": "Intregratation NIKET- Golden Dome + Infrastructure Backbone.docx",
+        "file_path": "g:\\My Drive\\Databases\\AI_Tools_Database\\Intregratation NIKET- Golden Dome + Infrastructure Backbone.docx",
+        "file_ext": ".docx",
+        "file_size": 41835,
+        "ai_relevance_score": 4.5,
+        "quantum_relevance_score": 0.0,
+        "qsmec_relevance_score": 32.0,
+        "parent_folder": "g:\\My Drive\\Databases\\AI_Tools_Database",
+        "text_snippet": "Architectural Overview: Dual-Layer Q-SMEC / Quantum Sensor Network for Golden Dome + Infrastructure Backbone\nHigh-level Goals & Principles\nSensor fusion and distributed sensing\nUse a network of quantum-enhanced sensor nodes (Q-SMEC variants) deployed in strategic locations (ground, aerial, space) that feed into a real-time fusion engine. These nodes help detect, localize, classify, and track missile threats from boost, midcourse, to terminal phases.\nDual-use infrastructure embedding\nSome Q-SMEC sensor nodes are co-located with critical infrastructure (power grid nodes, communication hubs, water systems, transportation nodes). These serve both infrastructure monitoring and as part of the missile-detection \u201cmesh,\u201d increasing coverage and redundancy.\nLow-latency decision / intercept loop\nThe architecture must enable extremely fast data paths: sensor \u2192 pre-processor \u2192 fusion/AI \u2192 command decisions \u2192 interceptor guidance. The Q-SMEC enhancements must reduce latency, improve signal-to-noise,"
+      }
+    ]
+  }
+}

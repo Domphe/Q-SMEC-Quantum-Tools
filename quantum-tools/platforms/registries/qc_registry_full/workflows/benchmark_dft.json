@@ -1,0 +1,24 @@
+{
+  "id": "workflow.qc.benchmark_dft",
+  "name": "DFT Benchmark Workflow",
+  "description": "Compare DFT methods (B3LYP, PBE) against CCSD(T) reference energies.",
+  "domain": "quantum_chemistry",
+  "steps": [
+    "Obtain molecular geometries from dataset.qc.small_molecules",
+    "Run geometry optimization using B3LYP and PBE",
+    "Compute single-point energies using CCSD(T)",
+    "Compare energies and error statistics"
+  ],
+  "linked_protocols": [
+    "protocol.qc.optimize_mp2"
+  ],
+  "linked_methods": [
+    "method.qc.b3lyp",
+    "method.qc.pbe",
+    "method.qc.ccsd_t"
+  ],
+  "linked_datasets": [
+    "dataset.qc.small_molecules"
+  ],
+  "last_updated": "2025-12-03"
+}

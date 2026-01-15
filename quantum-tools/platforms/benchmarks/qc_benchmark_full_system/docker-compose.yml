@@ -1,0 +1,13 @@
+
+version: "3.9"
+
+services:
+  qcbench:
+    build: .
+    container_name: qc_benchmark_runner
+    volumes:
+      - ./data:/app/data
+      - ./exports:/app/exports
+      - ./logs:/app/logs
+    stdin_open: true
+    tty: true

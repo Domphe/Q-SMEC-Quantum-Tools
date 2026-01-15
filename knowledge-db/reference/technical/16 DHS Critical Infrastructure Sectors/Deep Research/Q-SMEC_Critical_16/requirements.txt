@@ -1,0 +1,11 @@
+pandas>=2.2
+pyarrow>=17.0
+requests>=2.32
+tqdm>=4.66
+pydantic>=2.9
+jsonschema>=4.23
+python-dotenv>=1.0
+ruamel.yaml>=0.18
+beautifulsoup4>=4.12
+lxml>=5.3
+tenacity>=9.0

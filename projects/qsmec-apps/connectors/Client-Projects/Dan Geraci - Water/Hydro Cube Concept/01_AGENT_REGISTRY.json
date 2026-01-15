@@ -1,0 +1,750 @@
+{
+  "metadata": {
+    "run_id": "hydrocube_20251029",
+    "date": "2025-10-29",
+    "license": "Apache-2.0 for these JSON specs; external sources retain their own licenses",
+    "provenance": {
+      "primary_input_pdf": "Hydro Concept Final .pdf",
+      "citations": [
+        "fileciteturn9file8L1-L20"
+      ]
+    },
+    "constraints": [
+      "No assumptions. No sample numbers. Use only verified, dated, citable sources and official APIs.",
+      "If data is not publicly verifiable, mark as UNKNOWN and stop that branch.",
+      "Prefer primary sources and official APIs over secondary summaries.",
+      "Every output must include source_url, publisher, doc_date, accessed_date, and checksum_sha256 for any downloaded artifact."
+    ],
+    "orchestration": {
+      "spawn_mode": "concurrent_predeclared",
+      "max_agents": 64,
+      "token_budget_policy": "controller_enforces_streaming_chunking",
+      "retry_policy": {
+        "max_retries": 2,
+        "backoff": "exponential"
+      }
+    }
+  },
+  "agents": [
+    {
+      "name": "Controller",
+      "role": "Orchestrator",
+      "scope": "Plan and coordinate all agents; enforce policies; assemble final packages.",
+      "inputs": [
+        "mission_brief",
+        "constraints"
+      ],
+      "outputs": [
+        "execution_plan",
+        "final_deliverables"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EvidenceAuditor",
+      "role": "Auditing",
+      "scope": "Enforce provenance; block uncited claims; maintain Master Evidence Register.",
+      "inputs": [
+        "extracted_facts",
+        "api_results",
+        "documents"
+      ],
+      "outputs": [
+        "evidence_register_updates",
+        "validation_flags"
+      ],
+      "dependencies": [
+        "Controller"
+      ]
+    },
+    {
+      "name": "Checksummer",
+      "role": "Integrity",
+      "scope": "Compute SHA-256 for all retrieved artifacts and API responses.",
+      "inputs": [
+        "downloaded_files",
+        "api_payloads"
+      ],
+      "outputs": [
+        "sha256_records",
+        "source_manifest_updates"
+      ],
+      "dependencies": [
+        "EvidenceAuditor"
+      ]
+    },
+    {
+      "name": "NOAA_NWS_Agent",
+      "role": "API",
+      "scope": "Query api.weather.gov for station humidity/temp/dew point; log endpoints and params.",
+      "inputs": [
+        "station_ids",
+        "time_ranges"
+      ],
+      "outputs": [
+        "climate_series_json",
+        "api_log"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "NOAA_NCEI_Agent",
+      "role": "API",
+      "scope": "Query NCEI CDO API for historical RH/T series; capture token usage and endpoints.",
+      "inputs": [
+        "locations",
+        "time_ranges"
+      ],
+      "outputs": [
+        "historical_climate_json",
+        "api_log"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "USGS_WaterData_Agent",
+      "role": "API",
+      "scope": "Query USGS water services for hydrologic observations relevant to water quality baselines.",
+      "inputs": [
+        "site_ids",
+        "parameters",
+        "time_ranges"
+      ],
+      "outputs": [
+        "usgs_series_json",
+        "api_log"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EPA_USGS_WQP_Agent",
+      "role": "API",
+      "scope": "Query Water Quality Portal for microbial/chemical data; store queries and responses.",
+      "inputs": [
+        "huc_codes",
+        "bbox",
+        "characteristics"
+      ],
+      "outputs": [
+        "wqp_results_json",
+        "api_log"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "DARPA_AWE_Agent",
+      "role": "Web",
+      "scope": "Fetch DARPA AWE program pages and official releases; store PDFs and checksums.",
+      "inputs": [
+        "search_terms",
+        "target_urls"
+      ],
+      "outputs": [
+        "awe_docs",
+        "api_log"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Navy_SBIR_AWG_OTM_Agent",
+      "role": "Web",
+      "scope": "Fetch Navy SBIR topic pages for AWG-OTM; store PDFs and checksums.",
+      "inputs": [
+        "topic_ids",
+        "target_urls"
+      ],
+      "outputs": [
+        "sbir_docs",
+        "api_log"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "NSF_ANSI_Standards_Agent",
+      "role": "Web",
+      "scope": "Collect official NSF/ANSI P231 and related potable-water standards info from official pages.",
+      "inputs": [
+        "standard_ids",
+        "target_urls"
+      ],
+      "outputs": [
+        "standards_notes",
+        "api_log"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "USPTO_Patents_Agent",
+      "role": "API",
+      "scope": "Query USPTO open data for patents in AWG/TEC/UV-C; store bibliographic and claims data.",
+      "inputs": [
+        "cpc_codes",
+        "assignees",
+        "date_ranges"
+      ],
+      "outputs": [
+        "patent_records",
+        "api_log"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EPO_OPS_Patents_Agent",
+      "role": "API",
+      "scope": "Query EPO OPS for corroborating patent data and legal status.",
+      "inputs": [
+        "query_strings",
+        "date_ranges"
+      ],
+      "outputs": [
+        "epo_records",
+        "api_log"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "PDF_Extractor",
+      "role": "Parsing",
+      "scope": "Extract verbatim facts from Hydro Cube PDF; attach line anchors; do not summarize.",
+      "inputs": [
+        "pdf_binary"
+      ],
+      "outputs": [
+        "verbatim_extractions",
+        "citation_map"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Normalizer",
+      "role": "ETL",
+      "scope": "Normalize units, timestamps, and field names across all datasets.",
+      "inputs": [
+        "raw_api_results",
+        "extractions"
+      ],
+      "outputs": [
+        "normalized_tables"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "DeDuplicator",
+      "role": "ETL",
+      "scope": "Detect duplicate sources and harmonize records; update manifest.",
+      "inputs": [
+        "normalized_tables"
+      ],
+      "outputs": [
+        "deduped_tables",
+        "manifest_updates"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Thermodynamics_Modeler",
+      "role": "Analysis",
+      "scope": "Validate TEC heat-lift/COP bounds strictly from cited datasheets/literature; no estimates.",
+      "inputs": [
+        "normalized_tables",
+        "datasheets"
+      ],
+      "outputs": [
+        "tec_model_params",
+        "unknown_flags"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Condensation_Flux_Modeler",
+      "role": "Analysis",
+      "scope": "Compute theoretical condensation flux using psychrometric relations with cited equations.",
+      "inputs": [
+        "climate_series_json",
+        "fin_geometry",
+        "airflow_params",
+        "cited_equations"
+      ],
+      "outputs": [
+        "condensation_flux_report",
+        "unknown_flags"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Distillation_Energy_Modeler",
+      "role": "Analysis",
+      "scope": "Compute distillation energy from latent heat at measured temperature; no losses unless cited.",
+      "inputs": [
+        "temperature_series",
+        "latent_heat_reference"
+      ],
+      "outputs": [
+        "distillation_energy_report",
+        "unknown_flags"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "UVC_Efficacy_Modeler",
+      "role": "Analysis",
+      "scope": "Map dose at 265–275 nm vs microbial inactivation using peer-reviewed tables.",
+      "inputs": [
+        "uvc_emitter_specs",
+        "path_length",
+        "cited_microbiology"
+      ],
+      "outputs": [
+        "uvc_dose_map",
+        "efficacy_bounds"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Materials_Corrosion_Analyst",
+      "role": "Analysis",
+      "scope": "Assess corrosion/fouling risk for Al-6061, coatings, and wetted parts using standards literature.",
+      "inputs": [
+        "materials_specs",
+        "cited_materials_refs"
+      ],
+      "outputs": [
+        "materials_risk_matrix"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Reliability_Ruggedization_Analyst",
+      "role": "Analysis",
+      "scope": "Map environmental risks to MIL-STD-810 methods; identify tests required; cite official summaries.",
+      "inputs": [
+        "environmental_profiles",
+        "mil_std_refs"
+      ],
+      "outputs": [
+        "ruggedization_test_matrix"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "USMC_Systems_Mapper",
+      "role": "DoD",
+      "scope": "Map current USMC water systems from official fact sheets; record capacities and dates.",
+      "inputs": [
+        "official_docs"
+      ],
+      "outputs": [
+        "usmc_systems_table"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Army_USN_Systems_Mapper",
+      "role": "DoD",
+      "scope": "Map Army/Navy systems with official references; flag vendor pages as secondary.",
+      "inputs": [
+        "official_docs",
+        "vendor_pages"
+      ],
+      "outputs": [
+        "army_navy_systems_table",
+        "secondary_flags"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "SBIR_BAA_Tracker",
+      "role": "DoD",
+      "scope": "Track related open/closed topics with IDs, deadlines, and PDF captures.",
+      "inputs": [
+        "awe_docs",
+        "sbir_docs"
+      ],
+      "outputs": [
+        "sbir_baa_table"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Market_Segmentation_Analyst",
+      "role": "Market",
+      "scope": "Define segments and inclusion criteria; collect only vendor pages with verifiable specs.",
+      "inputs": [
+        "vendor_urls",
+        "award_docs"
+      ],
+      "outputs": [
+        "segments_table",
+        "vendor_catalog"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Competitor_Intelligence_Analyst",
+      "role": "Market",
+      "scope": "Build competitor matrix with technology class and certifications; exclude unverifiable claims.",
+      "inputs": [
+        "vendor_catalog"
+      ],
+      "outputs": [
+        "competitor_matrix"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "SupplyChain_Analyst",
+      "role": "Market",
+      "scope": "Trace key components (TECs, UV-C LEDs, coatings) to manufacturers; verify compliance (TAA/DFARS).",
+      "inputs": [
+        "bom_list",
+        "supplier_docs"
+      ],
+      "outputs": [
+        "supply_chain_map"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Patent_Landscape_Analyst",
+      "role": "IP",
+      "scope": "Cluster patents by CPC/IPC and assignee; no interpretations beyond published claims.",
+      "inputs": [
+        "patent_records",
+        "epo_records"
+      ],
+      "outputs": [
+        "patent_clusters",
+        "freedom_to_operate_notes"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Standards_Compliance_Analyst",
+      "role": "Standards",
+      "scope": "Map NSF/ANSI applicability and testing steps; cite official sources only.",
+      "inputs": [
+        "standards_notes"
+      ],
+      "outputs": [
+        "standards_matrix"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Export_Control_Analyst",
+      "role": "Legal",
+      "scope": "Flag potential EAR/ITAR issues; cite EAR/ITAR categories only if official references are accessible.",
+      "inputs": [
+        "product_features",
+        "regulatory_refs"
+      ],
+      "outputs": [
+        "export_control_notes"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "QSMEC_Sensor_Integrator",
+      "role": "Integration",
+      "scope": "Define sensor insertion points and telemetry schema; do not claim performance; reference Hydro PDF lines only for concept context.",
+      "inputs": [
+        "system_layout",
+        "hydro_pdf_citations"
+      ],
+      "outputs": [
+        "qsmec_integration_plan"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Telemetry_Schema_Designer",
+      "role": "Integration",
+      "scope": "Define JSON schema for water quality, thermal diagnostics, and lifecycle logs.",
+      "inputs": [
+        "requirements"
+      ],
+      "outputs": [
+        "telemetry_schema_json"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Schema_Validator",
+      "role": "QA",
+      "scope": "Enforce field-level schema; block outputs that fail validation.",
+      "inputs": [
+        "candidate_artifacts"
+      ],
+      "outputs": [
+        "validated_artifacts",
+        "schema_errors"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Conflict_Resolver",
+      "role": "QA",
+      "scope": "Produce side-by-side comparisons where sources disagree; include dates and publishers.",
+      "inputs": [
+        "conflicting_records"
+      ],
+      "outputs": [
+        "conflict_panels"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Report_Packager",
+      "role": "Build",
+      "scope": "Render DOCX/XLSX/CSV/JSON per templates; attach footnotes with citations and checksums.",
+      "inputs": [
+        "validated_artifacts",
+        "templates"
+      ],
+      "outputs": [
+        "final_files"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Energy_Provisioning_Analyst",
+      "role": "Analysis",
+      "scope": "Document power provisioning scenarios only from verified datasheets; mark unknowns otherwise.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Field_Test_Designer",
+      "role": "QA",
+      "scope": "Design field protocols for HUMID/TEMPERATE/ARID using NOAA station IDs and acceptance thresholds tied to standards.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Data_Lineage_Recorder",
+      "role": "Governance",
+      "scope": "Record lineage for every datum from source to table.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Access_Permissions_Manager",
+      "role": "Governance",
+      "scope": "Track restricted/paid sources; halt branches without access.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Risk_Register_Manager",
+      "role": "PM",
+      "scope": "Maintain risk log with mitigation strategies tied to citations.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Version_Control_Manager",
+      "role": "PM",
+      "scope": "Assign commit-like IDs and maintain run metadata in outputs.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "API_RateLimit_Manager",
+      "role": "Ops",
+      "scope": "Throttle API calls and log status codes.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cache_Manager",
+      "role": "Ops",
+      "scope": "Cache responses with hashes; prevent redundant calls.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "UnitNormalization_Engineer",
+      "role": "ETL",
+      "scope": "Normalize units as per SI; record conversion sources.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EquationRegistrar",
+      "role": "ETL",
+      "scope": "Register all equations with source and variable definitions.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Humidity_Station_Selector",
+      "role": "API",
+      "scope": "Select NOAA station IDs based on proximity and completeness.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Patent_Class_Mapper",
+      "role": "IP",
+      "scope": "Map CPC/IPC codes to technology themes without inference.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Certification_Route_Planner",
+      "role": "Standards",
+      "scope": "Lay out test lab options and steps; cite labs only if official listings exist.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Comparator_Filter",
+      "role": "Market",
+      "scope": "Exclude competitors lacking verifiable specs.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cost_Band_Curator",
+      "role": "Market",
+      "scope": "Record price bands only if officially listed; else UNKNOWN.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "MilStd_Citation_Collector",
+      "role": "DoD",
+      "scope": "Collect official MIL-STD references; do not use secondary summaries if primaries unavailable.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Docx_Renderer",
+      "role": "Build",
+      "scope": "Render DOCX with numbered footnotes and citation URLs.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Xlsx_Renderer",
+      "role": "Build",
+      "scope": "Render XLSX with validation rules and citation columns.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Csv_Renderer",
+      "role": "Build",
+      "scope": "Render CSV with strict schema and UTF-8.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Manifest_Builder",
+      "role": "Build",
+      "scope": "Assemble source manifest with checksums and byte lengths.",
+      "inputs": [
+        "inputs"
+      ],
+      "outputs": [
+        "outputs"
+      ],
+      "dependencies": []
+    }
+  ]
+}

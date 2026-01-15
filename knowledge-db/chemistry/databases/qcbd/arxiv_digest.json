@@ -1,0 +1,25 @@
+{
+  "generated": "2025-12-03 11:57:11.954990",
+  "items": [
+    {
+      "title": "Advances in Quantum Sensing with NV Centers",
+      "authors": [
+        "A. Researcher"
+      ],
+      "institution": "MIT",
+      "summary": "...",
+      "published": "2025-12-03",
+      "link": "https://arxiv.org/abs/0000.00000"
+    },
+    {
+      "title": "Topological Insulator-based Qubits",
+      "authors": [
+        "B. Scientist"
+      ],
+      "institution": "Unknown",
+      "summary": "...",
+      "published": "2025-12-03",
+      "link": "https://arxiv.org/abs/0000.00001"
+    }
+  ]
+}

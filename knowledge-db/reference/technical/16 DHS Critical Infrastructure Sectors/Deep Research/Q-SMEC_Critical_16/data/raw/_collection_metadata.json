@@ -1,0 +1,152 @@
+{
+  "run_id": "qsmec_critical16_2025_01",
+  "timestamp": "2025-10-29T20:41:46.974059+00:00",
+  "sectors_attempted": 16,
+  "sectors_with_data": 8,
+  "total_sources_success": 9,
+  "total_records": 200,
+  "results": {
+    "Communications": {
+      "file": "communications_sector.jsonl",
+      "sources": 1,
+      "records": 100
+    },
+    "Critical Manufacturing": {
+      "file": "critical_manufacturing_sector.jsonl",
+      "sources": 1,
+      "records": 0
+    },
+    "Financial Services": {
+      "file": "financial_services_sector.jsonl",
+      "sources": 1,
+      "records": 0
+    },
+    "Food and Agriculture": {
+      "file": "food_and_agriculture_sector.jsonl",
+      "sources": 1,
+      "records": 0
+    },
+    "Healthcare and Public Health": {
+      "file": "healthcare_and_public_health_sector.jsonl",
+      "sources": 1,
+      "records": 100
+    },
+    "Information Technology": {
+      "file": "information_technology_sector.jsonl",
+      "sources": 2,
+      "records": 0
+    },
+    "Nuclear Reactors, Materials, and Waste": {
+      "file": "nuclear_reactors_materials_and_waste_sector.jsonl",
+      "sources": 1,
+      "records": 0
+    },
+    "Transportation Systems": {
+      "file": "transportation_systems_sector.jsonl",
+      "sources": 1,
+      "records": 0
+    }
+  },
+  "errors": {
+    "Chemical": [
+      {
+        "source": "EPA_Toxics_Release_Inventory",
+        "error": "HTTP 500: {\"error\": \"'NoneType' object has no attribute 'get'\"}"
+      },
+      {
+        "source": "OSHA_Chemical_Exposure",
+        "error": "Connection error"
+      }
+    ],
+    "Commercial Facilities": [
+      {
+        "source": "Census_County_Business_Patterns",
+        "error": "Connection error"
+      }
+    ],
+    "Communications": [
+      {
+        "source": "FCC_Infrastructure_Stats",
+        "error": "HTTP 404: {\n  \"code\" : \"dataset.missing\",\n  \"error\" : true,\n  \"message\" : \"Not found\",\n  \"data\" : {\n    \"id\" : \"j9m6-v8kv\"\n  }\n}\n"
+      }
+    ],
+    "Dams": [
+      {
+        "source": "USGS_Water_Services",
+        "error": "HTTP 400: <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><title>Error report</title><style type=\"te"
+      }
+    ],
+    "Defense Industrial Base": [
+      {
+        "source": "USASpending_Defense_Contracts",
+        "error": "Connection error"
+      }
+    ],
+    "Emergency Services": [
+      {
+        "source": "FEMA_Disaster_Declarations",
+        "error": "HTTP 404: <!DOCTYPE html>\n<html lang=en dir=ltr prefix=\"og: https://ogp.me/ns#\"\n  class=\"js tablesaw-enhanced\"\n  data-once=\"drupal-dialog-deprecation-listener tablesaw-create\" style>\n<meta charset=utf-8>\n<meta "
+      }
+    ],
+    "Energy": [
+      {
+        "source": "EIA_Electricity_Generation",
+        "error": "HTTP 403: {\n  \"error\": {\n    \"code\": \"API_KEY_MISSING\",\n    \"message\": \"No api_key was supplied.  Please register for one at https://www.eia.gov/opendata/register.php\"\n  }\n}"
+      },
+      {
+        "source": "EIA_Energy_Consumption",
+        "error": "HTTP 403: {\n  \"error\": {\n    \"code\": \"API_KEY_MISSING\",\n    \"message\": \"No api_key was supplied.  Please register for one at https://www.eia.gov/opendata/register.php\"\n  }\n}"
+      }
+    ],
+    "Financial Services": [
+      {
+        "source": "FDIC_Bank_Data",
+        "error": "Connection error"
+      }
+    ],
+    "Food and Agriculture": [
+      {
+        "source": "USDA_NASS_Quick_Stats",
+        "error": "Missing API key: USDA_NASS_KEY"
+      }
+    ],
+    "Government Facilities": [
+      {
+        "source": "GSA_Real_Property",
+        "error": "Connection error"
+      }
+    ],
+    "Healthcare and Public Health": [
+      {
+        "source": "CDC_WONDER_Mortality",
+        "error": "HTTP 500: <!DOCTYPE html SYSTEM \"about:legacy-compat\">\n<html xmlns:xsljava=\"xalan://gov.cdc.wonder.util.XSLHelper\" xmlns:xalan=\"http://xml.apache.org/xalan\" class=\"cdc-2022 theme-blue cdc-page-type-content cdc-"
+      },
+      {
+        "source": "OpenFDA_Adverse_Events",
+        "error": "HTTP 400: {\n  \"error\": {\n    \"code\": \"BAD_REQUEST\",\n    \"message\": \"Invalid parameter: key\"\n  }\n}"
+      }
+    ],
+    "Nuclear Reactors, Materials, and Waste": [
+      {
+        "source": "DOE_Radioactive_Waste",
+        "error": "Connection error"
+      }
+    ],
+    "Transportation Systems": [
+      {
+        "source": "DOT_BTS_Freight",
+        "error": "HTTP 404: {\n  \"code\" : \"dataset.missing\",\n  \"error\" : true,\n  \"message\" : \"Not found\",\n  \"data\" : {\n    \"id\" : \"ga3i-gdzy\"\n  }\n}\n"
+      }
+    ],
+    "Water and Wastewater Systems": [
+      {
+        "source": "EPA_SDWIS_Violations",
+        "error": "HTTP 500: {\"error\": \"'NoneType' object has no attribute 'get'\"}"
+      },
+      {
+        "source": "EPA_Water_Quality",
+        "error": "HTTP 406: {\"timestamp\":\"2025-10-29T20:41:46.330+00:00\",\"status\":406,\"error\":\"Not Acceptable\",\"path\":\"/data/Station/search\"}"
+      }
+    ]
+  }
+}

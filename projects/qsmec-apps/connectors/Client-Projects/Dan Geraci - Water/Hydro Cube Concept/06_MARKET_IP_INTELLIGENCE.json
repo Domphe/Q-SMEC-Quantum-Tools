@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "run_id": "hydrocube_20251029",
+    "date": "2025-10-29",
+    "license": "Apache-2.0 for these JSON specs; external sources retain their own licenses",
+    "provenance": {
+      "primary_input_pdf": "Hydro Concept Final .pdf",
+      "citations": [
+        "fileciteturn9file8L1-L20"
+      ]
+    },
+    "constraints": [
+      "No assumptions. No sample numbers. Use only verified, dated, citable sources and official APIs.",
+      "If data is not publicly verifiable, mark as UNKNOWN and stop that branch.",
+      "Prefer primary sources and official APIs over secondary summaries.",
+      "Every output must include source_url, publisher, doc_date, accessed_date, and checksum_sha256 for any downloaded artifact."
+    ],
+    "orchestration": {
+      "spawn_mode": "concurrent_predeclared",
+      "max_agents": 64,
+      "token_budget_policy": "controller_enforces_streaming_chunking",
+      "retry_policy": {
+        "max_retries": 2,
+        "backoff": "exponential"
+      }
+    }
+  },
+  "market": {
+    "segments": [
+      "Defense_small_unit",
+      "Vehicle_mounted",
+      "Humanitarian_shelter",
+      "Remote_industrial",
+      "Consumer_outdoor"
+    ],
+    "vendor_fields": [
+      "vendor",
+      "product",
+      "technology_class",
+      "capacity_L_day",
+      "energy_Wh_L",
+      "price_band_usd",
+      "certifications",
+      "source_url",
+      "doc_date",
+      "accessed_date"
+    ]
+  },
+  "ip": {
+    "queries": {
+      "cpc_ipc": [
+        "C01D",
+        "F25B",
+        "C02F"
+      ],
+      "assignees": []
+    },
+    "output_fields": [
+      "doc_number",
+      "title",
+      "assignee",
+      "pub_date",
+      "legal_status",
+      "claims_excerpt",
+      "source_endpoint",
+      "checksum_sha256"
+    ],
+    "policy": "No interpretations beyond published records."
+  }
+}

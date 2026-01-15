@@ -1,0 +1,21 @@
+Tool,Category,License,Task,Vendor,Homepage,Price,PriceSource,Performance,Accessibility,Integration
+ANSYS (Mech/Fluent/AM),Simulation,Paid,Task3-4 FEA/CFD/AM,ANSYS,https://www.ansys.com/,"$30k–$100k+/yr (tokens/modules, indicative)",fallback,Excellent HPC; GPUs in some solvers,Tokens/modules; quote-only,STEP/Parasolid in; VTK/CSV out
+COMSOL Multiphysics,Simulation,Paid,Task3-4 multiphysics,COMSOL,https://www.comsol.com/,$20k–$80k+ (modules; indicative),fallback,Param sweeps; limited distributed HPC,Module-based pricing,STEP/CAD; VTK/CSV
+Abaqus,Simulation,Paid,Task3-4 FEA,Dassault Systèmes SIMULIA,https://www.3ds.com/products/simulia/abaqus/,$25k–$80k+ (indicative),fallback,Strong implicit; some GPU,Tokens/modules; quote-only,STEP/INP; ODB→CSV/VTK
+LS-DYNA,Simulation,Paid,Task3-4 explicit,ANSYS,https://www.ansys.com/products/structures/ansys-ls-dyna,$25k–$80k+ (indicative),fallback,Top explicit dynamics; GPU options,Tokens,Keyword in; d3plot→VTK/CSV
+MSC Nastran/Patran,Simulation,Paid,Task3 structural,Hexagon,https://www.hexagon.com/products/msc-nastran,$20k–$60k+ (indicative),fallback,Structural HPC MPI,Seat/token,NASTRAN bulk; OP2→CSV
+STAR-CCM+,Simulation,Paid,Task3 CFD,Siemens,https://plm.sw.siemens.com/en-US/simcenter/fluids/star-ccm/,$30k–$100k+ (indicative),fallback,Parallel CFD; GPU emerging,Tokens; quote-only,CAD/STEP in; CSV/VTK
+Simcenter 3D,Simulation,Paid,Task3 CAE suite,Siemens,https://plm.sw.siemens.com/en-US/simcenter/3d/,$30k–$100k+ (indicative),fallback,Modular CAE,Tokens/modules,STEP/CAD; CSV/VTK
+Altair HyperWorks,Simulation,Paid,Task3 FEA/opt,Altair,https://altair.com/hyperworks,$20k–$70k+ (indicative),fallback,Efficient structural solvers,Units-based licensing,CAD/STEP; NASTRAN/CSV
+Adams,Simulation,Paid,Task3 MBD,Hexagon,https://www.hexagon.com/products/adams,$15k–$50k+ (indicative),fallback,CPU-bound MBD,Seat/token,CSV outputs; FMU export
+Isight/Tosca,Simulation,Paid,Task2/3 workflow/opt,Dassault Systèmes,https://www.3ds.com/products/simulia/isight/,$15k–$40k+ (indicative),fallback,Workflow + optimization,Seat/token,Wraps solvers; CSV
+Digimat,Simulation,Paid,Task3 multiscale,Hexagon (e-Xstream),https://hexagon.com/products/digimat,$20k–$60k+ (indicative),fallback,CPU/GPU micromech,Seat/token,Bridges Abaqus/ANSYS; CSV
+Moldflow,Simulation,Paid,Task4 injection,Autodesk,https://www.autodesk.com/products/moldflow/overview,$3k–$10k/yr (subscription; public),fallback,Some GPU steps,Subscription,CAD/STEP in; CSV out
+SolidWorks Simulation,Simulation,Paid,Task3 CAD-FEA,Dassault Systèmes,https://www.solidworks.com/product/solidworks-simulation,$2k–$10k/yr (tiered; indicative),fallback,SMB-scale; CPU,Add-on tiers,Reads CAD/STEP; CSV
+Simulink + Simscape,Simulation,Paid,Task5 control/plant,MathWorks,https://www.mathworks.com/products/simulink.html,$5k–$20k/yr (depends toolbox; indicative),fallback,Code gen; realtime targets,Per-seat + toolboxes,C/ROS export; CSV/JSON logs
+LabVIEW + NI toolkits,Simulation,Paid,Task5 control/DAQ,NI,https://www.ni.com/en-us/shop/labview.html,$3k–$10k/yr + HW (public tiers),fallback,Realtime on PXI,Subscription,Influx/Grafana connectors
+TwinBuilder (Ansys),Simulation,Paid,Task5 system ROM,ANSYS,https://www.ansys.com/products/systems/ansys-twin-builder,$15k–$40k+ (indicative),fallback,ROM export,Tokens/modules,FMI/FMU export; CSV
+Flow-3D,Simulation,Paid,Task3 CFD casting/AM,Flow Science,https://www.flow3d.com/,Quote/Contact required,https://www.flow3d.com/,CPU/GPU options,Seat/module,CSV/VTK output
+Rocky DEM / EDEM,Simulation,Paid,Task3 DEM,ESSS / Altair,https://rocky.esss.co/,Quote/Contact required,https://www.altair.com/edem/,GPU acceleration,Seat/token,DEM→CSV/VTK
+Desmond (enterprise),Simulation,Paid,Task3 MD (bio/materials),Schrödinger,https://www.schrodinger.com/products/desmond,Quote/Contact required,https://www.schrodinger.com/products/desmond,GPU-accelerated MD,Enterprise license,PDB/MAE; CSV trajectories
+Lumerical (Ansys),Simulation,Paid,Task3 photonics,ANSYS,https://www.ansys.com/products/optics/lumerical-photonics,$20k–$60k+ (indicative),fallback,GPU options,Tokens/modules,S-params/CSV; CAD links

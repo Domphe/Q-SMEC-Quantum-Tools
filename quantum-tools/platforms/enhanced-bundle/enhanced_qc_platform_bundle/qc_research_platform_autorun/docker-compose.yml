@@ -1,0 +1,9 @@
+version: "3"
+services:
+  qcml:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    container_name: quantum_ml_app

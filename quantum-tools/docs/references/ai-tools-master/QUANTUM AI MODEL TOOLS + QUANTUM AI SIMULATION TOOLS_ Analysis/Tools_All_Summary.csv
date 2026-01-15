@@ -1,0 +1,74 @@
+Tool,Category,License,Task,Vendor,Homepage,Price,PriceSource,Performance,Accessibility,Integration
+Gaussian,Model,Paid,Task1 QC/DFT,"Gaussian, Inc.",https://gaussian.com/,Quote/Contact required,https://gaussian.com/contact/,CPU parallel; high accuracy; no native GPU,Commercial license; quotes,log/FChk→pymatgen; POSCAR via conversion
+CASTEP,Model,Paid,Task1 DFT,BIOVIA Dassault Systèmes,https://www.3ds.com/products/simulia/materials-studio/,"$5k–$25k (module-dependent, indicative)",fallback,Plane-wave MPI; good HPC scaling,Commercial suite (Materials Studio),CIF/CASTEP↔POSCAR via tools
+FHI-aims (commercial),Model,Paid,Task1 all-electron DFT,FHI-aims Team,https://fhi-aims.org/,$5k–$20k+ (indicative),fallback,Excellent hybrid/OpenMP; HPC,Academic/commercial licenses,ASE-native; CIF/cube
+QuantumATK,Model,Paid,Task1 DFT + device,Synopsys,https://www.synopsys.com/silicon/quantumatk.html,Quote/Contact required,https://www.synopsys.com/silicon/quantumatk.html,Python API; device sims; some GPU,Commercial; quote-only,CIF/XSF; Python API
+Materials Studio,Model,Paid,Task1 suite,BIOVIA Dassault Systèmes,https://www.3ds.com/products/simulia/materials-studio/,$20k–$60k+ (indicative),fallback,GUI-first; CASTEP HPC,Commercial suite,Exports CIF/PDB; scripts→POSCAR
+Schrödinger Jaguar/QSite,Model,Paid,Task1 QC/DFT,Schrödinger,https://www.schrodinger.com/products/jaguar,Quote/Contact required,https://www.schrodinger.com/products/jaguar,GPU-accelerated methods; high accuracy,Per-seat/tokens,Maestro I/O→CIF/POSCAR via tools
+Q-Chem,Model,Paid,Task1 QC/DFT,"Q-Chem, Inc.",https://www.q-chem.com/,$5k–$15k (indicative),fallback,CPU parallel,Commercial; academic pricing,molden/FChk→ASE
+Matlantis,Model,Paid,Task1 AI surrogate,Preferred Networks,https://matlantis.com/,Quote/Contact required,https://matlantis.com/,Very fast inference (cloud),Subscription; quote-only,REST/Python API (JSON)
+TeraChem,Model,Paid,Task1 QC GPU,PetaChem,https://www.petachem.com/terachem.html,$10k–$30k+ (indicative),fallback,Strong GPU speedups,Commercial,XYZ/PDB I/O; ASE
+Spearmint (commercial support),Model,Paid,Task2 BO/optimizer,(Commercial support),https://github.com/HIPS/Spearmint,"$5k–$20k/yr (indicative, support)",fallback,Lightweight CPU,Commercial support,Integrates PyTorch/TF; JSON I/O
+PennyLane Enterprise,Model,Paid,Task1/Verification,Xanadu,https://pennylane.ai/enterprise/,$5k–$20k/yr (indicative),fallback,QC backends; small systems,Subscription,Python API; JSON
+Aitomia,Model,Paid,Task1 black-box,Aitomia,https://aitomia.com/,Quote-only (undisclosed),fallback,Unknown internals,Enterprise only,Closed API; vendor consult
+VASP (academic) ,Model,Open,Task1 DFT,VASPKIT/VASP Team,https://www.vasp.at/,Academic license fee (not OSS),fallback,MPI; no official GPU,Academic source-available,POSCAR/OUTCAR native
+Quantum ESPRESSO,Model,Open,Task1 DFT,QE Team,https://www.quantum-espresso.org/,Free,fallback,MPI+OpenMP; some GPU,GPLv2,CIF/POSCAR via pw tools; pymatgen
+ORCA,Model,Open,Task1 QC/DFT,ORCA Team,https://orcaforum.kofo.mpg.de/,Free academic,fallback,Good CPU parallel,Free for academics,molden→ASE
+Psi4,Model,Open,Task1 QC/DFT,Psi4 Team,https://psicode.org/,Free,fallback,CPU parallel,Apache 2.0,QCSchema/ASE
+CP2K,Model,Open,Task1 DFT/MD,CP2K Team,https://www.cp2k.org/,Free,fallback,Excellent mixed GPW; GPU,GPL,ASE-native
+ABINIT,Model,Open,Task1 DFT,ABINIT Team,https://www.abinit.org/,Free,fallback,MPI/OpenMP; some GPU,GPL,NetCDF→pymatgen
+SIESTA,Model,Open,Task1 DFT,SIESTA Team,https://siesta-project.org/,Free,fallback,Localized basis; low cost,LGPL,XSF/STRUCT; ASE
+NWChem,Model,Open,Task1 QC/DFT,NWChem Team,https://nwchemgit.github.io/,Free,fallback,MPI/OpenMP,ECL 2.0,Various text I/O; ASE
+JDFTx,Model,Open,Task1 DFT,JDFTx Team,https://jdftx.org/,Free,fallback,CPU+GPU (OpenCL/CUDA),GPL-like,cube outputs; pymatgen
+BigDFT,Model,Open,Task1 DFT,BigDFT Team,https://bigdft.org/,Free,fallback,Wavelets; GPU builds,WTFPL/GPL,XSF/cube; ASE
+CP2K + DeePMD-kit,Model,Open,Task1/2 ML potentials,CP2K/DeePMD,https://www.cp2k.org/,Quote/Contact required,https://github.com/deepmodeling/deepmd-kit,GPU acceleration; fast inference,LGPL/BSD,LAMMPS/CP2K integration
+Qiskit Nature,Model,Open,Task1 exploratory QC,IBM/OSS,https://qiskit.org/ecosystem/nature/,Free,fallback,QC simulators; small systems,Apache 2.0,Python JSON results
+scikit-learn,Model,Open,Task2 ML,OSS,https://scikit-learn.org/,Quote/Contact required,https://scikit-learn.org/stable/,CPU/GPU via add-ons,BSD,Pickle/ONNX; TF via skl2onnx
+TensorFlow,Model,Open,Task2 ML,Google/OSS,https://www.tensorflow.org/,Free,fallback,GPU/TPU,Apache 2.0,SavedModel; TF Serving
+PyTorch,Model,Open,Task2 ML,Meta/OSS,https://pytorch.org/,Free,fallback,GPU/CPU,BSD,ONNX; TF via ONNX→TF
+Optuna,Model,Open,Task2 BO,OSS,https://optuna.org/,Free,fallback,Light CPU,MIT,JSON/CSV studies
+ANSYS (Mech/Fluent/AM),Simulation,Paid,Task3-4 FEA/CFD/AM,ANSYS,https://www.ansys.com/,"$30k–$100k+/yr (tokens/modules, indicative)",fallback,Excellent HPC; GPUs in some solvers,Tokens/modules; quote-only,STEP/Parasolid in; VTK/CSV out
+COMSOL Multiphysics,Simulation,Paid,Task3-4 multiphysics,COMSOL,https://www.comsol.com/,$20k–$80k+ (modules; indicative),fallback,Param sweeps; limited distributed HPC,Module-based pricing,STEP/CAD; VTK/CSV
+Abaqus,Simulation,Paid,Task3-4 FEA,Dassault Systèmes SIMULIA,https://www.3ds.com/products/simulia/abaqus/,$25k–$80k+ (indicative),fallback,Strong implicit; some GPU,Tokens/modules; quote-only,STEP/INP; ODB→CSV/VTK
+LS-DYNA,Simulation,Paid,Task3-4 explicit,ANSYS,https://www.ansys.com/products/structures/ansys-ls-dyna,$25k–$80k+ (indicative),fallback,Top explicit dynamics; GPU options,Tokens,Keyword in; d3plot→VTK/CSV
+MSC Nastran/Patran,Simulation,Paid,Task3 structural,Hexagon,https://www.hexagon.com/products/msc-nastran,$20k–$60k+ (indicative),fallback,Structural HPC MPI,Seat/token,NASTRAN bulk; OP2→CSV
+STAR-CCM+,Simulation,Paid,Task3 CFD,Siemens,https://plm.sw.siemens.com/en-US/simcenter/fluids/star-ccm/,$30k–$100k+ (indicative),fallback,Parallel CFD; GPU emerging,Tokens; quote-only,CAD/STEP in; CSV/VTK
+Simcenter 3D,Simulation,Paid,Task3 CAE suite,Siemens,https://plm.sw.siemens.com/en-US/simcenter/3d/,$30k–$100k+ (indicative),fallback,Modular CAE,Tokens/modules,STEP/CAD; CSV/VTK
+Altair HyperWorks,Simulation,Paid,Task3 FEA/opt,Altair,https://altair.com/hyperworks,$20k–$70k+ (indicative),fallback,Efficient structural solvers,Units-based licensing,CAD/STEP; NASTRAN/CSV
+Adams,Simulation,Paid,Task3 MBD,Hexagon,https://www.hexagon.com/products/adams,$15k–$50k+ (indicative),fallback,CPU-bound MBD,Seat/token,CSV outputs; FMU export
+Isight/Tosca,Simulation,Paid,Task2/3 workflow/opt,Dassault Systèmes,https://www.3ds.com/products/simulia/isight/,$15k–$40k+ (indicative),fallback,Workflow + optimization,Seat/token,Wraps solvers; CSV
+Digimat,Simulation,Paid,Task3 multiscale,Hexagon (e-Xstream),https://hexagon.com/products/digimat,$20k–$60k+ (indicative),fallback,CPU/GPU micromech,Seat/token,Bridges Abaqus/ANSYS; CSV
+Moldflow,Simulation,Paid,Task4 injection,Autodesk,https://www.autodesk.com/products/moldflow/overview,$3k–$10k/yr (subscription; public),fallback,Some GPU steps,Subscription,CAD/STEP in; CSV out
+SolidWorks Simulation,Simulation,Paid,Task3 CAD-FEA,Dassault Systèmes,https://www.solidworks.com/product/solidworks-simulation,$2k–$10k/yr (tiered; indicative),fallback,SMB-scale; CPU,Add-on tiers,Reads CAD/STEP; CSV
+Simulink + Simscape,Simulation,Paid,Task5 control/plant,MathWorks,https://www.mathworks.com/products/simulink.html,$5k–$20k/yr (depends toolbox; indicative),fallback,Code gen; realtime targets,Per-seat + toolboxes,C/ROS export; CSV/JSON logs
+LabVIEW + NI toolkits,Simulation,Paid,Task5 control/DAQ,NI,https://www.ni.com/en-us/shop/labview.html,$3k–$10k/yr + HW (public tiers),fallback,Realtime on PXI,Subscription,Influx/Grafana connectors
+TwinBuilder (Ansys),Simulation,Paid,Task5 system ROM,ANSYS,https://www.ansys.com/products/systems/ansys-twin-builder,$15k–$40k+ (indicative),fallback,ROM export,Tokens/modules,FMI/FMU export; CSV
+Flow-3D,Simulation,Paid,Task3 CFD casting/AM,Flow Science,https://www.flow3d.com/,Quote/Contact required,https://www.flow3d.com/,CPU/GPU options,Seat/module,CSV/VTK output
+Rocky DEM / EDEM,Simulation,Paid,Task3 DEM,ESSS / Altair,https://rocky.esss.co/,Quote/Contact required,https://www.altair.com/edem/,GPU acceleration,Seat/token,DEM→CSV/VTK
+Desmond (enterprise),Simulation,Paid,Task3 MD (bio/materials),Schrödinger,https://www.schrodinger.com/products/desmond,Quote/Contact required,https://www.schrodinger.com/products/desmond,GPU-accelerated MD,Enterprise license,PDB/MAE; CSV trajectories
+Lumerical (Ansys),Simulation,Paid,Task3 photonics,ANSYS,https://www.ansys.com/products/optics/lumerical-photonics,$20k–$60k+ (indicative),fallback,GPU options,Tokens/modules,S-params/CSV; CAD links
+OpenFOAM,Simulation,Open,Task3 CFD,OpenFOAM Foundation,https://www.openfoam.com/,Free,fallback,MPI/OpenMP; GPU forks,GPL,VTK/CSV; STL/mesh
+Gmsh,Simulation,Open,Task3 meshing,OSS,https://gmsh.info/,Free,fallback,Fast CPU mesher,GPL,STEP/STL in; MSH/UNV out
+Elmer FEM,Simulation,Open,Task3 multiphysics,CSC,https://www.elmerfem.org/,Free,fallback,MPI parallel,GPL,VTK/CSV
+FreeFEM,Simulation,Open,Task3 PDE,OSS,https://freefem.org/,"$40, $20, $55",https://freefem.org/,Scriptable,LGPL,VTK/CSV
+SALOME + Code_Aster,Simulation,Open,Task3 structural,CEA/EDF/OSS,https://www.salome-platform.org/,Free,fallback,MPI; good FEA,FOSS,STEP/UNV; MED/VTK
+Code_Saturne,Simulation,Open,Task3 CFD,EDF,https://www.code-saturne.org/,Free,fallback,MPI CFD,GPL,MED/VTK/CSV
+LAMMPS,Simulation,Open,Task3 MD,Sandia/OSS,https://www.lammps.org/,Free,fallback,MPI/OpenMP; GPU package,GPL,Dump→XYZ/VTK/CSV
+GROMACS,Simulation,Open,Task3 MD,OSS,https://www.gromacs.org/,Free,fallback,Strong GPU; MPI,GPL,TRR/XTC→CSV/VTK
+NAMD (academic),Simulation,Open,Task3 MD,UIUC,https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=NAMD,Free academic,fallback,GPU+MPI,Charm++ license,DCD outputs; convert
+OpenModelica,Simulation,Open,Task5 control,OpenModelica,https://openmodelica.org/,Free,fallback,Co-sim eq-based,OSMC,FMI/FMU; CSV logs
+Ignition Gazebo + ROS2,Simulation,Open,Task5 robotics,Open Robotics,https://gazebosim.org/home,Free,fallback,GPU render; CPU physics,BSD/Apache,ROS2 msgs→Influx/Grafana
+Prometheus,Simulation,Open,Task5 monitoring,CNCF,https://prometheus.io/,Free,fallback,Time-series,Apache 2.0,Pairs with Grafana
+Node-RED,Simulation,Open,Task5 orchestration,IBM/OSS,https://nodered.org/,Free,fallback,Light CPU,Apache 2.0,JSON/MQTT; stack ready
+InfluxDB OSS,Simulation,Open,Task5 TSDB,InfluxData,https://www.influxdata.com/,Free,fallback,Time-series TSM,MIT,Grafana ready
+Grafana OSS,Simulation,Open,Task5 viz,Grafana Labs,https://grafana.com/,Quote/Contact required,https://grafana.com/oss/,Dashboards/alerts,AGPL,Already in stack
+TensorFlow Serving,Simulation,Open,Task6 inference,Google/OSS,https://www.tensorflow.org/tfx/guide/serving,Free,fallback,GPU/CPU,Apache 2.0,Serves SavedModel
+IBM Qiskit,Model,Open,Task1 Quantum circuits,IBM/OSS,https://qiskit.org/,Free SDK,fallback,QC simulator; cloud access variable,Apache 2.0,Python API; QASM format
+Google Cirq,Model,Open,Task1 Quantum circuits,Google/OSS,https://quantumai.google/cirq,Free SDK,fallback,TensorFlow native; NISQ-optimized,Apache 2.0,Python API; JSON serialization
+Amazon Braket,Model,Open,Task1 Quantum hybrid,Amazon,https://aws.amazon.com/braket/,Free SDK + $4.50/hr hardware,fallback,Multi-vendor access; cloud-native,Proprietary SDK; free tier,Python SDK; OpenQASM
+MOPAC (Free Core),Model,Open,Task1 Semi-empirical QC,MOPAC Team,http://openmopac.net/,Free core,fallback,Ultra-fast (seconds/molecules),Artistic License 2.0,MOP/MOL format
+VASP MEDEA,Model,Paid,Task1 DFT + properties,Materials Design Inc,https://www.materialsdesign.com/modules-vasp-medea,$5500/license (perpetual),fallback,MPI HPC; band structure; optical properties,Commercial per-site license,POSCAR/OUTCAR; MEDEA GUI integration
+IBM Qiskit Supercomputer,Model,Paid,Task1 Quantum hardware,IBM,https://quantum.ibm.com/,$48–96/minute premium hardware,fallback,Real quantum processors,Paid subscription,Python SDK; QASM format
+Google Quantum Runtime,Model,Paid,Task1 Quantum hardware,Google,https://quantumai.google/,$variable (typically $5k–$15k/year),fallback,Google Sycamore hardware,Paid cloud access,Python SDK; QASM format
+Amazon Braket Hardware,Model,Paid,Task1 Quantum hardware,Amazon,https://aws.amazon.com/braket/,$4.50/hour or $0.30–$1.00 per task,fallback,Multi-vendor on-demand,Paid hourly/per-task,Python SDK; OpenQASM
+VMD (Visual Molecular Dynamics),Simulation,Open,Task3 MD visualization,UIUC,https://www.ks.uiuc.edu/Research/vmd/,Free academic,fallback,GPU-accelerated rendering; Tcl scripting,VMD license (academic free),PDB/DCD/XYZ input; trajectory analysis

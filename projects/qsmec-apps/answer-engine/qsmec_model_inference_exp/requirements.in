@@ -1,0 +1,17 @@
+# Seed for pip-compile (do not lock yet)
+# Workspace linkage: quantumai
+torch
+# torch==2.3.1+cu121  # uncomment if locking for CUDA 12.1
+torch-geometric
+numpy
+requests
+scikit-learn
+pandas
+matplotlib
+jupyter
+fastapi
+uvicorn
+rdkit
+ase
+joblib
+pip-tools

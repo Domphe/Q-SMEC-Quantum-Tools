@@ -1,0 +1,40 @@
+
+fastapi
+uvicorn
+streamlit
+rdkit
+pandas
+scikit-learn
+matplotlib
+jupyter
+
+# Consolidated canonical requirements for fastapi/uvicorn/streamlit stack
+# Sources merged on 2025-12-15
+# Workspace linkage: research, mining
+# - enhanced_qc_platform_bundle/qc_platform_gnn_api_multitarget
+# - enhanced_qc_platform_bundle/qc_platform_gnn_rdk_schnet
+# - enhanced_qc_platform_bundle/qc_platform_dl_extension
+# - enhanced_qc_platform_bundle/qsmec_autorun_prod_viz
+# - qc_enhanced_platform
+# - 16 DHS Critical Infrastructure Sectors/Deep Research/Q-SMEC_Critical_16
+
+# Minimal stability pins
+fastapi>=0.111
+uvicorn>=0.28
+streamlit>=1.32
+scikit-learn>=1.3
+matplotlib>=3.8
+jupyter>=1.0
+pandas>=2.2
+pyarrow>=17.0
+requests>=2.32
+tqdm>=4.66
+pydantic>=2.9
+jsonschema>=4.23
+python-dotenv>=1.0
+ruamel.yaml>=0.18
+beautifulsoup4>=4.12
+lxml>=5.3
+tenacity>=9.0
+
+pip-tools>=7.0

@@ -1,0 +1,32 @@
+Term,Category,Frequency
+quantum,quantum_terms,78
+superconducting,quantum_terms,19
+quantum materials,quantum_terms,4
+quantum sensing,quantum_terms,3
+qubit,quantum_terms,2
+entanglement,quantum_terms,1
+optimization,ai_ml_terms,37
+scada,ai_ml_terms,23
+artificial intelligence,ai_ml_terms,4
+machine learning,ai_ml_terms,2
+neural network,ai_ml_terms,2
+ai-doe,ai_ml_terms,1
+grid,energy_terms,22
+superconducting,energy_terms,19
+energy storage,energy_terms,11
+energy density,energy_terms,6
+defense,defense_terms,42
+dhs,defense_terms,20
+surveillance,defense_terms,12
+national security,defense_terms,11
+dod,defense_terms,11
+reconnaissance,defense_terms,9
+military,defense_terms,4
+imu,sensor_terms,49
+accelerometer,sensor_terms,5
+gyroscope,sensor_terms,5
+acoustic sensor,sensor_terms,5
+magnetometer,sensor_terms,2
+mems,sensor_terms,2
+optical sensor,sensor_terms,1
+chemical sensor,sensor_terms,1

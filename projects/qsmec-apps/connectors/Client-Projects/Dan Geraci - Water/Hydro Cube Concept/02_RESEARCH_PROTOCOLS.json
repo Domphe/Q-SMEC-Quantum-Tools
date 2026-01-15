@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "run_id": "hydrocube_20251029",
+    "date": "2025-10-29",
+    "license": "Apache-2.0 for these JSON specs; external sources retain their own licenses",
+    "provenance": {
+      "primary_input_pdf": "Hydro Concept Final .pdf",
+      "citations": [
+        "fileciteturn9file8L1-L20"
+      ]
+    },
+    "constraints": [
+      "No assumptions. No sample numbers. Use only verified, dated, citable sources and official APIs.",
+      "If data is not publicly verifiable, mark as UNKNOWN and stop that branch.",
+      "Prefer primary sources and official APIs over secondary summaries.",
+      "Every output must include source_url, publisher, doc_date, accessed_date, and checksum_sha256 for any downloaded artifact."
+    ],
+    "orchestration": {
+      "spawn_mode": "concurrent_predeclared",
+      "max_agents": 64,
+      "token_budget_policy": "controller_enforces_streaming_chunking",
+      "retry_policy": {
+        "max_retries": 2,
+        "backoff": "exponential"
+      }
+    }
+  },
+  "apis": {
+    "NOAA_NWS": {
+      "base_url": "https://api.weather.gov",
+      "endpoints": {
+        "stations": "/stations",
+        "observations": "/stations/{stationId}/observations"
+      },
+      "notes": "Provide stationId, start/end times; capture response headers and status codes.",
+      "required_logging": [
+        "endpoint",
+        "params",
+        "status_code",
+        "retrieved_at",
+        "checksum_sha256"
+      ]
+    },
+    "NOAA_NCEI_CDO": {
+      "base_url": "https://www.ncei.noaa.gov/cdo-web/api/v2",
+      "endpoints": {
+        "data": "/data",
+        "stations": "/stations"
+      },
+      "auth": "token header required",
+      "required_logging": [
+        "datasetid",
+        "datatypeid",
+        "stationid",
+        "startdate",
+        "enddate"
+      ]
+    },
+    "USGS_WaterData": {
+      "base_url": "https://waterservices.usgs.gov/nwis",
+      "endpoints": {
+        "iv": "/iv",
+        "dv": "/dv"
+      },
+      "params_example": {
+        "format": "json",
+        "sites": "{siteIds}",
+        "parameterCd": "{codes}",
+        "startDT": "{start}",
+        "endDT": "{end}"
+      }
+    },
+    "WaterQualityPortal": {
+      "base_url": "https://www.waterqualitydata.us",
+      "endpoints": {
+        "result": "/Result/search"
+      },
+      "params_example": {
+        "mimeType": "json",
+        "characteristicName": "E. coli",
+        "huc": "{huc}",
+        "startDateLo": "{start}",
+        "startDateHi": "{end}"
+      }
+    },
+    "DARPA_AWE": {
+      "targets": [
+        "https://www.darpa.mil/research/programs/atmospheric-water-extraction",
+        "https://www.darpa.mil/news/2020/potable-water-air"
+      ],
+      "capture": "Download pages/PDFs; compute SHA-256."
+    },
+    "Navy_SBIR_AWG_OTM": {
+      "targets": [
+        "https://www.navysbir.com/n24_1/N241-004.htm"
+      ],
+      "capture": "Download topic details; compute SHA-256."
+    },
+    "NSF_ANSI": {
+      "targets": [
+        "https://www.nsf.org/knowledge-library/nsf-ansi-drinking-water-treatment-units-overview"
+      ],
+      "capture": "Extract applicability notes for P231 or related; cite URL and access date."
+    },
+    "USPTO_OpenData": {
+      "base_url": "https://developer.uspto.gov/",
+      "notes": "Use official patent data endpoints/patentsview successor; log queries and results."
+    },
+    "EPO_OPS": {
+      "base_url": "https://ops.epo.org/",
+      "notes": "Respect rate limits; capture legal status and biblio data."
+    }
+  },
+  "query_templates": {
+    "climate_recent": {
+      "api": "NOAA_NWS",
+      "endpoint": "observations",
+      "params": {
+        "stationId": "{station}",
+        "start": "{start}",
+        "end": "{end}"
+      }
+    },
+    "climate_history": {
+      "api": "NOAA_NCEI_CDO",
+      "endpoint": "data",
+      "params": {
+        "datasetid": "GHCND",
+        "datatypeid": [
+          "TAVG",
+          "TMIN",
+          "TMAX",
+          "RHUM"
+        ],
+        "stationid": "{station}",
+        "startdate": "{start}",
+        "enddate": "{end}"
+      }
+    },
+    "wqp_microbial": {
+      "api": "WaterQualityPortal",
+      "endpoint": "result",
+      "params": {
+        "characteristicName": "E. coli",
+        "huc": "{huc}",
+        "startDateLo": "{start}",
+        "startDateHi": "{end}",
+        "mimeType": "json"
+      }
+    },
+    "usgs_iv": {
+      "api": "USGS_WaterData",
+      "endpoint": "iv",
+      "params": {
+        "sites": "{sites}",
+        "parameterCd": "00010,00011",
+        "startDT": "{start}",
+        "endDT": "{end}",
+        "format": "json"
+      }
+    }
+  },
+  "logging_fields": [
+    "endpoint",
+    "params",
+    "status_code",
+    "retrieved_at",
+    "bytes",
+    "checksum_sha256",
+    "source_url"
+  ]
+}

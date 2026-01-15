@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "run_id": "hydrocube_20251029",
+    "date": "2025-10-29",
+    "license": "Apache-2.0 for these JSON specs; external sources retain their own licenses",
+    "provenance": {
+      "primary_input_pdf": "Hydro Concept Final .pdf",
+      "citations": [
+        "fileciteturn9file8L1-L20"
+      ]
+    },
+    "constraints": [
+      "No assumptions. No sample numbers. Use only verified, dated, citable sources and official APIs.",
+      "If data is not publicly verifiable, mark as UNKNOWN and stop that branch.",
+      "Prefer primary sources and official APIs over secondary summaries.",
+      "Every output must include source_url, publisher, doc_date, accessed_date, and checksum_sha256 for any downloaded artifact."
+    ],
+    "orchestration": {
+      "spawn_mode": "concurrent_predeclared",
+      "max_agents": 64,
+      "token_budget_policy": "controller_enforces_streaming_chunking",
+      "retry_policy": {
+        "max_retries": 2,
+        "backoff": "exponential"
+      }
+    }
+  },
+  "models": {
+    "psychrometrics": {
+      "inputs": [
+        "temperature_series",
+        "relative_humidity_series",
+        "airflow_params",
+        "fin_area_m2"
+      ],
+      "equations_source": "CITED_ONLY",
+      "outputs": [
+        "condensation_flux_series",
+        "uncertainty_bounds"
+      ],
+      "notes": "Do not compute if any input lacks a citation."
+    },
+    "tec_heat_lift": {
+      "inputs": [
+        "TEC_datasheet_params",
+        "deltaT",
+        "input_power"
+      ],
+      "equations_source": "CITED_ONLY",
+      "outputs": [
+        "Qc",
+        "Qh",
+        "COP"
+      ]
+    },
+    "distillation_energy": {
+      "inputs": [
+        "temperature",
+        "latent_heat_reference"
+      ],
+      "equations_source": "CITED_ONLY",
+      "outputs": [
+        "Wh_per_L"
+      ],
+      "note": "No system losses unless cited."
+    },
+    "uvc_dose": {
+      "inputs": [
+        "emitter_output_mW",
+        "wavelength_nm",
+        "exposure_time_s",
+        "path_geometry",
+        "microbial_tables"
+      ],
+      "outputs": [
+        "dose_mJ_cm2",
+        "log_reduction_bounds"
+      ],
+      "equations_source": "CITED_ONLY"
+    }
+  }
+}

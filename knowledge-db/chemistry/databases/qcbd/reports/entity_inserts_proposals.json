@@ -1,0 +1,1403 @@
+{
+  "generated_at": "2025-12-03T11:33:55.021562",
+  "materials": [
+    {
+      "name": "Ge",
+      "type": "material",
+      "sources": [
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+          "sample": "CII NIKET North America LLC PROPRIETARY www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific  Foundations..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\document_analysis_results.json",
+          "sample": "{ \"directory\": \"G:\\\\My Drive\\\\White Paper (Patent)\", \"analysis_date\": \"2025-11-04T13:08:43.257766\",..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\niket_knowledge_base.json",
+          "sample": "{ \"extraction_date\": \"2025-11-04T13:10:35.067106\", \"source_documents\": [..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\knowledge_summary_report.txt",
+          "sample": "\ud83c\udfaf NIKET KNOWLEDGE BASE SUMMARY ============================================================ Generated: 2025-11-04T13:10:35.067106..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\QCBD_Benchmark_Data_Extraction.md",
+          "sample": "# QCBD Benchmark Dataset Extraction from White Paper Directory ## Quantum Chemistry & Materials Modeling Data Analysis **Date**: December 1, 2025..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+          "sample": "CII NIKET PROPRIETARY CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+          "sample": "CII NIKET North America LLC PROPRIETARY www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific Foundations..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+          "sample": "CII NIKET North America LLC PROPRIETARY www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific Foundations..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+          "sample": "CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT (Q-SMEC) SENSOR AND ENERGY MANAGEMENT MATERIALS OPTIMIZATION WHITE PAPER..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Read-Ahead Summary for Q-SMEC Technology & Use Cases.docx",
+          "sample": "Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases Q-SMEC Technology Overview Q-SMEC (Quantum Superconducting Magnetic Energy Containment) is a patented platform of sensor/storage material architectures leveraging quantum physics, AI-enhanced DOE modeling, and thin-film/..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Q-SMEC_Commercialization_Directive_Updated.docx",
+          "sample": "Q-SMEC SENSOR PLATFORM: COMMERCIALIZATION & STRATEGIC EXECUTION DIRECTIVE Based solely on the CII NIKET proprietary Q-SMEC technology and use cases 1. Executive Summary..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Scope of the Q-SMEC Patent_White Paper.docx",
+          "sample": "Scope of the Q-SMEC Patent and White Paper 1. Core Innovation Q-SMEC technology focuses on quantum superconducting sensor materials engineered for high sensitivity, advanced energy storage, and integration into critical infrastructure. AI-assisted design uses elements like Ge, Ga, Nb, Ti, Al, and ni..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Q-SMEC Technical White Paper NDA Safe.docx",
+          "sample": "Q-SMEC: Quantum-Superconducting Magnetic Energy Containment for Energy-Efficient and Cyber-Resilient Infrastructure NIKET North America LLC \u2014 October 2025 Status: Proprietary (Shareable without NDA). No enabling design secrets disclosed...."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Deep Think Analysis of Q-SMEC White Paper.docx",
+          "sample": "Deep Think Analysis of Q-SMEC White Paper 1. Foundational Physics / Materials Science Layer Core Innovation..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Detailed breakdown of each major section of the Q\u2011SMEC.docx",
+          "sample": "Below is a detailed breakdown of each major section of the Q\u2011SMEC white paper. Citations refer to lines from the uploaded document where the information is stated. 1. Foundational Physics / Materials Science Required properties for Q\u2011SMEC sensors: The paper states that national\u2011security applications..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+          "sample": "CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\NDA Documents\\NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+          "sample": "CII NIKET North America LLC PROPRIETARY www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific  Foundations..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\NDA Documents\\Niket NorthAmerica - PIA MNDA.docx",
+          "sample": "NIKET NORTH AMERICA LLC Proprietary Information/Mutual Nondisclosure Agreement Terry Finefrock, President..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\NDA Documents\\Niket Retainer Services Agreement.docx",
+          "sample": "NIKET NORTH AMERICA LLC Retainer Partnership Agreement This Retainer Partnership Agreement is made by and between Niket North America LLC (hereinafter called \u201cNiket\u201d) and [Counterparty Legal Name] (hereinafter called \u201cCompany\u201d), having offices at [Counterparty Address]\u00a0and collectively known as the ..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3) Verified Benchmarks from Trusted Sources.docx",
+          "sample": "I can\u2019t fully verify all claims (especially from your proposal or patent) without access to primary data or independent lab results. But I collected reliable external benchmarks to test whether the proposed THz / sensor performance targets are reasonable. Here are verifiable data points and contrast..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3c) Gap Analysis Table.docx",
+          "sample": "I created a Gap Analysis Table comparing your proposal targets against verified benchmarks: PB Energy Density: Classified as Frontier / Needs Proof \u2014 current PBAs peak ~142 Wh/kg, so \u2265250 Wh/kg requires hybridization or new chemistries. PB Cycle Life: Classified as Conservative / Realistic \u2014 your \u22651..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(1) Prompt from_for PPT_.docx",
+          "sample": "Here is the final packaged DeepThink mega-prompt with the Q-SMEC patent embedded as the authoritative reference. It integrates the patent into every section so the AI system will pull directly from it when analyzing the proposal. \ud83d\udccc DeepThink Comprehensive Patent + Proposal Analysis Prompt Primary In..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\peer-reviewed benchmarks for Prussian Blue _ PBAs and THz detectors_.docx",
+          "sample": "Here are recent (2024-2025) peer-reviewed benchmarks for Prussian Blue / PBAs and THz detectors. Use these to overlay your targets. Some metrics still missing or under narrow conditions. \ud83d\udd0d Latest PB / PBA Benchmarks \ud83d\udd0d Latest THz Detector / Sensor Benchmarks..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3b) overlay charts.docx",
+          "sample": "I generated overlay charts comparing your proposal targets against verified benchmarks from peer-reviewed sources: PB Energy Density: Proposal (\u2265250 Wh/kg) vs. verified PBAs (75\u2013142 Wh/kg). PB Cycle Life: Proposal (\u22651000 cycles) vs. verified PBAs (3,750\u201313,000 cycles)...."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(4a) recent literature confirms (2024-2025).docx",
+          "sample": "Here\u2019s what my search shows about whether the sources in the benchmarks are among the most up-to-date as of late 2025, plus where gaps remain: \ud83d\udd0d What recent literature confirms (2024-2025) \u201cPrussian blue analogues for high-performance sodium ion battery cathodes: recent advances and challenges\u201d (S. ..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(2a) DeepThink Analysis Report.docx",
+          "sample": "Here is the Final DeepThink Analysis Report with restrictions lifted. All three instantiations (PB, THz, RCS) are treated as valid patent-grounded embodiments, integrated into a unified program and commercialization roadmap. \ud83d\udcca DeepThink Analysis Report (Final Board-Ready Version) Source of Truth: Q-..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3a) Prussian Blue-battery _ Prussian Blue Analogues (PBAs.docx",
+          "sample": "Here are benchmark tables from verified, trustable sources for Prussian Blue-battery / Prussian Blue Analogues (PBAs) and THz detectors, across wide scope. These can be used to overlay your proposal claims to check feasibility. \ud83d\udd0d PB / PBA Benchmarks \ud83d\udd0d THz Detector Benchmarks..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\QSMEC_PartnerProposal_Draft.docx",
+          "sample": "Q-SMEC Partner Proposal Draft Introduction Quantum Superconducting Magnetic Energy Containment (Q-SMEC) offers transformational advances in sensors, energy management, and critical infrastructure resilience. This proposal outlines opportunities for partnership, investment, and joint IP development t..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\Q-SMEC Command Media_ Prompt.docx",
+          "sample": "Q-SMEC Command Media: A one-page, non-proprietary/unclassified PDF detailing high-level qualitative and quantitative bullet points outlining the value proposition for general use (e.g., email attachments, website text). An x-slide PowerPoint Command Brief for use at Fort Huachuca on Thursday, contin..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\Non-proprietary (summary) QSMEC Summary 1pager.docx",
+          "sample": "Q-SMEC: Quantum Superconducting Magnetic Energy Containment Executive One-Pager CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\Presentation\\QSMEC_PartnerProposal_Draft.docx",
+          "sample": "Q-SMEC Partner Proposal Draft Introduction Quantum Superconducting Magnetic Energy Containment (Q-SMEC) offers transformational advances in sensors, energy management, and critical infrastructure resilience. This proposal outlines opportunities for partnership, investment, and joint IP development t..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC Investor Pitch Deck (Physics, Eng, IP) (Skeleton, V1).pptx",
+          "sample": "Vision: Quantum-Engineered Materials for the Post-Semiconductor Era Q-SMEC merges frontier quantum physics with AI-optimized materials engineering to build the next generation of sensors, energy systems, and autonomous infrastructure. Problem: Materials Have Hit Their Physical Limits..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC Investor Pitch Deck (Skeleton) V1.pptx",
+          "sample": "Vision: Quantum-Engineered Materials for the Post-Semiconductor Era Q-SMEC merges frontier quantum physics with AI-optimized materials engineering to build the next generation of sensors, energy systems, and autonomous infrastructure. Problem: Materials Have Hit Their Physical Limits..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC Investor Pitch Deck  Slides V2.pptx",
+          "sample": "Vision: Quantum-Engineered Materials for the Post-Semiconductor Era Vision: Quantum-Engineered Materials for the Post-Semiconductor Era Q-SMEC merges frontier quantum physics with AI-optimized materials engineering to build the next generation of sensors, energy systems, and autonomous infrastructur..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC_Investor_Introduction_Deck.pptx",
+          "sample": "Vision: Unlocking the Quantum Frontier Q-SMEC develops next-generation materials that enhance energy containment and sensor performance. We merge quantum physics and AI-driven design to redefine energy, defense, and infrastructure technologies...."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Deck V2.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Applications: Prussian Blue/White Alternative Energy Storage..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\QSMEC Deck v3.pptx",
+          "sample": "Q-SMEC Mining Sensor Licensing Opportunity Confidential | NIKET NA LLC | September 2025 Airtronics Applications:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Executive Licensing Read-Ahead.docx",
+          "sample": "Q-SMEC Executive Licensing Read-Ahead Confidential | NIKET NA LLC 1. Executive Summary..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Solid State Battery\\NIKET NA Q-SMEC Solid State Battery Use Case Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Electric Microgrid Use Case:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Tiberius Quantum Motors\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Free-Fall HES BRN Thz Cyber Resilient Comms\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Mining Sensor Use Case\\NIKET NA Q-SMEC Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\NIKET LLC Pitch Deck Nov Board Dely 10182025-2-2.pptx",
+          "sample": "Q-SMEC: \u201cEngineering the Quantum Sensing and Communications Materials Revolution for Cyber Resilient Critical Infrastructure\u201d NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET LLC Q-SMEC PROPRIETARY -  20251021.pptx",
+          "sample": "Q-SMEC: \u201cEngineering the Quantum Sensing and Communications Materials Revolution for Cyber Resilient Critical Infrastructure\u201d NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        }
+      ]
+    },
+    {
+      "name": "GaN",
+      "type": "material",
+      "sources": [
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\document_analysis_results.json",
+          "sample": "{ \"directory\": \"G:\\\\My Drive\\\\White Paper (Patent)\", \"analysis_date\": \"2025-11-04T13:08:43.257766\",..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\niket_knowledge_base.json",
+          "sample": "{ \"extraction_date\": \"2025-11-04T13:10:35.067106\", \"source_documents\": [..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\QCBD_Benchmark_Data_Extraction.md",
+          "sample": "# QCBD Benchmark Dataset Extraction from White Paper Directory ## Quantum Chemistry & Materials Modeling Data Analysis **Date**: December 1, 2025..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+          "sample": "CII NIKET PROPRIETARY CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+          "sample": "CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT (Q-SMEC) SENSOR AND ENERGY MANAGEMENT MATERIALS OPTIMIZATION WHITE PAPER..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Scope of the Q-SMEC Patent_White Paper.docx",
+          "sample": "Scope of the Q-SMEC Patent and White Paper 1. Core Innovation Q-SMEC technology focuses on quantum superconducting sensor materials engineered for high sensitivity, advanced energy storage, and integration into critical infrastructure. AI-assisted design uses elements like Ge, Ga, Nb, Ti, Al, and ni..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(1) Prompt from_for PPT_.docx",
+          "sample": "Here is the final packaged DeepThink mega-prompt with the Q-SMEC patent embedded as the authoritative reference. It integrates the patent into every section so the AI system will pull directly from it when analyzing the proposal. \ud83d\udccc DeepThink Comprehensive Patent + Proposal Analysis Prompt Primary In..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(2a) DeepThink Analysis Report.docx",
+          "sample": "Here is the Final DeepThink Analysis Report with restrictions lifted. All three instantiations (PB, THz, RCS) are treated as valid patent-grounded embodiments, integrated into a unified program and commercialization roadmap. \ud83d\udcca DeepThink Analysis Report (Final Board-Ready Version) Source of Truth: Q-..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\QSMEC_PartnerProposal_Draft.docx",
+          "sample": "Q-SMEC Partner Proposal Draft Introduction Quantum Superconducting Magnetic Energy Containment (Q-SMEC) offers transformational advances in sensors, energy management, and critical infrastructure resilience. This proposal outlines opportunities for partnership, investment, and joint IP development t..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\Presentation\\QSMEC_PartnerProposal_Draft.docx",
+          "sample": "Q-SMEC Partner Proposal Draft Introduction Quantum Superconducting Magnetic Energy Containment (Q-SMEC) offers transformational advances in sensors, energy management, and critical infrastructure resilience. This proposal outlines opportunities for partnership, investment, and joint IP development t..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Deck V2.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Applications: Prussian Blue/White Alternative Energy Storage..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\QSMEC Deck v3.pptx",
+          "sample": "Q-SMEC Mining Sensor Licensing Opportunity Confidential | NIKET NA LLC | September 2025 Airtronics Applications:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Executive Licensing Read-Ahead.docx",
+          "sample": "Q-SMEC Executive Licensing Read-Ahead Confidential | NIKET NA LLC 1. Executive Summary..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Tiberius Quantum Motors\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Free-Fall HES BRN Thz Cyber Resilient Comms\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Mining Sensor Use Case\\NIKET NA Q-SMEC Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Delta Thermal/Sensor Group  Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Delta Thermal/Sensor Group  Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Delta Thermal/Sensor Group  Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Delta Thermal/Sensor Group  Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        }
+      ]
+    },
+    {
+      "name": "AlN",
+      "type": "material",
+      "sources": [
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\QCBD_Benchmark_Data_Extraction.md",
+          "sample": "# QCBD Benchmark Dataset Extraction from White Paper Directory ## Quantum Chemistry & Materials Modeling Data Analysis **Date**: December 1, 2025..."
+        }
+      ]
+    },
+    {
+      "name": "Nb",
+      "type": "material",
+      "sources": [
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\document_analysis_results.json",
+          "sample": "{ \"directory\": \"G:\\\\My Drive\\\\White Paper (Patent)\", \"analysis_date\": \"2025-11-04T13:08:43.257766\",..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\QCBD_Benchmark_Data_Extraction.md",
+          "sample": "# QCBD Benchmark Dataset Extraction from White Paper Directory ## Quantum Chemistry & Materials Modeling Data Analysis **Date**: December 1, 2025..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+          "sample": "CII NIKET PROPRIETARY CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+          "sample": "CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT (Q-SMEC) SENSOR AND ENERGY MANAGEMENT MATERIALS OPTIMIZATION WHITE PAPER..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Read-Ahead Summary for Q-SMEC Technology & Use Cases.docx",
+          "sample": "Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases Q-SMEC Technology Overview Q-SMEC (Quantum Superconducting Magnetic Energy Containment) is a patented platform of sensor/storage material architectures leveraging quantum physics, AI-enhanced DOE modeling, and thin-film/..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Q-SMEC_Commercialization_Directive_Updated.docx",
+          "sample": "Q-SMEC SENSOR PLATFORM: COMMERCIALIZATION & STRATEGIC EXECUTION DIRECTIVE Based solely on the CII NIKET proprietary Q-SMEC technology and use cases 1. Executive Summary..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Scope of the Q-SMEC Patent_White Paper.docx",
+          "sample": "Scope of the Q-SMEC Patent and White Paper 1. Core Innovation Q-SMEC technology focuses on quantum superconducting sensor materials engineered for high sensitivity, advanced energy storage, and integration into critical infrastructure. AI-assisted design uses elements like Ge, Ga, Nb, Ti, Al, and ni..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+          "sample": "CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(2a) DeepThink Analysis Report.docx",
+          "sample": "Here is the Final DeepThink Analysis Report with restrictions lifted. All three instantiations (PB, THz, RCS) are treated as valid patent-grounded embodiments, integrated into a unified program and commercialization roadmap. \ud83d\udcca DeepThink Analysis Report (Final Board-Ready Version) Source of Truth: Q-..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC Investor Pitch Deck (Physics, Eng, IP) (Skeleton, V1).pptx",
+          "sample": "Vision: Quantum-Engineered Materials for the Post-Semiconductor Era Q-SMEC merges frontier quantum physics with AI-optimized materials engineering to build the next generation of sensors, energy systems, and autonomous infrastructure. Problem: Materials Have Hit Their Physical Limits..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\QSMEC Deck v3.pptx",
+          "sample": "Q-SMEC Mining Sensor Licensing Opportunity Confidential | NIKET NA LLC | September 2025 Airtronics Applications:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Executive Licensing Read-Ahead.docx",
+          "sample": "Q-SMEC Executive Licensing Read-Ahead Confidential | NIKET NA LLC 1. Executive Summary..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Solid State Battery\\NIKET NA Q-SMEC Solid State Battery Use Case Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Electric Microgrid Use Case:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Tiberius Quantum Motors\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Free-Fall HES BRN Thz Cyber Resilient Comms\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Mining Sensor Use Case\\NIKET NA Q-SMEC Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Delta Thermal/Sensor Group  Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Delta Thermal/Sensor Group  Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Delta Thermal/Sensor Group  Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Delta Thermal/Sensor Group  Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        }
+      ]
+    },
+    {
+      "name": "Ti",
+      "type": "material",
+      "sources": [
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+          "sample": "CII NIKET North America LLC PROPRIETARY www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific  Foundations..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\document_analysis_results.json",
+          "sample": "{ \"directory\": \"G:\\\\My Drive\\\\White Paper (Patent)\", \"analysis_date\": \"2025-11-04T13:08:43.257766\",..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\niket_knowledge_base.json",
+          "sample": "{ \"extraction_date\": \"2025-11-04T13:10:35.067106\", \"source_documents\": [..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\knowledge_summary_report.txt",
+          "sample": "\ud83c\udfaf NIKET KNOWLEDGE BASE SUMMARY ============================================================ Generated: 2025-11-04T13:10:35.067106..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\QCBD_Benchmark_Data_Extraction.md",
+          "sample": "# QCBD Benchmark Dataset Extraction from White Paper Directory ## Quantum Chemistry & Materials Modeling Data Analysis **Date**: December 1, 2025..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+          "sample": "CII NIKET PROPRIETARY CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+          "sample": "CII NIKET North America LLC PROPRIETARY www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific Foundations..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+          "sample": "CII NIKET North America LLC PROPRIETARY www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific Foundations..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+          "sample": "CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT (Q-SMEC) SENSOR AND ENERGY MANAGEMENT MATERIALS OPTIMIZATION WHITE PAPER..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Read-Ahead Summary for Q-SMEC Technology & Use Cases.docx",
+          "sample": "Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases Q-SMEC Technology Overview Q-SMEC (Quantum Superconducting Magnetic Energy Containment) is a patented platform of sensor/storage material architectures leveraging quantum physics, AI-enhanced DOE modeling, and thin-film/..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Q-SMEC_Commercialization_Directive_Updated.docx",
+          "sample": "Q-SMEC SENSOR PLATFORM: COMMERCIALIZATION & STRATEGIC EXECUTION DIRECTIVE Based solely on the CII NIKET proprietary Q-SMEC technology and use cases 1. Executive Summary..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Scope of the Q-SMEC Patent_White Paper.docx",
+          "sample": "Scope of the Q-SMEC Patent and White Paper 1. Core Innovation Q-SMEC technology focuses on quantum superconducting sensor materials engineered for high sensitivity, advanced energy storage, and integration into critical infrastructure. AI-assisted design uses elements like Ge, Ga, Nb, Ti, Al, and ni..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Q-SMEC Technical White Paper NDA Safe.docx",
+          "sample": "Q-SMEC: Quantum-Superconducting Magnetic Energy Containment for Energy-Efficient and Cyber-Resilient Infrastructure NIKET North America LLC \u2014 October 2025 Status: Proprietary (Shareable without NDA). No enabling design secrets disclosed...."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Deep Think Analysis of Q-SMEC White Paper.docx",
+          "sample": "Deep Think Analysis of Q-SMEC White Paper 1. Foundational Physics / Materials Science Layer Core Innovation..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Detailed breakdown of each major section of the Q\u2011SMEC.docx",
+          "sample": "Below is a detailed breakdown of each major section of the Q\u2011SMEC white paper. Citations refer to lines from the uploaded document where the information is stated. 1. Foundational Physics / Materials Science Required properties for Q\u2011SMEC sensors: The paper states that national\u2011security applications..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+          "sample": "CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\NDA Documents\\NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+          "sample": "CII NIKET North America LLC PROPRIETARY www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific  Foundations..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\NDA Documents\\Niket NorthAmerica - PIA MNDA.docx",
+          "sample": "NIKET NORTH AMERICA LLC Proprietary Information/Mutual Nondisclosure Agreement Terry Finefrock, President..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\NDA Documents\\Niket Retainer Services Agreement.docx",
+          "sample": "NIKET NORTH AMERICA LLC Retainer Partnership Agreement This Retainer Partnership Agreement is made by and between Niket North America LLC (hereinafter called \u201cNiket\u201d) and [Counterparty Legal Name] (hereinafter called \u201cCompany\u201d), having offices at [Counterparty Address]\u00a0and collectively known as the ..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3) Verified Benchmarks from Trusted Sources.docx",
+          "sample": "I can\u2019t fully verify all claims (especially from your proposal or patent) without access to primary data or independent lab results. But I collected reliable external benchmarks to test whether the proposed THz / sensor performance targets are reasonable. Here are verifiable data points and contrast..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3c) Gap Analysis Table.docx",
+          "sample": "I created a Gap Analysis Table comparing your proposal targets against verified benchmarks: PB Energy Density: Classified as Frontier / Needs Proof \u2014 current PBAs peak ~142 Wh/kg, so \u2265250 Wh/kg requires hybridization or new chemistries. PB Cycle Life: Classified as Conservative / Realistic \u2014 your \u22651..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(4) Combined Proposal benchmark- official sources.docx",
+          "sample": "Here is the Combined Proposal vs Benchmark Gap Analysis with verified, trustworthy official sources attached for each benchmark: \ud83d\udcca Combined Proposal vs Benchmark Gap Analysis (with Sources) \u2705 This table is now fully backed by peer-reviewed journals and trusted repositories (Wiley, ACS, Nature, MDPI,..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(1) Prompt from_for PPT_.docx",
+          "sample": "Here is the final packaged DeepThink mega-prompt with the Q-SMEC patent embedded as the authoritative reference. It integrates the patent into every section so the AI system will pull directly from it when analyzing the proposal. \ud83d\udccc DeepThink Comprehensive Patent + Proposal Analysis Prompt Primary In..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\peer-reviewed benchmarks for Prussian Blue _ PBAs and THz detectors_.docx",
+          "sample": "Here are recent (2024-2025) peer-reviewed benchmarks for Prussian Blue / PBAs and THz detectors. Use these to overlay your targets. Some metrics still missing or under narrow conditions. \ud83d\udd0d Latest PB / PBA Benchmarks \ud83d\udd0d Latest THz Detector / Sensor Benchmarks..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3b) overlay charts.docx",
+          "sample": "I generated overlay charts comparing your proposal targets against verified benchmarks from peer-reviewed sources: PB Energy Density: Proposal (\u2265250 Wh/kg) vs. verified PBAs (75\u2013142 Wh/kg). PB Cycle Life: Proposal (\u22651000 cycles) vs. verified PBAs (3,750\u201313,000 cycles)...."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(4a) recent literature confirms (2024-2025).docx",
+          "sample": "Here\u2019s what my search shows about whether the sources in the benchmarks are among the most up-to-date as of late 2025, plus where gaps remain: \ud83d\udd0d What recent literature confirms (2024-2025) \u201cPrussian blue analogues for high-performance sodium ion battery cathodes: recent advances and challenges\u201d (S. ..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(2a) DeepThink Analysis Report.docx",
+          "sample": "Here is the Final DeepThink Analysis Report with restrictions lifted. All three instantiations (PB, THz, RCS) are treated as valid patent-grounded embodiments, integrated into a unified program and commercialization roadmap. \ud83d\udcca DeepThink Analysis Report (Final Board-Ready Version) Source of Truth: Q-..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3a) Prussian Blue-battery _ Prussian Blue Analogues (PBAs.docx",
+          "sample": "Here are benchmark tables from verified, trustable sources for Prussian Blue-battery / Prussian Blue Analogues (PBAs) and THz detectors, across wide scope. These can be used to overlay your proposal claims to check feasibility. \ud83d\udd0d PB / PBA Benchmarks \ud83d\udd0d THz Detector Benchmarks..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\QSMEC_PartnerProposal_Draft.docx",
+          "sample": "Q-SMEC Partner Proposal Draft Introduction Quantum Superconducting Magnetic Energy Containment (Q-SMEC) offers transformational advances in sensors, energy management, and critical infrastructure resilience. This proposal outlines opportunities for partnership, investment, and joint IP development t..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\Q-SMEC Command Media_ Prompt.docx",
+          "sample": "Q-SMEC Command Media: A one-page, non-proprietary/unclassified PDF detailing high-level qualitative and quantitative bullet points outlining the value proposition for general use (e.g., email attachments, website text). An x-slide PowerPoint Command Brief for use at Fort Huachuca on Thursday, contin..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\Non-proprietary (summary) QSMEC Summary 1pager.docx",
+          "sample": "Q-SMEC: Quantum Superconducting Magnetic Energy Containment Executive One-Pager CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\Presentation\\QSMEC_PartnerProposal_Draft.docx",
+          "sample": "Q-SMEC Partner Proposal Draft Introduction Quantum Superconducting Magnetic Energy Containment (Q-SMEC) offers transformational advances in sensors, energy management, and critical infrastructure resilience. This proposal outlines opportunities for partnership, investment, and joint IP development t..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC Investor Pitch Deck (Physics, Eng, IP) (Skeleton, V1).pptx",
+          "sample": "Vision: Quantum-Engineered Materials for the Post-Semiconductor Era Q-SMEC merges frontier quantum physics with AI-optimized materials engineering to build the next generation of sensors, energy systems, and autonomous infrastructure. Problem: Materials Have Hit Their Physical Limits..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC Investor Pitch Deck (Skeleton) V1.pptx",
+          "sample": "Vision: Quantum-Engineered Materials for the Post-Semiconductor Era Q-SMEC merges frontier quantum physics with AI-optimized materials engineering to build the next generation of sensors, energy systems, and autonomous infrastructure. Problem: Materials Have Hit Their Physical Limits..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC Investor Pitch Deck  Slides V2.pptx",
+          "sample": "Vision: Quantum-Engineered Materials for the Post-Semiconductor Era Vision: Quantum-Engineered Materials for the Post-Semiconductor Era Q-SMEC merges frontier quantum physics with AI-optimized materials engineering to build the next generation of sensors, energy systems, and autonomous infrastructur..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC_Investor_Introduction_Deck.pptx",
+          "sample": "Vision: Unlocking the Quantum Frontier Q-SMEC develops next-generation materials that enhance energy containment and sensor performance. We merge quantum physics and AI-driven design to redefine energy, defense, and infrastructure technologies...."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Deck V2.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Applications: Prussian Blue/White Alternative Energy Storage..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\QSMEC Deck v3.pptx",
+          "sample": "Q-SMEC Mining Sensor Licensing Opportunity Confidential | NIKET NA LLC | September 2025 Airtronics Applications:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Executive Licensing Read-Ahead.docx",
+          "sample": "Q-SMEC Executive Licensing Read-Ahead Confidential | NIKET NA LLC 1. Executive Summary..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Solid State Battery\\NIKET NA Q-SMEC Solid State Battery Use Case Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Electric Microgrid Use Case:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Tiberius Quantum Motors\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Free-Fall HES BRN Thz Cyber Resilient Comms\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Mining Sensor Use Case\\NIKET NA Q-SMEC Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\NIKET LLC Pitch Deck Nov Board Dely 10182025-2-2.pptx",
+          "sample": "Q-SMEC: \u201cEngineering the Quantum Sensing and Communications Materials Revolution for Cyber Resilient Critical Infrastructure\u201d NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET LLC Q-SMEC PROPRIETARY -  20251021.pptx",
+          "sample": "Q-SMEC: \u201cEngineering the Quantum Sensing and Communications Materials Revolution for Cyber Resilient Critical Infrastructure\u201d NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        }
+      ]
+    },
+    {
+      "name": "graphene",
+      "type": "material",
+      "sources": [
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\document_analysis_results.json",
+          "sample": "{ \"directory\": \"G:\\\\My Drive\\\\White Paper (Patent)\", \"analysis_date\": \"2025-11-04T13:08:43.257766\",..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\niket_knowledge_base.json",
+          "sample": "{ \"extraction_date\": \"2025-11-04T13:10:35.067106\", \"source_documents\": [..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\QCBD_Benchmark_Data_Extraction.md",
+          "sample": "# QCBD Benchmark Dataset Extraction from White Paper Directory ## Quantum Chemistry & Materials Modeling Data Analysis **Date**: December 1, 2025..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+          "sample": "CII NIKET PROPRIETARY CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+          "sample": "CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT (Q-SMEC) SENSOR AND ENERGY MANAGEMENT MATERIALS OPTIMIZATION WHITE PAPER..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Scope of the Q-SMEC Patent_White Paper.docx",
+          "sample": "Scope of the Q-SMEC Patent and White Paper 1. Core Innovation Q-SMEC technology focuses on quantum superconducting sensor materials engineered for high sensitivity, advanced energy storage, and integration into critical infrastructure. AI-assisted design uses elements like Ge, Ga, Nb, Ti, Al, and ni..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Deep Think Analysis of Q-SMEC White Paper.docx",
+          "sample": "Deep Think Analysis of Q-SMEC White Paper 1. Foundational Physics / Materials Science Layer Core Innovation..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Detailed breakdown of each major section of the Q\u2011SMEC.docx",
+          "sample": "Below is a detailed breakdown of each major section of the Q\u2011SMEC white paper. Citations refer to lines from the uploaded document where the information is stated. 1. Foundational Physics / Materials Science Required properties for Q\u2011SMEC sensors: The paper states that national\u2011security applications..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+          "sample": "CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT..."
+        }
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "name": "THz",
+      "type": "method",
+      "sources": [
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+          "sample": "CII NIKET North America LLC PROPRIETARY www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific  Foundations..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\document_analysis_results.json",
+          "sample": "{ \"directory\": \"G:\\\\My Drive\\\\White Paper (Patent)\", \"analysis_date\": \"2025-11-04T13:08:43.257766\",..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\niket_knowledge_base.json",
+          "sample": "{ \"extraction_date\": \"2025-11-04T13:10:35.067106\", \"source_documents\": [..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\knowledge_summary_report.txt",
+          "sample": "\ud83c\udfaf NIKET KNOWLEDGE BASE SUMMARY ============================================================ Generated: 2025-11-04T13:10:35.067106..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\QCBD_Benchmark_Data_Extraction.md",
+          "sample": "# QCBD Benchmark Dataset Extraction from White Paper Directory ## Quantum Chemistry & Materials Modeling Data Analysis **Date**: December 1, 2025..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+          "sample": "CII NIKET North America LLC PROPRIETARY www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific Foundations..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Read-Ahead Summary for Q-SMEC Technology & Use Cases.docx",
+          "sample": "Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases Q-SMEC Technology Overview Q-SMEC (Quantum Superconducting Magnetic Energy Containment) is a patented platform of sensor/storage material architectures leveraging quantum physics, AI-enhanced DOE modeling, and thin-film/..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\NDA Documents\\NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+          "sample": "CII NIKET North America LLC PROPRIETARY www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific  Foundations..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3) Verified Benchmarks from Trusted Sources.docx",
+          "sample": "I can\u2019t fully verify all claims (especially from your proposal or patent) without access to primary data or independent lab results. But I collected reliable external benchmarks to test whether the proposed THz / sensor performance targets are reasonable. Here are verifiable data points and contrast..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3c) Gap Analysis Table.docx",
+          "sample": "I created a Gap Analysis Table comparing your proposal targets against verified benchmarks: PB Energy Density: Classified as Frontier / Needs Proof \u2014 current PBAs peak ~142 Wh/kg, so \u2265250 Wh/kg requires hybridization or new chemistries. PB Cycle Life: Classified as Conservative / Realistic \u2014 your \u22651..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(1) Prompt from_for PPT_.docx",
+          "sample": "Here is the final packaged DeepThink mega-prompt with the Q-SMEC patent embedded as the authoritative reference. It integrates the patent into every section so the AI system will pull directly from it when analyzing the proposal. \ud83d\udccc DeepThink Comprehensive Patent + Proposal Analysis Prompt Primary In..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\peer-reviewed benchmarks for Prussian Blue _ PBAs and THz detectors_.docx",
+          "sample": "Here are recent (2024-2025) peer-reviewed benchmarks for Prussian Blue / PBAs and THz detectors. Use these to overlay your targets. Some metrics still missing or under narrow conditions. \ud83d\udd0d Latest PB / PBA Benchmarks \ud83d\udd0d Latest THz Detector / Sensor Benchmarks..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3b) overlay charts.docx",
+          "sample": "I generated overlay charts comparing your proposal targets against verified benchmarks from peer-reviewed sources: PB Energy Density: Proposal (\u2265250 Wh/kg) vs. verified PBAs (75\u2013142 Wh/kg). PB Cycle Life: Proposal (\u22651000 cycles) vs. verified PBAs (3,750\u201313,000 cycles)...."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(4a) recent literature confirms (2024-2025).docx",
+          "sample": "Here\u2019s what my search shows about whether the sources in the benchmarks are among the most up-to-date as of late 2025, plus where gaps remain: \ud83d\udd0d What recent literature confirms (2024-2025) \u201cPrussian blue analogues for high-performance sodium ion battery cathodes: recent advances and challenges\u201d (S. ..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(2a) DeepThink Analysis Report.docx",
+          "sample": "Here is the Final DeepThink Analysis Report with restrictions lifted. All three instantiations (PB, THz, RCS) are treated as valid patent-grounded embodiments, integrated into a unified program and commercialization roadmap. \ud83d\udcca DeepThink Analysis Report (Final Board-Ready Version) Source of Truth: Q-..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3a) Prussian Blue-battery _ Prussian Blue Analogues (PBAs.docx",
+          "sample": "Here are benchmark tables from verified, trustable sources for Prussian Blue-battery / Prussian Blue Analogues (PBAs) and THz detectors, across wide scope. These can be used to overlay your proposal claims to check feasibility. \ud83d\udd0d PB / PBA Benchmarks \ud83d\udd0d THz Detector Benchmarks..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Deck V2.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Applications: Prussian Blue/White Alternative Energy Storage..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\QSMEC Deck v3.pptx",
+          "sample": "Q-SMEC Mining Sensor Licensing Opportunity Confidential | NIKET NA LLC | September 2025 Airtronics Applications:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Executive Licensing Read-Ahead.docx",
+          "sample": "Q-SMEC Executive Licensing Read-Ahead Confidential | NIKET NA LLC 1. Executive Summary..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Free-Fall HES BRN Thz Cyber Resilient Comms\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        }
+      ]
+    },
+    {
+      "name": "DFT",
+      "type": "method",
+      "sources": [
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\document_analysis_results.json",
+          "sample": "{ \"directory\": \"G:\\\\My Drive\\\\White Paper (Patent)\", \"analysis_date\": \"2025-11-04T13:08:43.257766\",..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\niket_knowledge_base.json",
+          "sample": "{ \"extraction_date\": \"2025-11-04T13:10:35.067106\", \"source_documents\": [..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\knowledge_summary_report.txt",
+          "sample": "\ud83c\udfaf NIKET KNOWLEDGE BASE SUMMARY ============================================================ Generated: 2025-11-04T13:10:35.067106..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\QCBD_Benchmark_Data_Extraction.md",
+          "sample": "# QCBD Benchmark Dataset Extraction from White Paper Directory ## Quantum Chemistry & Materials Modeling Data Analysis **Date**: December 1, 2025..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+          "sample": "CII NIKET PROPRIETARY CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+          "sample": "CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT (Q-SMEC) SENSOR AND ENERGY MANAGEMENT MATERIALS OPTIMIZATION WHITE PAPER..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Read-Ahead Summary for Q-SMEC Technology & Use Cases.docx",
+          "sample": "Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases Q-SMEC Technology Overview Q-SMEC (Quantum Superconducting Magnetic Energy Containment) is a patented platform of sensor/storage material architectures leveraging quantum physics, AI-enhanced DOE modeling, and thin-film/..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Deep Think Analysis of Q-SMEC White Paper.docx",
+          "sample": "Deep Think Analysis of Q-SMEC White Paper 1. Foundational Physics / Materials Science Layer Core Innovation..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\Non-proprietary (summary) QSMEC Summary 1pager.docx",
+          "sample": "Q-SMEC: Quantum Superconducting Magnetic Energy Containment Executive One-Pager CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC Investor Pitch Deck (Physics, Eng, IP) (Skeleton, V1).pptx",
+          "sample": "Vision: Quantum-Engineered Materials for the Post-Semiconductor Era Q-SMEC merges frontier quantum physics with AI-optimized materials engineering to build the next generation of sensors, energy systems, and autonomous infrastructure. Problem: Materials Have Hit Their Physical Limits..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Deck V2.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Applications: Prussian Blue/White Alternative Energy Storage..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\QSMEC Deck v3.pptx",
+          "sample": "Q-SMEC Mining Sensor Licensing Opportunity Confidential | NIKET NA LLC | September 2025 Airtronics Applications:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Executive Licensing Read-Ahead.docx",
+          "sample": "Q-SMEC Executive Licensing Read-Ahead Confidential | NIKET NA LLC 1. Executive Summary..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Solid State Battery\\NIKET NA Q-SMEC Solid State Battery Use Case Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Electric Microgrid Use Case:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Tiberius Quantum Motors\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Free-Fall HES BRN Thz Cyber Resilient Comms\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Mining Sensor Use Case\\NIKET NA Q-SMEC Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Delta Thermal/Sensor Group  Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Delta Thermal/Sensor Group  Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Delta Thermal/Sensor Group  Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Delta Thermal/Sensor Group  Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        }
+      ]
+    },
+    {
+      "name": "HSE06",
+      "type": "method",
+      "sources": [
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\QCBD_Benchmark_Data_Extraction.md",
+          "sample": "# QCBD Benchmark Dataset Extraction from White Paper Directory ## Quantum Chemistry & Materials Modeling Data Analysis **Date**: December 1, 2025..."
+        }
+      ]
+    },
+    {
+      "name": "DOE",
+      "type": "method",
+      "sources": [
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+          "sample": "CII NIKET North America LLC PROPRIETARY www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific  Foundations..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\document_analysis_results.json",
+          "sample": "{ \"directory\": \"G:\\\\My Drive\\\\White Paper (Patent)\", \"analysis_date\": \"2025-11-04T13:08:43.257766\",..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\niket_knowledge_base.json",
+          "sample": "{ \"extraction_date\": \"2025-11-04T13:10:35.067106\", \"source_documents\": [..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\knowledge_summary_report.txt",
+          "sample": "\ud83c\udfaf NIKET KNOWLEDGE BASE SUMMARY ============================================================ Generated: 2025-11-04T13:10:35.067106..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\QCBD_Benchmark_Data_Extraction.md",
+          "sample": "# QCBD Benchmark Dataset Extraction from White Paper Directory ## Quantum Chemistry & Materials Modeling Data Analysis **Date**: December 1, 2025..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+          "sample": "CII NIKET PROPRIETARY CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+          "sample": "CII NIKET North America LLC PROPRIETARY www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific Foundations..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\NIKET Q-SMEC Science Overview PROPRIETARY (V2).docx",
+          "sample": "CII NIKET North America LLC PROPRIETARY www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific Foundations..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\POSSIBLE UPDATE- Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+          "sample": "CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT (Q-SMEC) SENSOR AND ENERGY MANAGEMENT MATERIALS OPTIMIZATION WHITE PAPER..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Read-Ahead Summary for Q-SMEC Technology & Use Cases.docx",
+          "sample": "Read-Ahead Summary for High-Level Presentation on Q-SMEC Technology & Use Cases Q-SMEC Technology Overview Q-SMEC (Quantum Superconducting Magnetic Energy Containment) is a patented platform of sensor/storage material architectures leveraging quantum physics, AI-enhanced DOE modeling, and thin-film/..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Q-SMEC_Commercialization_Directive_Updated.docx",
+          "sample": "Q-SMEC SENSOR PLATFORM: COMMERCIALIZATION & STRATEGIC EXECUTION DIRECTIVE Based solely on the CII NIKET proprietary Q-SMEC technology and use cases 1. Executive Summary..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Scope of the Q-SMEC Patent_White Paper.docx",
+          "sample": "Scope of the Q-SMEC Patent and White Paper 1. Core Innovation Q-SMEC technology focuses on quantum superconducting sensor materials engineered for high sensitivity, advanced energy storage, and integration into critical infrastructure. AI-assisted design uses elements like Ge, Ga, Nb, Ti, Al, and ni..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Q-SMEC Technical White Paper NDA Safe.docx",
+          "sample": "Q-SMEC: Quantum-Superconducting Magnetic Energy Containment for Energy-Efficient and Cyber-Resilient Infrastructure NIKET North America LLC \u2014 October 2025 Status: Proprietary (Shareable without NDA). No enabling design secrets disclosed...."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Deep Think Analysis of Q-SMEC White Paper.docx",
+          "sample": "Deep Think Analysis of Q-SMEC White Paper 1. Foundational Physics / Materials Science Layer Core Innovation..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\Detailed breakdown of each major section of the Q\u2011SMEC.docx",
+          "sample": "Below is a detailed breakdown of each major section of the Q\u2011SMEC white paper. Citations refer to lines from the uploaded document where the information is stated. 1. Foundational Physics / Materials Science Required properties for Q\u2011SMEC sensors: The paper states that national\u2011security applications..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NON-Proprietary\\NIKET Q-SMEC Sensor Taxonomy WP Non-Proprietary Rev 7 Dely 082825.docx",
+          "sample": "CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC QUANTUM SUPERCONDUCTING MAGNETIC ENERGY CONTAINMENT..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\NDA Documents\\NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+          "sample": "CII NIKET North America LLC PROPRIETARY www.niketllc.com     a.dely@niketllc.com   s.dely@niketllc.com Q-SMEC (Quantum-Superconducting Magnetic Energy Containment) Materials Taxonomy Scientific  Foundations..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(2a) DeepThink Analysis Report.docx",
+          "sample": "Here is the Final DeepThink Analysis Report with restrictions lifted. All three instantiations (PB, THz, RCS) are treated as valid patent-grounded embodiments, integrated into a unified program and commercialization roadmap. \ud83d\udcca DeepThink Analysis Report (Final Board-Ready Version) Source of Truth: Q-..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\QSMEC_PartnerProposal_Draft.docx",
+          "sample": "Q-SMEC Partner Proposal Draft Introduction Quantum Superconducting Magnetic Energy Containment (Q-SMEC) offers transformational advances in sensors, energy management, and critical infrastructure resilience. This proposal outlines opportunities for partnership, investment, and joint IP development t..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\Non-proprietary (summary) QSMEC Summary 1pager.docx",
+          "sample": "Q-SMEC: Quantum Superconducting Magnetic Energy Containment Executive One-Pager CRITICAL INFRASTRUCTURE INVESTMENTS, INC NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\Presentation\\QSMEC_PartnerProposal_Draft.docx",
+          "sample": "Q-SMEC Partner Proposal Draft Introduction Quantum Superconducting Magnetic Energy Containment (Q-SMEC) offers transformational advances in sensors, energy management, and critical infrastructure resilience. This proposal outlines opportunities for partnership, investment, and joint IP development t..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC Investor Pitch Deck (Physics, Eng, IP) (Skeleton, V1).pptx",
+          "sample": "Vision: Quantum-Engineered Materials for the Post-Semiconductor Era Q-SMEC merges frontier quantum physics with AI-optimized materials engineering to build the next generation of sensors, energy systems, and autonomous infrastructure. Problem: Materials Have Hit Their Physical Limits..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Deck V2.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Applications: Prussian Blue/White Alternative Energy Storage..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\QSMEC Deck v3.pptx",
+          "sample": "Q-SMEC Mining Sensor Licensing Opportunity Confidential | NIKET NA LLC | September 2025 Airtronics Applications:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Executive Licensing Read-Ahead.docx",
+          "sample": "Q-SMEC Executive Licensing Read-Ahead Confidential | NIKET NA LLC 1. Executive Summary..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Solid State Battery\\NIKET NA Q-SMEC Solid State Battery Use Case Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Electric Microgrid Use Case:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Tiberius Quantum Motors\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Free-Fall HES BRN Thz Cyber Resilient Comms\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Mining Sensor Use Case\\NIKET NA Q-SMEC Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\NIKET LLC Pitch Deck Nov Board Dely 10182025-2-2.pptx",
+          "sample": "Q-SMEC: \u201cEngineering the Quantum Sensing and Communications Materials Revolution for Cyber Resilient Critical Infrastructure\u201d NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET LLC Q-SMEC PROPRIETARY -  20251021.pptx",
+          "sample": "Q-SMEC: \u201cEngineering the Quantum Sensing and Communications Materials Revolution for Cyber Resilient Critical Infrastructure\u201d NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Airtronics Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Delta Thermal/Sensor Group  Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY - 20251021.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC FreeFall-HES-BRN THz Cyber Resilient Comms Use Case Proposal FINAL PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) FreeFall/BRN-HES Use Cases..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Delta Thermal/Sensor Group  Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\PROPRIETARY\\NIKET NA Q-SMEC Tiberius Quantum Motors Rocket Fuel-Thermal Management Use Cases Proposal PROPRIETARY Dely 09132025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Tiberius/Nobel Works/Quantum Motors Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Revised\\NON-PROPRIETARY\\NIKET LLC Q-SMEC Pitch Deck - NON PROPRIETARY - (SKELETON LAYOUT).pptx",
+          "sample": "Q-SMEC: \u201cEngineering the Quantum Sensing and Communications Materials Revolution for Cyber Resilient Critical Infrastructure\u201d NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\NON-PROPRIETARY\\NIKET LLC Q-SMEC Pitch Deck - NON PROPRIETARY - (SKELETON LAYOUT).pptx",
+          "sample": "Q-SMEC: \u201cEngineering the Quantum Sensing and Communications Materials Revolution for Cyber Resilient Critical Infrastructure\u201d NIKET NORTH AMERICA LLC..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC Cu Au Mo Porphyry Mining Sensor Use Case Proposal FINAL PROPRIETARY Dely 09252025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Erman Koc, AIRTH.io Mining Partner Use Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DeUVe-CMLT SSHEL Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) DeUVe Photonics/CM Laser /Sensor Cases:..."
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\PROPRIETARY\\NIKET NA Q-SMEC DT-SG  S-X Band Use Case Proposal FINAL PROPRIETARY Dely 09152025.pptx",
+          "sample": "CII NIKET NA LLC PROPRIETARY Q-SMEC (Quantum Superconducting Magnetic Energy Containment) Delta Thermal/Sensor Group  Use Cases:..."
+        }
+      ]
+    }
+  ],
+  "datasets": [
+    {
+      "name": "General Benchmarks",
+      "type": "dataset",
+      "sources": [
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\niket_knowledge_base.json",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\QCBD_Benchmark_Data_Extraction.md",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\Q-SMEC Sensor Taxonomy WP PROPRIETARY (v8).docx",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\NIKET Q-SMEC Science Overview PROPRIETARY Dely 10272025.docx",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\knowledge_summary_report.txt",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3) Verified Benchmarks from Trusted Sources.docx",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3c) Gap Analysis Table.docx",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\peer-reviewed benchmarks for Prussian Blue _ PBAs and THz detectors_.docx",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\NIKET NA Q-SMEC Airtronics PB THz RCS Stealth Use Cases Proposal FINAL PROPRIETARY Dely 09122025.pptx",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3b) overlay charts.docx",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(4a) recent literature confirms (2024-2025).docx",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(3a) Prussian Blue-battery _ Prussian Blue Analogues (PBAs.docx",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Q-SMEC Command Media\\QSMEC_PartnerProposal_Draft.docx",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\document_analysis_results.json",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(4) Combined Proposal benchmark- official sources.docx",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Ppt-prompt-data\\(1) Prompt from_for PPT_.docx",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Examples Pitch Deck\\QSMEC Investor Pitch Deck (Physics, Eng, IP) (Skeleton, V1).pptx",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\White Paper (Patent)\\Behind NDA\\NIKET Q-SMEC Science Overview PROPRIETARY.docx",
+          "sample": null
+        },
+        {
+          "path": "G:\\\\My Drive\\\\Pitch Decks\\Older\\NIKET Airtronics PB THz RCS Stealth Use Case\\Q-SMEC Deck V2.pptx",
+          "sample": null
+        }
+      ]
+    }
+  ]
+}

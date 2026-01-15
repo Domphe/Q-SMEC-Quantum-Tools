@@ -1,0 +1,35 @@
+{
+  "id": "dataset.qc.small_molecules",
+  "name": "Small Molecules Benchmark Set",
+  "domain": "quantum_chemistry",
+  "description": "A curated set of 20 small organic molecules with high-level reference energies.",
+  "source": "NIST CCCBDB + curated literature",
+  "molecules": [
+    "H2O",
+    "CH4",
+    "NH3",
+    "CO2",
+    "C2H2",
+    "C6H6",
+    "H2",
+    "N2",
+    "O2",
+    "CO",
+    "H2CO",
+    "HCOOH"
+  ],
+  "formats": [
+    "XYZ",
+    "SDF"
+  ],
+  "linked_methods": [
+    "method.qc.ccsd_t",
+    "method.qc.mp2",
+    "method.qc.b3lyp"
+  ],
+  "linked_workflows": [
+    "workflow.qc.benchmark_dft"
+  ],
+  "license": "Public Domain",
+  "last_updated": "2025-12-03"
+}

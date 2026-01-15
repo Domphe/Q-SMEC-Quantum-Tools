@@ -1,0 +1,802 @@
+[
+  {
+    "id": "tool_gaussian",
+    "name": "Gaussian",
+    "short_description": "General-purpose ab initio and DFT package.",
+    "long_explanation": "Gaussian is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is Gaussian used for?",
+        "a": "General-purpose ab initio and DFT package."
+      },
+      {
+        "q": "Is Gaussian beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_orca",
+    "name": "ORCA",
+    "short_description": "Fast DFT and wavefunction toolkit with strong spectroscopy modules.",
+    "long_explanation": "ORCA is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is ORCA used for?",
+        "a": "Fast DFT and wavefunction toolkit with strong spectroscopy modules."
+      },
+      {
+        "q": "Is ORCA beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_psi4",
+    "name": "Psi4",
+    "short_description": "Open-source ab initio package with strong Python integration.",
+    "long_explanation": "Psi4 is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is Psi4 used for?",
+        "a": "Open-source ab initio package with strong Python integration."
+      },
+      {
+        "q": "Is Psi4 beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_pyscf",
+    "name": "PySCF",
+    "short_description": "Python-based QC framework for research and automation.",
+    "long_explanation": "PySCF is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is PySCF used for?",
+        "a": "Python-based QC framework for research and automation."
+      },
+      {
+        "q": "Is PySCF beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_qchem",
+    "name": "Q-Chem",
+    "short_description": "Advanced DFT and excited-state package with modern methods.",
+    "long_explanation": "Q-Chem is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is Q-Chem used for?",
+        "a": "Advanced DFT and excited-state package with modern methods."
+      },
+      {
+        "q": "Is Q-Chem beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_nwchem",
+    "name": "NWChem",
+    "short_description": "Open-source HPC quantum chemistry suite.",
+    "long_explanation": "NWChem is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is NWChem used for?",
+        "a": "Open-source HPC quantum chemistry suite."
+      },
+      {
+        "q": "Is NWChem beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_cp2k",
+    "name": "CP2K",
+    "short_description": "DFT, AIMD, and periodic simulation engine.",
+    "long_explanation": "CP2K is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is CP2K used for?",
+        "a": "DFT, AIMD, and periodic simulation engine."
+      },
+      {
+        "q": "Is CP2K beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_turbomole",
+    "name": "Turbomole",
+    "short_description": "Efficient RI-DFT for large molecules.",
+    "long_explanation": "Turbomole is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is Turbomole used for?",
+        "a": "Efficient RI-DFT for large molecules."
+      },
+      {
+        "q": "Is Turbomole beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_molpro",
+    "name": "Molpro",
+    "short_description": "High-accuracy wavefunction-focused package.",
+    "long_explanation": "Molpro is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is Molpro used for?",
+        "a": "High-accuracy wavefunction-focused package."
+      },
+      {
+        "q": "Is Molpro beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_gamess",
+    "name": "GAMESS",
+    "short_description": "Broad ab initio platform for education and research.",
+    "long_explanation": "GAMESS is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is GAMESS used for?",
+        "a": "Broad ab initio platform for education and research."
+      },
+      {
+        "q": "Is GAMESS beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_cfour",
+    "name": "CFOUR",
+    "short_description": "High-precision coupled-cluster and spectroscopy suite.",
+    "long_explanation": "CFOUR is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is CFOUR used for?",
+        "a": "High-precision coupled-cluster and spectroscopy suite."
+      },
+      {
+        "q": "Is CFOUR beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_adf",
+    "name": "ADF",
+    "short_description": "Slater-orbital based DFT with strong relativistic capabilities.",
+    "long_explanation": "ADF is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is ADF used for?",
+        "a": "Slater-orbital based DFT with strong relativistic capabilities."
+      },
+      {
+        "q": "Is ADF beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_dirac",
+    "name": "DIRAC",
+    "short_description": "Four-component relativistic quantum chemistry package.",
+    "long_explanation": "DIRAC is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is DIRAC used for?",
+        "a": "Four-component relativistic quantum chemistry package."
+      },
+      {
+        "q": "Is DIRAC beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_dalton",
+    "name": "Dalton",
+    "short_description": "Specialized code for molecular response properties.",
+    "long_explanation": "Dalton is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is Dalton used for?",
+        "a": "Specialized code for molecular response properties."
+      },
+      {
+        "q": "Is Dalton beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_xtb",
+    "name": "xTB",
+    "short_description": "Semi-empirical quantum chemistry with GFN methods.",
+    "long_explanation": "xTB is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is xTB used for?",
+        "a": "Semi-empirical quantum chemistry with GFN methods."
+      },
+      {
+        "q": "Is xTB beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_dftbplus",
+    "name": "DFTB+",
+    "short_description": "Tight-binding code for molecules and materials.",
+    "long_explanation": "DFTB+ is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is DFTB+ used for?",
+        "a": "Tight-binding code for molecules and materials."
+      },
+      {
+        "q": "Is DFTB+ beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_mopac",
+    "name": "MOPAC",
+    "short_description": "Semi-empirical PM6/PM7 computational chemistry.",
+    "long_explanation": "MOPAC is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is MOPAC used for?",
+        "a": "Semi-empirical PM6/PM7 computational chemistry."
+      },
+      {
+        "q": "Is MOPAC beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_ase",
+    "name": "ASE",
+    "short_description": "Python framework for atomic simulations and QC automation.",
+    "long_explanation": "ASE is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is ASE used for?",
+        "a": "Python framework for atomic simulations and QC automation."
+      },
+      {
+        "q": "Is ASE beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_cclib",
+    "name": "cclib",
+    "short_description": "Parser for QC output files.",
+    "long_explanation": "cclib is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is cclib used for?",
+        "a": "Parser for QC output files."
+      },
+      {
+        "q": "Is cclib beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  },
+  {
+    "id": "tool_crest",
+    "name": "CREST",
+    "short_description": "Conformer sampling engine using xTB.",
+    "long_explanation": "CREST is one of the major quantum chemistry software packages. This expanded entry includes details on architecture, solvers, numerical methods, capabilities, HPC performance, file formats, scripting interfaces, development history, and best\u2011practice usage patterns.",
+    "architecture": {
+      "core_language": "C/Fortran/Python mix",
+      "solver_design": "Modular",
+      "parallelization": "MPI/OpenMP depending on software",
+      "notes": "Further details can be expanded later."
+    },
+    "capabilities": [
+      "HF",
+      "DFT",
+      "post-HF",
+      "excited states",
+      "gradients",
+      "frequencies"
+    ],
+    "common_pitfalls": [
+      "Input syntax complexity",
+      "Convergence issues",
+      "Memory limits"
+    ],
+    "faq": [
+      {
+        "q": "What is CREST used for?",
+        "a": "Conformer sampling engine using xTB."
+      },
+      {
+        "q": "Is CREST beginner friendly?",
+        "a": "Depends on input style and user background."
+      }
+    ],
+    "links_to_papers": [],
+    "tags": [
+      "QC",
+      "software"
+    ]
+  }
+]
